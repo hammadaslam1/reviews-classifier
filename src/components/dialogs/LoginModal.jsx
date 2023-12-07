@@ -1,4 +1,5 @@
 import {
+  // Alert,
   Box,
   Button,
   Checkbox,
@@ -16,6 +17,15 @@ import LockIcon from "@mui/icons-material/Lock";
 import { Mail } from "@mui/icons-material";
 import LoginInput from "../inputs/LoginInput";
 import SocialButton from "../buttons/SocialButton";
+import {
+  GoogleAuthProvider,
+  getAuth,
+  onAuthStateChanged,
+  signInWithEmailAndPassword,
+  signInWithPopup,
+} from "firebase/auth";
+import { Alert } from "@mui/joy";
+import { auth } from "@/firebase/firebase";
 // import GOOGLE_IMAGE from "../../assets/google.png";
 // import { useDispatch, useSelector } from "react-redux";
 // import './dialog.css'
@@ -27,18 +37,39 @@ const Transition = forwardRef(function Transition(props, ref) {
 const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [isFilled, setIsFilled] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   // const user = useSelector((state) => state.UserReducer.user);
   // const dispatch = useDispatch();
   const handleSignin = () => {
-    console.log(user);
     if (email && password) {
-      dispatch({
-        type: ADD_USER,
-        payload: true,
-      });
-      handleClose();
-      console.log(user);
+      signInWithEmailAndPassword(auth, email, password)
+        .then(() => {
+          alert("signed in");
+        })
+        .catch((e) => {
+          if (e.code == "auth/invalid-email") {
+            setErrorMessage("Please enter valid email!");
+            setIsFilled(true);
+          } else if (e.code == "auth/invalid-credential") {
+            setErrorMessage("Invalid email or password!");
+            setIsFilled(true);
+          }
+        });
+    } else {
+      setErrorMessage("Please fill all fields");
+      setIsFilled(true);
     }
+  };
+  const handleGoogle = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider).then((result) => {
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      const token = credential.accessToken;
+      const user = result.user;
+    }).catch((e)=>{
+      alert(e.code, e.message)
+    })
   };
   const handleClose = () => setOpenLogin(false);
 
@@ -75,13 +106,16 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               color: "#023d65",
             }}
           >
-            Login
+            Sign in
           </Typography>
           <LoginInput
             variant="plain"
             type="email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => {
+              setEmail(e.target.value);
+              setIsFilled(false);
+            }}
             startDecorator={<Mail sx={{ color: "#023d65" }} />}
             placeholder="example@email.com"
           />
@@ -89,35 +123,46 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
             variant="plain"
             type="password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => {
+              setPassword(e.target.value);
+              setIsFilled(false);
+            }}
             startDecorator={<LockIcon sx={{ color: "#023d65" }} />}
             placeholder="Password"
           />
           <div
             style={{
-              display: "flex",
               width: "100%",
-              justifyContent: "space-between",
-              alignItems: "center",
+              textAlign: "right",
+              marginBottom: "5px",
             }}
           >
-            <FormControlLabel
-              sx={{ "& .MuiFormControlLabel-label": { fontSize: 14 } }}
-              control={<Checkbox size="small" defaultChecked />}
-              label="Keep me signed in"
-            />
-            <a href="/" style={{ color: "#1492E6", textDecoration: "none" }}>
+            <a
+              href="/"
+              style={{
+                color: "#023d65",
+                textDecoration: "none",
+                alignSelf: "right",
+              }}
+            >
               Forget Password
             </a>
           </div>
+          {isFilled ? (
+            <Alert variant="solid" color="danger" sx={{ textAlign: "center" }}>
+              {errorMessage}
+            </Alert>
+          ) : (
+            ""
+          )}
           <PrimaryButton
             sx={{
               marginTop: "10px",
             }}
             size={"large"}
-            // onClick={handleSignin}
+            onClick={handleSignin}
           >
-            Login
+            Sign in
           </PrimaryButton>
           <div
             style={{
@@ -144,20 +189,24 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
             ></div>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <SocialButton size={"large"}>
+            <SocialButton size={"large"} onClick={handleGoogle}>
               {/* <img
                 // src={GOOGLE_IMAGE}
                 // src="../../assets/google.png"
                 width="20px"
                 style={{ marginRight: "10px" }}
               />{" "} */}
-              Register using Google
+              Continue with Google
             </SocialButton>
             <DialogActions sx={{ alignSelf: "center" }}>
               <Typography
                 variant="body2"
                 color="#505050"
-                style={{ marginTop: "12px", display: 'flex', alignItems: 'center' }}
+                style={{
+                  marginTop: "12px",
+                  display: "flex",
+                  alignItems: "center",
+                }}
               >
                 Not a member yet?{" "}
                 <Button
@@ -169,12 +218,12 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
                   style={{
                     color: "#023d65",
                     textDecoration: "underline",
-                    fontSize: '15px',
+                    fontSize: "15px",
                     fontWeight: "bold",
-                    textTransform: 'capitalize',
+                    textTransform: "capitalize",
                   }}
                 >
-                  Register
+                  Sign up
                 </Button>
               </Typography>
             </DialogActions>

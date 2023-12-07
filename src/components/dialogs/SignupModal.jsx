@@ -1,5 +1,5 @@
 import {
-    Alert,
+    // Alert,
     Box,
     Button,
     Checkbox,
@@ -10,6 +10,7 @@ import {
     Slide,
     Typography,
   } from "@mui/material";
+  import Alert from '@mui/joy/Alert';
   import PrimaryButton from "../buttons/PrimaryButtons";
   import { forwardRef, useState } from "react";
   import CloseIcon from "@mui/icons-material/Close";
@@ -27,8 +28,12 @@ import SignupInput from "../inputs/SignupInput";
   });
   
   const SignupModal = ({ openLogin, openSignup, setOpenSignup, setOpenLogin }) => {
+    const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')
+    const [address, setAddress] = useState('')
     const [password, setPassword] = useState('')
+    const [contact, setContact] = useState('')
+    const [isFilled, setIsFilled] = useState(false)
     const handleBack = () => {
         setOpenSignup(false);
         setOpenLogin(true);
@@ -38,7 +43,11 @@ import SignupInput from "../inputs/SignupInput";
         setOpenLogin(false);
       };
       const handleRegister = () => {
-        alert('register pressed')
+        if (!(fullname, email, address, contact, password)) {
+            setIsFilled(true)
+        } else {
+            alert('error')
+        }
       }
     return (
       <Dialog
@@ -84,7 +93,7 @@ import SignupInput from "../inputs/SignupInput";
                 color: "#023d65",
               }}
             >
-              Register
+              Sign up
             </Typography>
             <SignupInput
             type="text"
@@ -106,11 +115,11 @@ import SignupInput from "../inputs/SignupInput";
             required
           />
           <SignupInput
-            type="number"
+            type="tel"
             variant="outlined"
             // value={password}
             // onChange={(e) => setPassword(e.target.value)}
-            placeholder="Contact No."
+            placeholder="Enter Contact No."
             label="Contact No."
             required
           />
@@ -123,7 +132,7 @@ import SignupInput from "../inputs/SignupInput";
             label="Password"
             required
           />
-            
+            {isFilled?<Alert variant="solid" color="danger" sx={{textAlign: 'center'}}>Please fill all fields</Alert>:''}
             <PrimaryButton
             sx={{
               marginTop: "10px",
@@ -131,7 +140,7 @@ import SignupInput from "../inputs/SignupInput";
             size={"large"}
             onClick={handleRegister}
           >
-            Register
+            Sign up
           </PrimaryButton>
             <div
               style={{
@@ -165,7 +174,7 @@ import SignupInput from "../inputs/SignupInput";
                   width="20px"
                   style={{ marginRight: "10px" }}
                 />{" "} */}
-                Register using Google
+                Continue with Google
               </SocialButton>
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
@@ -189,7 +198,7 @@ import SignupInput from "../inputs/SignupInput";
                     textTransform: 'capitalize',
                   }}
                 >
-                  Login
+                  Sign in
                 </Button>
               </Typography>
             </DialogActions>

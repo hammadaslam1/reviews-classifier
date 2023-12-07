@@ -8,9 +8,9 @@ const SocialButton = ({sx={}, ...props }) => {
       sx={{
         borderRadius: "8px",
         fontWeight: "500",
-        backgroundColor: "#fff",
+        backgroundColor: "#f5fadf",
         color: "#023d65",
-        boxShadow: '1px 3px 5px 2px #00000019',
+        boxShadow: '1px 2px 5px 1px #00000019',
         marginY: '10px',
         fontSize: '14px',
         textTransform: 'capitalize',

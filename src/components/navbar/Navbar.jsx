@@ -9,18 +9,22 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SecondaryButton from "../buttons/SecondaryButton";
 import PrimaryButton from "../buttons/PrimaryButtons";
 import LoginModal from "../dialogs/LoginModal";
 import SignupModal from "../dialogs/SignupModal";
+import { auth } from "@/firebase/firebase";
+import { onAuthStateChanged } from "firebase/auth";
 // import LoginModal from "../dialogs/LoginModal";
 
 function Navbar() {
-  const [openLogin, setOpenLogin] = useState(true);
+  const [openLogin, setOpenLogin] = useState(false);
   const [openSignup, setOpenSignup] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
+  const [user, setUser] = useState(false);
   const open = Boolean(anchorEl);
+
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -28,13 +32,21 @@ function Navbar() {
     setAnchorEl(null);
   };
 
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (auth.currentUser) {
+        // auth.currentUser.displayName = 'hammad'
+        setUser(true);
+        setOpenLogin(false);
+      }
+    });
+  }, []);
+
   const [create, setCreate] = useState(false);
 
-  const handleLogin = () => {
-    if (!user) {
-      setOpenLogin(true);
-    }
-  };
+  // const handleLogin = () => {
+
+  // };
   return (
     <AppBar sx={style.appbar}>
       <Toolbar sx={style.toolbar}>
@@ -43,8 +55,8 @@ function Navbar() {
         </div>
         <div>
           <PrimaryButton
-            sx={{ width: "100px" }}
-            children={"Login"}
+            sx={{ minWidth: "100px" }}
+            children={user ? auth.currentUser.displayName : "login"}
             onClick={() => setOpenLogin(true)}
           />
         </div>
