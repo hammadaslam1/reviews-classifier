@@ -13,10 +13,28 @@ import React, { useState } from "react";
 import SecondaryButton from "../buttons/SecondaryButton";
 import PrimaryButton from "../buttons/PrimaryButtons";
 import LoginModal from "../dialogs/LoginModal";
+import SignupModal from "../dialogs/SignupModal";
 // import LoginModal from "../dialogs/LoginModal";
 
 function Navbar() {
-  const [openLogin, setOpenLogin] = useState(false);
+  const [openLogin, setOpenLogin] = useState(true);
+  const [openSignup, setOpenSignup] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const [create, setCreate] = useState(false);
+
+  const handleLogin = () => {
+    if (!user) {
+      setOpenLogin(true);
+    }
+  };
   return (
     <AppBar sx={style.appbar}>
       <Toolbar sx={style.toolbar}>
@@ -31,7 +49,13 @@ function Navbar() {
           />
         </div>
         {openLogin ? (
-          <LoginModal openLogin={openLogin} setOpenLogin={setOpenLogin} />
+          <LoginModal
+            openLogin={openLogin}
+            setOpenLogin={setOpenLogin}
+            openSignup={openSignup}
+            setOpenSignup={setOpenSignup}
+          />
+        ) : (
           // <Dialog
           //   open={openLogin}
           //   // TransitionComponent={Transition}
@@ -65,6 +89,15 @@ function Navbar() {
           //     </div>
           //   </Box>
           // </Dialog>
+          ""
+        )}
+        {openSignup ? (
+          <SignupModal
+            openSignup={openSignup}
+            setOpenSignup={setOpenSignup}
+            openLogin={openLogin}
+            setOpenLogin={setOpenLogin}
+          />
         ) : (
           ""
         )}

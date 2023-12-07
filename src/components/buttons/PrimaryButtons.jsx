@@ -7,7 +7,7 @@ const PrimaryButton = ({sx={}, ...props }) => {
       borderRadius: "8px",
       fontWeight: "700",
       backgroundColor: "#023d65",
-      width: "240px",
+      width: "100%",
       alignSelf: "center",
       color: '#fff',    
       textTransform: 'capitalize',    
