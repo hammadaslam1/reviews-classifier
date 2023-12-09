@@ -15,14 +15,15 @@ import PrimaryButton from "../buttons/PrimaryButtons";
 import LoginModal from "../dialogs/LoginModal";
 import SignupModal from "../dialogs/SignupModal";
 import { auth } from "@/firebase/firebase";
-import { onAuthStateChanged } from "firebase/auth";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import { Alert } from "@mui/joy";
 // import LoginModal from "../dialogs/LoginModal";
 
 function Navbar() {
   const [openLogin, setOpenLogin] = useState(false);
   const [openSignup, setOpenSignup] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
-  const [user, setUser] = useState(false);
+  const [user, setUser] = useState();
   const open = Boolean(anchorEl);
 
   const handleClick = (event) => {
@@ -36,8 +37,11 @@ function Navbar() {
     onAuthStateChanged(auth, (user) => {
       if (auth.currentUser) {
         // auth.currentUser.displayName = 'hammad'
-        setUser(true);
+        setUser("logout");
         setOpenLogin(false);
+      } else {
+        setUser("login");
+        setOpenLogin(true);
       }
     });
   }, []);
@@ -50,14 +54,30 @@ function Navbar() {
   return (
     <AppBar sx={style.appbar}>
       <Toolbar sx={style.toolbar}>
-        <div>
+        {/* <div>
           <Avatar />
-        </div>
+        </div> */}
         <div>
+        {auth.currentUser ? (
+          <Typography variant="h4">{auth.currentUser.displayName}</Typography>
+        ) : (
+          ""
+        )}
+        </div>
+        <div style={{ alignSelf: "right" }}>
           <PrimaryButton
-            sx={{ minWidth: "100px" }}
-            children={user ? auth.currentUser.displayName : "login"}
-            onClick={() => setOpenLogin(true)}
+            sx={{ minWidth: "100px", alignSelf: "right", fontSize: 20, fontWeight: 'normal' }}
+            children={user}
+            onClick={() => {
+              if (auth.currentUser) {
+                signOut(auth).then(() => alert("signed out successfully"));
+              } else {
+                setOpenLogin(true);
+              }
+            }}
+            icon={
+              auth.currentUser ? <Avatar sx={{ marginRight: "10px" }} /> : ""
+            }
           />
         </div>
         {openLogin ? (
@@ -121,11 +141,15 @@ function Navbar() {
 const style = {
   appbar: {
     backgroundColor: "#6a6a6a",
+    height: "70px",
   },
   toolbar: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
+    alignItems: "center",
+    height: "100%",
+    // width: "100%",
   },
 };
 

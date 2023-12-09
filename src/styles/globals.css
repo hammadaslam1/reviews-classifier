@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
   background-color: #6a6a6a;
+  font-family: verdana;
 }
 .bg-image {
   display: flex;

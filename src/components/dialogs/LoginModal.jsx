@@ -45,7 +45,8 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
     if (email && password) {
       signInWithEmailAndPassword(auth, email, password)
         .then(() => {
-          alert("signed in");
+          // alert("signed in");
+          setOpenLogin(false);
         })
         .catch((e) => {
           if (e.code == "auth/invalid-email") {
@@ -63,13 +64,15 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
   };
   const handleGoogle = () => {
     const provider = new GoogleAuthProvider();
-    signInWithPopup(auth, provider).then((result) => {
-      const credential = GoogleAuthProvider.credentialFromResult(result);
-      const token = credential.accessToken;
-      const user = result.user;
-    }).catch((e)=>{
-      alert(e.code, e.message)
-    })
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+        const token = credential.accessToken;
+        const user = result.user;
+      })
+      .catch((e) => {
+        alert(e.code, e.message);
+      });
   };
   const handleClose = () => setOpenLogin(false);
 
