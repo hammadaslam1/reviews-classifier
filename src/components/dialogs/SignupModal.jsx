@@ -1,8 +1,10 @@
 import {
+  Backdrop,
   // Alert,
   Box,
   Button,
   Checkbox,
+  CircularProgress,
   Dialog,
   DialogActions,
   FormControlLabel,
@@ -41,6 +43,8 @@ const SignupModal = ({
   const [password, setPassword] = useState("");
   const [contact, setContact] = useState("");
   const [isFilled, setIsFilled] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isPressed, setIsPressed] = useState(false);
   const handleBack = () => {
     setOpenSignup(false);
     setOpenLogin(true);
@@ -51,26 +55,36 @@ const SignupModal = ({
   };
   const handleRegister = () => {
     if (fullname && email && contact && password) {
-      createUserWithEmailAndPassword(auth, email, password).then(() => {
-        updateProfile(auth.currentUser, {
-          displayName: fullname,
-          phoneNumber: contact,
-        }).then(() => {
-          // alert("successfully registered!");
-          setOpenSignup(false)
+      setIsPressed(true);
+      createUserWithEmailAndPassword(auth, email, password)
+        .then(() => {
+          updateProfile(auth.currentUser, {
+            displayName: fullname,
+            phoneNumber: contact,
+          }).then(() => {
+            // alert("successfully registered!");
+            setIsPressed(false)
+            setOpenSignup(false);
+          });
+        })
+        .catch((e) => {
+          setIsPressed(false)
+          if (e.code == "auth/invalid-email") {
+            setErrorMessage("Please enter a valid email");
+            setIsFilled(true);
+          } else if (e.code == "auth/email-already-in-use") {
+            setErrorMessage(
+              "The email you provided has already been registered"
+            );
+            setIsFilled(true);
+          } else if (e.code == "auth/weak-password") {
+            setErrorMessage("Password should be at least 6 characters");
+            setIsFilled(true);
+          }
+          // alert(e.code + " - " + e.message);
         });
-      });
     } else {
-      alert(
-        "email:" +
-          email +
-          "\npassword:" +
-          password +
-          "\nfull name:" +
-          fullname +
-          "\ncontact:" +
-          contact
-      );
+      setErrorMessage("Please fill all fields");
       setIsFilled(true);
       // console.log(auth);
     }
@@ -84,6 +98,13 @@ const SignupModal = ({
       scroll="body"
       PaperProps={{ sx: { borderRadius: "20px" } }}
     >
+      <Backdrop
+        sx={{ color: "#023d65", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={isPressed}
+        // onClick={handleClose}
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
       <Box sx={{ padding: 5, width: 400 }}>
         <IconButton
           sx={{
@@ -125,7 +146,10 @@ const SignupModal = ({
             type="text"
             variant="outlined"
             value={fullname}
-            onChange={(e) => setFullname(e.target.value)}
+            onChange={(e) => {
+              setIsFilled(false);
+              setFullname(e.target.value);
+            }}
             label="Full Name"
             placeholder="Enter Your Full Name"
             required
@@ -134,7 +158,10 @@ const SignupModal = ({
             type="email"
             variant="outlined"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => {
+              setIsFilled(false);
+              setEmail(e.target.value);
+            }}
             placeholder="Enter Email Address"
             label="Email Address"
             helperText="We'll use your email address for registration"
@@ -144,7 +171,10 @@ const SignupModal = ({
             type="tel"
             variant="outlined"
             value={contact}
-            onChange={(e) => setContact(e.target.value)}
+            onChange={(e) => {
+              setIsFilled(false);
+              setContact(e.target.value);
+            }}
             placeholder="Enter Contact No."
             label="Contact No."
             required
@@ -153,14 +183,17 @@ const SignupModal = ({
             type="password"
             variant="outlined"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => {
+              setIsFilled(false);
+              setPassword(e.target.value);
+            }}
             placeholder="Password"
             label="Password"
             required
           />
           {isFilled ? (
             <Alert variant="solid" color="danger" sx={{ textAlign: "center" }}>
-              Please fill all fields
+              {errorMessage}
             </Alert>
           ) : (
             ""
