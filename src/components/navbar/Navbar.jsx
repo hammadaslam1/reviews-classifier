@@ -58,19 +58,24 @@ function Navbar() {
           <Avatar />
         </div> */}
         <div>
-        {auth.currentUser ? (
-          <Typography variant="h4">{auth.currentUser.displayName}</Typography>
-        ) : (
-          ""
-        )}
+          {auth.currentUser ? (
+            <Typography variant="h4">{auth.currentUser.displayName}</Typography>
+          ) : (
+            ""
+          )}
         </div>
         <div style={{ alignSelf: "right" }}>
           <PrimaryButton
-            sx={{ minWidth: "100px", alignSelf: "right", fontSize: 20, fontWeight: 'normal' }}
+            sx={{
+              minWidth: "100px",
+              alignSelf: "right",
+              fontSize: 20,
+              fontWeight: "normal",
+            }}
             children={user}
             onClick={() => {
               if (auth.currentUser) {
-                signOut(auth).then(() => alert("signed out successfully"));
+                signOut(auth);
               } else {
                 setOpenLogin(true);
               }

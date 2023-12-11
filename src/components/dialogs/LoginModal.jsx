@@ -1,8 +1,10 @@
 import {
+  Backdrop,
   // Alert,
   Box,
   Button,
   Checkbox,
+  CircularProgress,
   Dialog,
   DialogActions,
   FormControlLabel,
@@ -17,6 +19,7 @@ import LockIcon from "@mui/icons-material/Lock";
 import { Mail } from "@mui/icons-material";
 import LoginInput from "../inputs/LoginInput";
 import SocialButton from "../buttons/SocialButton";
+import GoogleIcon from "@mui/icons-material/Google";
 import {
   GoogleAuthProvider,
   getAuth,
@@ -39,21 +42,31 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
   const [password, setPassword] = useState("");
   const [isFilled, setIsFilled] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+  const [isPressed, setIsPressed] = useState(false);
   // const user = useSelector((state) => state.UserReducer.user);
   // const dispatch = useDispatch();
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleSignin();
+    }
+  };
   const handleSignin = () => {
     if (email && password) {
+      setIsPressed(true);
       signInWithEmailAndPassword(auth, email, password)
         .then(() => {
           // alert("signed in");
+          setIsPressed(false);
           setOpenLogin(false);
         })
         .catch((e) => {
           if (e.code == "auth/invalid-email") {
             setErrorMessage("Please enter valid email!");
+            setIsPressed(false);
             setIsFilled(true);
           } else if (e.code == "auth/invalid-credential") {
             setErrorMessage("Invalid email or password!");
+            setIsPressed(false);
             setIsFilled(true);
           }
         });
@@ -63,15 +76,18 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
     }
   };
   const handleGoogle = () => {
+    setIsPressed(true);
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)
       .then((result) => {
         const credential = GoogleAuthProvider.credentialFromResult(result);
         const token = credential.accessToken;
         const user = result.user;
+        setIsPressed(false);
       })
       .catch((e) => {
-        alert(e.code, e.message);
+        setIsPressed(false);
+        // alert(e.code, e.message);
       });
   };
   const handleClose = () => setOpenLogin(false);
@@ -84,7 +100,15 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
       onClose={handleClose}
       scroll="body"
       PaperProps={{ sx: { borderRadius: "20px" } }}
+      onKeyDown={handleKeyDown}
     >
+      <Backdrop
+        sx={{ color: "#023d65", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={isPressed}
+        // onClick={handleClose}
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
       <Box sx={{ padding: 5, width: 400 }}>
         <IconButton
           sx={{
@@ -164,6 +188,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
             }}
             size={"large"}
             onClick={handleSignin}
+            // onKeyDown={handleKeyDown}
           >
             Sign in
           </PrimaryButton>
@@ -192,13 +217,12 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
             ></div>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <SocialButton size={"large"} onClick={handleGoogle}>
-              {/* <img
-                // src={GOOGLE_IMAGE}
-                // src="../../assets/google.png"
-                width="20px"
-                style={{ marginRight: "10px" }}
-              />{" "} */}
+            <SocialButton
+              size={"large"}
+              onClick={handleGoogle}
+              startIcon={<GoogleIcon />}
+              sx={{display: 'flex',alignItems: 'center'}}
+            >
               Continue with Google
             </SocialButton>
             <DialogActions sx={{ alignSelf: "center" }}>

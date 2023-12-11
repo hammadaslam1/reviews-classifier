@@ -25,6 +25,7 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import SignupInput from "../inputs/SignupInput";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from "@/firebase/firebase";
+import GoogleIcon from "@mui/icons-material/Google";
 // import './dialog.css'
 
 const Transition = forwardRef(function Transition(props, ref) {
@@ -63,12 +64,12 @@ const SignupModal = ({
             phoneNumber: contact,
           }).then(() => {
             // alert("successfully registered!");
-            setIsPressed(false)
+            setIsPressed(false);
             setOpenSignup(false);
           });
         })
         .catch((e) => {
-          setIsPressed(false)
+          setIsPressed(false);
           if (e.code == "auth/invalid-email") {
             setErrorMessage("Please enter a valid email");
             setIsFilled(true);
@@ -232,13 +233,7 @@ const SignupModal = ({
             ></div>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <SocialButton size={"large"}>
-              {/* <img
-                  // src={GOOGLE_IMAGE}
-                  // src="../../assets/google.png"
-                  width="20px"
-                  style={{ marginRight: "10px" }}
-                />{" "} */}
+            <SocialButton size={"large"} startIcon={<GoogleIcon />}>
               Continue with Google
             </SocialButton>
           </div>
