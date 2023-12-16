@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 const PrimaryButton = ({ sx = {}, ...props }) => {
   return (
@@ -27,7 +27,9 @@ const PrimaryButton = ({ sx = {}, ...props }) => {
         }}
       >
         <div>{props.icon}</div>
-        {props.children}
+        <Typography variant="h6">
+          {props.children}
+          </Typography>
       </div>
     </Button>
   );

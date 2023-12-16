@@ -48,9 +48,14 @@ function Navbar() {
 
   const [create, setCreate] = useState(false);
 
-  // const handleLogin = () => {
-
-  // };
+  const stringAvatar = (name) => {
+    return {
+      sx: {
+        bgcolor: `#${Math.floor(Math.random() * (999999 - 100000)) + 100000}`,
+      },
+      children: `${name.split(" ")[0][0]}${name.split(" ")[1][0]}`,
+    };
+  };
   return (
     <AppBar sx={style.appbar}>
       <Toolbar sx={style.toolbar}>
@@ -58,11 +63,21 @@ function Navbar() {
           <Avatar />
         </div> */}
         <div>
-          {auth.currentUser ? (
+          {/* {auth.currentUser ? (
             <Typography variant="h4">{auth.currentUser.displayName}</Typography>
           ) : (
             ""
-          )}
+          )} */}
+          <IconButton size="large">
+            {auth.currentUser ? (
+              <Avatar
+                {...stringAvatar("Muhammad Aslam")}
+                src={auth.currentUser.photoURL}
+              />
+            ) : (
+              <Avatar />
+            )}
+          </IconButton>
         </div>
         <div style={{ alignSelf: "right" }}>
           <PrimaryButton

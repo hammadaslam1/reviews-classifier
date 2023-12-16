@@ -29,7 +29,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 // import './dialog.css'
 
 const Transition = forwardRef(function Transition(props, ref) {
-  return <Slide direction="down" ref={ref} {...props} />;
+  return <Slide direction="up" ref={ref} {...props} />;
 });
 
 const SignupModal = ({
@@ -53,6 +53,11 @@ const SignupModal = ({
   const handleClose = () => {
     setOpenSignup(false);
     setOpenLogin(false);
+  };
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleRegister();
+    }
   };
   const handleRegister = () => {
     if (fullname && email && contact && password) {
@@ -94,10 +99,11 @@ const SignupModal = ({
     <Dialog
       open={openSignup}
       TransitionComponent={Transition}
-      keepMounted
+      keepMounted={true}
       onClose={handleClose}
       scroll="body"
       PaperProps={{ sx: { borderRadius: "20px" } }}
+      onKeyDown={handleKeyDown}
     >
       <Backdrop
         sx={{ color: "#023d65", zIndex: (theme) => theme.zIndex.drawer + 1 }}
@@ -203,7 +209,7 @@ const SignupModal = ({
             sx={{
               marginTop: "10px",
             }}
-            size={"large"}
+            size={"medium"}
             onClick={handleRegister}
           >
             Sign up
@@ -218,15 +224,15 @@ const SignupModal = ({
           >
             <div
               style={{
-                borderBottom: "1px solid #707070",
+                borderBottom: "1px solid #023d65aa",
                 width: "170px",
                 height: "0px",
               }}
             ></div>
-            <div>or</div>
+            <div style={{color: '#023d65'}}>or</div>
             <div
               style={{
-                borderBottom: "1px solid #707070",
+                borderBottom: "1px solid #023d65aa",
                 width: "170px",
                 height: "0px",
               }}
@@ -248,7 +254,7 @@ const SignupModal = ({
                   alignItems: "center",
                 }}
               >
-                Already a member?{" "}
+                <Typography variant="body2">Already a member?</Typography>{" "}
                 <Button
                   onClick={() => {
                     setOpenSignup(false);

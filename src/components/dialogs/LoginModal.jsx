@@ -24,6 +24,7 @@ import {
   GoogleAuthProvider,
   getAuth,
   onAuthStateChanged,
+  sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signInWithPopup,
 } from "firebase/auth";
@@ -34,7 +35,7 @@ import { auth } from "@/firebase/firebase";
 // import './dialog.css'
 
 const Transition = forwardRef(function Transition(props, ref) {
-  return <Slide direction="down" ref={ref} {...props} />;
+  return <Slide direction="up" ref={ref} {...props} />;
 });
 
 const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
@@ -75,6 +76,18 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
       setIsFilled(true);
     }
   };
+  const handleForgot = () => {
+    sendPasswordResetEmail(auth, email)
+      .then(() => {
+        alert("password reset email sent to your registered email address!");
+      })
+      .catch((e) => {
+        if (e.code=='auth/invalid-email') {
+          alert('Please enter a valid email address!')
+        }
+        // alert("error code: " + e.code + "\nerror message: " + e.message);
+      });
+  };
   const handleGoogle = () => {
     setIsPressed(true);
     const provider = new GoogleAuthProvider();
@@ -96,7 +109,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
     <Dialog
       open={openLogin}
       TransitionComponent={Transition}
-      keepMounted
+      keepMounted={true}
       onClose={handleClose}
       scroll="body"
       PaperProps={{ sx: { borderRadius: "20px" } }}
@@ -164,16 +177,21 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               marginBottom: "5px",
             }}
           >
-            <a
-              href="/"
+            <Button
+              // to=""
+              onClick={() => {
+                handleForgot();
+              }}
               style={{
                 color: "#023d65",
-                textDecoration: "none",
+                fontSize: "13px",
+                fontWeight: "bold",
+                textTransform: "capitalize",
                 alignSelf: "right",
               }}
             >
-              Forget Password
-            </a>
+              Forgot Password
+            </Button>
           </div>
           {isFilled ? (
             <Alert variant="solid" color="danger" sx={{ textAlign: "center" }}>
@@ -202,15 +220,15 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
           >
             <div
               style={{
-                borderBottom: "1px solid #707070",
+                borderBottom: "1px solid #023d65aa",
                 width: "170px",
                 height: "0px",
               }}
             ></div>
-            <div>or</div>
+            <div style={{ color: "#023d65" }}>or</div>
             <div
               style={{
-                borderBottom: "1px solid #707070",
+                borderBottom: "1px solid #023d65aa",
                 width: "170px",
                 height: "0px",
               }}
@@ -221,7 +239,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               size={"large"}
               onClick={handleGoogle}
               startIcon={<GoogleIcon />}
-              sx={{display: 'flex',alignItems: 'center'}}
+              sx={{ display: "flex", alignItems: "center" }}
             >
               Continue with Google
             </SocialButton>

@@ -4,12 +4,12 @@ import { FormControl, FormHelperText, FormLabel, TextField } from "@mui/material
 const SignupInput = ({ ...props }) => {
   return (
     <FormControl sx={{ marginY: "4px", width: '100%' }}>
-      <FormLabel sx={{  fontSize: "14px", marginBottom: '2px' }} >
+      <FormLabel sx={{  fontSize: "14px", marginBottom: '2px', color: '#023d65' }} >
         {props.label}
       </FormLabel>
-      <Input   {...props} />
+      <Input sx={{padding: '8px 12px'}}  {...props} required />
       {/* <textarea {...props} /> */}
-      <FormHelperText>{props.helperText}</FormHelperText>
+      <FormHelperText sx={{color: '#023d65'}}>{props.helperText}</FormHelperText>
     </FormControl>
   );
 };
