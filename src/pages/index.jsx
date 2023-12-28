@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar/Navbar";
+import Home from "@/screens/Home";
 import { Card, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
@@ -14,6 +15,7 @@ const index = () => {
 
   return <>
   <Navbar />
+  <Home />
   </>;
 };
 

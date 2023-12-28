@@ -19,7 +19,7 @@ import { onAuthStateChanged, signOut } from "firebase/auth";
 import { Alert } from "@mui/joy";
 // import LoginModal from "../dialogs/LoginModal";
 
-function Navbar() {
+const Navbar = () => {
   const [openLogin, setOpenLogin] = useState(false);
   const [openSignup, setOpenSignup] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
@@ -95,9 +95,6 @@ function Navbar() {
                 setOpenLogin(true);
               }
             }}
-            icon={
-              auth.currentUser ? <Avatar sx={{ marginRight: "10px" }} /> : ""
-            }
           />
         </div>
         {openLogin ? (
@@ -108,39 +105,6 @@ function Navbar() {
             setOpenSignup={setOpenSignup}
           />
         ) : (
-          // <Dialog
-          //   open={openLogin}
-          //   // TransitionComponent={Transition}
-          //   keepMounted
-          //   // onClose={handleClose}
-          //   scroll="body"
-          //   PaperProps={{ sx: { borderRadius: "20px" } }}
-          // >
-          //   <Box sx={{ padding: 5, width: 500 }}>
-          //     <IconButton
-          //       sx={{
-          //         width: "fit-content",
-          //         position: "absolute",
-          //         top: 10,
-          //         right: 10,
-          //       }}
-          //       // onClick={handleClose}
-          //     >
-          //       {/* <CloseIcon sx={{ textAlign: "right" }} /> */}
-          //     </IconButton>
-          //     <div className="bg-image">
-          //       <PrimaryButton
-          //         sx={{
-          //           marginTop: "10px",
-          //         }}
-          //         size={"large"}
-          //         // onClick={handleSignin}
-          //       >
-          //         Login
-          //       </PrimaryButton>
-          //     </div>
-          //   </Box>
-          // </Dialog>
           ""
         )}
         {openSignup ? (
