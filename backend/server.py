@@ -22,10 +22,13 @@ def reviews_sentiment():
     reviews = [item['reviews'] for item in data]
     print(reviews)
     b=[]
-    for a in reviews:
-        b.append(a)
+    for a in data:
+        # print(a.product_title)
+        if a['product_title'][0]=='ASUS UL30VT-X1K Thin and Light 13.3-Inch Laptop with Kindle for PC (Black)':
+            b.append(a['reviews'])
+        # b.append(a)
     # return jsonify(data)
-    return b[0]
+    return b
 
 if __name__ == "__main__":
     app.run(debug=True, port=8080)
