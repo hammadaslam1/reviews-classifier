@@ -29,7 +29,7 @@ negative_words = [a.lower() for a in negatives]
 
 
 
-with open('amazonMouse.json', 'r', encoding='utf-8') as f:
+with open('./backend/amazonMouse.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Extract reviews and labels
@@ -98,4 +98,4 @@ def index():
 
         
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, port=5000)

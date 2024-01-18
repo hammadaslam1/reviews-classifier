@@ -67,20 +67,20 @@ const ItemDetails = ({ props }) => {
           height={"100px"}
         />
         {file.length>0 &&
-          // file["reviews"].map((data, i) => (
-          //   <div>
-          //     <Typography variant="h5" key={i}>
-          //       {data.review_title}
-          //     </Typography>
-          //     <Typography variant="h5" key={i}>
-          //       Reviewer Name: {data.reviewer_name}
-          //     </Typography>
-          //     <Typography variant="h5" key={i}>
-          //       {data.review_body}
-          //     </Typography>
-          //   </div>
-          // ))
-          true}
+          file["reviews"].map((data, i) => (
+            <div>
+              <Typography variant="h5" key={i}>
+                {data.review_title}
+              </Typography>
+              <Typography variant="h5" key={i}>
+                Reviewer Name: {data.reviewer_name}
+              </Typography>
+              <Typography variant="h5" key={i}>
+                {data.review_body}
+              </Typography>
+            </div>
+          ))
+          }
       </Card>
     </Box>
   );

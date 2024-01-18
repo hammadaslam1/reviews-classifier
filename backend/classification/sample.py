@@ -1,3 +1,7 @@
+# import sys
+# !{sys.executable} -m pip install spacy
+# !{sys.executable} -m spacy download en
+
 import numpy as np
 import json
 import glob
@@ -38,11 +42,11 @@ def load_data(file):
 
 
 # print(data_length('./backend/datasets/combined_data.json'))
-length = data_length('./backend/datasets/combined_data.json')
+length = data_length('C:\Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/combined_data.json')
 data_array = []
 for i in range(0, length):
     data = load_data(
-        './backend/datasets/combined_data.json')[i]["product_description"]
+        'C:\Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/combined_data.json')[i]["product_description"]
     data_array.append(data[0])
     # print(data)
 
@@ -68,7 +72,7 @@ def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
         for token in doc:
             # if token.pos_ in allowed_postags:
             newText.append(token.lemma_)
-            # token_list = [token for token in doc]
+            token_list = [token for token in doc]
             filtered_list = [token for token in doc if not token.is_stop]
             lemmas = [
                 f"{token.lemma_}"
@@ -111,14 +115,14 @@ for text in new_data:
 
 print(corpus[1])
 
-# word = id2word[[2][:1][0]]
-# print(word)
+word = id2word[[2][:1][0]]
+print(word)
 
 
 lda_model = gensim.models.ldamodel.LdaModel(
     corpus=corpus, id2word=id2word, num_topics=30, random_state=100, update_every=1, chunksize=100, passes=10, alpha="auto")
 
-# print(lda_model)
+print(lda_model)
 
 
 
