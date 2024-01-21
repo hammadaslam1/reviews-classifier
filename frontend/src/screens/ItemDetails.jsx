@@ -3,36 +3,56 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
-import { Box, Card, Typography } from "@mui/material";
+import {
+  Accordion,
+  AccordionActions,
+  AccordionDetails,
+  AccordionSummary,
+  Box,
+  Button,
+  Card,
+  Typography,
+} from "@mui/material";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const ItemDetails = ({ props }) => {
   const [file, setFile] = useState([]);
   const [dollar, setDollar] = useState(0);
-  const [searchedItem, setSearchedItem] = useState("");
-  const [sentiment, setSentiment] = useState("all");
   const [error, setError] = useState("");
-  //   const { id } = props.match.params;
+
+  const [productLink, setProductLink] = useState("");
+  const [productDesc, setProductDesc] = useState("");
+  const [productImage, setProductImage] = useState("");
+  const [productPrice, setProductPrice] = useState("");
+  const [productRate, setProductRate] = useState("");
+  const [productRating, setProductRating] = useState("");
+  const [productTitle, setProductTitle] = useState("");
+  const [productReviews, setProductReviews] = useState([]);
+
   const location = useLocation();
   const index = location.state - 1;
+
   useEffect(() => {
-    fetch("http://127.0.0.1:8080/")
+    fetch(`http://127.0.0.1:8080/sentiments/${index}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data[index]);
-        // setFile(data[index]);
-        file.push(data[index])
-        console.log(file && file["reviews"]);
-        console.log(file && file["reviews"]);
-        file["reviews"].map((data, i) => {
-          console.log(file["reviews"][0]);
-        });
+        // console.log(data);
+        setFile(data);
+        setProductImage(data["product_images_src"][0]);
+        setProductLink(data["all_products_href"][0]);
+        setProductPrice(data["product_price"][0]);
+        setProductRate(data["product_ratings"][0]);
+        setProductRating(data["product_rating_points"][0]);
+        setProductTitle(data["product_title"][0]);
+        setProductDesc(data["product_description"][0]);
+        setProductReviews(data["reviews"]);
       })
       .catch((e) => {
         if (e.message == "Failed to fetch") {
           setError("Server not found");
-          console.log("Server not found");
+          // console.log("Server not found");
         }
       });
     fetch(
@@ -53,34 +73,71 @@ const ItemDetails = ({ props }) => {
       });
   }, []);
   return (
-    <Box sx={{ marginTop: 10 }}>
-      {/* <Typography variant="h3" color={"#023d65"}>
-        record is{" "}
-        {(file.product_price[0].replace(/[^\d\.]/g, "") * dollar).toFixed(2)}{" "}
-        and index is {index}
-      </Typography> */}
-      <Card>
+    <Box sx={{ marginTop: 10, padding: 5 }}>
+      <Card elevation={10} sx={{ padding: 5, borderRadius: 3 }}>
         <img
           src={file.product_images_src}
           alt={file.product_title}
           loading="lazy"
-          height={"100px"}
+          height={"300px"}
+          style={{ alignSelf: "center" }}
         />
-        {file.length>0 &&
-          file["reviews"].map((data, i) => (
-            <div>
-              <Typography variant="h5" key={i}>
-                {data.review_title}
-              </Typography>
-              <Typography variant="h5" key={i}>
-                Reviewer Name: {data.reviewer_name}
-              </Typography>
-              <Typography variant="h5" key={i}>
-                {data.review_body}
-              </Typography>
-            </div>
-          ))
-          }
+        <Typography variant="h1">{index}</Typography>
+        <div>
+          <Typography variant="h5" color={"#000"}>
+            title::::::::::::::::::: {productTitle}
+          </Typography>
+          <Typography variant="h5" color={"#000"}>
+            description::::::::::::: {productDesc}
+          </Typography>
+          <Typography variant="h5" color={"#000"}>
+            link:::::::::::::::::::: {productLink}
+          </Typography>
+          <Typography variant="h5" color={"#000"}>
+            price::::::::::::::::::: {productPrice.split(".")[0]}
+            <Typography variant="caption">
+              {productPrice.split(".")[1]}
+            </Typography>
+          </Typography>
+          <Typography variant="h5" color={"#000"}>
+            reviews:::::::::::::::::: {productRate.split(" ")[0]}
+          </Typography>
+          <Typography variant="h5" color={"#000"}>
+            average rating:::::::::::::::::: {productRating}
+          </Typography>
+          {/* <Typography variant="h5" color={"#000"}>
+            {productTitle}
+          </Typography> */}
+          <Typography variant="h3" color={"#000"}>
+            Reviews
+          </Typography>
+          <div>
+            <Card elevation={0}>
+              {productReviews.map((data, i) => (
+                <Accordion
+                  key={i}
+                  defaultExpanded={false}
+                  sx={{ backgroundColor: "#6a6a6a22" }}
+                >
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel3-content"
+                    id="panel3-header"
+                  >
+                    <Typography variant="h5">
+                      review {i+1} : {data.review_title}
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>{data.review_body}</AccordionDetails>
+                  <AccordionActions>
+                    <Button>Cancel</Button>
+                    <Button>Agree</Button>
+                  </AccordionActions>
+                </Accordion>
+              ))}
+            </Card>
+          </div>
+        </div>
       </Card>
     </Box>
   );
