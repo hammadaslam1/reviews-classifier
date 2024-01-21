@@ -8,9 +8,12 @@ import {
   AccordionActions,
   AccordionDetails,
   AccordionSummary,
+  Avatar,
   Box,
   Button,
   Card,
+  Rating,
+  Tooltip,
   Typography,
 } from "@mui/material";
 import { useEffect, useState } from "react";
@@ -34,6 +37,14 @@ const ItemDetails = ({ props }) => {
   const location = useLocation();
   const index = location.state - 1;
 
+  const stringAvatar = () => {
+    return {
+      sx: {
+        bgcolor: `#${Math.floor(Math.random() * (999999 - 100000)) + 100000}`,
+      },
+    };
+  };
+
   useEffect(() => {
     fetch(`http://127.0.0.1:8080/sentiments/${index}`)
       .then((response) => response.json())
@@ -52,19 +63,12 @@ const ItemDetails = ({ props }) => {
       .catch((e) => {
         if (e.message == "Failed to fetch") {
           setError("Server not found");
-          // console.log("Server not found");
         }
       });
-    fetch(
-      "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
-    )
+    fetch(`http://127.0.0.1:8080/reviews/${index}`)
       .then((response) => response.json())
       .then((data) => {
-        // console.log(data.quotes['USDPKR']);
-        data &&
-          data.quotes &&
-          // data.quotes["USDPKR"] &&
-          setDollar(data.quotes["USDPKR"]);
+        // console.log(data);
       })
       .catch((e) => {
         if (e.message == "Failed to fetch") {
@@ -75,68 +79,170 @@ const ItemDetails = ({ props }) => {
   return (
     <Box sx={{ marginTop: 10, padding: 5 }}>
       <Card elevation={10} sx={{ padding: 5, borderRadius: 3 }}>
-        <img
-          src={file.product_images_src}
-          alt={file.product_title}
-          loading="lazy"
-          height={"300px"}
-          style={{ alignSelf: "center" }}
-        />
-        <Typography variant="h1">{index}</Typography>
-        <div>
-          <Typography variant="h5" color={"#000"}>
-            title::::::::::::::::::: {productTitle}
-          </Typography>
-          <Typography variant="h5" color={"#000"}>
-            description::::::::::::: {productDesc}
-          </Typography>
-          <Typography variant="h5" color={"#000"}>
-            link:::::::::::::::::::: {productLink}
-          </Typography>
-          <Typography variant="h5" color={"#000"}>
-            price::::::::::::::::::: {productPrice.split(".")[0]}
-            <Typography variant="caption">
-              {productPrice.split(".")[1]}
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
+          <div>
+            <img
+              src={file.product_images_src}
+              alt={file.product_title}
+              loading="lazy"
+              // height={"300px"}
+              style={{ maxWidth: "300px" }}
+            />
+          </div>
+          <div style={{ flex: 2 }}>
+            <Typography variant="h4" color={"#000"}>
+              {productTitle}
             </Typography>
-          </Typography>
-          <Typography variant="h5" color={"#000"}>
-            reviews:::::::::::::::::: {productRate.split(" ")[0]}
-          </Typography>
-          <Typography variant="h5" color={"#000"}>
-            average rating:::::::::::::::::: {productRating}
-          </Typography>
-          {/* <Typography variant="h5" color={"#000"}>
-            {productTitle}
-          </Typography> */}
-          <Typography variant="h3" color={"#000"}>
+            {/* <Typography variant="h5" sx={{ fontWeight: "900" }} color={"#000"}>
+              Description:
+            </Typography> */}
+            <Typography
+              variant="body1"
+              color={"#000"}
+              sx={{ margin: 1, marginX: 3, textAlign: "justify" }}
+            >
+              {productDesc}
+            </Typography>
+            <Typography
+              variant="h5"
+              color={"#000"}
+              sx={{ margin: 1, marginX: 3, textAlign: "justify" }}
+            >
+              {productPrice.length > 0 && productPrice.split(".")[0]}
+              <Typography variant="overline">
+                {productPrice.length > 0
+                  ? productPrice.split(".")[1]
+                  : "Out of Stock"}
+              </Typography>
+            </Typography>
+            <Tooltip title={`${productRating} out of 5 rating`} followCursor>
+              <div
+                style={{
+                  width: "fit-content",
+                  margin: 1,
+                  marginLeft: "20px",
+                  textAlign: "justify",
+                }}
+              >
+                <Rating
+                  name="half-rating"
+                  defaultValue={productRating}
+                  value={productRating}
+                  precision={0.1}
+                  readOnly
+                />
+              </div>
+            </Tooltip>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            alignItems: "center",
+            padding: "10px 20px 0 20px",
+            marginTop: "50px",
+          }}
+        >
+          <Typography variant="h4" color={"#000"}>
             Reviews
           </Typography>
-          <div>
-            <Card elevation={0}>
-              {productReviews.map((data, i) => (
-                <Accordion
-                  key={i}
-                  defaultExpanded={false}
-                  sx={{ backgroundColor: "#6a6a6a22" }}
+          <Typography variant="h5">{productRate[0]} reviews</Typography>
+        </div>
+        <div>
+          <Card elevation={0} sx={{ borderRadius: 3 }}>
+            {productReviews.map((data, i) => (
+              <Accordion
+                key={i}
+                defaultExpanded={false}
+                sx={{ backgroundColor: "#6a6a6a22" }}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel3-content"
+                  id="panel3-header"
+                  sx={{
+                    backgroundColor: "#6a6a6a",
+                    color: "#fff",
+                    display: "flex",
+                    justifyContent: "space-evenly",
+                    alignItems: "center",
+                  }}
                 >
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel3-content"
-                    id="panel3-header"
+                  <Tooltip title={data.reviewer_name}>
+                    <Avatar
+                      {...stringAvatar()}
+                      children={data.reviewer_name[0]}
+                      // src={auth.currentUser.photoURL}
+                    />
+                  </Tooltip>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      width: "100%",
+                      marginLeft: "15px",
+                    }}
                   >
-                    <Typography variant="h5">
-                      review {i+1} : {data.review_title}
+                    <div>
+                      <Typography variant="h5">
+                        {data.reviewer_name ? data.reviewer_name : "Someone"} :{" "}
+                        <Typography variant="subtitle1">
+                          {data.review_title}
+                        </Typography>
+                      </Typography>
+                    </div>
+                    <Typography
+                      variant="caption"
+                      sx={{ textAlign: "right", marginX: 5 }}
+                    >
+                      {data.reviewer_country_date}
                     </Typography>
-                  </AccordionSummary>
-                  <AccordionDetails>{data.review_body}</AccordionDetails>
-                  <AccordionActions>
-                    <Button>Cancel</Button>
-                    <Button>Agree</Button>
-                  </AccordionActions>
-                </Accordion>
-              ))}
-            </Card>
-          </div>
+                  </div>
+                </AccordionSummary>
+                <AccordionDetails>{data.review_body}</AccordionDetails>
+                <AccordionActions
+                  sx={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    paddingX: 5,
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <Tooltip
+                      title={`${data.reviews.split(" ")[0]} out of 5 rating`}
+                      followCursor
+                    >
+                      <div
+                        style={{
+                          width: "fit-content",
+                          margin: 1,
+                          marginLeft: "20px",
+                          marginRight: "30px",
+                          textAlign: "justify",
+                        }}
+                      >
+                        <Rating
+                          name="half-rating"
+                          defaultValue={data.reviews.split(" ")[0]}
+                          value={data.reviews.split(" ")[0]}
+                          precision={0.1}
+                          readOnly
+                        />
+                      </div>
+                    </Tooltip>
+                    <Typography>{data.review_helpfulness}</Typography>
+                  </div>
+                  <div>
+                    <Button sx={{ color: "#6a6a6a" }}>Cancel</Button>
+                    <Button sx={{ color: "#6a6a6a" }}>Agree</Button>
+                  </div>
+                </AccordionActions>
+              </Accordion>
+            ))}
+          </Card>
         </div>
       </Card>
     </Box>

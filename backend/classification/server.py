@@ -11,7 +11,7 @@ CORS(app)
 
 
 @app.route("/", methods=['GET'])
-def return_home():
+def all_products():
     with open('./backend/datasets/combined_data.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     # return jsonify(data)
@@ -19,11 +19,19 @@ def return_home():
 
 
 @app.route("/sentiments/<int:index>", methods=['GET'])
-def reviews_sentiment(index):
+def product(index):
     with open('./backend/datasets/combined_data.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     product = data[index]
     return product
+
+
+@app.route("/reviews/<int:index>", methods=['GET'])
+def reviews_topics(index):
+    with open('./backend/datasets/combined_data.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    product = data[index]
+    return product['reviews']
 
 
 if __name__ == "__main__":
