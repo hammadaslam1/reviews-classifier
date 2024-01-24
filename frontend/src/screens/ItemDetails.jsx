@@ -12,6 +12,7 @@ import {
   Box,
   Button,
   Card,
+  Chip,
   Rating,
   Tooltip,
   Typography,
@@ -33,6 +34,7 @@ const ItemDetails = ({ props }) => {
   const [productRating, setProductRating] = useState("");
   const [productTitle, setProductTitle] = useState("");
   const [productReviews, setProductReviews] = useState([]);
+  const [reviewTopics, setReviewTopics] = useState([]);
 
   const location = useLocation();
   const index = location.state - 1;
@@ -49,7 +51,7 @@ const ItemDetails = ({ props }) => {
     fetch(`http://127.0.0.1:8080/sentiments/${index}`)
       .then((response) => response.json())
       .then((data) => {
-        // console.log(data);
+        console.log(data["reviews"][0]["review_topics"]);
         setFile(data);
         setProductImage(data["product_images_src"][0]);
         setProductLink(data["all_products_href"][0]);
@@ -59,6 +61,17 @@ const ItemDetails = ({ props }) => {
         setProductTitle(data["product_title"][0]);
         setProductDesc(data["product_description"][0]);
         setProductReviews(data["reviews"]);
+        const len = data["reviews"].length;
+        for (let i = 0; i < data["reviews"].length; i++) {
+          // setReviewTopics([...data["reviews"][i]["review_topics"]]);
+          reviewTopics.push(data["reviews"][i]["review_topics"])
+          console.log(data["reviews"][i]["review_topics"]);
+        }
+      })
+      .then(() => {
+        for (const key in productReviews) {
+          console.log(key);
+        }
       })
       .catch((e) => {
         if (e.message == "Failed to fetch") {
@@ -202,6 +215,13 @@ const ItemDetails = ({ props }) => {
                   </div>
                 </AccordionSummary>
                 <AccordionDetails>{data.review_body}</AccordionDetails>
+                <AccordionDetails>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>
+                    {reviewTopics[i].map((item, j) => (
+                      <Chip label={item} size="large" key={j} />
+                    ))}
+                  </div>
+                </AccordionDetails>
                 <AccordionActions
                   sx={{
                     display: "flex",
