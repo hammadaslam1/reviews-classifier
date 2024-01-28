@@ -14,6 +14,9 @@ from gensim.models import CoherenceModel
 import spacy
 from nltk.corpus import stopwords
 
+# sentiments
+from nltk.sentiment import SentimentAnalyzer, SentimentIntensityAnalyzer
+
 # vis
 import pyLDAvis
 import pyLDAvis.gensim
@@ -57,6 +60,20 @@ def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
         # print(new_record)
         doc = nlp(new_record)
         # print(doc)
+        sentiment = ''
+        sid = SentimentIntensityAnalyzer()
+        scores = sid.polarity_scores(new_record)
+        if scores["compound"]> 0.5:
+            sentiment = 'Strictly Positive'
+        elif scores["compound"]>0:
+            sentiment = 'Neutrally Positive'
+        elif scores["compound"]>-0.5:
+            sentiment = 'Neutrally Negative'
+        elif scores["compound"]>=-1:
+            sentiment = 'Strictly Negative'
+            
+        # print(sentiment)
+        text["sentiment"] = sentiment
         newText = []
         for token in doc:
             # if token.pos_ in allowed_postags:

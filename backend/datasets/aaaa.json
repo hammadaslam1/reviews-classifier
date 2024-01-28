@@ -40,7 +40,8 @@
                     "software good need customer support run good product",
                     "quality resolution",
                     "available price range"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "1.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Worst printer I`ve ever owned",
@@ -68,7 +69,8 @@
                     "return seat shelf",
                     "time look good multifunction work advertise",
                     "money time waste"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "4.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    OK printer",
@@ -89,7 +91,8 @@
                     "problem printer",
                     "old lexmark",
                     "decent printer"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "3.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Not bad, but could have been better...",
@@ -124,7 +127,8 @@
                     "year warranty circuit city year",
                     "scanner copi",
                     "long clean scan copy use page copy single document dimension customer service"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "1.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Windows 98 Incompatable!!!!!!!!!!!",
@@ -146,7 +150,8 @@
                     "issue windows",
                     "edition product work",
                     "vital information"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             }
         ]
     },
@@ -190,7 +195,8 @@
                     "screen bit",
                     "small wife",
                     "main user machine"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -235,7 +241,8 @@
                     "desktop smoke",
                     "great product",
                     "great price"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "4.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Good performance - bad speakers",
@@ -259,7 +266,8 @@
                     "nice cf memory card reader product",
                     "free upgrade windows",
                     "useable optical mouse"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "5.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Great Laptop",
@@ -290,7 +298,8 @@
                     "network problem",
                     "likely experience couple year vista",
                     "sure fire way fix problem"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             }
         ]
     },
@@ -331,7 +340,8 @@
                     "blue screen time care list time fair",
                     "software issue courtesy",
                     "wonderful friend microsoft vista"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -381,7 +391,8 @@
                     "low asus scare",
                     "concern quality concern",
                     "solid fast machine"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             }
         ]
     },
@@ -424,7 +435,8 @@
                     "hard drive",
                     "clean dust",
                     "thermal paste work"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "3.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    REVISION: Fast, Cool, Inexpensive but Asus has TERRIBLE customer service)",
@@ -447,7 +459,8 @@
                     "address contact type information",
                     "bad website customer service number",
                     "rma information"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "4.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Asus N51Vn-A1 Notebook PC",
@@ -473,7 +486,8 @@
                     "product reviewer",
                     "lot effort detail",
                     "catch product review"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -536,7 +550,8 @@
                     "great computer ditch asus crap system corruption matter install computer run",
                     "incompatibility windows asus software lesson",
                     "apple sony"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "4.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Great Laptop for the Money...Amazing Value!",
@@ -556,7 +571,8 @@
                     "amazing value money",
                     "great warranty",
                     "year accidental damage coverage plenty usb port cons clunky keyboard trackpad"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "5.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Great Laptop! Can be used for gaming!",
@@ -581,7 +597,8 @@
                     "hdtv inch samsung hd overall kind product",
                     "battery life",
                     "laptop powerfull"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "3.0 out of 5 stars\n\n\n\n\n\n\n\n  \n  \n    Powerful and cheap but cluncky and poorly designed",
@@ -626,7 +643,8 @@
                     "cell option update key label function default",
                     "application default browser",
                     "touchpad order"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             }
         ]
     },
@@ -677,7 +695,8 @@
                 "review_topics": [
                     "great price",
                     "small big good battery life"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -698,7 +717,8 @@
                     "bunch bloatware laptop explanation figure bloatware",
                     "cool useless stuff",
                     "shipping rebate asus"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -716,7 +736,8 @@
                     "customer support line",
                     "dark unprofessional",
                     "outgoing msg"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -736,7 +757,8 @@
                     "result error reason star case darn plastic carbon fiber look",
                     "pretty cool look research couple month time",
                     "bell whistle look state"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -841,7 +863,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "bricke year"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -857,7 +880,8 @@
                     "problem hour battery life",
                     "travel lot",
                     "power time"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -873,7 +897,8 @@
                     "computer december",
                     "january rd february th computer",
                     "part month"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -903,7 +928,8 @@
                     "volume hold function key",
                     "lack video output port speaker distort",
                     "good choice look machine dedicate"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             }
         ]
     },
@@ -1015,7 +1041,8 @@
                 "review_topics": [
                     "husband christmas",
                     "pretty cool fast computer battery life"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -1034,7 +1061,8 @@
                     "standard great great price point good look",
                     "sharp design good keyboard strip lot junk machine month work",
                     "issue date"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -1046,7 +1074,8 @@
                 "review_status": "",
                 "review_body": "Other than me trying to get \"used\"\" to Windows 7",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -1064,7 +1093,8 @@
                     "windows update time mac update month window",
                     "waste time world mac",
                     "productive shame bill gates"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -1092,7 +1122,8 @@
                     "handy instal rosetta stone program",
                     "able pronunciation part talk",
                     "regular voice microphone"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -1202,7 +1233,8 @@
                     "problem ship computer",
                     "computer faulty purchase asus product experience",
                     "bad customer service life utility company"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -1221,7 +1253,8 @@
                     "large battery",
                     "minute good luck",
                     "replacement battery"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -1242,7 +1275,8 @@
                     "movie glitche stutter lot rip movie harddrive good play",
                     "blu ray",
                     "computer hope enjoyment outta"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -1332,7 +1366,8 @@
                     "button subwoofer",
                     "beautiful line component asus",
                     "spare expense"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -1431,7 +1466,8 @@
                     "hdmi cable amazon day",
                     "problem work need wireless printer",
                     "old hp print laptop house"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -1535,7 +1571,8 @@
                     "strong screen display",
                     "clear storage speed",
                     "business school"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -1556,7 +1593,8 @@
                     "refurbish laptop",
                     "return factory problem communicate state attorney general office",
                     "satisfaction asus"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -1580,7 +1618,8 @@
                     "able install ms office outlook trouble instal outlook",
                     "work printer problem instal vista update work mp player windows",
                     "favorite window"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -1702,7 +1741,8 @@
                     "asus laptop detail",
                     "notice flicker laptop screen time day email asus tech support message center",
                     "automate message email"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             }
         ]
     },
@@ -1799,7 +1839,8 @@
                     "warm rest laptop stay",
                     "cool fan port unblock",
                     "great value"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -1818,7 +1859,8 @@
                     "large hard drive",
                     "quality price",
                     "product problem weight bit"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -1918,7 +1960,8 @@
                 "review_topics": [
                     "laptop month",
                     "power cord high performance setting laptop battery"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -1950,7 +1993,8 @@
                     "small screen yield",
                     "small text size page",
                     "minor issue"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -1991,7 +2035,8 @@
                     "hand tie asus support",
                     "professional support vendor product",
                     "product support"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -2037,7 +2082,8 @@
                     "easy peasy umbuntu os plastic finger print",
                     "shiny screen",
                     "sunny spot"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2052,7 +2098,8 @@
                 "review_topics": [
                     "computer online",
                     "small screen zoom crystal"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2067,7 +2114,8 @@
                 "review_topics": [
                     "fantastic battery life soo",
                     "great price boot"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2093,7 +2141,8 @@
                     "negative comment",
                     "perfect little netbook",
                     "portability editorial duty"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2115,7 +2164,8 @@
                     "adapter school netbook look good",
                     "mu model matte screen",
                     "outdoor issue good"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2153,7 +2203,8 @@
                     "great product",
                     "netbook buyer look",
                     "different netbook asus"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2185,7 +2236,8 @@
                     "equal slow processor memory line",
                     "corolla complain",
                     "avalon blame"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2223,7 +2275,8 @@
                     "happy customer",
                     "word mouth consequence color",
                     "mad function pc travel"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2243,7 +2296,8 @@
                     "cool system",
                     "tech support",
                     "look option gamer need internet"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2275,7 +2329,8 @@
                     "old netbook brand",
                     "new device",
                     "old trust friend"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2308,7 +2363,8 @@
                     "cool vibrationless version gb ddr memory netbook",
                     "unstoppable update exchange",
                     "exact vibration issue endemic dud"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2320,7 +2376,8 @@
                 "review_status": "",
                 "review_body": "love it",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2335,7 +2392,8 @@
                 "review_topics": [
                     "purchase purpose study language",
                     "ideal piece equipment"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2349,7 +2407,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "new product"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2365,7 +2424,8 @@
                     "perfect netbook gb",
                     "fast fast asus",
                     "good pc"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2377,7 +2437,8 @@
                 "review_status": "",
                 "review_body": "spectacular",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2394,7 +2455,8 @@
                     "long battery life",
                     "easy year",
                     "old use"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2408,7 +2470,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "instal deer camera work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2423,7 +2486,8 @@
                 "review_topics": [
                     "wonderful little unit wife",
                     "christmas darn"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2435,7 +2499,8 @@
                 "review_status": "",
                 "review_body": "as advertized",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2451,7 +2516,8 @@
                     "experience netbook machine",
                     "describe star reviewer week operation eeepc",
                     "excellent performance"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2466,7 +2532,8 @@
                 "review_topics": [
                     "key work",
                     "visible cheap finish"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2482,7 +2549,8 @@
                     "great keyboard problem noisy form",
                     "cheap material",
                     "netbook price"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2497,7 +2565,8 @@
                 "review_topics": [
                     "month number lock key letter work key number work key letter",
                     "aware short amazon return period day check asus forum lot bug eee unit"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2511,7 +2580,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "work ok"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2527,7 +2597,8 @@
                     "small heavy work year wife",
                     "master environmental science use school work",
                     "great battery life"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2539,7 +2610,8 @@
                 "review_status": "",
                 "review_body": "Delivered as advertised and it is a works great!!",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2554,7 +2626,8 @@
                 "review_topics": [
                     "good netbook",
                     "gb hd cell battery market netbook look"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2571,7 +2644,8 @@
                     "purse backpack",
                     "great battery life hook printer downfall finger print smudge",
                     "comfortable use"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2585,7 +2659,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "pretty good product price processing bit"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2600,7 +2675,8 @@
                 "review_topics": [
                     "asus eee pc",
                     "great little netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2617,7 +2693,8 @@
                     "great facility netbook",
                     "ideal surf internet spreadsheet text",
                     "everyday life"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2633,7 +2710,8 @@
                     "nice size travel",
                     "hard time play hd video battery life good",
                     "great surf net"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2650,7 +2728,8 @@
                     "gift son",
                     "catagorie windows xp",
                     "excellent netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2669,7 +2748,8 @@
                     "return shipping label return unit leisure eexcellent daughter",
                     "pc fun",
                     "practical unit"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2688,7 +2768,8 @@
                     "small space",
                     "uncomfortable purchase",
                     "old son"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2705,7 +2786,8 @@
                     "great price",
                     "free shipping",
                     "great choice mouse"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2723,7 +2805,8 @@
                     "large laptop keyboard size",
                     "easy use",
                     "mouse navigation"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2741,7 +2824,8 @@
                     "good product plane",
                     "simple year",
                     "old atom processor date work pc"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2758,7 +2842,8 @@
                     "good review price throught com awesome wife",
                     "daughter square",
                     "warrantee peace mind"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2774,7 +2859,8 @@
                     "work week fallback play volume dvd external dvd rw sort stink",
                     "movie laptop",
                     "software stink good product overall"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2791,7 +2877,8 @@
                     "video driver reload screen resolution limit option",
                     "download software need",
                     "fine resolution"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2807,7 +2894,8 @@
                     "extra computer household",
                     "light vacation summer",
                     "extra memory price weight unit"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2821,7 +2909,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "cautious product attempt uninstall software crash system"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -2839,7 +2928,8 @@
                     "small windows",
                     "dos unix command line",
                     "glad purchase computer"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2854,7 +2944,8 @@
                 "review_topics": [
                     "asus eee pc",
                     "great nice shape windows starter kind good update"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2875,7 +2966,8 @@
                     "family road trip windows",
                     "stable easy use",
                     "budget need powerhouse laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2892,7 +2984,8 @@
                     "close low power option",
                     "option scroll",
                     "unreliable button"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2911,7 +3004,8 @@
                     "fast asus cons system",
                     "unusable pro asus tech support",
                     "accessable helpful amazon"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -2927,7 +3021,8 @@
                     "great own asus product bit skeptical",
                     "popular brand issue volume",
                     "friend acer problem"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2948,7 +3043,8 @@
                     "own life",
                     "easy type good accuracy",
                     "great computer internet word processing"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2966,7 +3062,8 @@
                     "hour single battery charge",
                     "efficient new intel processor asus",
                     "super hybrid engine battery technology"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2983,7 +3080,8 @@
                     "mobile house computer work",
                     "thing computer",
                     "windows starter bog"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -2999,7 +3097,8 @@
                     "windows starter german languge world english purchase purpose",
                     "recieve computer",
                     "useless purchase amazon"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -3016,7 +3115,8 @@
                     "show mag line way type",
                     "fast snail key letter drive",
                     "crazy call support"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -3032,7 +3132,8 @@
                     "great internet email",
                     "nice size keyboard netbook good battery life run thing glossy finish show lot fingerprint",
                     "easy setup good product"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3051,7 +3152,8 @@
                     "bit leery",
                     "brand downright",
                     "typo ok"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -3070,7 +3172,8 @@
                     "extra charge return",
                     "amazon problem",
                     "great battery life work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3090,7 +3193,8 @@
                     "ibm gateway laptop",
                     "fall time asus",
                     "repair laptop misuse flimsy design"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -3109,7 +3213,8 @@
                     "compact need internet access email skype word",
                     "edit office amuse fact key interchange key",
                     "minute work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3128,7 +3233,8 @@
                     "bad spec play problem keyboard",
                     "cheap samsung keyboard",
                     "chance test battery wife"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -3145,7 +3251,8 @@
                     "blackberry business need online netbook",
                     "easy hurry",
                     "german language good"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -3166,7 +3273,8 @@
                     "refund money",
                     "computer experience customer service",
                     "asus computer"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -3189,7 +3297,8 @@
                     "friend family",
                     "purchase computer anyother type",
                     "electronic amazon"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3209,7 +3318,8 @@
                     "small size",
                     "light weight",
                     "convenient benefit netbook"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -3225,7 +3335,8 @@
                     "tacky computer",
                     "port fix charge",
                     "small computer christmas trip"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3250,7 +3361,8 @@
                     "month year",
                     "long hp",
                     "miserable death price"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -3268,7 +3380,8 @@
                     "problem text entry cursor",
                     "line type",
                     "wrong palm placement figure"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3294,7 +3407,8 @@
                     "microsoft mafia",
                     "shame microsoft muscle ruin",
                     "great product"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -3315,7 +3429,8 @@
                     "press function startup order force",
                     "memory upgrade problem",
                     "great netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3334,7 +3449,8 @@
                     "small surf intenet setting",
                     "system window starter",
                     "nice netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3351,7 +3467,8 @@
                     "big laptop load vlc media",
                     "movie load office software package behave",
                     "big problem"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3375,7 +3492,8 @@
                     "size desktop",
                     "minimal vacation experience vibration problem",
                     "previous reviewer speaker kind tinny"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3391,7 +3509,8 @@
                     "unit computer amazon wife gift father linux fan ubuntu",
                     "specific doubt buying computer compatibility case search ubuntu netbook version compatible",
                     "wonderful work box screen"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3417,7 +3536,8 @@
                     "sound use fn key combination mute",
                     "sound issue",
                     "sister hope"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3441,7 +3561,8 @@
                     "battery need run",
                     "desktop app machine issue",
                     "netbook consideration"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3464,7 +3585,8 @@
                     "windows starter",
                     "wallpaper desktop overall",
                     "happy purchase amazon"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3486,7 +3608,8 @@
                     "fix way",
                     "extra gb memory card pay pay",
                     "response feng dong"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -3510,7 +3633,8 @@
                     "great kid online game site format netbook setting",
                     "perfect battery life awesome",
                     "super light"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3540,7 +3664,8 @@
                     "fine need tweak purpose development machine",
                     "user setup wife switch user logoff",
                     "significant difference"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3568,7 +3693,8 @@
                     "great addition pc arsenal need",
                     "new asset depreciate asset asset day",
                     "review stay"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3592,7 +3718,8 @@
                     "medium work",
                     "run adobe premier photoshop elements gig memory",
                     "gig memory"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3607,7 +3734,8 @@
                 "review_topics": [
                     "computer week",
                     "amazing upgrade gb ram"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3627,7 +3755,8 @@
                     "gadget price",
                     "amazon sale storage",
                     "netbook purse"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3659,7 +3788,8 @@
                     "long warranty industry",
                     "jerk end",
                     "upgrade windows starter netbook use memory chip install office"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -3690,7 +3820,8 @@
                     "pace use hunk cheese",
                     "portable internet surfer storage device",
                     "fast cloud chug day"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3721,7 +3852,8 @@
                     "bad windows starter",
                     "poor configuration",
                     "objective access internet mall traffic jam"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3742,7 +3874,8 @@
                     "excessive noise reviewer battery life phenomenal",
                     "long plug gripe windows starter",
                     "great thing"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3774,7 +3907,8 @@
                     "student people",
                     "surf web",
                     "desktop home base"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3806,7 +3940,8 @@
                     "expensive time middle mouse button",
                     "convenient trackpad",
                     "equivalent mouse button"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3844,7 +3979,8 @@
                     "bright easy view charge problem",
                     "unit asus",
                     "system board"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3881,7 +4017,8 @@
                     "run jan",
                     "good hour battery power",
                     "husband disconnect reconnecte battery display cam bunch vertical line midst exchange amazon hope replacement machine"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -3898,7 +4035,8 @@
                     "mu bk netbook",
                     "portable pc work home time work hour weekends holidays",
                     "necessary access pc"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -3921,7 +4059,8 @@
                     "perfect netbook run sd card windows",
                     "ultimate review base",
                     "netbook awhile reason upgrade ram"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -4045,7 +4184,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states february"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4059,7 +4199,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states december"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4073,7 +4214,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states february"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4087,7 +4229,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states november"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4101,7 +4244,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states march"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4113,7 +4257,8 @@
                 "review_status": "",
                 "review_body": "Reviewed in the United States on May 25, 2010",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4127,7 +4272,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states april"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4141,7 +4287,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states november"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4155,7 +4302,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states march"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4169,7 +4317,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states january"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4183,7 +4332,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states march"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4197,7 +4347,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states february"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4211,7 +4362,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states february"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4225,7 +4377,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states march"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4239,7 +4392,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states march"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4253,7 +4407,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states march"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -4267,7 +4422,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "states february"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             }
         ]
     },
@@ -4362,7 +4518,8 @@
                     "xp windows",
                     "need xp use",
                     "nice keyboard good support"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4377,7 +4534,8 @@
                 "review_topics": [
                     "material time job",
                     "time complain good work business time"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             }
         ]
     },
@@ -4511,7 +4669,8 @@
                     "issue people",
                     "liner spacer cutout",
                     "lay key"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4531,7 +4690,8 @@
                     "perfect travel lot need",
                     "own sonys hps",
                     "size bell whistle good"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4546,7 +4706,8 @@
                 "review_topics": [
                     "good laptop",
                     "dr richard hays"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4564,7 +4725,8 @@
                     "service joke",
                     "upgrade laptop",
                     "hard drive void warranty"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             }
         ]
     },
@@ -4672,7 +4834,8 @@
                     "wireless mouse attach touch",
                     "sensitive shirtsleeve slide bit run",
                     "ms office"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4692,7 +4855,8 @@
                     "sound great keyboard",
                     "hour battery multi",
                     "great burn cd stuff time issue"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4713,7 +4877,8 @@
                     "heavy duty storage",
                     "laptop spin disk drive",
                     "waste lot people life"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4741,7 +4906,8 @@
                     "list play music playlist",
                     "big thin lightweight plan",
                     "computer play eve run product day"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -4836,7 +5002,8 @@
                     "large position touch",
                     "mess position document type esp word",
                     "different right"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             }
         ]
     },
@@ -4968,7 +5135,8 @@
                     "computer chinese",
                     "small manual press key",
                     "beginning need recovery disc windows disc"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -4985,7 +5153,8 @@
                     "real minus glossy",
                     "black sheel fingerprint magnet touchpad",
                     "finger etc high tech"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5007,7 +5176,8 @@
                     "old non",
                     "wide style monitor laptop asus fault problem photoshop oh yeah",
                     "great warranty"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5034,7 +5204,8 @@
                     "cheap system",
                     "reasonable spec",
                     "laptop caveat emptor"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5065,7 +5236,8 @@
                     "laptop type",
                     "tv overall",
                     "great value"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5114,7 +5286,8 @@
                     "expensive laptop laptop",
                     "penny invest",
                     "price good job asus"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5138,7 +5311,8 @@
                     "elegant piano screen",
                     "sharp bright glossy frame look fancy",
                     "wide comfortable size size"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -5247,7 +5421,8 @@
                 "review_status": "",
                 "review_body": "Still working since 2012",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -5270,7 +5445,8 @@
                     "long battery life",
                     "short hrs",
                     "test overall"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5297,7 +5473,8 @@
                     "removable seal asus",
                     "removable battery",
                     "important look model"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5312,7 +5489,8 @@
                 "review_topics": [
                     "happy day",
                     "mouse button"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -5363,7 +5541,8 @@
                     "homework movie youtube video",
                     "su core duo cpu ghz gb ram gb hdd mp webcam",
                     "mp description cell polymer lithium ion bluetooth"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -5406,7 +5585,8 @@
                     "own screen",
                     "manual shutdown",
                     "asus customer support awful care"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -5437,7 +5617,8 @@
                     "work environment extravagant look good thing screen resolution issue play game laptop",
                     "nice machine hope review",
                     "body mind"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5453,7 +5634,8 @@
                     "unhappy purchase laptop",
                     "bad keyboard layout arrow key edit function key",
                     "difficult workwith look keyboard type dont"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -5486,7 +5668,8 @@
                     "overall regret",
                     "long abusive relationship ll",
                     "rhyme ll work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5508,7 +5691,8 @@
                     "special download manager need",
                     "korean chinese japanese",
                     "machine asus"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -5531,7 +5715,8 @@
                     "high end hardware utilize power",
                     "significant risk overheat",
                     "awful laptop"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -5550,7 +5735,8 @@
                     "certain game",
                     "reliable laptop travel",
                     "asus future"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5571,7 +5757,8 @@
                     "long time problem company abit gigabyte msi ati amd swear asus fine",
                     "laptop product asus",
                     "ps time ship pay shipping fix waste money"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -5591,7 +5778,8 @@
                     "driver keyboard mouse driver",
                     "video card btw",
                     "total waste money"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -5609,7 +5797,8 @@
                     "great sacrifice",
                     "small laptop",
                     "imaginable laptop monster cpu usb"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5660,7 +5849,8 @@
                     "fantastic tool reinstall window handful time",
                     "hdd upgrade ram month",
                     "clean vent trooper"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5677,7 +5867,8 @@
                     "generation sata spite fact pm chipset support sataii port native command",
                     "ncq port multiplier bandwidth aggregation laptop stupid reason deprive sata port",
                     "unable notice jbod implementation sata enclosure express card spite laptop category high end asus"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -5694,7 +5885,8 @@
                     "dis reinstall run dvd disk consumer",
                     "friendly mark star",
                     "long good review run good month star"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5719,7 +5911,8 @@
                     "useful asus hotline",
                     "friendly course",
                     "unable help issue rma update repair"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5773,7 +5966,8 @@
                     "hard drive",
                     "small standard",
                     "minute ram"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5809,7 +6003,8 @@
                     "light option high resolution screen benefit display option cell battery offering",
                     "big brand",
                     "value customize spec"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5842,7 +6037,8 @@
                     "notebook fault thing mind",
                     "personal experience",
                     "lucky experience problem"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -5862,7 +6058,8 @@
                     "old dell",
                     "superior resolution",
                     "old people"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -5906,7 +6103,8 @@
                     "good computer",
                     "vpr matrix",
                     "old pentium"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -5933,7 +6131,8 @@
                     "friendly dumbe metro ifie windows",
                     "smooth edge futuristic",
                     "windows xp opinon"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6001,7 +6200,8 @@
                     "sure ll work",
                     "film editing",
                     "fast computer alot space stuff"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6033,7 +6233,8 @@
                     "update fix issue",
                     "numerous complaint web problem",
                     "complaint person"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -6088,7 +6289,8 @@
                     "sound nice nice fix machine",
                     "shipping material rma",
                     "replacement shipping part vp quality control need mai tai ration"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6143,7 +6345,8 @@
                     "sound nice nice fix machine",
                     "shipping material rma",
                     "replacement shipping part vp quality control need mai tai ration"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6175,7 +6378,8 @@
                     "late great future proof",
                     "usb port",
                     "usb single"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -6189,7 +6393,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "fine present day"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -6204,7 +6409,8 @@
                 "review_topics": [
                     "low price tax",
                     "free work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6220,7 +6426,8 @@
                     "cheap newegg",
                     "amazon thing run game",
                     "life series cod mw"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6239,7 +6446,8 @@
                     "rendimientos hasta el momento que",
                     "estoy usando",
                     "dado ninguna molestia asus es lo ma ximo"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -6255,7 +6463,8 @@
                     "excellent computer engineer major",
                     "fast game movie overall",
                     "great computer student"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6273,7 +6482,8 @@
                     "short battery life approx hr",
                     "normal use",
                     "laptop need portability"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6288,7 +6498,8 @@
                 "review_topics": [
                     "laptop year problem laptop play crysis",
                     "regular keyboard backlit keyboard"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6303,7 +6514,8 @@
                 "review_topics": [
                     "happy laptop use development",
                     "movie thing ecstatic"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6319,7 +6531,8 @@
                     "pretty notebook",
                     "perfect balance specification vs price",
                     "good notebook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6339,7 +6552,8 @@
                     "spec superb",
                     "package laptop",
                     "desktop replacement thumb asus"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6354,7 +6568,8 @@
                 "review_topics": [
                     "excelent screen",
                     "nice look good overall performance battery hour"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6374,7 +6589,8 @@
                     "great laptop",
                     "decent price laptop",
                     "blue ray drive"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6388,7 +6604,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "ugly look problem load"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6409,7 +6626,8 @@
                     "fast ton space music picture",
                     "slow multiple program",
                     "open overall"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6429,7 +6647,8 @@
                     "emit speaker panel edge",
                     "time energy",
                     "thing good laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6450,7 +6669,8 @@
                     "modern rts mmorpg play problem course factor",
                     "worth look month",
                     "close look need"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6470,7 +6690,8 @@
                     "nice laptop",
                     "picture amazon complaint thing bloatware",
                     "instal good bit uninstalle"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6490,7 +6711,8 @@
                     "super fast port",
                     "ie usb digital audio hdmi",
                     "plug hour screen high brightness play game"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6507,7 +6729,8 @@
                     "year power button",
                     "light laptop boot show screen",
                     "mother board failure laptop pc catastrophic failure"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -6526,7 +6749,8 @@
                     "product star",
                     "backlit keyboard thing",
                     "worth money"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6546,7 +6770,8 @@
                     "ac power plug comment battery life thing note fan",
                     "loud thn",
                     "laptop laptop"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -6575,7 +6800,8 @@
                     "cleartype adjustment work font blurry ubuntu",
                     "new ati driver improvement overall good",
                     "resolution issue model"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6595,7 +6821,8 @@
                     "act laptop",
                     "sudden blue screen",
                     "physical memory"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -6621,7 +6848,8 @@
                     "con wish",
                     "desktop laptop",
                     "beautiful compliment"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6651,7 +6879,8 @@
                     "processor video card entertainment laptop",
                     "great power good",
                     "reasonable price asus"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6676,7 +6905,8 @@
                     "round frivolous",
                     "good year",
                     "happy girlgeek"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6698,7 +6928,8 @@
                     "fix antivirus tech support",
                     "laptop work",
                     "fine cross finger"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -6725,7 +6956,8 @@
                     "clean speaker",
                     "great use usb speaker",
                     "investment awesome laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6754,7 +6986,8 @@
                     "power saver mode complaint finish",
                     "touchpad bit",
                     "great little machine"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6774,7 +7007,8 @@
                     "logitech performance mouse mx antec notebook cooler model siig port usb hub das keyboard model",
                     "professional gb ram expansion",
                     "return planar px mw inch monitor year"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6794,7 +7028,8 @@
                     "ma era",
                     "mhz mhz como amazon indica lo a\u00banico que deseara es que soportara una resolucia\u00b3n mayor",
                     "pantalla pue es una pantalla grande"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -6817,7 +7052,8 @@
                     "multiple window time resolution",
                     "great need hd screen hdmi output",
                     "big lcd"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6839,7 +7075,8 @@
                     "pretty good gb memory",
                     "program run background utilize sata connection external tb usb use",
                     "new usb"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6870,7 +7107,8 @@
                     "imo price vs performance thing",
                     "dissapointe desktop replacement",
                     "performance desktop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6903,7 +7141,8 @@
                     "resistant keyboard",
                     "hot battery life",
                     "small hdd price"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6927,7 +7166,8 @@
                     "possible problem",
                     "piece crap",
                     "bad asus product"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -6950,7 +7190,8 @@
                     "hot air",
                     "vent course design flaw keyboard",
                     "pretty good button placement"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6966,7 +7207,8 @@
                     "purchase laptop wife college student major problem work wife",
                     "weekly major head ache complaint speaker quote",
                     "rich sound altec"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -6998,7 +7240,8 @@
                     "computadore lo unico que alguien podria percibir es que cuando arranca como todo portatil carga muchas cosas",
                     "memoria pero nada que se pueda solucionar",
                     "con una buna configuracion del sistema operativo"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -7030,7 +7273,8 @@
                     "wi fi mistake hand",
                     "overall experience",
                     "review title"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7067,7 +7311,8 @@
                     "sure block",
                     "place lap dear asus",
                     "cd care pre"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7089,7 +7334,8 @@
                     "open resolution computer awful kind work surf web good",
                     "lot stuff screen",
                     "scroll web cam look terrible yahoo messenger"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -7122,7 +7368,8 @@
                     "ati upgrade",
                     "mobile driver",
                     "worth price"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7149,7 +7396,8 @@
                     "great notebook",
                     "sure worth money",
                     "good value"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7179,7 +7427,8 @@
                     "kid asus laptop christmas complaint battery life",
                     "short asus stand product product rock",
                     "solid rd year"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -7207,7 +7456,8 @@
                     "optical mouse concern",
                     "battery computer drain battery",
                     "mobile update run ok year bloatware"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7235,7 +7485,8 @@
                     "great speed load cs minute boot photoshop cs",
                     "fast duo core hp overall price laptop hand",
                     "great value"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7263,7 +7514,8 @@
                     "fast good use",
                     "unpleasant furthermore run steam",
                     "minute battery life pathetic week pup asus sale"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -7300,7 +7552,8 @@
                     "mb signal netgear wndr house problem",
                     "xp problem screen glossy bother plug hdmi plasma inch",
                     "ati tear pull trigger"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7346,7 +7599,8 @@
                     "heavy game application minute hm usb compatible sprint road wireless net speed laptop cpu bonifiede",
                     "pro stress",
                     "desktop shame"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7393,7 +7647,8 @@
                     "battery life warranty",
                     "great warranty",
                     "free year accidental damage protection"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7431,7 +7686,8 @@
                     "sensitive expose touchpad palm",
                     "mouse touchpad type",
                     "huge hand"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -7470,7 +7726,8 @@
                     "fast latoptop",
                     "excellent laptop",
                     "desktop replacement"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7517,7 +7774,8 @@
                     "original asus box picture spec laptop",
                     "select gift wrapping",
                     "valuable product"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7541,7 +7799,8 @@
                     "contrast phillip lg screen gateway",
                     "black level dare grant gateway screen asus adobe lightroom nikon",
                     "nx disappoint"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7579,7 +7838,8 @@
                     "size heat comfort",
                     "purchase run need",
                     "large hot dirty"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -7609,7 +7869,8 @@
                     "mac update driver",
                     "software os",
                     "long froze computer minimal software load startup"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -7650,7 +7911,8 @@
                     "hot need",
                     "con slow shiny surface comp",
                     "magnet pet hair"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7703,7 +7965,8 @@
                     "apple revamp macbook mbps",
                     "cheap hardware",
                     "window day"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7747,7 +8010,8 @@
                     "reliable brand",
                     "unreliable cheap part laptop asus netbook dollar paperweight",
                     "asus product"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7768,7 +8032,8 @@
                     "screen garbage",
                     "low resolution way",
                     "low screen"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7807,7 +8072,8 @@
                     "bad recovery procedure advice",
                     "new owner burn cd use",
                     "partition drive update experience asus tech service thing"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7865,7 +8131,8 @@
                     "amazing use headphone ofcourse",
                     "great computer geek picky",
                     "computer people"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -7903,7 +8170,8 @@
                     "internet tab",
                     "time double",
                     "webcam mp"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -7950,7 +8218,8 @@
                     "asus design",
                     "time desktop",
                     "big boy"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8004,7 +8273,8 @@
                     "pretty great loose star display issue",
                     "poor tech support",
                     "poor quality machine"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8047,7 +8317,8 @@
                     "additional warranty plan asus",
                     "free wish laptop",
                     "speaker laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8120,7 +8391,8 @@
                     "good unit",
                     "free information",
                     "worth cost davzway tsrw inc"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8187,7 +8459,8 @@
                     "ps laptop bit good spec wise laptop price range sub",
                     "breaker money",
                     "price desktop replacement laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8245,7 +8518,8 @@
                     "mouse bloatware",
                     "computer manufacturer day surprise asus software",
                     "need category"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -8353,7 +8627,8 @@
                     "great need",
                     "portable laptop",
                     "large desktop replacement lot"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8380,7 +8655,8 @@
                     "slow service",
                     "long repair time replacement",
                     "possible time hp toshiba"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -8402,7 +8678,8 @@
                     "con battery life",
                     "downfrom hrs min month need",
                     "ac adapter time overall design"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -8420,7 +8697,8 @@
                     "con junk software",
                     "format reinstall window begginin button mouse",
                     "cheap spdif"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -8443,7 +8721,8 @@
                     "blue tooth",
                     "wondrous combination good computer",
                     "great vendor"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8457,7 +8736,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "asus notebook"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -8483,7 +8763,8 @@
                     "sluggish activity",
                     "minute research",
                     "simple solution"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             }
         ]
     },
@@ -8614,7 +8895,8 @@
                     "compre esta laptop hace poco mas",
                     "mese cada vez gusta mas tiene todo los",
                     "que esperaba es muy rapida lo piense mas comprala te vas arrepentir"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -8626,7 +8908,8 @@
                 "review_status": "",
                 "review_body": "I bought the",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -8638,7 +8921,8 @@
                 "review_status": "",
                 "review_body": "Just what I wanted. Really like the computer.",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -8654,7 +8938,8 @@
                     "purchase month",
                     "window crash day need restore",
                     "day screen"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -8670,7 +8955,8 @@
                     "informative review",
                     "extensive research",
                     "select asus model"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -8688,7 +8974,8 @@
                     "jealeous laptop pay lot",
                     "wonderful plan",
                     "great beautiful color screen"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8710,7 +8997,8 @@
                     "keyboard responsive people trouble camera etc instruction",
                     "simple use intuitive",
                     "reccomend computer budget"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8733,7 +9021,8 @@
                     "business need",
                     "adequate complaint asus",
                     "drive partition system drive data drive"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -8905,7 +9194,8 @@
                 "review_topics": [
                     "shipping box",
                     "intact work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8920,7 +9210,8 @@
                 "review_topics": [
                     "blue ray check asus jq",
                     "asus jq"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -8940,7 +9231,8 @@
                     "hot favor good laptop cooler",
                     "long ventilation",
                     "pretty heavy high end usage"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -8963,7 +9255,8 @@
                     "informacion que tengo",
                     "puedo procesar ya pasaron hora",
                     "asu se comunica conmigo"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -8984,7 +9277,8 @@
                     "month laptop",
                     "own laptop year",
                     "strong albeit"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -9005,7 +9299,8 @@
                     "obvious asus product design",
                     "warranty period trust brand",
                     "toshiba sony laptop day"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -9035,7 +9330,8 @@
                     "entire machine",
                     "smoke manufacturer",
                     "ship replacement"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9051,7 +9347,8 @@
                     "review cpu stat laptop advertise ghz intel core qm processor core qm cpu model",
                     "clock speed ghz",
                     "intel site"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -9074,7 +9371,8 @@
                     "blue screen fix laptop good product",
                     "asus product",
                     "poor customer service gl"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -9090,7 +9388,8 @@
                     "review spec price computer day wireless card burn",
                     "blue screen error time signal hardware problem hope work",
                     "return refund"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9107,7 +9406,8 @@
                     "small spec",
                     "heavy look dosen blu ray combo",
                     "nice laptop intersete blu ray"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9127,7 +9427,8 @@
                     "specification dvd",
                     "documentation return lack bluray look",
                     "nice laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9143,7 +9444,8 @@
                     "amazon customer service rep patient helpful",
                     "new laptop week lead purchase asus jq asus laptop",
                     "great way blu ray drive advertise manufacturer issue amazon helpful"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9166,7 +9468,8 @@
                     "key number",
                     "google chrome",
                     "product hope helpful"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9191,7 +9494,8 @@
                     "bright screen",
                     "smooth key board",
                     "hapy purchase"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9217,7 +9521,8 @@
                     "negative review zero key number",
                     "couple occasion",
                     "computer price point hesitation"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9236,7 +9541,8 @@
                     "accurate laptop dimension",
                     "specification weight laptop incorrect",
                     "actual wt lbs"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -9267,7 +9573,8 @@
                     "thing notice way",
                     "thing download",
                     "drive annoy os"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9291,7 +9598,8 @@
                     "complete optional update",
                     "trouble dual boot",
                     "microsoft update finish partition"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -9325,7 +9633,8 @@
                     "ddr ram",
                     "nice little bonus",
                     "laptop doubt regret"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9343,7 +9652,8 @@
                     "ghz hour phone amazon",
                     "advertise laptop day",
                     "email state oh"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9368,7 +9678,8 @@
                     "new unstolen warranty research tom hardware newegg amazon laptop review",
                     "asus processor",
                     "worth extra money egg people order"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -9394,7 +9705,8 @@
                     "stupid world country costumer",
                     "post lot video",
                     "bad asus advice"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -9417,7 +9729,8 @@
                     "different flavor windows",
                     "need bit",
                     "able peg fps ultra"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9442,7 +9755,8 @@
                     "instruction asus",
                     "site work brand",
                     "entire laptop"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -9493,7 +9807,8 @@
                     "disappointing asus laptop",
                     "brand look",
                     "hard port"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -9624,7 +9939,8 @@
                     "great piece machinery",
                     "purpose pricey laptop bit power hood",
                     "plenty run game"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9660,7 +9976,8 @@
                     "notebook look quality pc part terrible quality",
                     "customer service",
                     "terrible comparison company"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -9716,7 +10033,8 @@
                     "big pro speed",
                     "fast touchpad keyboard",
                     "big con battery life"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9732,7 +10050,8 @@
                     "order year",
                     "grandson gamer christmas work",
                     "great perfect need computer play game"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9749,7 +10068,8 @@
                     "past purchase amazon",
                     "hard drive",
                     "battery upgrade windows sucker truckin"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -9765,7 +10085,8 @@
                     "good computer",
                     "perfect need need",
                     "open clean dust"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -9862,7 +10183,8 @@
                     "hard drive",
                     "son software engineer",
                     "yeah mom asus ship expense email cost fix"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9878,7 +10200,8 @@
                     "series thing",
                     "windows starter edition microsoft office trial choice wipe install ubuntu netbook remix",
                     "available correspond website"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9896,7 +10219,8 @@
                     "music download file asus knack crash",
                     "edit photo picasa run background machine persist need restart virus",
                     "box ugh"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -9916,7 +10240,8 @@
                     "new pe ee pc external hd dvd writer computer",
                     "purchase look",
                     "great netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9961,7 +10286,8 @@
                     "negative review ignorance ex description",
                     "recovery dvd",
                     "box homework people google friend"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9975,7 +10301,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "netbook week"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -9987,7 +10314,8 @@
                 "review_status": "",
                 "review_body": "I just got my netbook in the mail today and it is even better than I expected. So far I am absolutely thrilled.",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -9999,7 +10327,8 @@
                 "review_status": "",
                 "review_body": "Definitely met expectations.",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -10015,7 +10344,8 @@
                     "ideal parental control",
                     "work bill medium software",
                     "optical drive"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10032,7 +10362,8 @@
                     "basis months",
                     "long battery life work browse email etc good product road",
                     "blog download photo browse"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10050,7 +10381,8 @@
                     "great computer",
                     "great battery life",
                     "con mediocrity window starter"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10065,7 +10397,8 @@
                 "review_topics": [
                     "toshiba ebay",
                     "great performance speed battery life size weight etc"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10077,7 +10410,8 @@
                 "review_status": "",
                 "review_body": "Bought as a gift . Haven't heard any complaints.",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10096,7 +10430,8 @@
                     "drive hold ton music photo reststop fastfood restarant wifi gmail check weather",
                     "ebook etc",
                     "superior automobile gps"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10117,7 +10452,8 @@
                     "choppy dvdrip look",
                     "fine small screen",
                     "great price quality sturdy problem keyboard"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10136,7 +10472,8 @@
                     "small linux windows drive deactivate disk windows",
                     "partition instal linux possibility use computer linux",
                     "small fast boot linux windows"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10156,7 +10493,8 @@
                     "additional gig memory run",
                     "year travel world",
                     "good shape"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10174,7 +10512,8 @@
                     "people complain netbook",
                     "def movie netbook work",
                     "document surf web"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10189,7 +10528,8 @@
                 "review_topics": [
                     "great usual transcend gb class sdhc flash memory card ts gsdhc work readyboost upgrade gb ram lot crapware",
                     "download asus system tools desktop background matte finish smart idea"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10210,7 +10550,8 @@
                     "absent cd drive inconsequential click",
                     "big size notebook",
                     "great value money"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10231,7 +10572,8 @@
                     "netbook external monitor part program need work external monitor keyboard",
                     "great small size screen",
                     "fine check email facebook web site"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10251,7 +10593,8 @@
                     "asus optical mouse use home complaint speaker",
                     "sub par hey netbook",
                     "pair hp usb power speaker use asus"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10277,7 +10620,8 @@
                     "difficult use",
                     "close size good",
                     "large heavy laptop travel"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10302,7 +10646,8 @@
                     "durable easy wipe",
                     "clean con keyboard area",
                     "shiny prone fingerprint touchpad"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10319,7 +10664,8 @@
                     "own netbook",
                     "old hp laptop year",
                     "old hp laptop overse trip purchase"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -10339,7 +10685,8 @@
                     "slow computer bit",
                     "need beef netbook",
                     "advice reviewer turtle james"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -10361,7 +10708,8 @@
                     "red button ibm touch",
                     "usb mouse bit lack",
                     "wifi hook thumb"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10379,7 +10727,8 @@
                     "quick celeron addition",
                     "bright easy optimum resolution",
                     "windows starter increase performance"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10394,7 +10743,8 @@
                 "review_topics": [
                     "computer awesome guy",
                     "big hand"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10416,7 +10766,8 @@
                     "particular package",
                     "true accord",
                     "box amazon list recovery dvd support cd thing"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -10439,7 +10790,8 @@
                     "physical keyboard ipad issue",
                     "ipad awesome internet",
                     "fun effortless"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10454,7 +10806,8 @@
                 "review_topics": [
                     "purchase wife computer",
                     "battery life test hrs"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10470,7 +10823,8 @@
                     "netbook purpose mind",
                     "meetup conference code camp lug notebook",
                     "notebook desktop"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -10500,7 +10854,8 @@
                     "warm hot normal order pe mu time friend battery function",
                     "life hour suggestion ps battery life",
                     "great little netbook star"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10536,7 +10891,8 @@
                     "perfect day shipping",
                     "pe pu bk fingerprint magnet surface",
                     "usual line price fabulous bargain"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10562,7 +10918,8 @@
                     "memory purpose school surf net",
                     "video online",
                     "job work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10586,7 +10943,8 @@
                     "customer service",
                     "problem end manufacturer bluetooth device pc company cell phone company mouse company etc",
                     "disappoint touchpad work"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -10615,7 +10973,8 @@
                     "cursor way",
                     "place intent inputte text sentence place",
                     "place page"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -10649,7 +11008,8 @@
                     "road ram",
                     "thing time",
                     "price range"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10681,7 +11041,8 @@
                     "multiple source online state partition day",
                     "note matte",
                     "nice screen frame area keyboard finger print magnet"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10709,7 +11070,8 @@
                     "fellow phone",
                     "purchase asus",
                     "netbook amazon"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10726,7 +11088,8 @@
                     "daughter borrow",
                     "pe pu bk",
                     "initial set"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10747,7 +11110,8 @@
                     "military level",
                     "format drive",
                     "clean install software"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -10811,7 +11175,8 @@
                     "obvious asus",
                     "slight valuable improvement netbook result",
                     "fine product windows starter spoil star"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10866,7 +11231,8 @@
                     "slow unresponsive instant boot",
                     "usb modem overall",
                     "box disappoint"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -10880,7 +11246,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "exact netbook"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             }
         ]
     },
@@ -11000,7 +11367,8 @@
                     "long story",
                     "business gb ati graphic card superb performance notebook",
                     "easy wi fi"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11016,7 +11384,8 @@
                     "fast excellent graphic keyboard type",
                     "function microsoft",
                     "old version"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11033,7 +11402,8 @@
                     "able work partition",
                     "windows xp work program gear function windows",
                     "upgrade windows"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11059,7 +11429,8 @@
                     "fast computer",
                     "previous computer download",
                     "blink eye"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11089,7 +11460,8 @@
                     "video memory gb ram gb drive",
                     "old toshiba satellite college laptop",
                     "way past year hope"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11114,7 +11486,8 @@
                     "mind shut",
                     "everyday thing",
                     "amazon ups"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11146,7 +11519,8 @@
                     "hour battery time performance mode",
                     "rid trend av package norton work overall",
                     "happy purchase"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -11205,7 +11579,8 @@
                     "pro system",
                     "disc burn",
                     "bad environment guess asus"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             }
         ]
     },
@@ -11303,7 +11678,8 @@
                     "fantastic keyboard noisy flimsy type",
                     "video accelerator screen resolution netbook",
                     "reasonable price"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11318,7 +11694,8 @@
                 "review_topics": [
                     "nonfunctional decoder",
                     "device manager driver instll card rat lot web site work"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -11345,7 +11722,8 @@
                     "light tiny pixel advice",
                     "upgrade gb ram difference overall lil guy",
                     "fit bill internet"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -11361,7 +11739,8 @@
                     "pc advertise ability play hd video",
                     "hd video decoder embarrass asus",
                     "don deceive"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -11376,7 +11755,8 @@
                 "review_topics": [
                     "problem broadcom crystal hd chip unit",
                     "chip order"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -11393,7 +11773,8 @@
                     "bad batch broadcom hd card",
                     "install card",
                     "system purchase system rev release"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -11410,7 +11791,8 @@
                     "broadcom hd card ship amazon",
                     "kind merchandise",
                     "responsible amazon assus way return"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11428,7 +11810,8 @@
                     "simple grade os memory",
                     "fine run",
                     "run hd video presentation time time"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11444,7 +11827,8 @@
                     "ship broadcom crystal hd accelerator amazon online retailer",
                     "purchase machine",
                     "sort update review thing"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11468,7 +11852,8 @@
                     "trouble trouble",
                     "amazing customer service",
                     "great product"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11492,7 +11877,8 @@
                     "bad thing",
                     "cuz computer tech business",
                     "hurt netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11508,7 +11894,8 @@
                     "huge laptop",
                     "small arthritic hand boyfriend",
                     "fiend instal linux"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -11530,7 +11917,8 @@
                     "asus return pc apple mac family refuse",
                     "apple ipad computer job research",
                     "computer equipment order asus eee pc pu sl work hope disappoint cross finger"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11551,7 +11939,8 @@
                     "clear screen",
                     "spacious keyboard minus fact work",
                     "happy afterward"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11580,7 +11969,8 @@
                     "movie purchase kingston gb mhz ddr cl memory week",
                     "upgrade memory",
                     "baby fly"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11596,7 +11986,8 @@
                     "hd playback work thing matter",
                     "garbage gb ram upgrade broadcom crystalhd chip",
                     "different player"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -11628,7 +12019,8 @@
                     "rma good",
                     "asus phone support",
                     "customer loyalty knee"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11649,7 +12041,8 @@
                     "button rattle noise type",
                     "class window starter suck",
                     "wallpaper gb ram"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -11669,7 +12062,8 @@
                     "usb port",
                     "portable hard drive time work figure",
                     "great product"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11693,7 +12087,8 @@
                     "pretty good image search bit problem track",
                     "purchase outdate asus",
                     "design star budget"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11731,7 +12126,8 @@
                     "linux desktop silky",
                     "smooth software issue starter",
                     "happy purchase overall"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11753,7 +12149,8 @@
                     "return amazon",
                     "refund exchange unit",
                     "ready prime time oversight"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -11779,7 +12176,8 @@
                     "ability play hd video problem fix",
                     "excellent netbook",
                     "update thing work rerate pr"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11808,7 +12206,8 @@
                     "non chicklet style keyboard",
                     "solid trackpad",
                     "palm rest textual differnce"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11844,7 +12243,8 @@
                     "lot motherboard time trust play square",
                     "asus pr hope seeya asus arcsoft wan na",
                     "ya bunch crooks fun screw customer untill smart"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11866,7 +12266,8 @@
                     "screen fabulous sharpness look good image lack contrast",
                     "true black lack depth sort purplishness matter",
                     "old trusty asus screen"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -11893,7 +12294,8 @@
                     "long crash complaint",
                     "actual structure computer asus",
                     "premier line netbook aluminum"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11909,7 +12311,8 @@
                     "everyday sure update",
                     "new flash update driver broadcom crystal play youtube hd sweat battery time advertise upgrade kingston ssd thing fly",
                     "netbook magical ipad"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11956,7 +12359,8 @@
                     "reasonable value money beware",
                     "sound limitation",
                     "extra cost upgrade"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -11972,7 +12376,8 @@
                     "saturday amazon town",
                     "open night pre order broadcom card show device manager",
                     "update flash"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -12095,7 +12500,8 @@
                     "slow run stuff laptop",
                     "core duo processor stuff",
                     "decent netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -12208,7 +12614,8 @@
                     "good thing asus",
                     "fast great screen",
                     "dark brown look"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12228,7 +12635,8 @@
                     "sound speaker",
                     "iphone ipod volume",
                     "low sound horrible"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -12269,7 +12677,8 @@
                     "category need pay premium",
                     "super small light",
                     "great machine"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12283,7 +12692,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "price range"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -12299,7 +12709,8 @@
                     "great laptop",
                     "sz sony",
                     "fast rge price thumb"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12320,7 +12731,8 @@
                     "clear load program use hand",
                     "processing speed good complaint",
                     "window keystroke catch"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12339,7 +12751,8 @@
                     "laptop audio volume",
                     "logitech speaker lapdesk good idea laptop brand model",
                     "spec graphic gorgeous"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -12379,7 +12792,8 @@
                 "review_topics": [
                     "asus ul vt asus ul vt spec difference kindle pc program",
                     "free download"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12409,7 +12823,8 @@
                     "long use home use external display",
                     "eye strain overall laptop",
                     "amazing term performance external"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12430,7 +12845,8 @@
                     "laptop time",
                     "asus repair center indiana week",
                     "buyer beware"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -12462,7 +12878,8 @@
                     "basic application need performance look",
                     "dell alienware",
                     "great performance wise"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12491,7 +12908,8 @@
                     "possible medium unit hd click",
                     "hd rate load cycle",
                     "yr use"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12516,7 +12934,8 @@
                     "big gripe year window",
                     "inevitable bogge time reinstallation asus",
                     "copy window reinstall pay recovery dvd"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -12584,7 +13003,8 @@
                     "short lifetime system",
                     "great purchase",
                     "need time"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12599,7 +13019,8 @@
                 "review_topics": [
                     "expensive great quality design good",
                     "money good choice"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12615,7 +13036,8 @@
                     "computer cd dvd",
                     "strong battery",
                     "year usage notebook cost"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -12629,7 +13051,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "good computer company world product good computer year problem"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12644,7 +13067,8 @@
                 "review_topics": [
                     "battery life",
                     "cool easy innovative mousepad good graphic laptop month"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12659,7 +13083,8 @@
                 "review_topics": [
                     "great touchpad",
                     "jumpy smooth scroll"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12675,7 +13100,8 @@
                     "bad notebook sleek sexy",
                     "worrisome type lot asus",
                     "bad keyboard keystroke"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12696,7 +13122,8 @@
                     "bluetooth wireless",
                     "pc use",
                     "system work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12719,7 +13146,8 @@
                     "drive reinstall window",
                     "sticker laptop window instal",
                     "laptop problem authentication run"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12737,7 +13165,8 @@
                     "laptop look",
                     "separate drive end day",
                     "practical space reason purchase version dvd cd"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12758,7 +13187,8 @@
                     "nice shiny black case fingerprint magnet",
                     "great laptop touchpad",
                     "toshiba laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12781,7 +13211,8 @@
                     "external optical drive registration",
                     "problem laptop crash need reload window os",
                     "laptop day review"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -12803,7 +13234,8 @@
                     "minor annoyance touchpad",
                     "way type screen",
                     "unusable sunlight flicker intel vga"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -12815,7 +13247,8 @@
                 "review_status": "",
                 "review_body": "This review is for the",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -12832,7 +13265,8 @@
                     "bad mousepad activate touch",
                     "small issue type letter",
                     "frustrating wish return laptop"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -12856,7 +13290,8 @@
                     "chicklet keyboard home end key",
                     "similar line lead monitor",
                     "clear nice hdmi port output monitor"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -12873,7 +13308,8 @@
                     "price good",
                     "line sony vaio",
                     "mere year"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -12891,7 +13327,8 @@
                     "quality ok day laptop computer",
                     "restart abnormal shutdown screen",
                     "boot windows"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -12917,7 +13354,8 @@
                     "replacement hassle keyboard",
                     "loud type",
                     "key type"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -13133,7 +13571,8 @@
                     "slow time heat",
                     "fast battery",
                     "loose lock windows starter blow"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13170,7 +13609,8 @@
                     "long good lot smart phone",
                     "guy use way",
                     "kind computer person"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13185,7 +13625,8 @@
                 "review_topics": [
                     "version window install linux",
                     "kubuntu netbook edition"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -13197,7 +13638,8 @@
                 "review_status": "",
                 "review_body": "little monitor",
                 "review_helpfulness": "",
-                "review_topics": []
+                "review_topics": [],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -13214,7 +13656,8 @@
                     "pc use house",
                     "office time",
                     "great little netbook problem"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13230,7 +13673,8 @@
                     "slow computer",
                     "load internet page online month screen",
                     "wat waste"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -13247,7 +13691,8 @@
                     "check email skype surf internet",
                     "movie file work",
                     "performance upgrade ram gb"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13263,7 +13708,8 @@
                     "good purchase",
                     "excellent service amazon need",
                     "additional gb need"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13282,7 +13728,8 @@
                     "sound overall experience good thing",
                     "good care asus",
                     "outer screen"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13299,7 +13746,8 @@
                     "small heavy problem cab driver tokyo slam trunk lid case",
                     "netbook damage screen",
                     "online order"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -13313,7 +13761,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "good notebook"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -13337,7 +13786,8 @@
                     "great issue encounter",
                     "internet time minute",
                     "tough little netbook school type purpose"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13356,7 +13806,8 @@
                     "slow computer sleek",
                     "light comfortable keyboard",
                     "price pay"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13376,7 +13827,8 @@
                     "slow dissapointe video",
                     "lapotp good",
                     "portable robust netbook work good"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13396,7 +13848,8 @@
                     "poor picture quality high resolution fiddle picture need plug monitor altogether",
                     "buck wonder",
                     "black dear"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13415,7 +13868,8 @@
                     "minute avail",
                     "attempt rectify situation computer buying local dealer amazon",
                     "aware amazon care thing"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -13454,7 +13908,8 @@
                     "price netbook",
                     "worth money",
                     "glad investment"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13490,7 +13945,8 @@
                     "support windows",
                     "main choice netbook xp",
                     "windows starter netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13573,7 +14029,8 @@
                     "sure computer",
                     "memory note kingston memory chip issue user",
                     "note brand experience hiccup gb difference"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13638,7 +14095,8 @@
                     "life battery bunch configure power setting access power time",
                     "computer year",
                     "long trip latin america"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -13779,7 +14237,8 @@
                     "type brush touchpad fix problem instal touchpad driver tweak setting overall",
                     "product need",
                     "lightweight laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13794,7 +14253,8 @@
                 "review_topics": [
                     "jc model",
                     "blue tooth rpm drive"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -13816,7 +14276,8 @@
                     "dvd multidrive",
                     "plenty usb port",
                     "actual use keyboard"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13832,7 +14293,8 @@
                     "great battery life",
                     "beaside generate",
                     "low heat experience notebook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13847,7 +14309,8 @@
                 "review_topics": [
                     "compact laptop run day single charge optical drive",
                     "purpose machine school game internet cart"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -13861,7 +14324,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "notebook couple year"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -13883,7 +14347,8 @@
                     "microsoft office",
                     "load product code battery life",
                     "amazing hour"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13901,7 +14366,8 @@
                     "movie netflix play poker course",
                     "big monitor movie laptop inexpensive asus",
                     "famous manufacture quality motherboard sense"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -13937,7 +14403,8 @@
                     "impossible clean dust computer void warranty verdict overall",
                     "product star laptop dell inspiron problem",
                     "access fan duct"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -13965,7 +14432,8 @@
                     "driver fix speaker",
                     "headphone overall",
                     "great product"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -14052,7 +14520,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "strong issue speaker flush section power button"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -14155,7 +14624,8 @@
                     "hard drive partition",
                     "physical hard drive total",
                     "logical partition"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14178,7 +14648,8 @@
                     "hard drive instal",
                     "ultimate run good",
                     "laptop year"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -14194,7 +14665,8 @@
                     "great spec awesome laptop laptop overheat shut time google search",
                     "laptop heat time shut",
                     "good luck"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14239,7 +14711,8 @@
                     "manythings vt tdt uefi boot pxe rom",
                     "normal people",
                     "information asus web site asus update tool look work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14256,7 +14729,8 @@
                     "reproducible order laptop bore building fix",
                     "result week computer",
                     "review time"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14295,7 +14769,8 @@
                     "video card rma",
                     "laptop list laptop sale",
                     "unacceptable failure"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -14396,7 +14871,8 @@
                     "aware product",
                     "contact asus work subtract star hassle",
                     "bug work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14416,7 +14892,8 @@
                     "right sim card computer",
                     "contact amazon",
                     "cs chance competent"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -14620,7 +15097,8 @@
                     "serial number label attach",
                     "tech support agent",
                     "asus product"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -14648,7 +15126,8 @@
                     "good world reliability component",
                     "sharp look",
                     "asus ij base experience"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14665,7 +15144,8 @@
                     "free year warranty",
                     "cost shoot",
                     "bee knee keyboard"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14686,7 +15166,8 @@
                     "bad computer keyboard laptop month key fall key",
                     "customer service good fix fall key computer",
                     "bad great price"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14751,7 +15232,8 @@
                     "responsive keyboard",
                     "blind type ibm error lack",
                     "volume key problem fact"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14774,7 +15256,8 @@
                     "small keyboard key",
                     "keyboard flimsy",
                     "entire area keyboard key mush"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -14790,7 +15273,8 @@
                     "excellent price",
                     "maker component quality product",
                     "purchase laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14804,7 +15288,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "entertainment laptop"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -14820,7 +15305,8 @@
                     "excellent machine speaker",
                     "underneath muffle",
                     "soft surface"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14835,7 +15321,8 @@
                 "review_topics": [
                     "price month use",
                     "happy purchase"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14854,7 +15341,8 @@
                     "excellent addition numberic",
                     "wireless network work",
                     "good choice"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14872,7 +15360,8 @@
                     "reliable brand invest asus",
                     "headache amazon hand",
                     "impeccable customer service"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14892,7 +15381,8 @@
                     "report screen fragility",
                     "old toshiba",
                     "year use"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -14907,7 +15397,8 @@
                 "review_topics": [
                     "good laptop",
                     "moment trouble asus customer life laptop"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14921,7 +15412,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "hesitant purchase laptop daughter college review albeit good deeman amazon"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -14941,7 +15433,8 @@
                     "nescesary overall star",
                     "style speed",
                     "impeccable fuctionality"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -14959,7 +15452,8 @@
                     "big screen inch",
                     "old style connector video audio output",
                     "attempt work forewarn"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -14980,7 +15474,8 @@
                     "hope problem overall",
                     "computer problem model",
                     "different model asus"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15002,7 +15497,8 @@
                     "big hand",
                     "ve cross finger",
                     "laptop use browse internet multi task extent"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15034,7 +15530,8 @@
                     "sure user",
                     "able type key",
                     "personal feeling judgement"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -15166,7 +15663,8 @@
                     "moderate use meet need",
                     "dual core hd display video driver onboard",
                     "loss battery life"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15183,7 +15681,8 @@
                     "work machine netbook package sip power lightne",
                     "portable machine bell whistle",
                     "big notebook quarter"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             },
             {
                 "reviews": "",
@@ -15204,7 +15703,8 @@
                     "volt uk volt ac power",
                     "appropriate wall socket adapter course",
                     "design frill"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -15229,7 +15729,8 @@
                     "fast shut",
                     "fast wireless work",
                     "netbook star"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15256,7 +15757,8 @@
                     "netbook upgrade ram",
                     "windows guy",
                     "fingerprint netbook"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15273,7 +15775,8 @@
                     "professional bluetooth gigabit lan attest touchpad button",
                     "alot desire becasue firm click pressure",
                     "performance fair"
-                ]
+                ],
+                "sentiment": "Neutrally Positive"
             }
         ]
     },
@@ -15366,7 +15869,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "asus computer day"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15387,7 +15891,8 @@
                     "laptop desktop computer",
                     "personal entertainment center",
                     "work computer home"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -15469,7 +15974,8 @@
                     "core run cooler",
                     "different speed wonder",
                     "defective machine"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             }
         ]
     },
@@ -15527,7 +16033,8 @@
                 "review_topics": [
                     "review disagree lot use work presentation",
                     "datum drive run space notice"
-                ]
+                ],
+                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -15548,7 +16055,8 @@
                     "good laptop tech support helpful",
                     "spill drop fire accidental damage warranty",
                     "large desktop replacement laptop difficulty"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -15644,7 +16152,8 @@
                     "bright clear keyboard slighty kilter",
                     "hard use cursor",
                     "keyboard mouse"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15666,7 +16175,8 @@
                     "expandable gb",
                     "premium high end elpida ram wonder keyboard good premium keyboard",
                     "good type"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -15742,7 +16252,8 @@
                     "durable brush aluminum",
                     "keyboard touchpad area",
                     "nice sleak thick"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     },
@@ -15856,7 +16367,8 @@
                     "ugly fact look fabulous",
                     "fast gpu",
                     "quality price good student"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15875,7 +16387,8 @@
                     "final project",
                     "week play starcraft hour",
                     "laptop suboptimal space airflow computer work"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15894,7 +16407,8 @@
                     "state contact piece advice",
                     "able rid bsod",
                     "laptop purchase approx month"
-                ]
+                ],
+                "sentiment": "Strictly Negative"
             },
             {
                 "reviews": "",
@@ -15912,7 +16426,8 @@
                     "hand kid",
                     "replacement suit need",
                     "main usage internet ms office power usage job need"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -15939,7 +16454,8 @@
                     "new battery tweak",
                     "bad opinion",
                     "great value"
-                ]
+                ],
+                "sentiment": "Strictly Positive"
             }
         ]
     }

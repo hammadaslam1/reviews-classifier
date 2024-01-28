@@ -64,7 +64,7 @@ const ItemDetails = ({ props }) => {
         const len = data["reviews"].length;
         for (let i = 0; i < data["reviews"].length; i++) {
           // setReviewTopics([...data["reviews"][i]["review_topics"]]);
-          reviewTopics.push(data["reviews"][i]["review_topics"])
+          reviewTopics.push(data["reviews"][i]["review_topics"]);
           console.log(data["reviews"][i]["review_topics"]);
         }
       })
@@ -215,8 +215,11 @@ const ItemDetails = ({ props }) => {
                   </div>
                 </AccordionSummary>
                 <AccordionDetails>{data.review_body}</AccordionDetails>
+                <AccordionDetails sx={{marginX: 5, padding: '0'}}>
+                  <Typography variant="caption" sx={{fontWeight: 'bold'}}>Topics discussed in the review.</Typography>
+                </AccordionDetails>
                 <AccordionDetails>
-                  <div style={{ display: "flex", flexWrap: "wrap" }}>
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
                     {reviewTopics[i].map((item, j) => (
                       <Chip label={item} size="large" key={j} />
                     ))}
@@ -253,11 +256,16 @@ const ItemDetails = ({ props }) => {
                         />
                       </div>
                     </Tooltip>
-                    <Typography>{data.review_helpfulness}</Typography>
+                    <Typography>
+                      {data.review_helpfulness.includes(
+                        "people found this helpful"
+                      )
+                        ? data.review_helpfulness
+                        : "no one found this helpful"}
+                    </Typography>
                   </div>
                   <div>
-                    <Button sx={{ color: "#6a6a6a" }}>Cancel</Button>
-                    <Button sx={{ color: "#6a6a6a" }}>Agree</Button>
+                    <Typography variant="h4">{data.sentiment}</Typography>
                   </div>
                 </AccordionActions>
               </Accordion>
