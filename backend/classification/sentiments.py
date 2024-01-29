@@ -33,7 +33,7 @@ def load_data(file):
 
 # data_array = []
 data = load_data(
-    'C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/combined_data.json')
+    'C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/tools_and_home_improvement/home_imrovement.json')
 # print(data)
 
 # data_array.append(data)
@@ -63,15 +63,15 @@ def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
         sentiment = ''
         sid = SentimentIntensityAnalyzer()
         scores = sid.polarity_scores(new_record)
-        if scores["compound"]> 0.5:
+        if scores["compound"] > 0.5:
             sentiment = 'Strictly Positive'
-        elif scores["compound"]>0:
+        elif scores["compound"] > 0:
             sentiment = 'Neutrally Positive'
-        elif scores["compound"]>-0.5:
+        elif scores["compound"] > -0.5:
             sentiment = 'Neutrally Negative'
-        elif scores["compound"]>=-1:
+        elif scores["compound"] >= -1:
             sentiment = 'Strictly Negative'
-            
+
         # print(sentiment)
         text["sentiment"] = sentiment
         newText = []
@@ -101,7 +101,7 @@ for item in data:
 
 
 # with open('./backend/datasets/combined_data.json', 'w') as f:
-with open('./backend/datasets/aaaa.json', 'w') as f:
+with open('./backend/datasets/categories/tools_and_home_improvement/home_imrovement.json', 'w') as f:
     json.dump(data, f, indent=4)
 
 # print(lemma_array)

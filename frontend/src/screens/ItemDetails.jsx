@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable array-callback-return */
 /* eslint-disable no-useless-escape */
 /* eslint-disable react-hooks/exhaustive-deps */
@@ -20,6 +21,7 @@ import {
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import IMG_PLACE from "../assets/placeholder/product_placeholder_img.jpg";
 
 const ItemDetails = ({ props }) => {
   const [file, setFile] = useState([]);
@@ -51,7 +53,7 @@ const ItemDetails = ({ props }) => {
     fetch(`http://127.0.0.1:8080/sentiments/${index}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data["reviews"][0]["review_topics"]);
+        // console.log(data["reviews"][0]["review_topics"]);
         setFile(data);
         setProductImage(data["product_images_src"][0]);
         setProductLink(data["all_products_href"][0]);
@@ -95,8 +97,12 @@ const ItemDetails = ({ props }) => {
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <div>
             <img
-              src={file.product_images_src}
-              alt={file.product_title}
+              src={
+                file.product_images_src !== ""
+                  ? file.product_images_src
+                  : IMG_PLACE
+              }
+              // alt={file.product_title}
               loading="lazy"
               // height={"300px"}
               style={{ maxWidth: "300px" }}
@@ -161,7 +167,7 @@ const ItemDetails = ({ props }) => {
           <Typography variant="h4" color={"#000"}>
             Reviews
           </Typography>
-          <Typography variant="h5">{productRate[0]} reviews</Typography>
+          <Typography variant="h5">{productRate}</Typography>
         </div>
         <div>
           <Card elevation={0} sx={{ borderRadius: 3 }}>
@@ -215,8 +221,10 @@ const ItemDetails = ({ props }) => {
                   </div>
                 </AccordionSummary>
                 <AccordionDetails>{data.review_body}</AccordionDetails>
-                <AccordionDetails sx={{marginX: 5, padding: '0'}}>
-                  <Typography variant="caption" sx={{fontWeight: 'bold'}}>Topics discussed in the review.</Typography>
+                <AccordionDetails sx={{ marginX: 5, padding: "0" }}>
+                  <Typography variant="caption" sx={{ fontWeight: "bold" }}>
+                    Topics discussed in the review.
+                  </Typography>
                 </AccordionDetails>
                 <AccordionDetails>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>

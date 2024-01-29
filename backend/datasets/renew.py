@@ -39,6 +39,7 @@ def transform_review(review_data):
 def combine_records(original_data):
     transformed_data = []
     for product in original_data:
+        # print(product)
         transformed_product = {
             "product_title": refine_text(product["product_title"]),
             "all_products_href": product["all_products_href"],
@@ -54,11 +55,11 @@ def combine_records(original_data):
     return transformed_data
 
 
-with open('./backend/datasets/combined_data.json', 'r') as f:
+with open('./backend/datasets/categories/tools_and_home_improvement/kitchen_bath_fixtures.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # combine records
 combined_data = combine_records(data)
 
-with open('./backend/datasets/renew.json', 'w') as f:
+with open('./backend/datasets/categories/tools_and_home_improvement/kitchen_bath_fixtures.json', 'w', encoding='utf-8') as f:
     json.dump(combined_data, f, indent=4)

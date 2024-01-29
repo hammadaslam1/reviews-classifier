@@ -127,6 +127,6 @@ lda_model = gensim.models.ldamodel.LdaModel(
 
 # print(lda_model)
 
-# pyLDAvis.enable_notebook()
-# vis = pyLDAvis.gensim.prepare(lda_model, corpus, id2word, mds="mmds", R=30)
-# vis
+pyLDAvis.enable_notebook()
+vis = pyLDAvis.gensim.prepare(lda_model, corpus, id2word, mds="mmds", R=30)
+vis

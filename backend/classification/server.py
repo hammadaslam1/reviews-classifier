@@ -12,7 +12,7 @@ CORS(app)
 
 @app.route("/", methods=['GET'])
 def all_products():
-    with open('./backend/datasets/combined_data.json', 'r', encoding='utf-8') as f:
+    with open('./backend/datasets/categories/tools_and_home_improvement/home_imrovement.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     # return jsonify(data)
     return data
@@ -20,7 +20,7 @@ def all_products():
 
 @app.route("/sentiments/<int:index>", methods=['GET'])
 def product(index):
-    with open('./backend/datasets/aaaa.json', 'r', encoding='utf-8') as f:
+    with open('./backend/datasets/categories/tools_and_home_improvement/home_imrovement.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     product = data[index]
     return product
