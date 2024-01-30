@@ -40,6 +40,7 @@ const ItemDetails = ({ props }) => {
 
   const location = useLocation();
   const index = location.state - 1;
+  const path = location.path;
 
   const stringAvatar = () => {
     return {
@@ -50,7 +51,7 @@ const ItemDetails = ({ props }) => {
   };
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:8080/sentiments/${index}`)
+    fetch(`http://127.0.0.1:8080/sentiments/${path}/${index}`)
       .then((response) => response.json())
       .then((data) => {
         // console.log(data["reviews"][0]["review_topics"]);

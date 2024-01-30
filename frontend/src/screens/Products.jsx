@@ -20,20 +20,24 @@ import SearchInput from "../components/inputs/SearchInput";
 import { FiSearch } from "react-icons/fi";
 import SentimentButton from "../components/buttons/SentimentButton";
 import { ITEM_DETAILS } from "../routes/Routes";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import PLACE_IMAGE from "../assets/placeholder/product_placeholder_img.jpg";
 // import { useHistory } from 'react-router-dom'
 
-const Home = () => {
+const Products = () => {
   const [file, setFile] = useState([]);
   const [dollar, setDollar] = useState(0);
   const [searchedItem, setSearchedItem] = useState("");
   const [sentiment, setSentiment] = useState("all");
   const [error, setError] = useState("");
+  const [count, setCount] = useState(1);
   const navigate = useNavigate();
+  const location = useLocation();
+  const path = location.state;
+  const category = location.cat;
   // const history = useHistory();
   useEffect(() => {
-    fetch("http://127.0.0.1:8080/")
+    fetch(`http://127.0.0.1:8080/products/${path}`)
       .then((response) => response.json())
       .then((data) => {
         // console.log("found");
@@ -60,10 +64,12 @@ const Home = () => {
           setError("Server not found");
         }
       });
-  }, []);
+  }, [count]);
 
-  const handleItem = (index) => {
-    navigate(ITEM_DETAILS, { state: index });
+  const handleItem = (index, path) => {
+    console.log(path);
+    navigate(ITEM_DETAILS, { state: index, path: path });
+    setCount(1);
   };
   // const [data, setData] = useState([]);
   // let [count, setCount] = useState(0);
@@ -173,6 +179,7 @@ const Home = () => {
                 sx={{
                   backgroundColor: "#fff",
                   width: 350,
+
                   margin: 2,
                   borderRadius: 3,
                 }}
@@ -182,7 +189,7 @@ const Home = () => {
                   // href={`${ITEM_DETAILS}?id=${i}`}
                   // href={ITEM_DETAILS}
                   onClick={() => {
-                    handleItem(i + 1);
+                    handleItem(i + 1, path);
                   }}
                   target="_blank"
                 >
@@ -281,4 +288,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Products;

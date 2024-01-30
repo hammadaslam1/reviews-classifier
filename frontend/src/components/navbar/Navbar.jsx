@@ -33,10 +33,14 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
+import { PRODUCTS } from "../../routes/Routes";
+import { useNavigate } from "react-router-dom";
+import DevicesIcon from "@mui/icons-material/Devices";
+import { Gite, Kitchen } from "@mui/icons-material";
 // import { Alert } from "@mui/joy";
 // import LoginModal from "../dialogs/LoginModal";
 
-const drawerWidth = 300;
+const drawerWidth = 350;
 
 const stringAvatar = (name) => {
   return {
@@ -60,7 +64,8 @@ const closedMixin = (theme) => ({
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
   }),
-  overflowX: "hidden",
+  overflow: "hidden",
+  // alignItems: 'center',
   width: `calc(${theme.spacing(7)} + 1px)`,
   [theme.breakpoints.up("sm")]: {
     width: `calc(${theme.spacing(8)} + 1px)`,
@@ -74,6 +79,10 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   alignItems: "center",
   justifyContent: "space-between",
   padding: theme.spacing(0, 1),
+  position: "sticky",
+  top: 0,
+  zIndex: 1,
+  // boxShadow: '0 0 0 0 #646365',
   // necessary for content to be below app bar
   ...theme.mixins.toolbar,
 }));
@@ -120,11 +129,57 @@ const Navbar = () => {
   const [user, setUser] = useState();
   const isOpen = Boolean(anchorEl);
 
+  const category = [
+    "Electronics",
+    "Tools & Home Improvement",
+    "Computers & Tablets",
+  ];
+
+  const subCat = [
+    {
+      category: "Electronics",
+      name: "Camera & Phones",
+      path: "electronics/camera_and_photo.json",
+      icon: <DevicesIcon />,
+    },
+    {
+      category: "Tools & Home Improvement",
+      name: "Appliances",
+      path: "tools_and_home_improvement/appliances.json",
+      icon: <Kitchen />,
+    },
+    {
+      category: "Tools & Home Improvement",
+      name: "Home Improvement",
+      path: "tools_and_home_improvement/home_improvement.json",
+      icon: <Gite />,
+    },
+    {
+      category: "Tools & Home Improvement",
+      name: "Kitchen and Bath Fixtures",
+      path: "tools_and_home_improvement/kitchen_bath_fixtures.json",
+      icon: <Kitchen />,
+    },
+    {
+      category: "Computers & Tablets",
+      name: "Computers & Laptops",
+      path: "computers/computers_laptops.json",
+      icon: <DevicesIcon />,
+    },
+  ];
+
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = () => {
     setAnchorEl(null);
+  };
+
+  const navigate = useNavigate();
+
+  const handlePath = (path, cat) => {
+    navigate(PRODUCTS, { state: path, cat: cat });
+    window.location.reload();
   };
 
   useEffect(() => {
@@ -143,7 +198,7 @@ const Navbar = () => {
   const [create, setCreate] = useState(false);
 
   const theme = useTheme();
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -225,16 +280,21 @@ const Navbar = () => {
           </Typography>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "rtl" ? (
-              <ChevronRightIcon />
+              <ChevronRightIcon fontSize="large" htmlColor="#fff" />
             ) : (
-              <ChevronLeftIcon />
+              <ChevronLeftIcon fontSize="large" htmlColor="#fff" />
             )}
           </IconButton>
         </DrawerHeader>
         <Divider />
-        <List>
-          {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-            <ListItem key={text} disablePadding sx={{ display: "block" }}>
+        {/* <List>
+          {category.map((text, index) => (
+            <ListItem
+              key={index}
+              disablePadding
+              sx={{ display: "block" }}
+              // onClick={() => alert(text)}
+            >
               <ListItemButton
                 sx={{
                   minHeight: 48,
@@ -256,30 +316,75 @@ const Navbar = () => {
             </ListItem>
           ))}
         </List>
-        <Divider />
-        <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
-            <ListItem key={text} disablePadding sx={{ display: "block" }}>
-              <ListItemButton
+        <Divider /> */}
+        {category.sort().map((cat, i) => (
+          <div key={i} onClick={() => setOpen(true)} style={{ cursor: "pointer" }}>
+            {open ? (
+              <Typography
+                component={"div"}
                 sx={{
-                  minHeight: 48,
-                  justifyContent: open ? "initial" : "center",
-                  px: 2.5,
+                  p: 3,
+                  color: "#fff",
+                  backgroundColor: "#6a6a6a",
+                  fontWeight: 600,
+                  fontSize: 18,
                 }}
               >
-                <ListItemIcon
-                  sx={{
-                    minWidth: 0,
-                    mr: open ? 3 : "auto",
-                    justifyContent: "center",
-                  }}
-                >
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} sx={{ opacity: open ? 1 : 0 }} />
-              </ListItemButton>
-            </ListItem>
-          ))}
+                {cat}
+              </Typography>
+            ) : (
+              <Typography
+                component={"div"}
+                sx={{
+                  p: 3,
+                  color: "#fff",
+                  backgroundColor: "#6a6a6a",
+                  fontWeight: 600,
+                  fontSize: 18,
+                }}
+              >
+                {cat[0]}
+              </Typography>
+            )}
+            <List>
+              {subCat.map(
+                (data, index) =>
+                  data.category == cat && (
+                    <ListItem
+                      key={index}
+                      disablePadding
+                      sx={{ display: "block" }}
+                      onClick={() => handlePath(data.path, cat)}
+                    >
+                      <ListItemButton
+                        sx={{
+                          minHeight: 48,
+                          justifyContent: open ? "initial" : "center",
+                          px: 2.5,
+                        }}
+                      >
+                        <ListItemIcon
+                          sx={{
+                            minWidth: 0,
+                            mr: open ? 3 : "auto",
+                            justifyContent: "center",
+                          }}
+                        >
+                          {data.icon}
+                        </ListItemIcon>
+                        <ListItemText
+                          primary={data.name}
+                          sx={{ opacity: open ? 1 : 0 }}
+                        />
+                      </ListItemButton>
+                    </ListItem>
+                  )
+              )}
+            </List>
+          </div>
+        ))}
+        <List>
+          <Typography>Hammad</Typography>
         </List>
       </Drawer>
     </>

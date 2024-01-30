@@ -1,3 +1,3 @@
 export const HOME = "/";
-export const ITEMS = "/items";
+export const PRODUCTS = "/products";
 export const ITEM_DETAILS = "/item-details";

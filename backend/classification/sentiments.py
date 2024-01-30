@@ -33,7 +33,7 @@ def load_data(file):
 
 # data_array = []
 data = load_data(
-    'C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/tools_and_home_improvement/home_imrovement.json')
+    './backend/datasets/categories/electronics/camera_and_photo.json')
 # print(data)
 
 # data_array.append(data)
@@ -101,7 +101,7 @@ for item in data:
 
 
 # with open('./backend/datasets/combined_data.json', 'w') as f:
-with open('./backend/datasets/categories/tools_and_home_improvement/home_imrovement.json', 'w') as f:
+with open('./backend/datasets/categories/electronics/camera_and_photo.json', 'w') as f:
     json.dump(data, f, indent=4)
 
 # print(lemma_array)
