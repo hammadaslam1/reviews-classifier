@@ -33,11 +33,11 @@ const Products = () => {
   const [count, setCount] = useState(1);
   const navigate = useNavigate();
   const location = useLocation();
-  const path = location.state;
-  const category = location.cat;
+  const fullPath = location.state.fullPath;
+  const path = location.state.path;
   // const history = useHistory();
   useEffect(() => {
-    fetch(`http://127.0.0.1:8080/products/${path}`)
+    fetch(`http://127.0.0.1:8080/products/${fullPath}`)
       .then((response) => response.json())
       .then((data) => {
         // console.log("found");
@@ -66,9 +66,15 @@ const Products = () => {
       });
   }, [count]);
 
-  const handleItem = (index, path) => {
+  const handleItem = (index, path, fullPath) => {
     console.log(path);
-    navigate(ITEM_DETAILS, { state: index, path: path });
+    navigate(ITEM_DETAILS, {
+      state: {
+        fullPath: fullPath,
+        index: index,
+        path: path,
+      },
+    });
     setCount(1);
   };
   // const [data, setData] = useState([]);
@@ -189,7 +195,7 @@ const Products = () => {
                   // href={`${ITEM_DETAILS}?id=${i}`}
                   // href={ITEM_DETAILS}
                   onClick={() => {
-                    handleItem(i + 1, path);
+                    handleItem(i + 1, path, fullPath);
                   }}
                   target="_blank"
                 >
@@ -204,8 +210,8 @@ const Products = () => {
                   >
                     <CardMedia
                       component="img"
-                      // height="300"
-                      width="280"
+                      // height="280"
+                      // width="280"
                       image={
                         data.product_images_src[0] != ""
                           ? data.product_images_src[0]

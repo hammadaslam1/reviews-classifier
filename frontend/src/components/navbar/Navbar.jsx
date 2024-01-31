@@ -139,31 +139,36 @@ const Navbar = () => {
     {
       category: "Electronics",
       name: "Camera & Phones",
-      path: "electronics/camera_and_photo.json",
+      fullPath: "electronics/camera_and_photo.json",
+      path: "electronics",
       icon: <DevicesIcon />,
     },
     {
       category: "Tools & Home Improvement",
       name: "Appliances",
-      path: "tools_and_home_improvement/appliances.json",
+      fullPath: "tools_and_home_improvement/appliances.json",
+      path: "appliances",
       icon: <Kitchen />,
     },
     {
       category: "Tools & Home Improvement",
       name: "Home Improvement",
-      path: "tools_and_home_improvement/home_improvement.json",
+      fullPath: "tools_and_home_improvement/home_improvement.json",
+      path: "home",
       icon: <Gite />,
     },
     {
       category: "Tools & Home Improvement",
       name: "Kitchen and Bath Fixtures",
-      path: "tools_and_home_improvement/kitchen_bath_fixtures.json",
+      fullPath: "tools_and_home_improvement/kitchen_bath_fixtures.json",
+      path: "kitchen",
       icon: <Kitchen />,
     },
     {
       category: "Computers & Tablets",
       name: "Computers & Laptops",
-      path: "computers/computers_laptops.json",
+      fullPath: "computers/computers_laptops.json",
+      path: "computers",
       icon: <DevicesIcon />,
     },
   ];
@@ -177,8 +182,13 @@ const Navbar = () => {
 
   const navigate = useNavigate();
 
-  const handlePath = (path, cat) => {
-    navigate(PRODUCTS, { state: path, cat: cat });
+  const handlePath = (fullPath, path) => {
+    navigate(PRODUCTS, {
+      state: {
+        fullPath: fullPath,
+        path: path,
+      },
+    });
     window.location.reload();
   };
 
@@ -318,7 +328,11 @@ const Navbar = () => {
         </List>
         <Divider /> */}
         {category.sort().map((cat, i) => (
-          <div key={i} onClick={() => setOpen(true)} style={{ cursor: "pointer" }}>
+          <div
+            key={i}
+            onClick={() => setOpen(true)}
+            style={{ cursor: "pointer" }}
+          >
             {open ? (
               <Typography
                 component={"div"}
@@ -354,7 +368,7 @@ const Navbar = () => {
                       key={index}
                       disablePadding
                       sx={{ display: "block" }}
-                      onClick={() => handlePath(data.path, cat)}
+                      onClick={() => handlePath(data.fullPath, data.path)}
                     >
                       <ListItemButton
                         sx={{
@@ -384,7 +398,7 @@ const Navbar = () => {
           </div>
         ))}
         <List>
-          <Typography>Hammad</Typography>
+          <Typography id="Ahsan">Hammad</Typography>
         </List>
       </Drawer>
     </>

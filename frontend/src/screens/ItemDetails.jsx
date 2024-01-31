@@ -39,8 +39,9 @@ const ItemDetails = ({ props }) => {
   const [reviewTopics, setReviewTopics] = useState([]);
 
   const location = useLocation();
-  const index = location.state - 1;
-  const path = location.path;
+  const index = location.state.index - 1;
+  const fullPath = location.state.fullPath;
+  const path = location.state.path;
 
   const stringAvatar = () => {
     return {
@@ -49,9 +50,10 @@ const ItemDetails = ({ props }) => {
       },
     };
   };
-
-  useEffect(() => {
-    fetch(`http://127.0.0.1:8080/sentiments/${path}/${index}`)
+  const database = () => {
+    console.log(path);
+    console.log(index);
+    fetch(`http://127.0.0.1:8080/` + path + `/${index}`)
       .then((response) => response.json())
       .then((data) => {
         // console.log(data["reviews"][0]["review_topics"]);
@@ -70,6 +72,7 @@ const ItemDetails = ({ props }) => {
           reviewTopics.push(data["reviews"][i]["review_topics"]);
           console.log(data["reviews"][i]["review_topics"]);
         }
+        console.log(file.product_images_src[0]);
       })
       .then(() => {
         for (const key in productReviews) {
@@ -81,7 +84,13 @@ const ItemDetails = ({ props }) => {
           setError("Server not found");
         }
       });
-    fetch(`http://127.0.0.1:8080/reviews/${index}`)
+  };
+  useEffect(() => {
+    const index = location.state - 1;
+    const path = location.path;
+    console.log(path);
+    database();
+    fetch(`http://127.0.0.1:8080/reviews/${fullPath}/${index}`)
       .then((response) => response.json())
       .then((data) => {
         // console.log(data);
@@ -98,12 +107,8 @@ const ItemDetails = ({ props }) => {
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <div>
             <img
-              src={
-                file.product_images_src !== ""
-                  ? file.product_images_src
-                  : IMG_PLACE
-              }
-              // alt={file.product_title}
+              src={productImage !== "" ? productImage : IMG_PLACE}
+              alt={file.product_title}
               loading="lazy"
               // height={"300px"}
               style={{ maxWidth: "300px" }}
