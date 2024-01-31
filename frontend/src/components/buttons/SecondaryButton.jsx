@@ -8,7 +8,7 @@ const SecondaryButton = ({sx={}, ...props }) => {
         // fontWeight: "700",
         // backgroundColor: "#fff",
         // width: "140px",
-        // color: "#023d65",
+        // color: "#112d4e",
         // textTransform: 'capitalize',
         // ...sx,
         // "&:hover": { backgroundColor: "#f5fadf" },

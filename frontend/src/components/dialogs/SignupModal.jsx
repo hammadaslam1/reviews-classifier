@@ -25,7 +25,12 @@ import SocialButton from "../buttons/SocialButton";
 import GOOGLE_IMAGE from "../../assets/google.png";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import SignupInput from "../inputs/SignupInput";
-import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import {
+  GoogleAuthProvider,
+  createUserWithEmailAndPassword,
+  signInWithPopup,
+  updateProfile,
+} from "firebase/auth";
 import { auth } from "../../firebase/firebase";
 import GoogleIcon from "@mui/icons-material/Google";
 // import './dialog.css'
@@ -60,6 +65,23 @@ const SignupModal = ({
     if (event.key === "Enter") {
       handleRegister();
     }
+  };
+
+  const handleGoogle = () => {
+    setIsPressed(true);
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+        const token = credential.accessToken;
+        const user = result.user;
+        setIsPressed(false);
+        setOpenSignup(false);
+      })
+      .catch((e) => {
+        setIsPressed(false);
+        // alert(e.code, e.message);
+      });
   };
   const handleRegister = () => {
     if (fullname && email && contact && password) {
@@ -108,13 +130,13 @@ const SignupModal = ({
       onKeyDown={handleKeyDown}
     >
       <Backdrop
-        sx={{ color: "#023d65", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        sx={{ color: "#112d4e", zIndex: (theme) => theme.zIndex.drawer + 1 }}
         open={isPressed}
         // onClick={handleClose}
       >
         <CircularProgress color="inherit" />
       </Backdrop>
-      <Box sx={{ padding: 5, width: 400 }}>
+      <Box sx={{ padding: 5, width: 500 }}>
         <IconButton
           sx={{
             width: "fit-content",
@@ -146,7 +168,7 @@ const SignupModal = ({
               textAlign: "center",
               fontFamily: "Helvetica",
               marginBottom: "20px",
-              color: "#023d65",
+              color: "#112d4e",
             }}
           >
             Sign up
@@ -226,22 +248,26 @@ const SignupModal = ({
           >
             <div
               style={{
-                borderBottom: "1px solid #023d65aa",
+                borderBottom: "1px solid #112d4eaa",
                 width: "170px",
                 height: "0px",
               }}
             ></div>
-            <div style={{color: '#023d65'}}>or</div>
+            <div style={{ color: "#112d4e" }}>or</div>
             <div
               style={{
-                borderBottom: "1px solid #023d65aa",
+                borderBottom: "1px solid #112d4eaa",
                 width: "170px",
                 height: "0px",
               }}
             ></div>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <SocialButton size={"large"} startIcon={<GoogleIcon />}>
+            <SocialButton
+              size={"large"}
+              onClick={handleGoogle}
+              startIcon={<GoogleIcon />}
+            >
               Continue with Google
             </SocialButton>
           </div>
@@ -263,7 +289,7 @@ const SignupModal = ({
                     setOpenLogin(true);
                   }}
                   style={{
-                    color: "#023d65",
+                    color: "#112d4e",
                     textDecoration: "underline",
                     fontSize: "15px",
                     fontWeight: "bold",

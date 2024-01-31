@@ -9,12 +9,12 @@ const SocialButton = ({sx={}, ...props }) => {
         borderRadius: "8px",
         fontWeight: "500",
         backgroundColor: "#f5fadf",
-        color: "#023d65",
+        color: "#112d4e",
         boxShadow: '1px 2px 5px 1px #00000019',
         marginY: '10px',
         fontSize: '14px',
         textTransform: 'capitalize',
-        "&:hover": { backgroundColor: "#023d65", color: '#fff' },
+        "&:hover": { backgroundColor: "#112d4e", color: '#fff' },
         ...sx,
       }}
       {...props}

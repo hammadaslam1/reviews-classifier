@@ -118,13 +118,13 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
       onKeyDown={handleKeyDown}
     >
       <Backdrop
-        sx={{ color: "#023d65", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        sx={{ color: "#112d4e", zIndex: (theme) => theme.zIndex.drawer + 1 }}
         open={isPressed}
         // onClick={handleClose}
       >
         <CircularProgress color="inherit" />
       </Backdrop>
-      <Box sx={{ padding: 5, width: 400 }}>
+      <Box sx={{ padding: 5, width: 500 }}>
         <IconButton
           sx={{
             width: "fit-content",
@@ -145,7 +145,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               textAlign: "center",
               fontFamily: "Helvetica",
               marginBottom: "20px",
-              color: "#023d65",
+              color: "#112d4e",
             }}
           >
             Sign in
@@ -158,7 +158,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               setEmail(e.target.value);
               setIsFilled(false);
             }}
-            startDecorator={<Mail sx={{ color: "#023d65" }} />}
+            startDecorator={<Mail sx={{ color: "#112d4e" }} />}
             placeholder="example@email.com"
           />
           <LoginInput
@@ -169,7 +169,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               setPassword(e.target.value);
               setIsFilled(false);
             }}
-            startDecorator={<LockIcon sx={{ color: "#023d65" }} />}
+            startDecorator={<LockIcon sx={{ color: "#112d4e" }} />}
             placeholder="Password"
           />
           <div
@@ -185,7 +185,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
                 handleForgot();
               }}
               style={{
-                color: "#023d65",
+                color: "#112d4e",
                 fontSize: "13px",
                 fontWeight: "bold",
                 textTransform: "capitalize",
@@ -222,15 +222,15 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
           >
             <div
               style={{
-                borderBottom: "1px solid #023d65aa",
+                borderBottom: "1px solid #112d4eaa",
                 width: "170px",
                 height: "0px",
               }}
             ></div>
-            <div style={{ color: "#023d65" }}>or</div>
+            <div style={{ color: "#112d4e" }}>or</div>
             <div
               style={{
-                borderBottom: "1px solid #023d65aa",
+                borderBottom: "1px solid #112d4eaa",
                 width: "170px",
                 height: "0px",
               }}
@@ -263,7 +263,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
                     setOpenLogin(false);
                   }}
                   style={{
-                    color: "#023d65",
+                    color: "#112d4e",
                     textDecoration: "underline",
                     fontSize: "15px",
                     fontWeight: "bold",

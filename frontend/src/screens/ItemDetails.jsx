@@ -53,7 +53,7 @@ const ItemDetails = ({ props }) => {
   const database = () => {
     console.log(path);
     console.log(index);
-    fetch(`http://127.0.0.1:8080/` + path + `/${index}`)
+    fetch(`http://127.0.0.1:8080/sentiment/${fullPath}/${index}`)
       .then((response) => response.json())
       .then((data) => {
         // console.log(data["reviews"][0]["review_topics"]);
@@ -181,14 +181,14 @@ const ItemDetails = ({ props }) => {
               <Accordion
                 key={i}
                 defaultExpanded={false}
-                sx={{ backgroundColor: "#6a6a6a22" }}
+                sx={{ backgroundColor: "#112d4e33" }}
               >
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  expandIcon={<ExpandMoreIcon htmlColor="#fff" />}
                   aria-controls="panel3-content"
                   id="panel3-header"
                   sx={{
-                    backgroundColor: "#6a6a6a",
+                    backgroundColor: "#112d4e",
                     color: "#fff",
                     display: "flex",
                     justifyContent: "space-evenly",
@@ -235,7 +235,7 @@ const ItemDetails = ({ props }) => {
                 <AccordionDetails>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
                     {reviewTopics[i].map((item, j) => (
-                      <Chip label={item} size="large" key={j} />
+                      <Chip label={item} size="large" sx={{backgroundColor: '#112d4e', color: '#fff'}} key={j} />
                     ))}
                   </div>
                 </AccordionDetails>

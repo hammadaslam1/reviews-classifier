@@ -110,8 +110,8 @@ const Home = () => {
           <SentimentButton
             variant={sentiment == "all" ? "contained" : "plain"}
             sx={{
-              backgroundColor: sentiment == "all" ? "#023d65" : "#f5fadf",
-              color: sentiment == "all" ? "#fff" : "#023d65",
+              backgroundColor: sentiment == "all" ? "#112d4e" : "#f5fadf",
+              color: sentiment == "all" ? "#fff" : "#112d4e",
             }}
             onClick={() => setSentiment("all")}
             value={"All"}
@@ -119,8 +119,8 @@ const Home = () => {
           <SentimentButton
             variant={sentiment == "positive" ? "contained" : "plain"}
             sx={{
-              backgroundColor: sentiment == "positive" ? "#023d65" : "#f5fadf",
-              color: sentiment == "positive" ? "#fff" : "#023d65",
+              backgroundColor: sentiment == "positive" ? "#112d4e" : "#f5fadf",
+              color: sentiment == "positive" ? "#fff" : "#112d4e",
             }}
             onClick={() => setSentiment("positive")}
             value={"Positive"}
@@ -128,8 +128,8 @@ const Home = () => {
           <SentimentButton
             variant={sentiment == "negative" ? "contained" : "plain"}
             sx={{
-              backgroundColor: sentiment == "negative" ? "#023d65" : "#f5fadf",
-              color: sentiment == "negative" ? "#fff" : "#023d65",
+              backgroundColor: sentiment == "negative" ? "#112d4e" : "#f5fadf",
+              color: sentiment == "negative" ? "#fff" : "#112d4e",
             }}
             onClick={() => setSentiment("negative")}
             value={"Negative"}
@@ -137,8 +137,8 @@ const Home = () => {
           <SentimentButton
             variant={sentiment == "neutral" ? "contained" : "plain"}
             sx={{
-              backgroundColor: sentiment == "neutral" ? "#023d65" : "#f5fadf",
-              color: sentiment == "neutral" ? "#fff" : "#023d65",
+              backgroundColor: sentiment == "neutral" ? "#112d4e" : "#f5fadf",
+              color: sentiment == "neutral" ? "#fff" : "#112d4e",
             }}
             onClick={() => setSentiment("neutral")}
             value={"Neutral"}

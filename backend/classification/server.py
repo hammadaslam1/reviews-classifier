@@ -1,9 +1,6 @@
-from flask import Flask, jsonify
-from flask_cors import CORS
 import json
-import os
-import sentiments
-from sentiments import *
+from flask import Flask
+from flask_cors import CORS
 
 # app instance
 app = Flask(__name__)
@@ -70,6 +67,15 @@ def product(fullPath):
         data = json.load(f)
     # product = data[index]
     return data
+
+
+@app.route("/sentiment/<path:fullPath>/<int:index>", methods=['GET'])
+def sentiment(fullPath, index):
+    with open('./backend/datasets/categories/'+fullPath, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        print(data)
+    product = data[index]
+    return product
 
 
 @app.route("/reviews/<path:fullPath>/<int:index>", methods=['GET'])

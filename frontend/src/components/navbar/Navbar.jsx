@@ -1,4 +1,6 @@
+/* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
+import '../../styles/globals.css'
 import {
   // AppBar,
   Avatar,
@@ -37,6 +39,8 @@ import { PRODUCTS } from "../../routes/Routes";
 import { useNavigate } from "react-router-dom";
 import DevicesIcon from "@mui/icons-material/Devices";
 import { Gite, Kitchen } from "@mui/icons-material";
+import LOGO from "../../assets/logos/logo192.png";
+import NAME_SLOGAN from "../../assets/logos/name_slogan.png";
 // import { Alert } from "@mui/joy";
 // import LoginModal from "../dialogs/LoginModal";
 
@@ -72,9 +76,9 @@ const closedMixin = (theme) => ({
   },
 });
 const DrawerHeader = styled("div")(({ theme }) => ({
-  backgroundColor: "#6a6a6a",
+  backgroundColor: "#112d4e",
   color: "#fff",
-  height: "70px",
+  height: "80px",
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",
@@ -86,11 +90,27 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   // necessary for content to be below app bar
   ...theme.mixins.toolbar,
 }));
+const DrawerFooter = styled("div")(({ theme }) => ({
+  backgroundColor: "#112d4e",
+  color: "#fff",
+  height: "80px",
+  display: "flex",
+  alignItems: "center",
+  // justifySelf: '',
+  // justifyContent: "space-between",
+  padding: theme.spacing(0, 1),
+  position: "sticky",
+  bottom: 0,
+  zIndex: 1,
+  // boxShadow: '0 0 0 0 #646365',
+  // necessary for content to be below app bar
+  ...theme.mixins.toolbar,
+}));
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== "open",
 })(({ theme, open }) => ({
-  height: "70px",
-  backgroundColor: "#6a6a6a",
+  height: "80px",
+  backgroundColor: "#112d4e",
   zIndex: theme.zIndex.drawer + 1,
   transition: theme.transitions.create(["width", "margin"], {
     easing: theme.transitions.easing.sharp,
@@ -112,6 +132,7 @@ const Drawer = styled(MuiDrawer, {
   flexShrink: 0,
   whiteSpace: "nowrap",
   boxSizing: "border-box",
+  minHeight: "100vh",
   ...(open && {
     ...openedMixin(theme),
     "& .MuiDrawer-paper": openedMixin(theme),
@@ -133,6 +154,8 @@ const Navbar = () => {
     "Electronics",
     "Tools & Home Improvement",
     "Computers & Tablets",
+    "Men's Fashion",
+    "Women's Fashion",
   ];
 
   const subCat = [
@@ -189,6 +212,7 @@ const Navbar = () => {
         path: path,
       },
     });
+    setOpen(false);
     window.location.reload();
   };
 
@@ -208,7 +232,7 @@ const Navbar = () => {
   const [create, setCreate] = useState(false);
 
   const theme = useTheme();
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -227,8 +251,27 @@ const Navbar = () => {
         open={open}
       >
         <Toolbar sx={style.toolbar}>
-          <div>
-            <IconButton size="large" onClick={() => setOpen(!open)}>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            {!open && (
+              <IconButton size="large" onClick={() => setOpen(!open)}>
+                <MenuIcon htmlColor="#fff" />
+              </IconButton>
+            )}
+            <IconButton
+              size="large"
+              // onClick={() => setOpen(!open)}
+            >
+              <img src={LOGO} height={50} alt="" srcset="" />
+            </IconButton>
+            <div>
+              <img src={NAME_SLOGAN} height={45} alt="" srcset="" />
+            </div>
+          </div>
+          {/* <div>
+            <IconButton
+              size="large"
+              // onClick={() => setOpen(!open)}
+            >
               {auth.currentUser ? (
                 <Avatar
                   {...stringAvatar("Muhammad Hammad Aslam")}
@@ -238,7 +281,7 @@ const Navbar = () => {
                 <Avatar />
               )}
             </IconButton>
-          </div>
+          </div> */}
           <div style={{ alignSelf: "right" }}>
             <PrimaryButton
               sx={{
@@ -296,7 +339,7 @@ const Navbar = () => {
             )}
           </IconButton>
         </DrawerHeader>
-        <Divider />
+        {/* <Divider /> */}
         {/* <List>
           {category.map((text, index) => (
             <ListItem
@@ -333,73 +376,79 @@ const Navbar = () => {
             onClick={() => setOpen(true)}
             style={{ cursor: "pointer" }}
           >
-            {open ? (
-              <Typography
-                component={"div"}
-                sx={{
-                  p: 3,
-                  color: "#fff",
-                  backgroundColor: "#6a6a6a",
-                  fontWeight: 600,
-                  fontSize: 18,
-                }}
-              >
-                {cat}
-              </Typography>
-            ) : (
-              <Typography
-                component={"div"}
-                sx={{
-                  p: 3,
-                  color: "#fff",
-                  backgroundColor: "#6a6a6a",
-                  fontWeight: 600,
-                  fontSize: 18,
-                }}
-              >
-                {cat[0]}
-              </Typography>
-            )}
+            <Typography
+              component={"div"}
+              sx={{
+                p: 3,
+                color: "#fff",
+                backgroundColor: "#1a4578",
+                fontWeight: 600,
+                fontSize: 18,
+              }}
+            >
+              {open ? cat : cat[0]}
+            </Typography>
             <List>
-              {subCat.map(
-                (data, index) =>
-                  data.category == cat && (
-                    <ListItem
-                      key={index}
-                      disablePadding
-                      sx={{ display: "block" }}
-                      onClick={() => handlePath(data.fullPath, data.path)}
-                    >
-                      <ListItemButton
-                        sx={{
-                          minHeight: 48,
-                          justifyContent: open ? "initial" : "center",
-                          px: 2.5,
-                        }}
+              {subCat
+                .sort((a, b) => a.name - b.name)
+                .map(
+                  (data, index) =>
+                    data.category == cat && (
+                      <ListItem
+                        key={index}
+                        disablePadding
+                        sx={{ display: "block" }}
+                        onClick={() => handlePath(data.fullPath, data.path)}
                       >
-                        <ListItemIcon
+                        <ListItemButton
                           sx={{
-                            minWidth: 0,
-                            mr: open ? 3 : "auto",
-                            justifyContent: "center",
+                            minHeight: 48,
+                            justifyContent: open ? "initial" : "center",
+                            px: 2.5,
                           }}
                         >
-                          {data.icon}
-                        </ListItemIcon>
-                        <ListItemText
-                          primary={data.name}
-                          sx={{ opacity: open ? 1 : 0 }}
-                        />
-                      </ListItemButton>
-                    </ListItem>
-                  )
-              )}
+                          <ListItemIcon
+                            sx={{
+                              minWidth: 0,
+                              mr: open ? 3 : "auto",
+                              justifyContent: "center",
+                            }}
+                          >
+                            {data.icon}
+                          </ListItemIcon>
+                          <ListItemText
+                            primary={data.name}
+                            sx={{ opacity: open ? 1 : 0 }}
+                          />
+                        </ListItemButton>
+                      </ListItem>
+                    )
+                )}
             </List>
           </div>
         ))}
         <List>
           <Typography id="Ahsan">Hammad</Typography>
         </List>
+        <DrawerFooter>
+          {/* <div> */}
+          <IconButton size="large" onClick={() => setOpen(!open)}>
+            {auth.currentUser ? (
+              <Avatar
+                {...stringAvatar("Muhammad Hammad Aslam")}
+                src={auth.currentUser.photoURL}
+              />
+            ) : (
+              <Avatar />
+            )}
+          </IconButton>
+          {/* </div> */}
+          <div>
+            <Typography variant="h6" sx={{ marginX: 3, fontWeight: 500 }}>
+            {/*  {auth.currentUser.displayName}*/}
+            </Typography>
+          </div>
+        </DrawerFooter>
       </Drawer>
     </>
     // </Box>
