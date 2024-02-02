@@ -74,11 +74,11 @@ def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
 
         # print(sentiment)
         text["sentiment"] = sentiment
-        newText = []
+        # newText = []
         for token in doc:
             # if token.pos_ in allowed_postags:
-            newText.append(token.lemma_)
-            token_list = [token for token in doc]
+            # newText.append(token.lemma_)
+            # token_list = [token for token in doc]
             filtered_list = [token for token in doc if not token.is_stop]
             lemmas = [
                 f"{token.lemma_}"
