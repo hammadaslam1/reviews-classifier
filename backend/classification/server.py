@@ -15,49 +15,7 @@ def all_products():
     return data
 
 
-@app.route("/computers/<int:index>", methods=['GET'])
-def computers_laptops(index):
-    with open('./backend/datasets/categories/computers/computers_laptops.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        print(data)
-    product = data[index]
-    return product
 
-
-@app.route("/electronics/<int:index>", methods=['GET'])
-def camera_and_photo(index):
-    with open('./backend/datasets/categories/electronics/camera_and_photo.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        print(data)
-    product = data[index]
-    return product
-
-
-@app.route("/home/<int:index>", methods=['GET'])
-def home_improvement(index):
-    with open('./backend/datasets/categories/tools_and_home_improvement/home_improvement.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        print(data)
-    product = data[index]
-    return product
-
-
-@app.route("/appliances/<int:index>", methods=['GET'])
-def appliances(index):
-    with open('./backend/datasets/categories/tools_and_home_improvement/appliances.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        print(data)
-    product = data[index]
-    return product
-
-
-@app.route("/kitchen/<int:index>", methods=['GET'])
-def kitchen_bath_fixtures(index):
-    with open('./backend/datasets/categories/tools_and_home_improvement/kitchen_bath_fixtures.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        print(data)
-    product = data[index]
-    return product
 
 
 @app.route("/products/<path:fullPath>", methods=['GET'])

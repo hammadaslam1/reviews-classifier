@@ -33,6 +33,7 @@ import {
 } from "firebase/auth";
 import { auth } from "../../firebase/firebase";
 import GoogleIcon from "@mui/icons-material/Google";
+import BACKIMAGE from "../../assets/logos/logo192.png";
 // import './dialog.css'
 
 const Transition = forwardRef(function Transition(props, ref) {
@@ -119,6 +120,10 @@ const SignupModal = ({
       // console.log(auth);
     }
   };
+
+  const backStyle = {
+    borderRadius: "20px",
+  };
   return (
     <Dialog
       open={openSignup}
@@ -126,7 +131,7 @@ const SignupModal = ({
       keepMounted={true}
       onClose={handleClose}
       scroll="body"
-      PaperProps={{ sx: { borderRadius: "20px" } }}
+      PaperProps={{ sx: backStyle }}
       onKeyDown={handleKeyDown}
     >
       <Backdrop
