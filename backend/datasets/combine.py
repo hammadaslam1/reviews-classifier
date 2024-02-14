@@ -17,7 +17,7 @@ def combine_records(data):
 
 
 # Load the JSON data
-with open('./backend/datasets/categories/tools_and_home_improvement/kitchen_bath_fixtures.json', 'r', encoding='utf-8') as f:
+with open('./backend/datasets/categories/allFiles/mens_wrist_watches.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Combine records
@@ -25,5 +25,5 @@ combined_data = combine_records(data)
 
 
 # Write the combined data to a new JSON file
-with open('./backend/datasets/categories/tools_and_home_improvement/kitchen_bath_fixtures.json', 'w', encoding='utf-8') as f:
+with open('./backend/datasets/categories/allFiles/mens_wrist_watches.json', 'w', encoding='utf-8') as f:
     json.dump(combined_data, f, indent=4)

@@ -9,19 +9,16 @@ CORS(app)
 
 @app.route("/", methods=['GET'])
 def all_products():
-    with open('./backend/datasets/aaaa.json', 'r', encoding='utf-8') as f:
+    with open('C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/allFiles/appliances.json', 'r') as f:
         data = json.load(f)
     # return jsonify(data)
     return data
 
 
-
-
-
 @app.route("/products/<path:fullPath>", methods=['GET'])
 def product(fullPath):
 
-    with open('./backend/datasets/categories/'+fullPath, 'r', encoding='utf-8') as f:
+    with open('C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/'+fullPath, 'r', encoding='utf-8') as f:
         data = json.load(f)
     # product = data[index]
     return data
@@ -29,7 +26,7 @@ def product(fullPath):
 
 @app.route("/sentiment/<path:fullPath>/<int:index>", methods=['GET'])
 def sentiment(fullPath, index):
-    with open('./backend/datasets/categories/'+fullPath, 'r', encoding='utf-8') as f:
+    with open('C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/'+fullPath, 'r', encoding='utf-8') as f:
         data = json.load(f)
         print(data)
     product = data[index]
@@ -38,7 +35,7 @@ def sentiment(fullPath, index):
 
 @app.route("/reviews/<path:fullPath>/<int:index>", methods=['GET'])
 def reviews_topics(fullPath, index):
-    with open('./backend/datasets/categories/'+fullPath, 'r', encoding='utf-8') as f:
+    with open('C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/'+fullPath, 'r', encoding='utf-8') as f:
         data = json.load(f)
     product = data[index]
     return product['reviews']

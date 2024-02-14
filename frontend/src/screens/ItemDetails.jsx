@@ -27,6 +27,7 @@ const ItemDetails = ({ props }) => {
   const [file, setFile] = useState([]);
   const [dollar, setDollar] = useState(0);
   const [error, setError] = useState("");
+  const [data, setData] = useState([]);
 
   const [productLink, setProductLink] = useState("");
   const [productDesc, setProductDesc] = useState("");
@@ -85,7 +86,20 @@ const ItemDetails = ({ props }) => {
         }
       });
   };
+  const fetchData = async () => {
+    try {
+      const response = await fetch("mongodb://localhost:27017/OpinioMine/computers_laptops"); // Assuming backend server is running on the same host
+      console.log(response);
+      const jsonData = await response.json();
+      setData(jsonData);
+      console.log(jsonData);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      setError(error.message)
+    }
+  };
   useEffect(() => {
+    fetchData();
     const index = location.state - 1;
     const path = location.path;
     console.log(path);
@@ -118,9 +132,6 @@ const ItemDetails = ({ props }) => {
             <Typography variant="h4" color={"#000"}>
               {productTitle}
             </Typography>
-            {/* <Typography variant="h5" sx={{ fontWeight: "900" }} color={"#000"}>
-              Description:
-            </Typography> */}
             <Typography
               variant="body1"
               color={"#000"}
@@ -235,7 +246,12 @@ const ItemDetails = ({ props }) => {
                 <AccordionDetails>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
                     {reviewTopics[i].map((item, j) => (
-                      <Chip label={item} size="large" sx={{backgroundColor: '#112d4e', color: '#fff'}} key={j} />
+                      <Chip
+                        label={item}
+                        size="large"
+                        sx={{ backgroundColor: "#112d4e", color: "#fff" }}
+                        key={j}
+                      />
                     ))}
                   </div>
                 </AccordionDetails>
@@ -285,6 +301,10 @@ const ItemDetails = ({ props }) => {
               </Accordion>
             ))}
           </Card>
+          {/* {error}
+          {data.map((item, index) => (
+            <li key={index}>{JSON.stringify(item)}</li>
+          ))} */}
         </div>
       </Card>
     </Box>

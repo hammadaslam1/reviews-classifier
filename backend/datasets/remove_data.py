@@ -25,7 +25,7 @@ def filter_records(data):
 
 # ... (Rest of the code remains the same)
 # Load the JSON data
-with open('./backend/datasets/categories/tools_and_home_improvement/kitchen_bath_fixtures.json', 'r', encoding='utf-8') as f:
+with open('./backend/datasets/categories/allFiles/mens_wrist_watches.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Combine records (if applicable)
@@ -37,5 +37,5 @@ filtered_data = filter_records(data)
 print(len(filtered_data))
 
 # Write the filtered data to a new JSON file
-with open('./backend/datasets/categories/tools_and_home_improvement/kitchen_bath_fixtures.json', 'w', encoding='utf-8') as f:
+with open('./backend/datasets/categories/allFiles/mens_wrist_watches.json', 'w', encoding='utf-8') as f:
     json.dump(filtered_data, f, indent=4)
