@@ -55,11 +55,8 @@ def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
     text_out = []
 
     for text in texts["reviews"]:
-        # print(text["review_body"])
         new_record = re.sub(' +', ' ', text["review_body"])
-        # print(new_record)
         doc = nlp(new_record)
-        # print(doc)
         sentiment = ''
         sid = SentimentIntensityAnalyzer()
         scores = sid.polarity_scores(new_record)
@@ -72,13 +69,8 @@ def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
         elif scores["compound"] >= -1:
             sentiment = 'Strictly Negative'
 
-        # print(sentiment)
         text["sentiment"] = sentiment
-        # newText = []
         for token in doc:
-            # if token.pos_ in allowed_postags:
-            # newText.append(token.lemma_)
-            # token_list = [token for token in doc]
             filtered_list = [token for token in doc if not token.is_stop]
             lemmas = [
                 f"{token.lemma_}"
@@ -97,12 +89,6 @@ for item in data:
     lemmatizedText = lemmatization(item)
     lemma_array.append(lemmatizedText)
 
-# print(data)
 
-
-# with open('./backend/datasets/combined_data.json', 'w') as f:
 with open('./backend/datasets/categories/electronics/camera_and_photo.json', 'w') as f:
     json.dump(data, f, indent=4)
-
-# print(lemma_array)
-# new_data = gen_words(lemma_array)
