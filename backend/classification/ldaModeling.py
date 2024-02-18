@@ -99,7 +99,7 @@ new_data = gen_words(lemmatizedText)
 #     news = gen_words(i)
 #     new_data.append(news)
 
-print(new_data[1])
+print(new_data)
 
 
 id2word = corpora.Dictionary(new_data)
@@ -109,7 +109,7 @@ for text in new_data:
     a = id2word.doc2bow(text)
     corpus.append(a)
 
-print(corpus[1])
+# print(corpus[1])
 
 # word = id2word[[2][:1][0]]
 # print(word)
