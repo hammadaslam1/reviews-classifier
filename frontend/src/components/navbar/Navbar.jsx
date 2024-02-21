@@ -1,15 +1,9 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
-import '../../styles/globals.css'
+import "../../styles/globals.css";
 import {
   // AppBar,
   Avatar,
-  Box,
-  Button,
-  Card,
-  CssBaseline,
-  Dialog,
-  Divider,
   // Drawer,
   IconButton,
   List,
@@ -23,7 +17,6 @@ import {
 import MuiDrawer from "@mui/material/Drawer";
 import MuiAppBar from "@mui/material/AppBar";
 import React, { useEffect, useState } from "react";
-import SecondaryButton from "../buttons/SecondaryButton";
 import PrimaryButton from "../buttons/PrimaryButtons";
 import LoginModal from "../dialogs/LoginModal";
 import SignupModal from "../dialogs/SignupModal";
@@ -33,14 +26,11 @@ import { styled, useTheme } from "@mui/material/styles";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 import { PRODUCTS } from "../../routes/Routes";
 import { useNavigate } from "react-router-dom";
-import DevicesIcon from "@mui/icons-material/Devices";
-import { Gite, Kitchen } from "@mui/icons-material";
 import LOGO from "../../assets/logos/logo192.png";
 import NAME_SLOGAN from "../../assets/logos/name_slogan.png";
+import { category, subCat } from "../data/DataPaths";
 // import { Alert } from "@mui/joy";
 // import LoginModal from "../dialogs/LoginModal";
 
@@ -96,14 +86,10 @@ const DrawerFooter = styled("div")(({ theme }) => ({
   height: "80px",
   display: "flex",
   alignItems: "center",
-  // justifySelf: '',
-  // justifyContent: "space-between",
   padding: theme.spacing(0, 1),
   position: "sticky",
   bottom: 0,
   zIndex: 1,
-  // boxShadow: '0 0 0 0 #646365',
-  // necessary for content to be below app bar
   ...theme.mixins.toolbar,
 }));
 const AppBar = styled(MuiAppBar, {
@@ -149,52 +135,6 @@ const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [user, setUser] = useState();
   const isOpen = Boolean(anchorEl);
-
-  const category = [
-    "Electronics",
-    "Tools & Home Improvement",
-    "Computers & Tablets",
-    "Men's Fashion",
-    "Women's Fashion",
-  ];
-
-  const subCat = [
-    {
-      category: "Electronics",
-      name: "Camera & Phones",
-      fullPath: "electronics/camera_and_photo.json",
-      path: "electronics",
-      icon: <DevicesIcon />,
-    },
-    {
-      category: "Tools & Home Improvement",
-      name: "Appliances",
-      fullPath: "tools_and_home_improvement/appliances.json",
-      path: "appliances",
-      icon: <Kitchen />,
-    },
-    {
-      category: "Tools & Home Improvement",
-      name: "Home Improvement",
-      fullPath: "tools_and_home_improvement/home_improvement.json",
-      path: "home",
-      icon: <Gite />,
-    },
-    {
-      category: "Tools & Home Improvement",
-      name: "Kitchen and Bath Fixtures",
-      fullPath: "tools_and_home_improvement/kitchen_bath_fixtures.json",
-      path: "kitchen",
-      icon: <Kitchen />,
-    },
-    {
-      category: "Computers & Tablets",
-      name: "Computers & Laptops",
-      fullPath: "computers/computers_laptops.json",
-      path: "computers",
-      icon: <DevicesIcon />,
-    },
-  ];
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -445,7 +385,7 @@ const Navbar = () => {
           {/* </div> */}
           <div>
             <Typography variant="h6" sx={{ marginX: 3, fontWeight: 500 }}>
-            {/*  {auth.currentUser.displayName}*/}
+              {/*  {auth.currentUser.displayName}*/}
             </Typography>
           </div>
         </DrawerFooter>
