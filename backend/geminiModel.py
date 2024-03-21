@@ -4,9 +4,16 @@ At the command line, only need to run once to install the package via pip:
 $ pip install google-generativeai
 """
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+MY_API = os.getenv("GEMINI_API")
+
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyD4-jd-yLe6w9OlcPFtwZUqfPeM685X7qQ")
+genai.configure(MY_API)
 
 # Set up the model
 generation_config = {
