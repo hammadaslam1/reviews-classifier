@@ -4,11 +4,12 @@ import json
 def combine_records(data):
     combined_data = {}
     for item in data:
-        product_title = item['product_title']
+        product_title = item['product_name']
         combined_data.setdefault(product_title, {})
         print(product_title)
         for key, value in item.items():
-            if key in ['reviews', 'reviewer_name', 'review_title', 'review_rating', 'reviewer_country_date', 'purchased_product', 'review_status', 'review_body', 'review_helpfulness']:
+            # if key in ['reviews', 'reviewer_name', 'review_title', 'review_rating', 'reviewer_country_date', 'purchased_product', 'review_status', 'review_body', 'review_helpfulness']:
+            if key in ['reviews_name', 'review']:
                 combined_data[product_title].setdefault(
                     'reviews', []).append({key: value})
             else:
