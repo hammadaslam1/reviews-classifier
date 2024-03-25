@@ -10,10 +10,11 @@ import os
 load_dotenv()
 
 MY_API = os.getenv("GEMINI_API")
+print(MY_API)
 
 import google.generativeai as genai
 
-genai.configure(MY_API)
+genai.configure(api_key=MY_API)
 
 # Set up the model
 generation_config = {
@@ -84,7 +85,9 @@ prompt_parts = [
   "input: The Asus N61JQ-X1's performance is excellent, when it works. That's the good. But it is too cheaply made, unreliable and has too many hardware failures. I suspect that a lot of these glowing reviews were probably done when the laptop was brand new before it stood the test of time. I have had this laptop since September 2010 and it's now March 2013. At about a year and a half the fan went out. I replaced it, not a big deal in itself. At about the same time the video card started going out. Suddenly while working the video card puts yellow vertical stripes on the monitor while the system freezes and hangs. I have to power off and restart to use the computer again. The yellow stripe freezes/crashes have become more and more frequent. At first it was a couple times a month, now it is once a day or even more. Now I will have to buy another video card. All my other laptops lasted years without any hardware going bad. Planned obsolescence? Cheap parts and build quality? I don't know. The Asus N61JQ-X1 is marketed as USB 3.0, the latest and greatest and  future proof. What they don't tell you is that ONLY ONE of the THREE USB ports is actually USB 3.0 (the single one on the left side). The other two are USB 2",
   "output: Asus N61JQ-X1, video card, hardware failures, reliability, usb 3.0",
   "input: Asus K42jr-a1 Review Quick Synopsis: After putting a little time into it, its a quick, peppy system that can play movies and handle most games. As long as you aren't an extreme gamer, this system will work for you. The Asus K42jr-a1 runs very smooth and can handle everything I have thrown at it. I used the recovery partition to reinstall on a single partition, but I have heard of just doing a fresh install. This also works. As with many laptops these days, lots of bloatware, but I was aware of this, and cleaned out what I didn't want. If you are a little weary fully deleting programs (even though you have the utility disk), just deactivate the services and stop certain programs from starting at the boot. This will also increase your performance. ****NOTE: When the computer was first booted, it seemed very sluggish. At times, the cpu light was on, but it appeared nothing was happening. Task Manager showed no CPU activity. After a couple minutes, the computer would resume what it was working on. But, this freezing, or sluggish activity would occur every 5 minutes or so. After some research, I found this obscure, but simple solution.",
-  "output: ",
+  "output: Asus K42jr-a1, bloatware, task manager, CPU light",
+  "input: God help you if you should have to deal with customer service on a laptop. I purchased one of these and within 3 months was having lots of power supply/charging issues. Asus' response was to update the drivers, which were already up to date. So within 3 months of that, the computer literally fried and went up in smoke. Yes, it is under warranty, and the long warranty they offer is great. Unless you actually have to use it. It has been a full 28 days right now since Asus has been working on my laptop. I have spent hours on the phone with them trying to get a status. The concept of a supervisor doesn't exist there. They are more than happy to set the phone down for a half hour and come back later to see if you are still there. So my nearly new computer is still sitting in their repair facility almost a month later. So consider yourself warned. Take these reviews that mention the reliability and customer support to heart and save yourself the trouble and look elsewhere.\n\nThe screen is big and looks great. I will give it that much. But it means nothing when the entire machine goes up in smoke and the manufacturer doesn't even seem to know how to fix it. And no, they won't just ship a replacement.",
+  "output:"
 ]
 
 response = model.generate_content(prompt_parts)
