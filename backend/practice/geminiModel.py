@@ -89,10 +89,15 @@ def gemini(input):
         "output:",
     ]
 
-    response = model.generate_content(prompt_parts)
-    # print(response.text)
+    try:
+        response = model.generate_content(prompt_parts)
+        if response:
+            print(response.text)
+            return response.text
+    except ValueError as e:
+        print("The response contains no valid Part or was blocked. ", e)
+        return 'empty'
 
-    return response.text
+    # if (response.text)
 
-
-
+    

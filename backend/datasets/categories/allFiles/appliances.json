@@ -33,9 +33,7 @@
                 "review_body": "Too small and doesn't dry\n the clothes",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "small dry clothe"
-                ]
+                "review_topics": "dryer"
             }
         ]
     },
@@ -73,12 +71,7 @@
                 "review_body": "I used this to keep hot chocolate warm for a Christmas event outdoor with my kids. It stored easily in a bag cooler, poured easily, & saved money. I might put a cold drink in it for them in the summer when out in the heat.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "hot chocolate",
-                    "warm christmas event outdoor kid store",
-                    "bag cooler",
-                    "cold drink summer heat"
-                ]
+                "review_topics": "hot chocolate, event outdoor, money savings, cold drink"
             }
         ]
     },
@@ -116,12 +109,7 @@
                 "review_body": "Got this for my dad who's updating his home before selling. Beautiful design. Easy to install according to my father and younger brother.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "dad update home",
-                    "beautiful design",
-                    "easy install accord father",
-                    "young brother"
-                ]
+                "review_topics": "beautiful design, easy to install"
             },
             {
                 "reviews": "",
@@ -134,21 +122,7 @@
                 "review_body": "This review is for Peerless P2635LF-BN Parkwood Two Handle Lavatory Faucet Centerset, Brushed Nickel\n\nThe installation was easy. The supply lines are included which helped the installation process a lot, the only struggle was to remove the old one.\n\nThe nobs operate very smoothly don\u2019t require any effort to open or close and it is easy to set up the temperature. It looks really nice. I like the height not too tall or short. The water flow feels low at first but I think it is the best volume to conserve water instead of running it at full speed and wasting a lot of water.\n\nThe only issue is that if somehow you drop water on top of the faucet once it dries it is going to show horrible watermarks. It is cleanable and disappears easily when wiped but the look is annoying. Other than that it is a great faucet.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "review peerless lf bn parkwood",
-                    "lavatory faucet centerset",
-                    "nickel installation",
-                    "installation process lot struggle",
-                    "old nob",
-                    "easy set temperature look",
-                    "tall short water flow",
-                    "good volume",
-                    "speed waste lot water issue drop water faucet dry",
-                    "horrible watermark",
-                    "cleanable disappear",
-                    "wipe look",
-                    "great faucet"
-                ]
+                "review_topics": "watermarks, brus Nickel, brushed nickel, cleanable, low water flow, struggle, volume, water conservation"
             },
             {
                 "reviews": "",
@@ -161,25 +135,7 @@
                 "review_body": "Don't you hate it when you have a faucet that leaks, you have fixed it multiple times over the years and it starts dripping again.  Eventually you get to the point that all you want to do is rip out the old faucet and install a new one.  That happened to me with not one, but two faucets recently.  So, when I saw this Peerless faucet in my Vine reviewer queue, I leapt at the chance to try it out.\n\nThe installation was completely textbook.  The top piece fit my sink perfectly.  The spigot and handle piece was easy to install.  I love that the threads on the mounting tubes went high enough to allow things to snug up nicely on my enamel-covered steel sink - it's not as thick as a ceramic sink - I've had problems with this in the past.\n\nIf you have any experience replacing this kind of hardware, the installation should take you around 15-30 minutes (once you have the old hardware removed).\n\nThe instructions are easy to follow...the figures and narrative text are both well done.\n\nOnce in place, I love how they look.\n\nI do have one complaint that to me looks like a design flaw.  Once you have the entire thing installed, the rod (which is angled - I hate this) that you raise to lower the drain, rotates about 45 degrees to the right.  I mean, everything works just fine, but I guess I'm OCD enough that this bugs me enough to cost this product one star.\n\nIt's now been in place and action for a couple of weeks.  No problems except for the one mentioned above.\n\n4 stars",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "faucet leak fix",
-                    "multiple time year",
-                    "old faucet install",
-                    "peerless faucet vine reviewer queue leapt chance",
-                    "textbook piece",
-                    "easy install",
-                    "thread mount tube",
-                    "thing snug",
-                    "problem past experience",
-                    "kind hardware installation minute",
-                    "old hardware",
-                    "figure narrative text place",
-                    "complaint look",
-                    "design flaw",
-                    "entire thing instal rod angle",
-                    "drain rotate degree",
-                    "fine guess ocd bug cost product star place action couple week problem"
-                ]
+                "review_topics": "Peerless faucet, kitchen faucet, sink, installation, instructions, design flaw"
             },
             {
                 "reviews": "",
@@ -192,11 +148,7 @@
                 "review_body": "Very nice faucet, came with great instructions and was super easy to install.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "nice faucet",
-                    "great instruction",
-                    "super easy install"
-                ]
+                "review_topics": "faucet"
             },
             {
                 "reviews": "",
@@ -209,10 +161,7 @@
                 "review_body": "I installed this faucet in my mom\u2019s bathroom. It took longer to remove the old faucet than it did to install this one. It is very well made and looks great.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "instal faucet mom bathroom",
-                    "old faucet install look"
-                ]
+                "review_topics": "faucet"
             },
             {
                 "reviews": "",
@@ -225,14 +174,7 @@
                 "review_body": "We have hardwater and even with a water softener it takes a toll on all plumbing fixtures. This provided a nice upgrade/update to a much cleaner look than the old brass fixture. Installation was straight forward. Everything except silicone and plumber's tape was included in the box. Very nice economical fixture.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "hardwater water softener",
-                    "nice upgrade update",
-                    "clean look",
-                    "old brass fixture installation",
-                    "silicone plumber tape",
-                    "nice economical fixture"
-                ]
+                "review_topics": "plumbing, brass fixture"
             },
             {
                 "reviews": "",
@@ -245,23 +187,7 @@
                 "review_body": "Just updating fixtures in the bathroom - most door pulls and knobs are satin or brushed nickel, so went with that for the faucet as well. This was easy to install, but be sure to have plumbing silicone on hand and ready. The old sink had a rubber seal for the drain fitting, so I overlooked that initially when installing this. Otherwise this just dropped in and was an easy install. The slightly higher rise of the faucet is nice, and the faucet handles move very smoothly allowing for great control of water volume.\n\nThe drain stopper doesn't pull down flush and tight, but the rubber seal still holds water. I think it's by design that it doesn't pull down tight so you don't crush the rubber seal.\n\nMy only complaint is the aerator is fully plastic, so I accidentally cross threaded it when I tried to put it back in after flushing the faucet. Removing it and reinstalling it fixed the problem, but I'm mildly concerned with longevity.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "update fixture bathroom door pull knob satin brush nickel",
-                    "easy install",
-                    "silicone hand",
-                    "rubber seal drain",
-                    "instal drop",
-                    "easy install",
-                    "high rise faucet",
-                    "nice faucet",
-                    "great control water volume drain stopper pull flush",
-                    "tight rubber seal hold water",
-                    "design pull",
-                    "tight crush rubber seal complaint aerator",
-                    "cross thread",
-                    "flush faucet",
-                    "reinstall fix problem"
-                ]
+                "review_topics": "bathroom faucet, plumbing silicone, drain fitting, rubber seal, water volume, drain stopper, aerator, longevity"
             },
             {
                 "reviews": "",
@@ -274,36 +200,7 @@
                 "review_body": "This was my first time installing a bathroom faucet. I was told by others that it's very easy and takes around 20 minutes. Well, it probably took me closer to 2 hours. But I got it done and only needed a wrench and pliers. I guess having silicone on hand would be ideal to make sure it's all water-tight, but I did not have this and just used what was left from my previous faucet.\n\nMy previous faucet was an ugly (in my opinion) and outdated Peerless set and came with my house 5 years ago... so no telling how old it actually was. It was about time I got something more attractive and more my style. This was perfect in looks for what I wanted in my bathroom. I figured not having done these before that going with another Peerless brand faucet of the same general shape was the safest. It fit nearly perfect where the other had been. The drain is a bit narrower than the previous Peerless drain. And the main base part is shaped a little different, wider in parts and smaller in others, but overall it was close.\n\nI took the whole old thing out, besides the pipes and hoses as this didn't include replacements for those. I followed the directions diligently and often rereading it over because I didn't quite understand. But I do not believe I made any mistakes in the long run. At first the rubbery gasket underneath wasn't tightened enough and leaked when I turned the main back on (as I don't have a shut off under the sink). Fortunately I didn't turn on the water yet as the directions had told me to. And when I did turn it on, I thought to have the drain plugged at the time so it was slow... but potentially that's why it leaked more. However I got that sorted out and tightened it much better. I had a bit of an issue lining up the lever well and in the end find the plug and the stopper lever in back of it to be quite wiggly. On my old faucet the lever rested snuggly on the top... this one is wiggles either direction in the back and doesn't really have a resting place. You also have to lift it higher to get it to seal.\n\nOverall I'm pretty pleased with this. It's nice looking. And I'm happy I didn't have to hire someone to install. I am NOT a handy person... if I could install this just about anyone can!",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "time instal bathroom faucet",
-                    "need wrench plier guess",
-                    "silicone hand",
-                    "ideal sure water",
-                    "previous faucet",
-                    "previous faucet",
-                    "ugly opinion outdate peerless",
-                    "house year",
-                    "attractive style",
-                    "perfect look",
-                    "bathroom figure",
-                    "peerless brand faucet general shape",
-                    "perfect drain bit",
-                    "narrow previous peerless drain",
-                    "main base shape",
-                    "different wide part",
-                    "small overall",
-                    "old thing pipe hose",
-                    "long run rubbery gasket underneath",
-                    "main shut",
-                    "water direction",
-                    "drain plug time",
-                    "bit issue line lever end",
-                    "plug stopper lever",
-                    "old faucet lever rest",
-                    "wiggle direction rest place",
-                    "seal overall",
-                    "handy person install"
-                ]
+                "review_topics": "Peerless bathroom faucet, installation, drain, gasket"
             },
             {
                 "reviews": "",
@@ -316,10 +213,7 @@
                 "review_body": "neck is loose and now the handle is sticking, I have installed 1000 faucets and haven't come across one this bad. This thing hasn't even been used...  garbage",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "instal faucet",
-                    "bad thing garbage"
-                ]
+                "review_topics": "neck is loose, handle is sticking, faucet, garbage"
             },
             {
                 "reviews": "",
@@ -332,23 +226,7 @@
                 "review_body": "I really love the new faucet. I have a pedestal sink and was dreading replacing the faucet since everything I read up to two weeks ago stated I'd have to remove everything. Well, I found instructions that helped me keep the sink in place during replacement and was successful. This faucet is beautiful. My old faucet drain piece was rusting and peeling and definitely wasn't stainless steel under the chrome coating. this one seems to be much much better qualit and I'm hoping it will outlast us in this house. It looks great, the instructions are clear enough (I also had those separate instructions about the sink itself) and it entirely changes the look of my guest bathroom.\n\nYes, it's a simple basic design, but the finish is so nice, that I'm thrilled with it. Highly recommended, no leaks so far!  I've had a peerless sink in my kitchen for years that worked well. That is recently replaced, too, but I was happy with the brand. It is an excellent quality affordable faucet option that is as well-made as the more expensive brands.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "new faucet pedestal",
-                    "place replacement",
-                    "successful faucet",
-                    "beautiful old faucet drain piece",
-                    "stainless steel chrome",
-                    "qualit hope outlast house look",
-                    "great instruction",
-                    "clear separate instruction",
-                    "guest bathroom yes",
-                    "simple basic design finish",
-                    "kitchen year work",
-                    "happy brand",
-                    "excellent quality",
-                    "affordable faucet option",
-                    "expensive brand"
-                ]
+                "review_topics": "stylish and beautiful faucet, chrome coating, Peerless sink, rusting and peeling, stainless steel, simple design, affordable"
             }
         ]
     },
@@ -386,9 +264,7 @@
                 "review_body": "Very shiny and perfect fit. Really made the old stove look 10 years younger.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "shiny perfect fit old stove look year"
-                ]
+                "review_topics": "shiny, stove, made old look 10 years younger, perfect fit"
             }
         ]
     },
@@ -426,7 +302,7 @@
                 "review_body": "So so",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": []
+                "review_topics": "so so"
             },
             {
                 "reviews": "",
@@ -439,11 +315,7 @@
                 "review_body": "For the price, It works great. Has fewer coils than the stock burners.\nHome depot wanted $40 for replacement burners! We opted for these and they work fine.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "price work",
-                    "coil stock burner home depot",
-                    "replacement burner opt work"
-                ]
+                "review_topics": "price, home depot, burners"
             },
             {
                 "reviews": "",
@@ -456,9 +328,7 @@
                 "review_body": "Fits on my older electric stove. Can't ask for more.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "fit old electric stove"
-                ]
+                "review_topics": "electric stove"
             },
             {
                 "reviews": "",
@@ -471,11 +341,7 @@
                 "review_body": "It has only FOUR turns, not six as pictured, and the element is narrower than the one I replaced.  Nothing deluxe about it.  It works, but I'll definitely shop around for a heavier element.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "picture element",
-                    "deluxe work",
-                    "heavy element"
-                ]
+                "review_topics": "six, heavy element"
             },
             {
                 "reviews": "",
@@ -488,23 +354,7 @@
                 "review_body": "The product is satisfactory. The burner has the exact same configuration and markings as the broken one it replaced except where the model number was etched into the \"y\"\" frame of the original burner there is a gind-off mark on the new one as if the model number was erased. It seems as if this Camco brand is just the Chromalox brand repackaged with the trade marks removed. I was a bit disappointed because Camco's web page explained that their burners had more coil turns than some other brands, and that is what made it \"\"deluxe\"\". When the new burner arrived it had the same number of turns (5) as the original. The picture is not accurate for this item because it clearly depicts 6 turns. Maybe the picture corresponds to the large size 8 inch burners. In any case, the quality is equal to the original and it is functional. I do not perceive anything about it that merits the \"\"deluxe\"\" adjective.\"",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "satisfactory burner",
-                    "exact configuration",
-                    "model number etch frame",
-                    "original burner gind mark",
-                    "new model number",
-                    "camco brand chromalox brand repackage trade mark",
-                    "camco web page",
-                    "burner coil",
-                    "brand deluxe",
-                    "new burner",
-                    "original picture",
-                    "accurate item",
-                    "picture correspond",
-                    "large size inch burner case quality",
-                    "equal original functional perceive merit deluxe adjective"
-                ]
+                "review_topics": "Camco brand, Chromalox brand, coil turns, deluxe, 5 turns, 6 turns"
             },
             {
                 "reviews": "",
@@ -517,9 +367,7 @@
                 "review_body": "i was in a rental, and accidentally melted a plastic bowl onto the stove.  rather than have the landloard charge me a fortune for damage, i easily replaced it myself, cheaper than i thought it would be!",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "plastic bowl stove landloard charge fortune damage"
-                ]
+                "review_topics": "bowls, stoves"
             }
         ]
     },
@@ -557,10 +405,7 @@
                 "review_body": "You gave the measurments incorrectly....the first number is always the width not the depth so I had to return it. Hope I get my money back because it would not fit.\n\nThanks,\n\nRich Romanello",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "number width depth return hope money",
-                    "rich romanello"
-                ]
+                "review_topics": "incorrect measurments"
             },
             {
                 "reviews": "",
@@ -573,15 +418,7 @@
                 "review_body": "I just bought this a couple of weeks ago. It is great so far.  It holds either small bottles or large bottles of wine.  If you use large bottles, you just have to remove the shelf above.  It keeps the wine cool and is quiet.  The only draw back was that it was too tall to put on the counter if you have over counter cabinets.  I put it on a small table in the utility room.  It is a perfect size otherwise.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "couple week",
-                    "small bottle",
-                    "large bottle wine use",
-                    "large bottle",
-                    "tall counter counter cabinet",
-                    "small table utility room",
-                    "perfect size"
-                ]
+                "review_topics": "empty"
             },
             {
                 "reviews": "",
@@ -594,12 +431,7 @@
                 "review_body": "We have been very pleased with our wine cooler.  If I were to have any criticisms of it, it would be that it can be hard to fit  wine bottles that are bigger around into some shelves.  It doesn't always chill a wine as much as we prefer but that's more a personal preference since we like some of our wines to be cooler.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "wine cooler criticism",
-                    "hard fit wine bottle",
-                    "big shelf chill wine",
-                    "personal preference"
-                ]
+                "review_topics": "empty"
             },
             {
                 "reviews": "",
@@ -612,19 +444,7 @@
                 "review_body": "As other reviewers have mentioned, the listed dimensions are way off. Our 8-bottle cooler is 19.5 inches deep (meaning from front to back), 16 inches wide, and 10 inches high. The picture of the 8-bottle cooler is misleading because it doesn't really show how deep the unit is, and because of that, it won't fit many kitchen counters, including ours. We keep it on a small table in a nook that luckily was just the right size, otherwise we'd have no place for it. So measure your counter before you buy. Other than that, it has worked perfectly for us for about 6 weeks now and we really like it. We've been able to adjust temperature (we keep between 53 and 60 depending on contents) and it responds well. It's very quiet, almost completely silent, and no problems getting standard wine bottles to fit. I was concerned when we first turned it on because it did not seem to cool, but it just took a while for it to adjust and set itself.  Since then we've had no problems. Important: Read the simple & brief instruction manual before you turn it on.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "list dimension way bottle cooler inch",
-                    "wide inch high picture bottle cooler",
-                    "deep unit",
-                    "fit kitchen counter",
-                    "small table nook",
-                    "right size place measure counter",
-                    "silent problem",
-                    "standard wine bottle",
-                    "fit concern",
-                    "simple brief instruction",
-                    "manual turn"
-                ]
+                "review_topics": "8-bottle cooler, wine bottle, dimensions"
             },
             {
                 "reviews": "",
@@ -637,17 +457,7 @@
                 "review_body": "I bought this unit last year right before Christmas from Walmart. A week ago it started to beep with lights flashing and as mentioned in other reviews the only way to stop it is to unplug it. The owner Manual doesn't help. Glad I got it on sale. Piece of garbage.  Save your money and store the ones you want chilled in the refrigerator.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "unit year",
-                    "christmas walmart week",
-                    "light flash",
-                    "review way",
-                    "unplug owner",
-                    "manual help",
-                    "sale piece garbage",
-                    "money store",
-                    "chill refrigerator"
-                ]
+                "review_topics": "refrigerator, beep, lights flashing"
             },
             {
                 "reviews": "",
@@ -660,12 +470,7 @@
                 "review_body": "Don't waste your money on this! I'd give this negative stars if I could. It rarely got to 50\u00b0 and when it did get to 50\u00b0, that only lasted for a day or two after we got it. After that, it held steady at about 65-70\u00b0 but would not get any lower, ever, no matter how many times we set it. Now it completely stopped working after not owning it for very long. So it's just a waste of space now.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "waste money",
-                    "negative star",
-                    "steady low matter time",
-                    "waste space"
-                ]
+                "review_topics": "temperature, waste of money, space"
             },
             {
                 "reviews": "",
@@ -678,20 +483,7 @@
                 "review_body": "I bought three of these last night at WalMart for $39 a piece. Added a 2 year WalMart warranty for $4 each. I loved the size and how they could actually fit 8 real bottles, including burgundy style bottles. The size is perfect for my application. I plugged them in and after about 2 hours, they were at 55F. I loaded one with 8 Italian-style bottles (long and skinny) and they fit very well! The other two I took out the bottom rack and put a magnum in sideways WITH 7 other bottles! The temp shot up to 65 on all of them (ambient temp + warm wine bottles), but they slowly fell to 55 over a few hours, which is better for wine. I hope these last a long time, since they are great for my application. I will come back in 6 months and do a follow-up. As of right now, they are working like champs!",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "night walmart piece",
-                    "year walmart warranty",
-                    "fit real bottle",
-                    "burgundy style bottle size",
-                    "perfect application plug hour load italian style bottle",
-                    "long skinny",
-                    "rack magnum sideway bottle temp shoot ambient temp",
-                    "warm wine bottle",
-                    "fall hour",
-                    "wine hope",
-                    "long time",
-                    "great application"
-                ]
+                "review_topics": "empty"
             },
             {
                 "reviews": "",
@@ -704,11 +496,7 @@
                 "review_body": "bought 2 first,  one of them Stopped working  in 6 bought another one, stopped in 4 months. the other 8 months, Had a special inside  cabinet  custom build in my wall, for them, cost me $250.00. now I have to throw them in the garbage and try to buy another brand to fill that cab\nDO NOT BUY !!!!",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "month month",
-                    "cabinet custom",
-                    "wall cost"
-                ]
+                "review_topics": "input: The Asus K42jr-a1 runs very smooth and can handle everything I have thrown at it. I used the recovery partition to reinstall on a single partition, but I have heard of just doing a fresh install. This also works. As with many laptops these days, lots of bloatware, but I was aware of this, and cleaned out what I didn't want. If you are a little weary fully deleting programs (even though you have the utility disk), just deactivate the services and stop certain programs from starting at the boot. This will also increase your performance. ****NOTE: When the computer was first booted, it seemed very sluggish. At times, the cpu light was on, but it appeared nothing was happening. Task Manager showed no CPU activity. After a couple minutes, the computer would resume what it was working on. But, this freezing, or sluggish activity would occur every 5 minutes or so. After some research, I found this obscure, but simple solution.output: Asus K42jr-a1, bloatware, task manager, CPU lightinput: bought 2 first,  one of them Stopped working  in 6 bought another one, stopped in 4 months. the other 8 months, Had a special inside  cabinet  custom build in my wall, for them, cost me $250.00. now I have to throw them in the garbage and try to buy another brand to fill that cab\nDO NOT BUY !!!!output: stopped working, custom build"
             },
             {
                 "reviews": "",
@@ -721,9 +509,7 @@
                 "review_body": "I love it. It makes a  great showing in my living  room area ..very nice",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "room area"
-                ]
+                "review_topics": "Asus K42jr-a1, nice showing"
             },
             {
                 "reviews": "",
@@ -736,12 +522,7 @@
                 "review_body": "We have had this unit for almost one year. We have it set for 55 degrees, and it keeps that temperature nailed. We have it set on a kitchen counter, adjacent to our ovens, but with the specified clearances for air flow at the sides and back. No complaints at all. We are considering purchasing a second one to give us more storage for red wines.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "unit year",
-                    "temperature nail",
-                    "kitchen counter adjacent oven specify clearance air flow side complaint",
-                    "red wine"
-                ]
+                "review_topics": "temperature, storage for red wines"
             },
             {
                 "reviews": "",
@@ -754,16 +535,7 @@
                 "review_body": "I've had my cellar frig for almost 2 years- works great actually I got 2 of them for my space. it is a wine cellar not cooler. if you want a cold wine then just get a small refrig, not a wine cellar refrig! it keeps wine at cellar temps. perfect for maintaining wines. when I'm ready to drink a white ...then I transfer to my main frig to cool it down to what I like to drink it at.\ngood price.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "cellar frig years work",
-                    "space wine cellar",
-                    "cold wine",
-                    "small refrig wine cellar refrig",
-                    "wine cellar temp",
-                    "ready drink",
-                    "main frig",
-                    "drink good price"
-                ]
+                "review_topics": "refrigerator, wine cellar"
             },
             {
                 "reviews": "",
@@ -776,13 +548,7 @@
                 "review_body": "This product has been okay for us. While it chills wine and seems to be made of great quality, we have had weekly trouble with it leaking water from the back. Not sure what the problem is but at the price we paid, I don't think we should have to deal with leaking water. Just saying...",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "product okay chill wine",
-                    "great quality",
-                    "weekly trouble leak water",
-                    "sure problem price pay",
-                    "leak water"
-                ]
+                "review_topics": "wine chiller, leaking water"
             },
             {
                 "reviews": "",
@@ -795,19 +561,7 @@
                 "review_body": "This is a piece of junk. It can barely keep wine cool in the winter with the heat off. The fan runs all the time no matter what. Furthermore, when the room temperature is a tad bit above 70 degrees, the light starts flashing along with a constant beeping. The only way to stop this, is to unplug it.\n\nThe manufacturer offers no suggestion other than saying it's probably the pc. In my mind \"pc\"\" is personal computer, not microprocessor which is probably what is controlling the light flashing and beeping. The manufacturer offers no method of getting a unit which is properly working, even though they shipped the original flashing and beeping unit. They consider it yours because you, well, opened their box. This is the kind of treatment that gives a bad name to internet shopping.\"",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "piece junk",
-                    "cool winter heat fan run time matter furthermore room temperature tad bit degree",
-                    "light start flash",
-                    "unplug manufacturer",
-                    "pc mind pc",
-                    "personal computer microprocessor",
-                    "light flash beep manufacturer",
-                    "work ship",
-                    "beep unit",
-                    "open box kind treatment",
-                    "bad internet"
-                ]
+                "review_topics": "poor cooling wine, fan running, light flashing, beeping"
             }
         ]
     },
@@ -845,7 +599,7 @@
                 "review_body": "Worked and matched",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": []
+                "review_topics": "input: Very good value considering features and price. Was looking for a notebook with 13.3in screen and CD/DVD Player. Couldn't find anything 13.3in with CD/DVD player at reasonable price but at 14in the Asus comes pretty close. Has bluetooth, HDMI, Wireless a/b/g/n and 2.2GHZ cpu, lighted keyboard and multitouch touchpad, all good to have besides the usual base feature set. Appears too glossy for me and certainly a fingerprint magnet. The mousepad could have been better designed. It's a little bit too small and the clicker feels awkward, but I guess I might get used to it soon. The screen looks very good but the default setup was a little too bright so I adjusted it down a little. Runs pretty cool and reasonably quiet. Compared side by side with a Sony VGN-SR390 13.3in and I liked the looks of the Sony better. But the U80V is about 500.00 cheaper and the Sony's keyboard is not lighted. I choose the ASUS for features and value but honestly my heart was with the Sony. :-) Even though advertised as thin, the ASUS is not that thin at about 1.3 in, but comfortable to sit on my laptop and type while watching TV. Overall, great value!output: Sony VGN-SR390, 2.2GHZ cpu, multitouch touchpad, CD/DVD Player"
             },
             {
                 "reviews": "",
@@ -858,9 +612,7 @@
                 "review_body": "As advertised.\nTroy.\n#",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "advertise troy"
-                ]
+                "review_topics": "-Said Troy."
             },
             {
                 "reviews": "",
@@ -873,9 +625,7 @@
                 "review_body": "Nothing fancy, but simple enough to install and works so far.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "simple install work"
-                ]
+                "review_topics": "simple enough to install, reliable"
             },
             {
                 "reviews": "",
@@ -888,14 +638,7 @@
                 "review_body": "The stopper does it's job for what I want it to do.  It hasn't fallen off the wall.  You install it by poking the screw through the little pinhole... Yes, I was trying to pull it apart until I realize that the screw can fit through that hole.  Not plastic, feels like good quality!  No directions were included in the package... guess it should be self explanatory. LOL.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "stopper job",
-                    "fall wall install poke screw",
-                    "pinhole yes",
-                    "fit hole plastic",
-                    "good quality direction",
-                    "package guess self explanatory lol"
-                ]
+                "review_topics": "Wall stopper"
             },
             {
                 "reviews": "",
@@ -908,11 +651,7 @@
                 "review_body": "Got this item for behind one of my doors that would hit the wall in a very specific spot (from the handle) & it was great. Fit perfect, easy to put up & problem was solved.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "item door",
-                    "specific spot",
-                    "great fit perfect easy problem"
-                ]
+                "review_topics": "fits behind a door, door handle, easy to install"
             },
             {
                 "reviews": "",
@@ -925,11 +664,7 @@
                 "review_body": "Looks brown or bronze.... not BLACK!!!i ordered specifically BLACK. Ugh",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "brown bronze",
-                    "black order",
-                    "black ugh"
-                ]
+                "review_topics": "looks brown or bronze..... not BLACK!!!i ordered specifically BLACK. Ugh"
             }
         ]
     },
@@ -967,9 +702,7 @@
                 "review_body": "Easy to use and works for extending down rods.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Positive",
-                "review_topics": [
-                    "easy use work"
-                ]
+                "review_topics": "simple and effective tool"
             }
         ]
     },
@@ -1007,10 +740,7 @@
                 "review_body": "Works great to join two rods together.  Overpriced though for a small metal piece.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "rod overprice",
-                    "small metal piece"
-                ]
+                "review_topics": "joiner rod, overpriced"
             }
         ]
     },
@@ -1048,9 +778,7 @@
                 "review_body": "Had to modify it (no fault of the product) and it then worked as advertised.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "modify fault product work"
-                ]
+                "review_topics": "modification, as advertised"
             }
         ]
     },
@@ -1088,15 +816,7 @@
                 "review_body": "Bought a new condensor fan and motor and the company through this in for $4.99. In my not very scientific study, I would estimate that it removed about 15-20% of the dust, dog hair, etc from the bottom of the refrigerator but every little bit helps when it comes to maintaining proper air flow from front to back. On the upside, I've discovered that a strip of wire window screen placed behind the removable grille makes a lot more sense and could make me a millionaire.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "new condensor fan motor company",
-                    "scientific study estimate",
-                    "dust dog hair etc refrigerator",
-                    "proper air flow upside",
-                    "strip wire window screen place",
-                    "removable grille",
-                    "lot sense millionaire"
-                ]
+                "review_topics": "condensor fan and motor, refrigerator air flow"
             },
             {
                 "reviews": "",
@@ -1109,12 +829,7 @@
                 "review_body": "Contrary to the photos for this item, it is not made to bend like shown in the photo. So if you are looking for a brush to reach around the corner you will just have to hope the wire under the bristles is flexible enough to do the trick.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "contrary photo item bend",
-                    "show photo look brush",
-                    "corner hope wire bristle",
-                    "flexible trick"
-                ]
+                "review_topics": "bristles, photos, bend"
             },
             {
                 "reviews": "",
@@ -1127,9 +842,7 @@
                 "review_body": "Great product",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "great product"
-                ]
+                "review_topics": "great product"
             }
         ]
     },
@@ -1167,9 +880,7 @@
                 "review_body": "This has been lighting my furnace for years now with no problems.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Negative",
-                "review_topics": [
-                    "light furnace year problem"
-                ]
+                "review_topics": "functions as heater"
             }
         ]
     },
@@ -1207,7 +918,7 @@
                 "review_body": "Will be back for other add ones as needed.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": []
+                "review_topics": "good laptop accessories"
             }
         ]
     },
@@ -1245,7 +956,7 @@
                 "review_body": "Good!",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Positive",
-                "review_topics": []
+                "review_topics": "Windows 7"
             }
         ]
     },
@@ -1283,9 +994,7 @@
                 "review_body": "work and fits my model fridge",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "fit model fridge"
-                ]
+                "review_topics": "fits fridge"
             }
         ]
     },
@@ -1323,9 +1032,7 @@
                 "review_body": "Product was in excellent condition. Works perfect!",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "excellent condition work"
-                ]
+                "review_topics": "perfect condition"
             }
         ]
     },
@@ -1363,9 +1070,7 @@
                 "review_body": "Fit just like a factory new part and I was back up and running in no time!",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Positive",
-                "review_topics": [
-                    "new run time"
-                ]
+                "review_topics": "factory"
             }
         ]
     },
@@ -1403,9 +1108,7 @@
                 "review_body": "Fit old fans and look so much better",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "fit old fan look"
-                ]
+                "review_topics": "old fans"
             }
         ]
     },
@@ -1443,13 +1146,7 @@
                 "review_body": "Ordered it based on the description and True item manufacture number and received the drain bottle (which is what I wanted). The picture showing a tower hose is wrong ordered on 1.14.19.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Negative",
-                "review_topics": [
-                    "order base description",
-                    "true item manufacture number",
-                    "drain bottle",
-                    "picture show tower hose",
-                    "wrong order"
-                ]
+                "review_topics": "drain bottle, tower hose"
             }
         ]
     },
@@ -1487,10 +1184,7 @@
                 "review_body": "I was trying them out for my cleaning business and decided that they would work fine; went to order more and they almost doubled the cost!!  Very disappointed when I saw that.  They did work as good as the name brand ones though.",
                 "review_helpfulness": "",
                 "sentiment": "Neutrally Positive",
-                "review_topics": [
-                    "order double cost",
-                    "work good brand"
-                ]
+                "review_topics": "name brand, cleaning business, disappointed"
             }
         ]
     },
@@ -1528,12 +1222,7 @@
                 "review_body": "Blades fit very well. We replaced the straw type blades with these. With the increased weight, the fan spins a little more once you shut it off, but that's just physics. Very quiet operation especially compared to the previous blades.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "straw type blade increase weight fan spin",
-                    "shut physic",
-                    "quiet operation",
-                    "previous blade"
-                ]
+                "review_topics": "blades, straw type blades, fan, physics"
             },
             {
                 "reviews": "",
@@ -1546,11 +1235,7 @@
                 "review_body": "Easy upgrade, I was able to swap out the old palm leaf fan blades with these in 10 minutes. Now the fan actually feels cool and runs much quieter.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "easy upgrade",
-                    "old palm leaf fan blade minute fan",
-                    "cool run quieter"
-                ]
+                "review_topics": "palm leaf fan blades"
             },
             {
                 "reviews": "",
@@ -1563,17 +1248,7 @@
                 "review_body": "These beautiful real wood fan blades not only look good, but they are a perfect match for the palm leaf straw type blades that came with the fan originally, which were damaged through use. These blades have the mounting holes in the exact same place as the old blades and also have grooves cut into the blades that perfectly fit the mounting hardware. The actual color is as shown in the add picture and looks fantastic mounted on the fan.",
                 "review_helpfulness": "",
                 "sentiment": "Strictly Positive",
-                "review_topics": [
-                    "beautiful real wood fan blade look good",
-                    "palm leaf straw type blade",
-                    "damage use blade mount hole",
-                    "exact place",
-                    "old blade groove",
-                    "fit mount hardware",
-                    "actual color show",
-                    "picture look",
-                    "fantastic mount fan"
-                ]
+                "review_topics": "wood fan blades"
             }
         ]
     }
