@@ -6,17 +6,20 @@ import finalSentiment
 # myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 # db = myclient['OpinioMine']
 
-
-json_dir = 'F:/react projects/reviews-classifier/backend/datasets/categories/allFiles'
- 
+json_dir = "F:/react projects/reviews-classifier/backend/datasets/categories/allFiles"
 
 for filename in os.listdir(json_dir):
-    if filename.endswith('.json'):
-        # with open(json_dir+'/'+filename, 'r') as f:
+    if filename.endswith(".json"):
+        # with open(json_dir + "/" + filename, "r") as f:
+        #     count = 0
         #     data = json.load(f)
-        #     print(len(data))
-        if filename=='camera_and_photo.json':
-            file = json_dir + '/' + filename
+        #     print(filename)
+        #     for item in data:
+        #         count += len(item["reviews"])
+        #     print(count)
+
+        if filename == "mens_smart_watches.json":
+            file = json_dir + "/" + filename
             print(filename)
             finalSentiment.final(file, file)
         # collection_name = os.path.splitext(filename)[0]  # Use filename as collection name
@@ -25,4 +28,4 @@ for filename in os.listdir(json_dir):
         #     data = json.load(file)
         #     collection.insert_many(data)
 
-print('sent successfully')
+print("sent successfully")

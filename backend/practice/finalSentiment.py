@@ -3,6 +3,7 @@ import json
 import glob
 import re
 from textblob import TextBlob
+
 # import sys
 
 # sys.path.append("./backend/practice")
@@ -13,7 +14,8 @@ import spacy
 import spacy.cli
 import nltk
 from nltk.corpus import stopwords
-nltk.download('vader_lexicon')
+
+nltk.download("vader_lexicon")
 
 # sentiments
 from nltk.sentiment import SentimentAnalyzer, SentimentIntensityAnalyzer
@@ -25,14 +27,18 @@ def final(file, destination):
         with open(fileData, "r", encoding="utf-8") as f:
             data = json.load(f)
         return data
-    
+
     data = load_data(file)
     # lemmatization
     # lemmatization
+    global count
+    count = 0
 
     def lemmatization(texts, allowed_postags=["NOUN", "ADJ", "VERB", "ADV"]):
         nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
         text_out = []
+        # count = 0
+        global count
 
         for text in texts["reviews"]:
             # new_record = re.sub(" +", " ", text["review_body"])
@@ -58,18 +64,18 @@ def final(file, destination):
             # print(final)
             stem = geminiModel.gemini(text["review_body"])
             text["review_topics"] = stem
+            count = count + 1
+            print(count)
             # print(text['review_topics'])
         text_out.append(final)
         # print
         return text_out
-    
 
     lemma_array = []
     for item in data:
         lemmatizedText = lemmatization(item)
         # lemma_array.append(lemmatizedText)
     # print(lemmatizedText)
-
 
     with open(destination, "w") as f:
         json.dump(data, f, indent=4)
