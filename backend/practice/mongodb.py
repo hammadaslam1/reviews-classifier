@@ -18,7 +18,7 @@ for filename in os.listdir(json_dir):
         #         count += len(item["reviews"])
         #     print(count)
 
-        if filename == "mens_smart_watches.json":
+        if filename == "mens_wrist_watches.json":
             file = json_dir + "/" + filename
             print(filename)
             finalSentiment.final(file, file)
