@@ -4,15 +4,41 @@ At the command line, only need to run once to install the package via pip:
 $ pip install google-generativeai
 """
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 
+# def load_env():
+#     env_file_path = "./backend/.env"
+#     with open(env_file_path) as f:
+#         print(f)
+#         for line in f:
+#             print(line)
+#             key, value = line.strip().split("=")
+#             print(key, value)
+#             os.environ[key] = value.strip("'\"")
+
+# # Load environment variables from the .env file
+# load_env()
+
+# MY_API = os.environ.get('GEMINIAPI')
 
 def gemini(input):
-    load_dotenv()
+    # load_dotenv()
+    def load_env():
+        env_file_path = "./backend/.env"
+        with open(env_file_path) as f:
+            print(f)
+            for line in f:
+                print(line)
+                key, value = line.strip().split("=")
+                print(key, value)
+                os.environ[key] = value.strip("'\"")
 
-    MY_API = os.getenv("GEMINI_API")
+# Load environment variables from the .env file
+    load_env()
+
+    MY_API = os.environ.get('GEMINIAPI')
 
     genai.configure(api_key=MY_API)
 
@@ -25,7 +51,9 @@ def gemini(input):
     }
 
     safety_settings = [
-        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
+        {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
         {
             "category": "HARM_CATEGORY_HATE_SPEECH",
             "threshold": "BLOCK_MEDIUM_AND_ABOVE",
@@ -99,5 +127,3 @@ def gemini(input):
         return 'empty'
 
     # if (response.text)
-
-    
