@@ -12,16 +12,16 @@ import geminiModel
 # spacy
 import spacy
 import spacy.cli
-import nltk
-from nltk.corpus import stopwords
-
-nltk.download("vader_lexicon")
+# import nltk
+# from nltk.corpus import stopwords
+# 
+# nltk.download("vader_lexicon")
 
 # sentiments
-from nltk.sentiment import SentimentAnalyzer, SentimentIntensityAnalyzer
+# from nltk.sentiment import SentimentAnalyzer, SentimentIntensityAnalyzer
 
 
-def final(file, destination):
+def final(file, destination, array):
     # print(file)
     def load_data(fileData):
         with open(fileData, "r", encoding="utf-8") as f:
@@ -62,7 +62,7 @@ def final(file, destination):
             #     string = " ".join(lemmas)
             # final = " ".join(lemmas)
             # print(final)
-            stem = geminiModel.gemini(text["review_body"])
+            stem = geminiModel.gemini(text["review_body"], array)
             text["review_topics"] = stem
             count = count + 1
             print(count)

@@ -2,11 +2,16 @@ import os
 # import pymongo
 import json
 import finalSentiment
+import inputArrays
 
+array = inputArrays.electronics()
+# print(array)
 # myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 # db = myclient['OpinioMine']
-
-json_dir = "F:/react projects/reviews-classifier/backend/datasets/categories/allFiles"
+uniPath = "F:/react projects/reviews-classifier/backend/datasets/categories/allFiles"
+homePath = "C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/allFiles"
+json_dir = homePath
+# json_dir = uniPath
 
 for filename in os.listdir(json_dir):
     if filename.endswith(".json"):
@@ -21,7 +26,9 @@ for filename in os.listdir(json_dir):
         if filename == "mens_running_shoes.json":
             file = json_dir + "/" + filename
             print(filename)
-            finalSentiment.final(file, file)
+            finalSentiment.final(file, file, array)
+            # array = inputArrays.electronics
+            # print(array)
         # collection_name = os.path.splitext(filename)[0]  # Use filename as collection name
         # collection = db[collection_name]
         # with open(os.path.join(json_dir, filename), 'r') as file:
