@@ -98,7 +98,10 @@ def shoes():
         "input: My husband is on his feet a lot at work & his feet hurt a lot. I had bought him the ASICS Gel-Kayano 16 back in March, 2011. He really liked them, but he doesn't normally wear white. I couldn't get them in black. I read the reviews on these black Kayano 17 shoes & decided to go ahead & buy them. My husband loves them! He says they are even more comfortable than the Kayano 16's. And he really likes the fact that they are black. He alternates between the two, but says the Kayano 17's are the better of the two. Would recommend!!",
         "output: ASICS Gel-Kayano, Kayano 16, Kayano 17 Comfortable",
         "input: I'm in the Air Force, and these have saved my ankles from injury. I had never been told I had low arches until the effects of running everyday had taken its tole and I was told I was developing stress fractures. I was wearing another Asics product which was designed for persons with normal arches, so the problem was apparent.\n\nI was on a break from full on running and when I finally got back to running, i purchased a pair of the Gel-Kayano 16's. It was a completely different running experience and I never had any pain while running again. It was an astonishing difference and I'll probably never switch to a different running shoe.\n\nThe 17's are shaping up to be all that the 16 was. A comfortable running shoe that's made for the low arch runner.",
-        "output: "
+        "output: stress fractures, Asics product, Gel-Kayano 16",
+        "input: I have owned the Asics Gel-Kayano 15s and they were a great shoe. I owned them for 2 years which is a lot to ask for a shoe that you use as hard as I use my running shoes. I tried out the new series of these shoes- the 17s and they didn't disappoint. They are even better, if possible, and I love how great they feel new and used. The only reason I had to change shoes is because the technology in a shoe can only last for so long before it wears out. A lot of technology in these shoes- gel, insole, arch, etc. If you're looking for a high quality shoe- this is it. I highly recommend you try the shoe on or another Asics shoe in a store first. They tend to run about one size bigger than other makes of shoes.",
+        "output: gel-kayano 15, shoes-gel",
+        "input: "
     ]
     # print(array)
     return array
