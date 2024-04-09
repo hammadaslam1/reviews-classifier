@@ -14,15 +14,17 @@ import spacy
 import spacy.cli
 # import nltk
 # from nltk.corpus import stopwords
-# 
+#
 # nltk.download("vader_lexicon")
 
 # sentiments
 # from nltk.sentiment import SentimentAnalyzer, SentimentIntensityAnalyzer
 
 
-def final(file, destination, array):
+def final(file, destination, array, filename):
     # print(file)
+    name = filename.split('.')[0]
+
     def load_data(fileData):
         with open(fileData, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -39,6 +41,8 @@ def final(file, destination, array):
         text_out = []
         # count = 0
         global count
+        texts['category'] = ['hometools']
+        texts['subcategory'] = [name]
 
         for text in texts["reviews"]:
             # new_record = re.sub(" +", " ", text["review_body"])
@@ -63,7 +67,8 @@ def final(file, destination, array):
             # final = " ".join(lemmas)
             # print(final)
             stem = geminiModel.gemini(text["review_body"], array)
-            text["review_topics"] = stem
+            text["review_topics"] = stem.split(', ')
+            print(text["review_topics"])
             count = count + 1
             print(count)
             # print(text['review_topics'])

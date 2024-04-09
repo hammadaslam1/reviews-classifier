@@ -4,7 +4,9 @@ import json
 import finalSentiment
 import inputArrays
 
-array = inputArrays.electronics()
+# array = inputArrays.electronics()
+# array = inputArrays.clothing()
+array = inputArrays.shoes()
 # print(array)
 # myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 # db = myclient['OpinioMine']
@@ -23,10 +25,10 @@ for filename in os.listdir(json_dir):
         #         count += len(item["reviews"])
         #     print(count)
 
-        if filename == "mens_running_shoes.json":
+        if filename == "kitchen_bath_fixtures.json":
             file = json_dir + "/" + filename
             print(filename)
-            finalSentiment.final(file, file, array)
+            finalSentiment.final(file, file, array, filename)
             # array = inputArrays.electronics
             # print(array)
         # collection_name = os.path.splitext(filename)[0]  # Use filename as collection name
