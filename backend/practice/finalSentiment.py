@@ -41,7 +41,7 @@ def final(file, destination, array, filename):
         text_out = []
         # count = 0
         global count
-        texts['category'] = ['hometools']
+        texts['category'] = ['electronics']
         texts['subcategory'] = [name]
 
         for text in texts["reviews"]:
