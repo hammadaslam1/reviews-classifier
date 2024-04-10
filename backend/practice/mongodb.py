@@ -25,7 +25,7 @@ for filename in os.listdir(json_dir):
         #         count += len(item["reviews"])
         #     print(count)
 
-        if filename == "wifi_and_networking.json":
+        if filename == "computers_tablets.json":
             file = json_dir + "/" + filename
             print(filename)
             finalSentiment.final(file, file, array, filename)
