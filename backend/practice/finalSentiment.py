@@ -41,7 +41,7 @@ def final(file, destination, array, filename):
         text_out = []
         # count = 0
         global count
-        texts['category'] = ['electronics']
+        texts['category'] = ['network_tools']
         texts['subcategory'] = [name]
 
         for text in texts["reviews"]:
@@ -66,8 +66,8 @@ def final(file, destination, array, filename):
             #     string = " ".join(lemmas)
             # final = " ".join(lemmas)
             # print(final)
-            stem = geminiModel.gemini(text["review_body"], array)
-            text["review_topics"] = stem.split(', ')
+            # stem = geminiModel.gemini(text["review_body"], array)
+            text["review_topics"] = text["review_topics"].split(', ')
             print(text["review_topics"])
             count = count + 1
             print(count)
