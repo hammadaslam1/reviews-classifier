@@ -33,8 +33,7 @@
                 "review_body": "I bought this Compaq A1500 this week and am more than satisfied with it. Simple installation without any problems, excellent photo quality resolution even on plain paper, very good managing software and the best part is, I didn't need any customer support to make it run :).\nVery good product with excellent features, quality and resolution. Believe me it's better than the best available in this price range.",
                 "review_helpfulness": "10 people found this helpful",
                 "review_topics": [
-                    "For the price",
-                    "this product is better than other options in its price range."
+                    "For the price"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -217,10 +216,8 @@
                     "Windows 7",
                     "carry case",
                     "optical mouse",
-                    "poor speaker sound quality",
                     "reflective display",
                     "vista user interface",
-                    "no display mechanical latch",
                     "no CF memory card reader"
                 ],
                 "sentiment": "Strictly Positive"
@@ -405,10 +402,7 @@
                     "Asus",
                     "power supply issues",
                     "RMA'd",
-                    "bad websiteinput: I bought this laptop to facilitate my child`s home schooling and online learning. This laptop has enabled learning in a fun and interactive way that my daughter enjoys. The kids love the vivid color and clear sound. It is great as it is lightweight and my child has no problems taking it with her from room to room. You can`t beat the price for the quality.output: interactive",
-                    "vivid colors",
-                    "clear sound",
-                    "lightweight"
+                    "bad website"
                 ],
                 "sentiment": "Neutrally Negative"
             },
@@ -499,7 +493,6 @@
                     "video card",
                     "HDMI out",
                     "warranty",
-                    "accidental damage coverage",
                     "USB ports",
                     "clumsy keyboard"
                 ],
@@ -619,8 +612,7 @@
                 "review_topics": [
                     "Asus K40IJ Laptop",
                     "dark screen",
-                    "random cursor",
-                    "delete and backspace key placement"
+                    "random cursor"
                 ],
                 "sentiment": "Neutrally Negative"
             },
@@ -681,23 +673,6 @@
                 "reviewer_country_date": "",
                 "purchased_product": "",
                 "review_status": "",
-                "review_body": "Unfortunately, this bricked after about 3.5 years.",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "Asus K42jr-a1",
-                    "brick",
-                    "3.5 years"
-                ],
-                "sentiment": "Neutrally Negative"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
                 "review_body": "I think the computer is great. I bought it for it's reliabilty rating. The problem is that the 9 hour battery life is only giving me 2.5 hours. I am very dissapointed in this as I am travelling a lot and am not near power all the time.",
                 "review_helpfulness": "",
                 "review_topics": [
@@ -719,7 +694,6 @@
                 "review_topics": [
                     "January 3",
                     "February 15",
-                    "Windows 7 start-up screen freeze",
                     "repairs needed",
                     "parts needed"
                 ],
@@ -857,7 +831,6 @@
                 "review_topics": [
                     "ASUS K50IJ-D2",
                     "Macbook Air",
-                    "super-thin and ultra-light laptop",
                     "sound quality",
                     "external sound system",
                     "internal microphone",
@@ -907,27 +880,8 @@
                 "review_body": "(Edit: This review is actually of the Asus K61IC-A1--the previous version of this product.)\n\nI originally purchased my notebook in January. It was defective when I received it. (The battery didn't charge even when plugged in.) Long story short, it wasn't until *May* that I finally got a working computer.\n\nIt took several hours of followup to get them to do something about it. And to boot, Asus made me pay shipping costs--both on shipping the battery back when they thought that was the problem, then on shipping the computer back when they realized that it was the computer itself that was faulty.\n\nI will never be purchasing an Asus product again. I've never experienced worse customer service in my life--not even from utility companies.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "defective notebook input: The Patriot Gauntlet is the first laptop that I've had with an SSD drive. My previous laptop was an HP Pavilion dm4-2100 CTO Entertainment Notebook PC with an i5-2410M CPU @ 2.30GHz and an Nvidia GeForce GT 630M. That computer was a beast",
-                    "and I expected similar performance from the Patriot Gauntlet U9400",
-                    "given that its specs are a step up from the HP. However",
-                    "the Patriot Gauntlet has been a huge disappointment. It is nowhere near as good as the HP Pavilion dm4 in performance speed. The mouse cursor hangs just from performing the simplest of tasks",
-                    "such as opening a folder or renaming a file. Opening multiple tabs in Chrome sometimes causes the machine to freeze up completely. I had to wait 15 minutes after opening 20 tabs in Chrome before the computer would respond again. I have the latest version of Chrome",
-                    "and have even tried using Firefox",
-                    "and I still have the same problems with both browsers. I often get critical errors with Chrome or other applications which make me have to close and restart the application. It seems like performing multiple tasks at once is too much for this computer to handle",
-                    "since doing so really slows the machine down",
-                    "and often makes it freeze completely. I've run malware and spyware checks",
-                    "and have performed a system restore and nothing has corrected the problem. One other issue that I have is with the Patriot support. I have contacted them multiple times for assistance",
-                    "and have left messages with my contact information",
-                    "but no one has ever called me back or emailed me. I would not recommend this computer to anyone.output: Patriot Gauntlet",
-                    "gaming laptop",
-                    "Patriot Gauntlet U9400",
-                    "HP Pavilion dm4",
-                    "i5-2410M CPU",
-                    "Nvidia GeForce GT 630M",
-                    "critical errors",
-                    "Patriot support",
-                    "malware and spyware checks",
-                    "system restore"
+                    "defective notebook",
+                    "Asus k61IC_A1"
                 ],
                 "sentiment": "Strictly Negative"
             },
@@ -961,7 +915,6 @@
                 "review_body": "Well, I bought this computer back in March and I wanted to give some time to see if I was going to have any issues with it so I could give a good review...  It's fast, it seems to handle multi-tasking without any issues.  The facial recognition software works well and I'm the kinda guy to use it seeing as I'm also the kinda guy to make rediculously difficult passwords lol.  In all the time I've had this computer I've only one problem with it...  It doesn't seem to do well with watching movies...  It glitches and stutters a lot.  Now if you rip the movie to the harddrive, then you're good to go, it'll play flawlessly.  It's only when you're watching it from the disk.  I've not tried using the blu-ray, not something I'm too interested in.  Overall I love this computer and I hope that any who get it, get as much enjoyment outta it as I have.  :-)",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "facial recognition software",
                     "fast"
                 ],
                 "sentiment": "Strictly Positive"
@@ -1008,8 +961,7 @@
                 "review_body": "Great style... Love the start button,  and subwoofer. These are very hard to find..... beautiful, and top of the line components.. Asus spared no expense here",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus laptop",
-                    "top of the line components"
+                    "Asus laptop"
                 ],
                 "sentiment": "Strictly Positive"
             }
@@ -1142,7 +1094,6 @@
                     "warranty",
                     "HDMI",
                     "Windows 7",
-                    "software installation issues",
                     "MP3 player"
                 ],
                 "sentiment": "Strictly Positive"
@@ -1416,7 +1367,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "small screen",
-                    "online bankinginput: I bought this computer just for online banking.  It's great.  I take it everywhere. Takes a little time getting use to the small screen but once I used the zoom everything was crystal clear.output: small screen",
                     "online banking"
                 ],
                 "sentiment": "Strictly Positive"
@@ -1529,8 +1479,7 @@
                     "warranty period",
                     "power adapter",
                     "Asus tech support",
-                    "incredulous",
-                    "word-of-mouth consequences"
+                    "incredulous"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -1561,7 +1510,6 @@
                 "review_body": "I have been using this netbook regularly for the past 9 years. I originally purchased the device for its size and portability, but found that it didn't really have the horsepower to keep up with Windows 7 (Starter Edition). After several months, I chose to upgrade the system RAM from 1GB to 2GB, which definitely helped, but it was still pretty laggy, especially when surfing the web. After several years of so-so performance I installed Linux Mint 17 (now 18) on the machine and boy what a difference that made. The netbook went from being a machine that I kept in the bag most of the time to becoming my daily driver. The sluggish, laggy performance with Windows 7 was replaced with snappy, responsive performance that, in conjunction with the small form factor, made the netbook an ideal on-the-go device. I can safely say 9 years after my original purchase that the machine is significantly faster today running Linux Mint than it was when brand new running Windows 7 Starter. My wife and I own a multi-million dollar IT services company, and this netbook has been serving as my primary business \"laptop\"\" for the past 5 years. At this juncture I wouldn't trade my old netbook for a brand new device... its become like an old trusted friend.\"",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Windows 7 (Starter Edition)",
                     "Linux Mint 18",
                     "so-so performance",
                     "responsive performance",
@@ -1789,8 +1737,7 @@
                 "review_body": "After 3 months when Number lock key is off letters will not work---key on numbers work/key off letters do not. Be aware of short Amazon return period -- 30 days. Check the Asus forums-lots of bugs in these eee units",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus forums",
-                    "short Amazon return period"
+                    "Asus forums"
                 ],
                 "sentiment": "Neutrally Positive"
             },
@@ -1819,9 +1766,7 @@
                 "review_status": "",
                 "review_body": "This thing is small and heavy but it still works after all these years.  My wife is getting her masters in environmental sciences and uses this for her school work.  Great battery life as well.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "This thing is small and heavy but its still going after all these years."
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Positive"
             },
             {
@@ -1972,36 +1917,7 @@
                 "review_topics": [
                     "replacement color",
                     "overnight replacement",
-                    "return shipping labelinput: Wonderful laptop",
-                    "for the price. Bought it about a week ago. I was looking to get a new laptop",
-                    "because my Dell was on its way out. I really wanted a Macbook",
-                    "but Apple's nice laptops were out of my price range. So I did some research. Read a lot of reviews. I found great reviews on both the Dell Inspiron 15R",
-                    "and the Studio 1537. Luckily",
-                    "they had the Inspiron at Best Buy",
-                    "and I could see it in person. I was impressed. Best Buy had it for $499. I went to Dell's website",
-                    "and the price there was $549. But",
-                    "if I bought through their live chat",
-                    "they would sell it to me for $449. they delivered it to my doorstep in just under a week. I've been using it ever since. I love the laptop. I'm not a gamer",
-                    "and I dont do any high-end editing. All I do is stream video",
-                    "use the Office suite",
-                    "and browse the web. For what I use it for",
-                    "this laptop is perfect. Using the latest and greatest OS",
-                    "Windows 7",
-                    "this laptop is pretty speedy. Most operations are quick and instant. The laptop is also very quiet. I really like the design of it",
-                    "too. It has a nice black finish",
-                    "with a metal brushed lid. The keyboard is responsive and easy to type on. The touchpad is nice and big. The screen is nice and bright",
-                    "and the speakers are surprisingly good for a laptop. I would recommend this laptop to anyone",
-                    "even if you don't plan on using it for what I'm using it for. This Dell Inspiron will satisfy all your needs.output: Dell Inspiron 15R",
-                    "Dell Studio 1537",
-                    "Best Buy",
-                    "Dell's website",
-                    "Windows 7",
-                    "metal brushed lid",
-                    "responsive keyboard",
-                    "big touchpad",
-                    "bright screen",
-                    "good speakers",
-                    "Dell Inspiron"
+                    "return shipping label"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -2080,8 +1996,7 @@
                 "review_topics": [
                     "good netbook",
                     "sleek netbook",
-                    "Asus products",
-                    "square deal extended warrantee"
+                    "Asus products"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -2230,7 +2145,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "unusable system",
-                    "hour on the phone with tech support",
                     "DOA"
                 ],
                 "sentiment": "Neutrally Positive"
@@ -2284,24 +2198,7 @@
                     "seashells",
                     "in-mold roller technology",
                     "8.5 hours battery life",
-                    "Intel N280 processor",
-                    "super hybrid engine battery technologyinput: The Samsung Galaxy S4 is a beauty to look at. The screen is stunning and the casing is slim and so comfortable to hold. The screen is crystal clear and looks almost like a magazine photograph. I've never seen a smartphone with a screen so good. The quad-core processor gives the S4 impressive speed. Even with multiple widgets running and multitasking between apps",
-                    "there's almost no lag at all. The camera is also brilliant - and the phone doubles up as the perfect media hub. Videos are a joy on the large",
-                    "colorful screen",
-                    "and the sound quality is stunning too. On the downside",
-                    "the battery life is poor",
-                    "and while the screen is a big improvement",
-                    "it's no longer a selling point among smartphones and tablets. And while it's comfortable to hold",
-                    "it's probably a little too big for anyone with small hands. Overall",
-                    "though",
-                    "it's a great phone that's easy to recommend.output: Samsung Galaxy S4",
-                    "crystal clear screen",
-                    "quad-core processor",
-                    "impressive speed",
-                    "multitasking",
-                    "brilliant camera",
-                    "media hub",
-                    "poor battery life"
+                    "Intel N280 processor"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -2351,13 +2248,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "technical support",
-                    "bad experienceinput: Honestly if you are trying to do anything with internet on it",
-                    "don't bother. Won't connect to the internet even with ethernet or wifi. In the description",
-                    "it states that the laptop comes ready to go and connects to wifi straight out of the box...not true at all. As for the webcam",
-                    "I have yet to see it work",
-                    "it just won't open. Really disappointed with this purchase but unfortunately got to keep it because I already got rid of the box.output: wifi connection",
-                    "ethernet",
-                    "webcam"
+                    "bad experience"
                 ],
                 "sentiment": "Strictly Negative"
             },
@@ -2765,9 +2656,7 @@
                 "review_status": "",
                 "review_body": "Hello, I brought this computer about a week before and I received it yesterday. I find that when I run some programs, the computer is very noisy(sounds like a rat). I think maybe there are something wrong with the fan. Is that normal? If not, could you exchange a new one for me? I will go to China this May so I don't think it's a good choice to send it back and fix it. By the way, if I can change my computer, I want an extra 2GB memory cards in it and I will pay for it. But how much should I pay?\nThank you so much.\nWaiting for your response.\nFeng Dong",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Positive"
             },
             {
@@ -2826,12 +2715,10 @@
                     "light",
                     "extremely portable",
                     "good battery life",
-                    "excellent Wi-Fi connectivity",
                     "good screen size",
                     "sturdy keyboard",
                     "easy setup",
                     "crappy Windows 7 Starter",
-                    "great addition to PC arsenal",
                     "depreciating asset"
                 ],
                 "sentiment": "Strictly Positive"
@@ -3047,7 +2934,6 @@
                     "bluetooth",
                     "single trackpad button",
                     "2GB of RAM",
-                    "pseudo 1240x780 resolution",
                     "windows XP VGA drivers",
                     "vertical lines"
                 ],
@@ -3063,9 +2949,7 @@
                 "review_status": "",
                 "review_body": "The ASUS \"Eee PC 1005HA-MU17-BK Netbook\"\" is exactly what I was looking for in a highly portable PC. I work from home full time and am always on-call (often have to work off-hours or weekends\\Holidays) so it is necessary for me to always have access to a PC",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "ASUS \"Eee PC 1005HA-MU17-BK Netbook\"\""
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Negative"
             },
             {
@@ -3123,21 +3007,6 @@
                 "reviewer_country_date": "",
                 "purchased_product": "",
                 "review_status": "",
-                "review_body": "Reviewed in the United States on February 5, 2010",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "No input provided"
-                ],
-                "sentiment": "Neutrally Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
                 "review_body": "Reviewed in the United States on December 16, 2009",
                 "review_helpfulness": "",
                 "review_topics": [
@@ -3186,7 +3055,6 @@
                 "review_body": "Reviewed in the United States on March 27, 2010",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "reviewed in the united states on March 27",
                     "2010"
                 ],
                 "sentiment": "Neutrally Positive"
@@ -3201,9 +3069,7 @@
                 "review_status": "",
                 "review_body": "Reviewed in the United States on May 25, 2010",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "reviewed in the United States"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Positive"
             },
             {
@@ -3231,9 +3097,7 @@
                 "review_status": "",
                 "review_body": "Reviewed in the United States on November 8, 2011",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Reviewed in the United States"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Positive"
             },
             {
@@ -3261,24 +3125,7 @@
                 "review_status": "",
                 "review_body": "Reviewed in the United States on January 21, 2010",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "buy a good multifunction that will work as advertised"
-                ],
-                "sentiment": "Neutrally Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "Reviewed in the United States on March 29, 2010",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "no input review"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Positive"
             },
             {
@@ -3292,84 +3139,7 @@
                 "review_body": "Reviewed in the United States on February 28, 2010",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "United States on February 28",
                     "2010"
-                ],
-                "sentiment": "Neutrally Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "Reviewed in the United States on February 23, 2010",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "No clear input found"
-                ],
-                "sentiment": "Neutrally Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "Reviewed in the United States on March 7, 2010",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "review"
-                ],
-                "sentiment": "Neutrally Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "Reviewed in the United States on March 14, 2010",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "Review type"
-                ],
-                "sentiment": "Neutrally Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "Reviewed in the United States on March 22, 2010",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "review",
-                    "United States"
-                ],
-                "sentiment": "Neutrally Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "Reviewed in the United States on February 16, 2010",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "place of publication"
                 ],
                 "sentiment": "Neutrally Positive"
             }
@@ -3800,7 +3570,6 @@
                 "review_topics": [
                     "Intel T6600 processor",
                     "important features",
-                    "hardware assisted virtualization",
                     "XP mode",
                     "virtualization products",
                     "VMWARE",
@@ -3917,24 +3686,6 @@
                 "reviewer_country_date": "",
                 "purchased_product": "",
                 "review_status": "",
-                "review_body": "Still working since 2012",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "Asus K42jr-a1",
-                    "bloatware",
-                    "task manager",
-                    "CPU light"
-                ],
-                "sentiment": "Neutrally Negative"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
                 "review_body": "Laptop looks great, very thin and light.  So far, it also works well: 4gb RAM is pretty fast, graphics and sound quality are good, loving the chiclet keyboard.  The only thing that could be better is the mouse pad, right click is a little hard to use, but it doesn't take long to get used to it.  Also, the battery life seems a little short, only about 3-4 hrs, but I have yet to fully test that.  Overall, I'm very happy that I got this laptop!",
                 "review_helpfulness": "",
                 "review_topics": [
@@ -3962,26 +3713,6 @@
                     "removable battery"
                 ],
                 "sentiment": "Strictly Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "When I got the laptop I was very happy. I've only had it for two days, but already the right mouse button on the pad has lost its \"click",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "defective input: the store was out of stock",
-                    "but I did manage to get the extended warranty from another store. I have yet to use the warranty",
-                    "and I hope I never have to use it",
-                    "but if you do it covers the unit completely with no questions asked. I did not purchase the warranty at the time I purchased the laptop. I went to the store about six months later to purchase the warranty when I noticed the battery was not holding a charge",
-                    "the battery indicator showed that it was still charging after 12 hours or more plugged into a ac outlet. output: extended warranty",
-                    "battery indicator"
-                ],
-                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -4109,9 +3840,7 @@
                 "review_status": "",
                 "review_body": "The N61JQ-X1, simply put, is a great laptop...\n\nPros:\nBlazing speed - and this only w/ 4 gig of RAM... (granted, I'm leaving an early core duo, so... it's more Honda to Porsche, not Porsche to Ferrari).\nWindows 7, 64 bit (I put the bar on the left, and it changes the game...)\nGreat screen\nGreat graphics card (high 2nd tier, but I'm not a gamer, so who cares... and directv plays great on it (just got whole home from them, and it streams my dvr).\nvery good sound (although I don't use it much)\nNUMBER KEYPAD!!! I used to hate typing numbers on laptops - no more!\nHUGE screen - yet fairly light\nNot very hot- no more burned wrists (although it is quite hot back towards the screen... so watch your laps!!!)\nand... last... but not least!!!!\n\nIT IS CHEAP (for what it is)... I tried to buy it here, but thought about it too long, and missed the half a C-note under a G, but was still in time for the end of cashback from MS - I sure will miss that program.\n\nCons:\nASUS bloatware - easily remedied\nawkward placement of power plug - I like laying the laptop down on it's side - and this doesn't allow me to.\nas others have noted - it will be covered with fingerprints... again- who cares.\nWireless N is single band (only 2.4, no 5ghz)\n\nAll in all - I could not be more pleased...\nGranted - it's only a week in, so much left to see, but overall, I don't regret leaving my many year long, abusive relationship with D@ll... oddly enough - rhymes with h@ll!  If only my work would change too!!!\n\n-dmb",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Positive"
             },
             {
@@ -4143,9 +3872,7 @@
                 "review_status": "",
                 "review_body": "I've had this laptop for over a year now. Although initially it just ran fairly hot, after about a year it started overheating regularly with any cpu-intensive game, and even with skype. It idles around 75 degrees celsius as a minimum on battery-saving mode. As of now unless I'm in a really cold room with a laptop cooling pad I can't even put it on high performance power mode without running the risk of overheating with anything more resource intensive than firefox.\n\nAlso, the battery and adapter stopped working just after the warranty expired.\n\nOverall, I'm extremely disappointed. What's the point of having high-end hardware if you can't even utilize any of the power without a significant risk of overheating?\n\nDon't think I'm buying an Asus again when I save up to replace this awful laptop.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Negative"
             },
             {
@@ -4267,9 +3994,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "Asus",
-                    "disappointed",
-                    "six months reviewinput: I bought this system less than 1 yr ago and the LG Burner went out.  Need to buy a $300 replacement.  Not happy since this must be a known issue.output: LG burner",
-                    "unhappy"
+                    "disappointed"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -4363,24 +4088,6 @@
                 "reviewer_country_date": "",
                 "purchased_product": "",
                 "review_status": "",
-                "review_body": "The dark brown is something like mahogany. Well even darker than that. It looks black even in vivid fluorescent lighting.\n\nAt 16\" one would think the display would be outstanding. However the display on my older 14\"\" Dell had superior resolution. While it makes the display larger and easier to read for old people (i.e.",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "Asus K42jr-a1",
-                    "dark brown screen",
-                    "old people",
-                    "Dell"
-                ],
-                "sentiment": "Strictly Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
                 "review_body": "DEFINITELY READ THIS BEFORE YOU BUY THIS LAPTOP\nI have owned an asus before, was not bad (but it crashed on a video game and never started again) I figured maybe I was the cause of it. I bought another one, this one. Do not bother purchasing it. This laptop will suck your time dry. I have had numerous problems that took up many hours of online research, and phone calls, and more money.\nPROBLEMS 1) Within minutes of starting my computer for the first time, I GET the BLUE screen of death. Took me awhile to figure this one out. Unfortunately my left USB port would allow a plug to go in upside down and shorted the system. NO GOOD, 2)Screen quality is junk 3) Video games are not very compatible with this laptop. Many hours fixing bugs and downloading driver updates, and patches. 4) During video games there will be a line that goes across the screen and breaks up the graphics for a split second during cinematic, but frequently and in different locations-just odd. 5)The battery life is horrible, it will say 2 hours-you will be lucky if you get 1 and half.  I thought I read somewhere that this thing got 10 hours! I looked over something there. 6)DVD drive just stopped working. I DO NO KNOW WHY. 7)only three USB ports. 8)I had to buy a recovery cd for 60 dollars!!! because the OS crashed within the 3rd month. 9)MY LEFT mouse Button on the Laptop is starting to be unresponsive-sometimes it does not select it and now I have noticed I am putting much pressure on it to get it to work. 19)The asus live update feature is a scam!! I have never downloaded a driver from it and it always says its up to date-LIARS. HOURS of finding the drives myself. Turns out that the software they offer on there website is ALSO OUT OF DATE. I had to purchase another software (driver genius) to get the right drivers. 11)POOR customer service-long wait on the phone and no one I have talked to so far speaks clear English, but that goes for HP as well. PLAIN AND SIMPLE DO NOT BUY THIS LAPTOP, ALSO DO NOT BUY A ASUS. pure junk. there are no good laptops out there anymore though.... best computer I have ever owned- VPR Matrix. It is still alive and kicking. Never had a problem with it. I bought it 10 years ago. old Pentium 4",
                 "review_helpfulness": "",
                 "review_topics": [
@@ -4452,9 +4159,7 @@
                 "review_status": "",
                 "review_body": "I was happy with my purchase for less than a year, after which, the camera stopped working. The system would say that it was already in use, which it wasn't. I took it in and they reformatted the laptop and took off the hotkeys and it worked again but my features and hotkeys that were supposed to work on the computer no longer worked. After reinstalling the drivers and everything the camera stopped working again. The computer tech and myself came to the realization that Asus made the computer so that if you want all your hotkeys on the keyboard and features to work, they mess with the camera, but if you want your camera to work, you can't use your hotkeys and other features that the laptop is supposed to come with. It is a stupid issue that the company should be held responsible for but will not and have not found a fix to. I'm very sad I spent the money (around $800 at the time) on something that I cannot use all features on. Because I used the camera less often, I had to opt for the keyboard to work the way it was supposed to so I haven't had use of the camera almost since I bought the stupid machine. I will not purchase Asus brand again since the company couldn't even take the time to come up with a simple programming update to fix the issue. (I've read numerous other complaints all over the web from others with the same problem so it's not like it was just one complaint from one person)",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Negative"
             },
             {
@@ -4473,7 +4178,6 @@
                     "2 year accidental",
                     "NEC USB 3.0",
                     "windows 7 Ultimate N 64",
-                    "dell after service for repairs",
                     "poor sound quality",
                     "loud whine"
                 ],
@@ -4837,7 +4541,6 @@
                 "review_body": "Liked this laptop while it lasted.  Worked great for video/photo editing but failed after only 2 years.  Power button will light up, but laptop will not boot and nothing ever shows on screen.  I suspect it is a mother board failure. I've had many laptops/PC's and never have had such a catastrophic failure.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "power button will light up",
                     "but laptop will not boot",
                     "mother board failure"
                 ],
@@ -4945,11 +4648,7 @@
                 "review_status": "",
                 "review_body": "Pros:\nAwesome Performance so far -\nplaying starcraft II on ultra graphics with no problems\nreally good sound for a laptop\nstays surprisingly cool - side vent pumps out tons of heat but laptop bottom stays relatively cool\nprice - great power for a moderately priced laptop\nkeyboard has good feel to it, with number pad on right (cramps it slightly but i think its worth it)\nusb 3.0 - not that useful yet but 10x faster than usb 2 makes it worth the wait\n\nCons:\nbattery life stinks- playing games ive only been getting about 1 to 1.5 hours - 2 hours if im just doing normal surfing / other tasks - thats the trade off for having this beastly processor and video card\nfor an entertainment laptop would have expected higher resolution, although its still not bad\n\nall around im extremely satisfied - great power in a good sized package for a reasonable price\nASUS for the win",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Pros:\n- Awesome Performance so far -\nplaying starcraft II on ultra graphics with no problems\nreally good sound for a laptop\nstays surprisingly cool - side vent pumps out tons of heat but laptop bottom stays relatively cool\nprice - great power for a moderately priced laptop\nkeyboard has good feel to it",
-                    "with number pad on right (cramps it slightly but i think its worth it)\nusb 3.0 - not that useful yet but 10x faster than usb 2 makes it worth the wait\n\nCons:\n- battery life stinks- playing games ive only been getting about 1 to 1.5 hours - 2 hours if im just doing normal surfing / other tasks - thats the trade off for having this beastly processor and video card\nfor an entertainment laptop would have expected higher resolution",
-                    "although its still not bad\n\nall around im extremely satisfied - great power in a good sized package for a reasonable price\nASUS for the win"
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Positive"
             },
             {
@@ -5050,31 +4749,10 @@
                     "laptop brands",
                     "desktop",
                     "home theater setup",
-                    "Logitech Performance Mouse MX",
-                    "Antec Notebook Cooler Model 20",
                     "Siig 7PORT USB 3.0 Hub",
-                    "DAS Keyboard Model 5 Professional",
-                    "4 GB RAM",
-                    "Planar PX2710MW 27-inch monitor"
+                    "4 GB RAM"
                 ],
                 "sentiment": "Strictly Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "Esta port\u00c3\u00a1til est\u00c3\u00a1 incre\u00c3\u00adble, definitivamente es la mejor laptop que puede encontrar por este precio.\nEl color de la port\u00c3\u00a1til, realmente es bonito, es un caf\u00c3\u00a9 muy oscuro, no como el de las fotos de amazon.\nLa memoria de la m\u00c3\u00ada, era de 1333 mhz, no 1066mhz como Amazon indica.\nLo \u00c3\u00banico que desear\u00c3\u00ada, es que soportara una resoluci\u00c3\u00b3n mayor en la pantalla, pues es una pantalla grande (16\")",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "ASUS K42jr-a1",
-                    "1333 MHz",
-                    "16\" screen"
-                ],
-                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -5125,7 +4803,6 @@
                 "review_body": "Out of the box and running less than 15 mins, Windows 7 looks alot like vista with no issues so far.  First impression of the notebook was that it looked clean and business like, far from the truth when I popped in a few games, Dragon's age runs at near all high settings flawlessly with no stuttering or major fps drops and is stunning, runs warcraft @ 50fps in Dalaran, programs are fast, a very nice all around notebook, hard drive is a bit small for gaming, but who needs a bunch of games loaded all at once, does warm up but not too hot, for extended gaming sessions a cooler would be a good idea.  Onboard speakers are actually very good, resolution could be higher, but looks great, gloss finish on the screen does produce glare if not positioned right.  IMO price vs performance, this thing is a 9.5/10 for what it is and what it is capable of, if you know what you are buying, you will not be dissapointed, this is not a desktop replacement, simply because I prefer the performance of a desktop but the N61J performs outstanding considering its a notebook.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus K42jr-a1",
                     "business notebook",
                     "Dragons age",
                     "Warcraft",
@@ -5188,9 +4865,8 @@
                 "review_body": "The computer runs smoothly and I highly recommend it. For the price it's a steal. Graphics and sounds are great and it's pretty fast. Also it's very light for the size. Games like Bioshock 2 and F.E.A.R. 2 run smoothly on max settings.\n\nThere are a few nuisances:\n\n- Runs very hot (understandable for the amount of power it packs)\n- Battery runs for only 2 hours max (understandable for the same reason above)\n- The power gable gets in front of the vent because it's plugged very near to it. I know nothing will happen to the cable although very hot air is coming out of the vent, but this is of course a design flaw.\n- Keyboard is pretty good but some button placements are a little quirky.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus K42jr-a1",
                     "Bioshock 2",
-                    "F.E.A.R. 2",
+                    "FEAR 2",
                     "graphics and sounds",
                     "runs very hot",
                     "battery runs",
@@ -5333,7 +5009,6 @@
                 "review_topics": [
                     "large screen",
                     "great sound",
-                    "ten pounds battery life of about 1.5 hours",
                     "price over $1000.00"
                 ],
                 "sentiment": "Strictly Positive"
@@ -5479,8 +5154,7 @@
                     "esata connector",
                     "Windows 7",
                     "HDMI",
-                    "windows experience index",
-                    "accidental damage protection"
+                    "windows experience index"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -5533,7 +5207,6 @@
                 "review_body": "This Laptop is blazing fast and delivers as listed.  I use my laptop primarily for music production and daily internet usage but I also ran the Lost Coast HL2 stress test with everything (AA, reflections etc) maxed out and it was averaging well over 100fps.  Windows 7 compatibility has been a dream compared to the hassles I am used to with XP Home-- my FireWire 1814 box connects through a TI expresscard firewire adapter with no problems in Ableton Live.\n\nThe computer keyboard gets some getting used to if you are familiar with the Delete key being the top right-most key... as with all newer Asus laptops, they include a condensed numpad layout on the right side of the keyboard that adds the home/break/printscreen buttons up where I'm used to finding Del.  I think the benefits of having the numpad will outweigh this problem once I get used to it.\n\nI read reviews stating that things like spread sheets were impossible to see on this computer because of the screen resolution... this is simply not true.  I formatted a book (spreadsheets involved!) and designed a book cover using this screen and it worked fine.  I do agree with people who have criticized the viewing angle of the screen though--At ordinary angles the image looks incredibly washed out and visibility is restricted to a tight range of screen positions for any given viewer--not ideal for watching movies on the laptop screen.\n\nBut!  With HDMI out, I plan to use an external monitor at some point and bypass all of the screen concerns entirely.\n\nThe computer removes heat VERY efficiently, but that means that anything in front of the vent on the left hand side will become very hot, so be careful! (i've melted one chapstick and one chocolate bar by placing them somewhere nearby during gameplay use).  Overall this computer just blows my mind.  I can alt-tab out of a game, start a music program, and open 10 chrome pages, all at the same time and it won't break a sweat.  For instance, the computer runs the dolphin emulator flawlessly on low settings (this is a pretty demanding emulator).\n\nAnyways, I researched computers for a couple days straight and this one was by far the best deal i could find for under $1000.  Buy this right now if you are even slightly interested!  Hah, WORD OF WARNING:  Amazon shipped my latptop in its original Asus box with pictures and specs of the laptop all over it--I would recommend selecting gift wrapping if you don't want people knowing that a valuable product is inside.  Enjoy!",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus Laptop K42jr-a1",
                     "music production",
                     "HL2 stress test",
                     "TI expresscard firewire",
@@ -5559,7 +5232,6 @@
                     "asus 768 screen",
                     "resolution",
                     "viewing angle",
-                    "Gateway 1600*900 M65 Core 2 Laptop",
                     "Go Force 7800",
                     "Adobe/Lightroom",
                     "Nikon Capture NX2",
@@ -5656,8 +5328,7 @@
                     "1333 Ram",
                     "backup software",
                     "battery life",
-                    "video card",
-                    "Battlefield Bad Company 2output"
+                    "video card"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -5677,9 +5348,7 @@
                     "i7 processor",
                     "long lasting battery",
                     "overheating",
-                    "shutting down while gaming",
                     "external fan support",
-                    "unhelpful technical support",
                     "crashed HDD",
                     "unreliable parts"
                 ],
@@ -5696,7 +5365,6 @@
                 "review_body": "First of all, I have to say that the product itself has good specs for a good price.  This is what drew me to this particular product.\n\nWhen I received it, I immdediately removed all the bloatware and it was a very fast and responsive machine.\n\nHowever, 2 things stand out when you receive the machine:\n\n-the machine feels constructed of flimsy, cheap plastic\n\n-the screen is garbage.  I was expecting a low resolution (way too low for a 16\" screen)",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus K42jr-a1",
                     "bloatware",
                     "cheap plastic",
                     "garbage screen",
@@ -5738,8 +5406,6 @@
                 "review_body": "I have had this computer for almost a month before I wrote this review so i could give you all a good review. This laptop is awesome. I am very happy that I purchased this laptop. It is very fast everything runs great on this machine. This is my first Asus laptop and I am so so so happy I purchased it. I am a big gammer so all of the games I have played have worked without any problems on high settings. I play mostly MMORPG type games, so I have played WOW, ROM, Atlantica, and soon Star Craft 2, every game I have thrown at this computer it has worked without a problem.  I also run alot of programs because I am currently in school so I have alot of applications open, and I have my browser open with prob over 20 + tabs, and I have multiple games running in the background along with my Norton working in the background and other background services and this thing DOES NOT SKIP A BEAT. With all that going on I haven't seen this computer over-clock it self yet so its well worth getting the Asus i7 series laptops. The volume is great on some things and others its pretty crappy, the screen is awesome I am not sure what everyone is complaining about because it looks great to me. The keyboard is a chicklet type keyboard but I love it, it doesn't flex on the left side well not on my computer so I am not sure where people are getting that from either, but then again I don't type really hard, I am very fast lite typer, but I have typed hard to see if it flexes and it doesn't so maybe its just their computer. Some people are complaining that there is not a backlight on the keyboard, well all I have to say about that is it would be nice but I type without looking at the keyboard so it really doesn't matter to me.\n\nNow the only bad thing I have to say is the laptop is a finger print magnet and a dust magnet because I am always cleaning this beast LOL. The color is a very dark dark brown and you can't tell it is a brown color unless its under direct light but it doesn't bother me because it looks very professional and I like that. It does get a little hot on the left hand side but the fan does a good job keeping it cool. I did buy a laptop cooler but I don't think it really needs it but I use it anyways and it keeps it pretty cool, but this a laptop after all with alot of power so what can you expect it will get hot sometimes! Over all this is a great computer for just the causal user or for someone who needs alot of power. If you can get this computer when its on sale then grab it, even if you can't the price amazon is offering for this computer is still wonderful because I did alot of research and you can't get this much power with this size screen with any other computer or for the same computer from a different company its more expensive. I had doubts about buying this computer at first and after doing alot of research at least a week worth of research reading reviews and all sorts of thing and I still found that this is a freakin awesome computer from an awesome company. If your a gammer then get this beast it will handle all your games, if you need power for other things and software then this is the computer for you. Like it says its an entertainment laptop I have viewed HD movies on here and it is so amazing, I use headphones ofcourse so the sound comes across great, im a computer geek and very picky so if i suggest this computer to other people then its good. Just Buy It.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "gaming laptop",
-                    "Asus K42jr-a1",
                     "MMO games",
                     "Ast i7 series",
                     "chiclet type keyboard",
@@ -5857,7 +5523,6 @@
                     "Amazon",
                     "Sony VPC-F111FX/H",
                     "Asus Tech department",
-                    "Manufacturer touts features",
                     "ASUS website",
                     "Multimedia units",
                     "Bluetooth",
@@ -5955,7 +5620,6 @@
                     "asus laptop",
                     "sound quality",
                     "multimedia keys",
-                    "laptop with 2 year warranty",
                     "great performances"
                 ],
                 "sentiment": "Strictly Positive"
@@ -6009,9 +5673,7 @@
                 "review_status": "",
                 "review_body": "pro - nice keyboard, fast processor\ncons - too much junk software..think about format and reinstall windows at begginin..button of mouse pad feel cheap..no spdif",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Positive"
             },
             {
@@ -6056,7 +5718,6 @@
                 "review_body": "Asus K42jr-a1 Review\n\nQuick Synopsis:  After putting a little time into it, its a quick, peppy system that can play movies and handle most games.  As long as you aren't an extreme gamer, this system will work for you.\n\nThe Asus K42jr-a1 runs very smooth and can handle everything I have thrown at it.  I used the recovery partition to reinstall on a single partition, but I have heard of just doing a fresh install.  This also works.  As with many laptops these days, lots of bloatware, but I was aware of this, and cleaned out what I didn't want.  If you are a little weary fully deleting programs (even though you have the utility disk), just deactivate the services and stop certain programs from starting at the boot.  This will also increase your performance.\n\n****NOTE:  When the computer was first booted, it seemed very sluggish.  At times, the cpu light was on, but it appeared nothing was happening.  Task Manager showed no CPU activity.  After a couple minutes, the computer would resume what it was working on.  But, this freezing, or sluggish activity would occur every 5 minutes or so. After some research, I found this obscure, but simple solution.  From (...)\n\n\"Start",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus K42jr-a1",
                     "bloatware",
                     "task manager",
                     "CPU light"
@@ -6119,14 +5780,7 @@
                 "review_status": "",
                 "review_body": "I bought the",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I bought the A1500 based on the Compaq name and the excellent results I` ve had with their other products",
-                    "however I started having problems immediatly",
-                    "it just would not work. When I called Tech support",
-                    "I was informed that it was not campatible with my operating system. When I pointed out I was using Win 98se on a Compaq comupter they tried to help. I was able to finally get it installed after being on the phone with Tech Support for almost 2 hours. It worked for one day then quit printing. When I again called Tech Support and spent another hour on the phone the printer finally started working but the Scanner quit. As I was buying a second computer with Win XP I asked if it would be compatible and was assured that it was. When I was ready to install the A1500 on the new computer",
-                    "I called Tech Support and they taslked me through the whole process. Not only would it not install it crashed my system and I had to do a full restore. As I waited to long to return it",
-                    "it is now seating on a shelf collecting dust until I can find someone who will take it off my hands. In the mean time I`m still looking for a good multifunction that will work as advertised. I would not recommend the A1500 to anyone who does not have money and time to waste"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Negative"
             },
             {
@@ -6155,8 +5809,7 @@
                 "review_body": "purchased it 2 months ago. windows crashed in first day and i needed to restore it. second day screen went crazy, fortunately only for few minutes. after this \"promising\"\" beginning it's been working fine.\"",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "windows crashed",
-                    "second day screen went crazy"
+                    "windows crashed"
                 ],
                 "sentiment": "Neutrally Negative"
             },
@@ -6174,21 +5827,6 @@
                     "infrequent usage"
                 ],
                 "sentiment": "Neutrally Negative"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "I ordered this laptop it was my first laptop purchase.  My husband helped me a little when it came to purchasing the product.  When it came in he was actually a little jealeous of my laptop.  He paid a lot more for his with extra features that he does not use.  The computer is WONDERFUL!  I am planning on starting my own home business and so far this has been great.  Beautiful colors on the screen.",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "Asus K42jr-a1"
-                ],
-                "sentiment": "Strictly Positive"
             },
             {
                 "reviews": "",
@@ -6391,7 +6029,6 @@
                 "review_body": "On reviewing the CPU stats for this laptop, it is advertised as 2.8GHz Intel Core i7-720QM Processor. However the Core I7 720QM cpu model only comes in with a clock speed of 1.6Ghz - verified by cross referencing to Intel's site.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Intel Core i7-720QM Processor",
                     "laptop",
                     "2.8GHz"
                 ],
@@ -6497,31 +6134,6 @@
                 "reviewer_country_date": "",
                 "purchased_product": "",
                 "review_status": "",
-                "review_body": "Mine's going to be short and sweet. I've owned this for a month with no problem, no lag, nothing. It gets a little dirty at times, but what can I expect from how much use its getting. I've put over 200 albums on already and have 200ish more to go. Have 12 games including Orange Box, Fable lost chapters, and Titan Quest. Have Fruity Loops and Photoshop. Everything runs FLAWLESSLY. This computer is made for someone who can sit near a plugin and do a lot of nerdy things  at once. It only has 2 hours off the plug, which isn't much in gaming time. Fantastic feel to the keys, the number pad is a definate plus, and google chrome goes well with this product. Hope this was helpful.",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "200 albums input: I've been using Gateway for years and have always had excellent results. I recommend the best buy. It has windows 7",
-                    "good size hd/ram",
-                    "an incredibly comfortable keyboard that is backlit",
-                    "and a great wireless connection. The screen is a bit uninspiring but for the price",
-                    "you can't go wrong.output: Gateway",
-                    "windows 7",
-                    "hard drive",
-                    "ram",
-                    "backlit keyboard",
-                    "wireless connection",
-                    "uninspiring screen"
-                ],
-                "sentiment": "Strictly Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
                 "review_body": "Only had my laptop for a few weeks now.When I first bought it I must have over powered the battery because after making my back up disc the laptop did not come back on.  I called Tech Support they asked me to take out the battery and hold in the power button for a few seconds and it should be fine/ Which worked almost thought i bought a dude.  Any how so far no issues good product and good tech support plus the extra year warrenty for drops, spills etc is good!  Battery does not last long, but that's expected with a power sucking laptop as this.  Bright screen and smooth key board.So far I am hapy with my purchase.",
                 "review_helpfulness": "",
                 "review_topics": [
@@ -6589,32 +6201,7 @@
                     "huge wifi range",
                     "huge",
                     "expensive",
-                    "beautifulinput: You can see just how much I love this laptop. I bought it when I started graduate school and needed something light and portable. It's traveled from Seattle to New York to London to Zurich",
-                    "back to Seattle",
-                    "and now sits on my lap in Vermont. Here are the pros and cons: Pros: nice big screen but not bulky",
-                    "15.6\" perfect for research",
-                    "lightweight",
-                    "fast",
-                    "good battery life",
-                    "great sound (I often use it to watch movies)",
-                    "backlit keyboard which is so convenient when taking notes in the dark",
-                    "lots of memory (I use it for statistical analysis in grad school)",
-                    "good-looking (I got the charcoal one)",
-                    "DVD burner Cons: Windows 7 - I'm just not a Windows fan",
-                    "but this is of course my own bias and not the fault of the computer. If you love Windows",
-                    "you'll love this computer. No touchscreen - again",
-                    "this is just my preference. The computer is so sleek and works so well",
-                    "I actually don't mind the lack of touchscreen. Short keyboard - there are only about 5-10mm between the keyboard and the bottom of the laptop. Not a major issue",
-                    "but I have large hands and sometimes accidentally hit the bottom of the laptop. Overall",
-                    "this is an excellent laptop. I do not regret this purchase at all",
-                    "and it will probably continue to be my traveling companion for years to come.output: portable",
-                    "lightweight",
-                    "big screen",
-                    "battery life",
-                    "backlit keyboard",
-                    "windows 7",
-                    "touchscreen",
-                    "short keyboard"
+                    "beautiful"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -6631,7 +6218,6 @@
                 "review_topics": [
                     "hot on the bottom",
                     "dual boots with linux",
-                    "video camera stopped working",
                     "touch pad has wear"
                 ],
                 "sentiment": "Strictly Negative"
@@ -6858,30 +6444,12 @@
                 "review_body": "I had been researching laptops for more than a year before I bought this one. After buying my son an ASUS UL50VT for Christmas after extensive research, I was hooked on ASUS. Good reviews, nice design, good performance. My laptop needs are viewing movies and shows, heavy surfing, downloading and burning, playing music, and light gaming. This is perfect for my needs.\n\nThe first thing I noticed about this one is the keyboard; it is a 'chiclet design' with wider caps which make it extremely comfortable for typing. A lot less errors on my part. The ELAN touchpad (smartpad) is super. For the last year, I have borrowed a friend's ACER and his touchpad drives me crazy. It zooms, the cursor moves and jumps about all the time, frustrating me to no end; I finally had to disable it completely. With this computer, palm detection notes the difference between the palm and a finger so that the cursor doesn't jump around while typing. You can also do pinch and zoom. The large palm rest area is supercomfortable as well and minimizes smudges, unlike the rubbery type ones you see which I hate.\n\nI like the Power4Gear which allows you to select your desired processor mode to conserve battery life and have fan power adjusted. Very handy. The Intel I3 Core is more than enough for my needs, lightening fast, and the NVIDEA GEFORCE 310M graphics is excellent for the light gaming that I do.\n\nThe sunken hinges enhance viewing by providing a wider more comfortable and less distracting viewing experience, as well as making the laptop look much more visually appealing and sleek. The sound is great (SRS with ALTEC lansing speakers) for media and music. The computer is really sleek and cool looking and my son prefers it to the design of his.\n\nThe first thing that I didn't like is the screen brightness; unless I have it on full brightness, I can't see it. It seems to be dimmer than others I have used, even on full brightness, but maybe it's my imagination? I had it side by side my friend's ACER, with the annoying touchpad, and my son's ASUS UL50VT and both of their screens appeared brighter.\n\nMy major disappointment is the battery life, despite a little sticker on the computer that states 'great battery power' or something like that. With screen brightness mid range and just using it for moderate surfing and office applications, the battery only lasts two hours. I had expected more. Another annoying thing is the frequent disappearance of the power icon in the taskbar; the setting to turn it on in the taskbar is greyed out. After googling some forums, I followed the recommendation, logged off and back on. Bingo, the power icon was back. But since the battery life is a disappointment, I don't want to be fiddling around trying to see the power icon to have notice of when it will die.\n\nConclusion: excellent value. Biggest PRO: other than the speed of I3 (and it is really really fast), it would be the touchpad and keyboard. Biggest CON: battery life.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus K42jr-a1",
                     "great battery power",
                     "chiclet design",
                     "ELAN touchpad",
                     "Power4Gear",
                     "NVIDEA GEFORCE 310M",
-                    "SRS with ALTEC lansing speakers",
                     "I3 Core"
-                ],
-                "sentiment": "Strictly Positive"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "I ordered this two years ago for my grandson, the gamer, for Christmas.  It is still working just great and was perfect for anyone who needs a computer for playing games!  He loved it and still does!",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "Asus K42jr-a1",
-                    "computer for playing games"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -6958,7 +6526,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "Asus",
-                    "screen about no hard drive",
                     "software engineer"
                 ],
                 "sentiment": "Strictly Positive"
@@ -7238,8 +6805,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "8+ hours of battery life",
-                    "college campus",
-                    "no worries about battery depleting"
+                    "college campus"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -7254,7 +6820,6 @@
                 "review_body": "Just received it.  Shipping was great as usual.  Transcend 4 GB Class 6 SDHC Flash Memory Card TS4GSDHC6E does not work for ReadyBoost.  Upgraded to 2GB RAM.  Not a lot of crapware to remove.  Downloaded Asus System Tools to put in desktop background.  The matte finish is a smart idea.  So far so good.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Transcend 4 GB Class 6 SDHC Flash Memory Card TS4GSDHC6E",
                     "ReadyBoost",
                     "crapware"
                 ],
@@ -7421,9 +6986,7 @@
                 "review_status": "",
                 "review_body": "I've had this netbook for about a month and I'm very pleased.  I had a laptop before with a Celeron chip. I'm using the Atom N450 which performs quicker than the Celeron.  In addition, I've found the 10\" screen to be very bright and easy to see with optimum resolution.  It comes with Windows 7 Starter.  To increase performance",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Positive"
             },
             {
@@ -7453,7 +7016,6 @@
                 "review_body": "I received this net book yesterday, and, to my very surprise, it turned out that the recovery DVD/Support CD that is included in ALL of the other versions of ASUS Eee PC Seashell 1005PE is NOT included in this particular version. (I simply cannot understand why Amazon made this the case.) The description on the Amazon website is misleading, since there is nowhere where it explicitly warns the customer that this will be the case for this particular package. True.. according to \"what is included in the box\"\" Amazon does not list the recovery DVD/Support CD among the things included. But",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "ASUS Eee PC Seashell 1005PE",
                     "recovery DVD/Support CD"
                 ],
                 "sentiment": "Neutrally Negative"
@@ -7518,7 +7080,6 @@
                 "review_body": "Aug. 2011 - update of my original June 2010 review:  and increased to 5 stars.\nI still love this little computer.  Amazon replaced the original one with another of same model and the battery seems to be hanging in there just fine - not getting 14 hours but regularly 10-12 so that's pretty good.\n\nOrdered the slightly newer model in June 2011 for my son and husband - it gets lots of use too!\n\nOrig review:\nI love the ASUS Eee PC Seashell 1005PE-PU27.  I paid a bit more for the matte black case AND especially wanted the longer battery life (supposed to be 14 hours).\nSO I am disappointed in the battery life - not as advertised.  I let it charge fully when it arrived nearly a week ago, and have used it to run down the battery (to 10-20%) and re-charged at least 3 times already.  The absolute top battery life I've seen is 11hrs.45min. - that's only 84% of what it should be.  False advertising? Or bad battery?\n\nWhen plugged in and charging, the charger, battery, bottom of unit and area left of mouse pad all get very warm - hot.  Is this normal?\n\nI also ordered a 1005PE-MU17 at the same time for a friend and it's battery seems to be functioning at the near advertised expected life of 11 hours.\n\nSuggestions please!\n\nPS  Other than battery life, I'd give this great little netbook 5 stars.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "ASUS Eee PC Seashell 1005PE-PU27",
                     "battery life",
                     "charger",
                     "very warm"
@@ -7541,9 +7102,6 @@
                     "Samsung",
                     "1005HA-P",
                     "1008 model",
-                    "64MB dedicated DDR3 Graphics memory",
-                    "Ion and Broadcom graphics and HD chips,matte surface LCD",
-                    "matte surface keyboard surround",
                     "1.3MP Webcam"
                 ],
                 "sentiment": "Strictly Positive"
@@ -7727,7 +7285,6 @@
                     "ReadyBoost",
                     "Firefox",
                     "Instant Boot",
-                    "glossy fingerprint magnets",
                     "weak sound",
                     "USB modem"
                 ],
@@ -7743,9 +7300,7 @@
                 "review_status": "",
                 "review_body": "This is the exact same netbook as the",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Asus 1001h and Asus 1001px"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Negative"
             }
         ],
@@ -7843,8 +7398,7 @@
                 "review_topics": [
                     "bright monitor",
                     "i5 processor",
-                    "2-year global warranty",
-                    "1-year accidental damage warranty"
+                    "2-year global warranty"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -8021,10 +7575,7 @@
                     "smudge-free case",
                     "kinda decent speakers",
                     "nice touchpad",
-                    "very light.\n\nCONS: Noisy keyboard",
                     "keyboard flex",
-                    "takes some tweaking to get the Broadcom card to work well",
-                    "bad speaker placement (under the front)",
                     "stiff trackpad button."
                 ],
                 "sentiment": "Strictly Positive"
@@ -8154,9 +7705,7 @@
                 "review_status": "",
                 "review_body": "Some of these are shipping without the Broadcom Crystal HD accelerator from Amazon and other online retailers. Anyone interested, hold off on purchasing this machine until it gets sorted out. I will update this review once things are settled.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Broadcom Crystal HD accelerator"
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Positive"
             },
             {
@@ -8206,9 +7755,7 @@
                 "review_status": "",
                 "review_body": "I originally bought this for my mom when her huge laptop died, but once she tried it out she realized that the keyboard was too small for her arthritic hands.  So my boyfriend bought it off me and has been using it like a fiend ever since.  He installed Linux and carries it with him practically everywhere because it's so light.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "too small for arthritic hands"
-                ],
+                "review_topics": [],
                 "sentiment": "Neutrally Positive"
             },
             {
@@ -8240,7 +7787,6 @@
                 "review_body": "Out of the box it had problems playing 720 HD youtube videos.  I couldn't find any solutions on Asus's support forums, but after some research I discovered that it was due to the current version of Flash Player installed.  For those of you who has the Crystal HD decoder but still gets choppy video performance, you have to download Adobe's Flash Player 10.1 release candidate 4 or newer.  Other than that is very good; extremely long battery life, very clear screen, and spacious keyboard.  Minus the fact that it didn't work perfectly out of the box, i'm very happy with it afterward.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Asus K42jr-a1",
                     "Crystal HD decoder",
                     "flash player 10.1",
                     "adobe",
@@ -8263,8 +7809,7 @@
                     "product defect",
                     "Adobe Flash 10.1",
                     "Internet Explorer",
-                    "Firefox",
-                    "Kingston 2GB 800Mhz DDR2 CL5 Memory"
+                    "Firefox"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -8380,7 +7925,6 @@
                     "total media theater 3",
                     "youtube",
                     "battery life",
-                    "noise cancelling microphones",
                     "sdcard slot",
                     "webcam",
                     "desktop vsync",
@@ -8400,11 +7944,9 @@
                 "review_body": "Buyer beware...I also could not find the Broadcom Crystal HD video accelerator in my Device Manager under the Sound, Video, and Game controllers category.  I received my unit on May 11, and contacted ASUS tech support.  They asked whether the unit had an HD sticker on the box (mine didn't) and told me to either send it back to Amazon or to ASUS for updating.  Naturally, I'm returning it to Amazon (although curiously, they are currently only refunding, not exchanging the units).  Barring this \"not ready for prime time oversight\"\"",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Broadcom Crystal HD video accelerator",
                     "Device Manager",
                     "Sound",
-                    "Video",
-                    "and Game controllers category"
+                    "Video"
                 ],
                 "sentiment": "Neutrally Positive"
             },
@@ -8592,12 +8134,10 @@
                     "Lenovo Thinkpad",
                     "T61p",
                     "Thinkpad T61p",
-                    "Broadcom CrystalHD Video Decoder",
                     "Dolby Digital",
                     "bloatware",
                     "SSD drive",
-                    "2GB RAM",
-                    "Windows Aero Desktop theme"
+                    "2GB RAM"
                 ],
                 "sentiment": "Strictly Positive"
             }
@@ -8684,45 +8224,7 @@
                     "mouse",
                     "backlit keyboard",
                     "Ivy Bridge Core i7 chip",
-                    "flash driveinput: Well",
-                    "the laptops Asus K53sv is the worst laptop I ever had in my life",
-                    "even I had a lot of laptops in my life I always buy Asus because is a good company and I never had a problem with any of the Asus laptops ",
-                    "but this one is a nightmare and I seriously regret of spent my money in that",
-                    "this laptop don't work correctly since day one",
-                    "I bought it new in a Best Buy store and since I start using it was freezing and really slow",
-                    "I call the Asus technical support and they tell me to restore the laptop to factory settings",
-                    "I did it but the laptop keep freezing and working really slow",
-                    "so I decide to bring it to the Best Buy store and they send it to the technical support",
-                    "few days later they call me and they tell me that the laptop was fix",
-                    "I went to pick it up and it was working good for few weeks but then the problems start again",
-                    "I called Asus technical support again and I end up doing the same thing restore the laptop to factory settings and again the problem was fix for few weeks and then comes back",
-                    "this is the third time that I have to restore the laptop because is freezing and working really slow and I still having the same problem",
-                    "is being more of a month that my laptop is in technical support and they can not fix the problem",
-                    "I'm really disappointed and frustrated with this laptop and the Asus technical support",
-                    "I'm thinking seriously to ask for a full refund of my money.output: Asus K53sv",
-                    "Best Buy",
-                    "factory settings",
-                    "technical support",
-                    "Asus laptopsinput: Very nice and fast laptop for the price! The Asus K52jr-BBR5 is a very good laptop for the asking price. I've had this laptop for almost 2 years now and I've never had a problem with it. It is fairly light-weight",
-                    "very responsive and very quiet compared to my previous Acer Aspire laptop. I use this laptop mainly for web browsing",
-                    "word processing (MS Office) and personal finances (Quicken). Performance is snappy with this laptop. It boots very quickly into Windows 7 and applications load in an instant. I do not do any gaming on this laptop. Videos play very smoothly and without jerkiness. The fan noise is minimal and the heat is not excessive either. The touchpad is very responsive and smooth to use",
-                    "which makes navigation a breeze. The keyboard is responsive and quite sturdy. The placement of the speakers at the bottom of the laptop",
-                    "which is typical with many laptops",
-                    "results in the speakers being a bit muffled. However",
-                    "I don't find this to be a major problem. Battery life is about 4 to 5 hours",
-                    "which is about average for a 15.6 inch laptop. The battery is removable",
-                    "which is a major plus. The power adapter is a little bulky",
-                    "but this is typical with many laptops. Overall",
-                    "I am very happy with my purchase. It has been very reliable and has met my expectations. I would highly recommend this laptop.output: Asus K52jr-BBR5",
-                    "Gaming",
-                    "web browsing",
-                    "word processing",
-                    "personal finances",
-                    "Acer Aspire",
-                    "battery life",
-                    "Windows 7",
-                    "keyboard",
-                    "trackpad"
+                    "flash drive"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -8793,7 +8295,6 @@
                 "review_topics": [
                     "Windows Update",
                     "ASUS Tech Support",
-                    "Logitech Speaker Lapdesk N700",
                     "$1000",
                     "Gorgeous graphics",
                     "Fast"
@@ -8863,8 +8364,7 @@
                     "light and sleek",
                     "occasional crash",
                     "battery life",
-                    "eye strain",
-                    "crisp and clear resolution"
+                    "eye strain"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -9183,21 +8683,6 @@
                     "flickering Intel vga"
                 ],
                 "sentiment": "Strictly Negative"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
-                "review_body": "This review is for the",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "wrong input"
-                ],
-                "sentiment": "Neutrally Negative"
             },
             {
                 "reviews": "",
@@ -9567,8 +9052,7 @@
                 "review_topics": [
                     "good for browsing",
                     "listening to music",
-                    "writing documents",
-                    "disappointing video playback"
+                    "writing documents"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -9678,18 +9162,8 @@
                 "review_topics": [
                     "poor performance",
                     "sluggish",
-                    "unsatisfactory video streaming",
                     "inconvenient keyboard",
-                    "time-consuming web storage",
-                    "low battery lifeinput: I love this laptop",
-                    "now that I have removed the bloatware that came with it and upgraded the ram to 4GB. I had it for a couple years before upgrading the ram and it was noticeably slow when I had several programs running",
-                    "but after the upgrade",
-                    "the laptop runs fast. Battery life is not so great",
-                    "but it does last for a couple hours of web browsing. I use it for work and personal use and it does everything I need to do. The web cam is great",
-                    "video quality is good",
-                    "and sound is loud and clear. It is a great laptop for the price. If you are looking for a great laptop for a great price that can handle every day use",
-                    "this is the laptop for you.output: bloatware",
-                    "battery life"
+                    "low battery life"
                 ],
                 "sentiment": "Strictly Positive"
             }
@@ -9886,7 +9360,6 @@
                 "review_body": "I've been using the laptop for nearly a month and have been very impressed with the balance of performance, battery life, size, and weight.  It runs all my applications without trouble.  I use it primarily as a website development machine.  I can have my entire XAMPP development environment loaded, including Eclipse, MySQL, Apache, and Photoshop without it slowing down at all.\n\nThe keyboard and trackpad are easy to use and the screen is great.  I don't have any trouble seeing the screen in bright light.  I can go for hours on the battery; I have yet to run out of power despite a couple weeks of constant traveling and usage, including time in the airport and up to 4 hours on the airplane.\n\nThe only two problems I've had are with the internal fan and the speakers.  When I updated my system drivers the fan was very noisy and wouldn't slow down at all - even though the laptop wasn't at all hot.  I had to go back to an earlier driver to fix it.  The speakers are also very quiet - which isn't that big of a deal to me as I generally use headphones anyway.\n\nOverall a great product.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "XAMPP development environment",
                     "Eclipse",
                     "MySQL",
                     "Apache",
@@ -10041,7 +9514,6 @@
                     "Dell Studio XPS 1640",
                     "TDT",
                     "express card slot",
-                    "sound blaster express card",
                     "audio control buttons"
                 ],
                 "sentiment": "Strictly Positive"
@@ -10073,9 +9545,7 @@
                 "review_status": "",
                 "review_body": "Initially, I am very happy with this machine. It is truly a great desktop replacement. That is said, I did have to return it twice, first time the DVD/Blu Ray drive was not working properly, PowerDVD used to freeze and I have to force shut it down, but Amazon sent a replacement within 6 hours and within two days I got the new machine. 2 days later I realized that I have one did pixel on the screen, for that I had to get an RMA and return it to ASUS to replace the screen. For about 4 months everything was perfectly working fine. I use this computer for gaming in addition to real work. I played COD modern warfare 2, GTA 4 and Assassin Greek and Resident Evil 5. You can get the same specs from Dell/Alienware for about $2700, while I bought my ASUS from Amazon for $1842. And I love the screen, it is an amazing HD and great quality picture.\n\nAfter six months of owning the laptop a new problem has appeared. The video card (GPU) overheats when playing games for more than 30 minutes. After 30 minutes the laptop shuts down due to high temperature. I did some research and I realized that the laptop GPU idle temperature should be around 55C, while mine was in the range 75-80C. While gaming the temperature should be around 75-85C, while mine exceeds 100C all the time and it reaches the maximum allowed temperature 114C then the computer shuts down. I have to wait 5 minutes for the computer to cool down then turn it on again. The fans on the laptop are always on high speed, specially the one next the video card.\n\nI have to RMA it again. One expects that such product to be thoroughly tested since it is a gaming laptop. Now, I have listed my laptop for sale, because to me this unacceptable failure.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ],
+                "review_topics": [],
                 "sentiment": "Strictly Positive"
             }
         ],
@@ -10277,7 +9747,6 @@
                 "review_body": "I bought this for my daughter who is going to college.  I reviewed a lot of laptops and learned that Asus is the number 1 brand for reliability which is important to me.  It runs very well - I like Windows 7 and it has enough RAM.  My 2 dislikes are both with the keyboard.  First it offers the number keypad portion like a full sized keyboard.  This is great, BUT it ends up making the keys smaller than normally and I can't type worth a darn with the smaller keyboard keys.  It's really frustrating.  Second is the keyboard has a really flimsy feel - when you hit a key the entire area of keyboard around of the key mushes down.  Just makes it feel really flimsy.  Otherwise I do recommend this laptop.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "number 1 brand for reliability",
                     "Windows 7",
                     "small keyboard keys",
                     "flimsy keyboard"
@@ -10482,8 +9951,7 @@
                 "review_body": "I just got this notebook 2 days ago. One thing that I noticed it that is freezes A LOT! At first I just thought it was the Google Chrome that I downloaded on it. I took it off the computer and I am still having a lot of problems with the computer freezing and being slow. I ordered a replacement of this notebook and should be getting it soon today. I really hope I do not have the same problems. Overall I do love the computer. If I still have problems with this model I did find a different model of the ASUS that I will get for $50 more from Best Buy that has a couple extra features I like. We will have to see.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Google Chrome",
-                    "problems with computer freezing"
+                    "Google Chrome"
                 ],
                 "sentiment": "Strictly Positive"
             },
@@ -10515,7 +9983,6 @@
                 "review_topics": [
                     "Pros: Fast",
                     "Glossy screen",
-                    "Easy to clean cons: minor bloatware",
                     "fingerprint collection",
                     "flimsy keyboard"
                 ],
@@ -10818,29 +10285,12 @@
                 "reviewer_country_date": "",
                 "purchased_product": "",
                 "review_status": "",
-                "review_body": "I read all the reviews and disagree with a lot of them. I use mine for work and doing presentations. At first I transfered all my data to the \"C\"\" drive and ran out of space. Then I noticed that there is a partitioned \"\"D\"\"",
-                "review_helpfulness": "",
-                "review_topics": [
-                    "Asus k42jr-a1",
-                    "data transfer"
-                ],
-                "sentiment": "Neutrally Negative"
-            },
-            {
-                "reviews": "",
-                "reviewer_name": "",
-                "review_title": "",
-                "review_rating": "",
-                "reviewer_country_date": "",
-                "purchased_product": "",
-                "review_status": "",
                 "review_body": "This laptop is a great machine. It is F-A-S-T!  The triple core processor is a great compromise of speed and price.  The screen is HUGE and it looks great.  The keyboard has a great feel and it is easy to type on it.  Maybe the best part about this laptop is its tech support.  They are 24/7 and very helpful.  It even comes with a spill/drop/fire accidental damage warranty.  It is large and is more of a desktop replacement than a laptop.  You may have difficulty finding a bag to fit it, but it is possible.",
                 "review_helpfulness": "",
                 "review_topics": [
                     "triple core processor",
                     "huge screen",
-                    "24/7 tech support",
-                    "accidental damage warranty"
+                    "24/7 tech support"
                 ],
                 "sentiment": "Strictly Positive"
             }

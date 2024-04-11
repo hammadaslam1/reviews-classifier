@@ -40,7 +40,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -89,13 +91,13 @@
                 "review_status": "",
                 "review_body": "Vend\u00edan zapatos new balance y eran cassettes viejo",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "new balance shoes cassette"
-                ]
+                "review_topics": []
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -130,9 +132,7 @@
                 "review_status": "",
                 "review_body": "me hace falta el 8 porfavor",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I am missing the 8th input."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -159,8 +159,7 @@
                 "review_body": "Fit was too small. Need to buy a half size bigger than your normal size.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Fit",
-                    "need to buy a half size bigger"
+                    "Fit"
                 ]
             },
             {
@@ -231,8 +230,7 @@
                 "review_body": "Best shoes ever, very comfortable very happy with purchase ??",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Best shoes ever",
-                    "very comfortable very happy with purchase"
+                    "Best shoes ever"
                 ]
             },
             {
@@ -273,9 +271,7 @@
                 "review_status": "",
                 "review_body": "Someone stole my son's shoes and I had to pay way too much for them.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -340,7 +336,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -411,7 +409,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -454,7 +454,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -592,10 +594,7 @@
                 "review_status": "",
                 "review_body": "amigo mio gracias por el envio todo esta muy bien, muchas gracias y que pase muy bien y feliz  d\u00edas  de los enamorados",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "thank you for the shipping everything is good",
-                    "Thank you very much and have a good day and happy day of love"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -607,9 +606,7 @@
                 "review_status": "",
                 "review_body": "Excellent product, I got more than I expected, very comfortable for running and exercising. Too bad the brand is no longer continuing with this line.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "comfortable for running and exercising"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -728,7 +725,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "traction",
-                    "netting around the toe area",
                     "reebok logo"
                 ]
             },
@@ -776,9 +772,7 @@
                 "review_status": "",
                 "review_body": "The shoes arrived timely and fit well (it may take a run or two to break them in), but the fabric with the two black stripes (near the pinky toe) is coming away from the mesh part of the shoe. The price was right but it really sucks to think that these shoes will be useless in a few months. I've had them for less than a month and I'm not rough on them by any means.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "fabric with the two black stripes (near the pinky toe) is coming away from the mesh part of the shoe"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -837,12 +831,7 @@
                 "review_status": "",
                 "review_body": "good shoe",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "This is my 3rd pair of the Kayano 17's. I bought my first pair for general walking/fitness. They were great! They lasted a little over a year until they weren't as supportive. I then started doing more running and decided to buy a second pair specifically for running. After having the running pair about 6 months",
-                    "I started wearing the original pair more casually. Currently",
-                    "I use them for weightlifting and cross training. I have had my running pair for about a year now and they are still in good condition. Since I have had so much success with this model",
-                    "I bought another pair recently to have for general fitness and casual wear. I highly recommend these shoes! I've owned many Asics in the past but I believe this is the best model yet."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -854,9 +843,7 @@
                 "review_status": "",
                 "review_body": "I bought these shoes for my 13 yr old son and the sides ripped out of the mesh within one month (on both shoes). I normally only spend about $40-50, but I decided to splurge and let him get the shoes he really wanted this time...boy was that a mistake! What a waste of money! Do not buy these shoes!!!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -868,13 +855,13 @@
                 "review_status": "",
                 "review_body": "My husband loves these shoes because he works on his feet all day; 8 plus hours, and these shoes don't cause him any pain in his arches or shins. These are highly recommended.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "no pain in arches or shins"
-                ]
+                "review_topics": []
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -918,7 +905,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -976,7 +965,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -1644,8 +1635,7 @@
                 "review_body": "Needed to get the men's size since ASICS did NOT have any over size 10 in this style.\nUse to jog/run with a weekly running group.\nNow I use the Superfeet Women's Berry Premium Insoles,Berry,E: 10.5 - 12 US insoles with these ASICS GEL Kayano17s.\nVERY helpful!",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "ASICS GEL Kayano17s",
-                    "Superfeet Women's Berry Premium Insoles,Berry,E: 10.5 - 12 US insoles"
+                    "ASICS GEL Kayano17s"
                 ]
             },
             {
@@ -1677,8 +1667,7 @@
                 "review_topics": [
                     "supportive out of the box",
                     "plush insoles/soles",
-                    "minimal break in time",
-                    "insoles still have the compressing feeling"
+                    "minimal break in time"
                 ]
             },
             {
@@ -1708,9 +1697,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "Kayano Running Shoes",
-                    "Renovated Versioninput: I have been running in the Gel Kayano since the 12 and have been happy with every iteration with the exception of the 14.  I felt as though the 14 sacrificed too much lateral support for a softer",
                     "squishier ride.  The 15",
-                    "16 and 17 have all been pretty good.  The 15 and 17 have been my favorites.  The 15 had a wider toe box while the 17 has a more aggressive arch support which I prefer.  \n\nOverall these are great shoes for people with overpronation and flat feet.  They provide great support and cushioning and have held up well over the 250 miles I've put on them so far.output: Gel Kayano 12",
                     "iterations",
                     "14-17",
                     "support cushioning"
@@ -1743,7 +1730,6 @@
                 "review_topics": [
                     "good stability",
                     "good comfort",
-                    "good for training and racing",
                     "overpronator",
                     "2XU Lace Locks",
                     "triathlon"
@@ -1877,7 +1863,6 @@
                 "review_body": "I am buying new shoes of this series every year. The are perfect to my needs and last for at least a year.\nI am running 7KM 3 times a week so you can use my metrics to know if they will last long enough for you.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "running 7KM 3 times a week",
                     "last for at least a year"
                 ]
             },
@@ -2094,7 +2079,6 @@
                 "review_topics": [
                     "shiny new shoes",
                     "10km run",
-                    "new innersoles with arch support",
                     "heavy on landing"
                 ]
             },
@@ -2126,8 +2110,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "ASICS Copero",
-                    "Runners",
-                    "Foot huggingly comfortable"
+                    "Runners"
                 ]
             },
             {
@@ -2228,10 +2211,6 @@
                     "Asics",
                     "Kayano",
                     "insole",
-                    "cushioinput: I bought these for my husband in July 2017",
-                    "so he's had them for over a year now. He wears them daily. He likes them because they're so comfortable and they provide good arch support. He has high arches and over-pronates and so far",
-                    "these have been the best running shoes he's tried. He's always had problems with shoes causing pain in the arch of his foot",
-                    "but these don't do that. He also likes that they're not too heavy and bulky like some running shoes.output: arch support",
                     "over-pronates",
                     "high arches"
                 ]
@@ -2281,7 +2260,6 @@
                 "review_body": "This was a purchase long overdue and so far my new Kayanos are doing the job really well.  My old Asics had passed their used by date so the body was feeling quite rough after a long run.  I have been on a couple long runs in my new shoes and no problems which is a relief with my half marathon coming up this weekend.\nAwesome service from Amazon.\n\nThanks\n\nAnthony\nWellington, NZ",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "old asics no longer in use",
                     "pain relief",
                     "half marathon preparation"
                 ]
@@ -2397,8 +2375,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "Asics",
-                    "kung fu",
-                    "satisfaction from purchase"
+                    "kung fu"
                 ]
             },
             {
@@ -2535,7 +2512,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "flat footed",
-                    "sensitive to rotational torque",
                     "Gel-Kayano 17"
                 ]
             },
@@ -2644,7 +2620,6 @@
                 "review_body": "My first Kayano 17 impressions over the Nimbus 12:\n- slightly more substantial feel\n- more heel strike cushion\n- more stability\n- narrower toe box 'feel' (not actually narrower. I'll explain below)\n\nI purchased and compared Kayano 17 to the Nimbus 12 for use primarily as walking/hiking shoes. Both feel great on my feet, but the Kayano 17's have a slight edge in stability as well as having a bit more heel cushioning - I did a simple heel walk and heel bounce test. Toe padding seems about equal. For this I did toe bounces for 30 seconds with each pair. Overall I'd say I notice the Kayano's on my feet more, whereas the Nimbus feel, well, more nimble, more like a 'pillow' as another review said of the Nimbus. Make no mistake; the Kayano's are super comfortable. Different shoes for different people, essentially. I don't know the actual weight difference between these, but holding them I'd say very little; it's more the perception while wearing them that the Nimbus's are lighter, even though they probably aren't, or aren't by much.\n\nKayano's toe box 'feel' is a tad narrower than the roomier-feeling Nimbus toe box (both pair are 7.5 men's; medium \"D\" width); so the Nimbus's allow my toes to expand when striking first with my toes (hiking steep uphills, running up steps, etc.). I think this has to do with the Nimbus meshing; it's lighter and stretchier, which may give the Nimbus a slight advantage during hot summer months when feet tend to swell, or for people with wider feet that aren't quite wide enough to justify going to the next width size up. Too much room risks blistering and/or less stability; too little crams the toes together.\n\nSpeaking of stability, both seem to include the same ASICS technologies, but the Kayano's fare a bit better here. I tested this simply by holding the heel part and the widest part of the shoe and gently trying to twist it. Wearing them also seems to give the nod to the Kayano's. Venturing a guess, reasons might include a slightly beefier last, higher heel shank and different lace patterns; whereas Nimbus laces follow a slight curve from tongue to toe, Kayano's use the more traditional straight-line lace pattern.\n\nBoth shoes have nice heel-to-toe roll. Some sneakers, even those built on a curved last, inevitably give that 'slap' when the toe strikes. Both these shoes employ curved lasts. I compared the lasts by visual inspection and by rolling opposite sneaks bottom to bottom. Visually speaking, their shape (width/length/curve) appear nearly identical; only the tread looks different. the Kayano heel shank is noticeably higher which as I said probably contributes to stability.  Of course, I can't speak for how their internals are constructed.\n\nI value feet health since I *love to walk and want the best for all my joints above my feet, so the $50 difference (depending on which color/size you get) between these shoes  counts towards 'healthy foot insurance.' Since I'll use these as my everyday shoes, and for for walking two miles in the forest a few times each week, I'll probably replace them within a year; even the most expensive sneaker becomes a liability as they begin to deform and flatten over time.\n\nYes, the Nimbus 12 is really a great choice (and cheaper), but for the reasons above, the Kayano 17 running shoe is my choice.\n\nHappy shopping :)",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "shoe comparison: Asics Kayano 17 vs. Nimbus 12",
                     "stability",
                     "cushion",
                     "toe box width",
@@ -2657,7 +2632,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -2781,9 +2758,7 @@
                 "review_status": "",
                 "review_body": "This is the third pair of these ASICS GEL-Kinetic 3 running shoes my husband has had me order. He loves them!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "ASICS GEL-Kinetic 3 running shoes"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -2813,8 +2788,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "very well cushioned",
-                    "laces pull snug",
-                    "very good response on the road"
+                    "laces pull snug"
                 ]
             },
             {
@@ -2891,8 +2865,7 @@
                 "review_body": "Thisis the most widly used shoe in most marothons so a middle aged oveer weight guy like me, meands pure comfort, the most comfortable shoe I have ever worn.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "marothons",
-                    "middle aged oveer weight guy"
+                    "marothons"
                 ]
             },
             {
@@ -2967,9 +2940,7 @@
                 "review_status": "",
                 "review_body": "Satisfeita",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I have a pair of Asics Gel-Kayano 17 and it's like walking on clouds. They are also very supportive and I feel like I can run for miles in them. I would definitely recommend these shoes to anyone looking for a great pair of running shoes."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -3296,7 +3267,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -3334,7 +3307,6 @@
                 "review_topics": [
                     "20 years",
                     "overpronate",
-                    "motion control/stability shoe",
                     "half marathons",
                     "3020s",
                     "thumbs up"
@@ -3563,8 +3535,7 @@
                 "review_body": "Very good fit for my feet. I can walk my dogs with out having legs issues.  Before I had these I usually having leg issues walking with my old tennis shoes, now no more.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Very good fit",
-                    "no more leg issues while walking"
+                    "Very good fit"
                 ]
             },
             {
@@ -3688,7 +3659,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -3768,7 +3741,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -4096,8 +4071,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "fit and finish",
-                    "keeps running",
-                    "back of shoe not well designed"
+                    "keeps running"
                 ]
             },
             {
@@ -4198,7 +4172,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -4235,8 +4211,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "very comfortable",
-                    "nice support",
-                    "look good and feel good when running"
+                    "nice support"
                 ]
             },
             {
@@ -4308,9 +4283,7 @@
                 "review_status": "",
                 "review_body": "This was pricey and yet crappy not enough comfort at all feels like space shoes lol not enough shock support for knees and ankles could do better lets say 5k not ready!!!!!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -4425,7 +4398,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -4551,7 +4526,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -4687,7 +4664,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -4780,7 +4759,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -4823,7 +4804,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -5055,7 +5038,6 @@
                 "review_body": "Perfect",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I have very bad feet that cause shin splints if I run in the wrong shoe. Not to mention my super high arches that also need extra support. I have been running in asics for years and have tried out many different brands in the past but always come back to asics. They are well worth the money to me and typically last me about 2 years. This is my second pair of the Kayano 17's and I love them. I can run several miles with no pain in my feet or shins. OUTPUT: asics",
                     "Kayano 17's",
                     "shin splints"
                 ]
@@ -5084,9 +5066,7 @@
                 "review_status": "",
                 "review_body": "Meet my requirements",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "ASICS GEL-Kayano running shoe"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -5234,9 +5214,7 @@
                 "review_status": "",
                 "review_body": "The best, the best, the best!\nAsics is the best manufacturer of tennis today for walking or jogging.\nPlease make basket tennis.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Asics best manufacturer of tennis shoes"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -5296,10 +5274,7 @@
                 "review_body": "Good",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I have a pair of Gel-Kayano 17's that I use for jogging and general exercise. I bought them to replace a pair of Gel-Paces that I'd had for at least 5 years",
-                    "which were starting to show their age. I'm very happy with them so far. They are comfortable",
                     "provide good support",
-                    "and seem well-made. I'd definitely recommend them to anyone looking for a good pair of running shoes.output: Gel-Kayano 17's",
                     "Gel-Paces"
                 ]
             },
@@ -5331,12 +5306,8 @@
                 "review_topics": [
                     "cushioning",
                     "toe box",
-                    "wearinput: I have been wearing Asics Gel Kayano running shoes in size 12 for 30 years and have always loved them. They are the only running shoe that doesn't give me knee pain",
-                    "the only shoe I can wear all day as a teacher standing and walking most of the day. This latest pair",
                     "Kayano 17",
-                    "is a huge disappointment. The toe box was both narrow and shallow and was immediately painful to wear. I walked around in them around the house",
                     "hoping they would stretch",
-                    "and actually got a blister on my big toe. I had to return them. It is disappointing that Asics changed the size of the toe box.output: asics gel kayano",
                     "mizuno wave inspire"
                 ]
             },
@@ -5400,7 +5371,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "fits snug at the lace",
-                    "loose at the forefoot,tried running with them but didn't  feel right",
                     "ok for walking"
                 ]
             },
@@ -5432,7 +5402,6 @@
                 "review_body": "I'm not a runner, but due to my plantar fasciitis, my podiatrist recommends going with top-of-the-line running shoes. My orthotics fit perfectly and I can walk in them 5-10 miles with no problem.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "top-of-the-line running shoes",
                     "orthotics",
                     "plantar fasciitis"
                 ]
@@ -5491,8 +5460,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "pronated feet",
-                    "mesh material",
-                    "not recommended for people with an upward curving big toe"
+                    "mesh material"
                 ]
             },
             {
@@ -5688,9 +5656,7 @@
                 "review_status": "",
                 "review_body": "My 4th pare of ASICS and the shoes do not feel right.  They feel very loose on top towards the ankle. Poor support I belive that is the reason they are so cheap. Stay away from this model shoe and do not let the price get you.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -5724,8 +5690,7 @@
                     "cushioning",
                     "support",
                     "toe box",
-                    "wide model",
-                    "Amazon.com customer service"
+                    "wide model"
                 ]
             },
             {
@@ -5738,9 +5703,7 @@
                 "review_status": "",
                 "review_body": "One of the best pairs of running shoes I've owned thus far.  I don't run regularly (often no more than once per week), and don't run very long distances (usually no more than 5 miles)....but for what I do, they seem to offer great support and cushioning.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "running shoes support cushioning"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -5752,9 +5715,7 @@
                 "review_status": "",
                 "review_body": "When I got the shoe, it looked huge, i thought I made a mistake with the size, but when i tried it on ,it was perfect, the size comes from the enormous amount of padding the shoe has, With all the padding it is as light as you would expect from a great running shoe.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "shoe with enormous amount of padding"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -5841,7 +5802,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "buy it for $150",
-                    "find it at DSW on sale for only $99",
                     "find it for $73"
                 ]
             },
@@ -5856,7 +5816,6 @@
                 "review_body": "It's a neutral-moderate overpronator shoe. For me it feels a bit weird since I'm a midfoot striker, and this shoe is totally planned for heel strikers (you'd understand what I mean immediately once putting it on your foot).\n\nSizing is very small, very tight especially at the toes!\nI'd say definitely go 1 or even 1.5 size above your Nimbus size. My Mizuno (prophecy) size is US11.5 and the Cirrus33 size is US12.5. Which's actually the first time ever I needed a US12.5 size!\n\nUPDATE: Even US 12.5 is a bit too small for me (with orthotics). I don't know if I'm going to try size 13 (for the 1st time in my life) since it's pretty frustrating this shoe is hell narrow. I don't know why asics did that. It's a shame, such a good shoe with such weird sizing.\nAsics should provide EE width for this style, the current width is ridiculously narrow.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "neutral-moderate overpronator shoe",
                     "heel strikers",
                     "sizing",
                     "mizuno",
@@ -5958,7 +5917,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -6025,7 +5986,6 @@
                 "review_body": "I bought the Skechers Go Supreme Running shoes which are more or less the same as these....so I'm sharing my review of it because these shoes pose a risk to real runners.\n\nThese shoes are very comfortable but they are not suited for runners even though they are called running shoes. The soles of these shoes are extremely soft which means you'll only get about 30 miles out of them or less if you are a heavy runner. Based on the durability of these shoes I definitely think at $70 bucks they are way way way way over priced....these shoes should be sold for about $20 Max due to their lack of durability.\n\nI suspect if you use them for walking they may last a bit longer....just a tad bit.\n\n*UPDATE*\nI have now downgraded my original rating from three stars to two stars. Just after 5 runs in this shoe I have developed shin splints and pain in the ankle. It seems Skechers has not learned a lesson from it's $40M lawsuit re: Skechers shape ups. The designers in Skechers seems to be more concerned with the 'appearance' and \"colouring' of their products rather than it's trustworthiness, performance levels and durability.\n\nNo serious runner will consider these Skechers go runs and once the soling of these shoes are gone which occur between 20 to 30 miles runners run a serious risk of incurring some type of running injury, be it shin splints or plantar fasciitis.\n\nSkechers shoes are great for casual wear....I love their styles....but regards running I'll avoid their shoes like a plague because you'll probably end up with an injury.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Skechers Go Supreme Running shoes",
                     "running shoes",
                     "over priced",
                     "durable",
@@ -6241,9 +6201,7 @@
                 "review_status": "",
                 "review_body": "I've had these shoes forever. I've beat them up. They're great!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -6500,8 +6458,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "original Go Runs",
-                    "PR",
-                    "Skechers good running shoe"
+                    "PR"
                 ]
             },
             {
@@ -6697,8 +6654,7 @@
                 "review_topics": [
                     "comfort",
                     "Go Run 2 pairs",
-                    "2 pairs of shoe laces",
-                    "matching and contrast color"
+                    "2 pairs of shoe laces"
                 ]
             },
             {
@@ -6712,8 +6668,7 @@
                 "review_body": "Updated:  After two months of use, something glued together inside the shoe (under the middle sole), has separated and makes a loud, sticky \"click\" with each step.  It started with one shoe, and now both make the loud click.  I no longer wear these shoes casually; they are still comfortable for working out on a treadmill as long as I wear headphones and can't hear the incessant clicking.  I would toss the shoes except that they set me back a good bit of money.\n\nOriginal review:\n\nI have been very happy with these light sketcher runners.  They are very light and thin, but the sole is made well enough so that I don't feel the bumps in the trail like I do with my other minimalist shoes.  I se these to walk and run on pavement, gravel, and sandy trails.  So far so good, especially considering I have somewhat flat feet.  The only minor complaint so far is that the tongue of the shoe tends to shift to one side too easily, requiring occasional adjustment.  It would be great if they could find a way to sew it in so it would stay more straight.  Also, the mesh is not extremely rugged, so be careful using these where branches, rocks, or other threatening objects could put a tear n the mesh.  Nice shoe from Sketchers.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "cheap",
-                    "mesh is not extremely rugged"
+                    "cheap"
                 ]
             },
             {
@@ -6865,7 +6820,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -6950,7 +6907,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -7019,9 +6978,7 @@
                 "review_body": "I have played about 5 rounds in these shoes and also worn them on the range. On the range they fit perfectly and feel great. On the course, I consistently get blisters on the heels on both feet and end up limping by around the 4th hole. I have to put band aids under my socks in order to finish the round. I have tried to work out why this happens - they fit perfectly and are the correct size - and worked out that the blisters are exactly the spot where the leather of the upper heel joins with the soft padding at the top of the shoe. The join creates a bump at the back of the shoe which is causing the blisters. In the past I wore less fashionable and cheaper Footjoys and had no problems with them. I really regret being swayed by the looks of these $200 plus shoes as they have proved to be very dissapointing. I would return them if I could - and should have done so after my first round in them - but keep hoping that they would wear in. They haven't!",
                 "review_helpfulness": "",
                 "review_topics": [
-                    " blisters on the heel",
-                    "leather upper joins with soft padding",
-                    "bump at the back of the shoe"
+                    " blisters on the heel"
                 ]
             },
             {
@@ -7080,9 +7037,7 @@
                 "review_status": "",
                 "review_body": "Exquisite!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "no input or description"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -7515,8 +7470,7 @@
                 "review_body": "Have worn Ecco dress shoes for years and am delighted with their golf version. Comfortable.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Ecco dress shoes",
-                    "golf version. Comfortable."
+                    "Ecco dress shoes"
                 ]
             },
             {
@@ -8170,8 +8124,7 @@
                 "review_body": "Bought them for my husband and he LOVE them! He said they are even more comfortable than his last pair of ECCO golf shes",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "husband love them",
-                    "comfortable than ECCO golf shes"
+                    "husband love them"
                 ]
             },
             {
@@ -8278,8 +8231,7 @@
                 "review_body": "Great shoe, quality, looks, etc.  However, I wear a size 8 shoe, and the size 42 for US sizes 8-8.5 was to big.  Would have\nordered the 41 but they were out of that size.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "great shoe",
-                    "size 42 for US sizes 8-8.5"
+                    "great shoe"
                 ]
             },
             {
@@ -8463,7 +8415,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -8521,7 +8475,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -8558,7 +8514,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "sizing weird",
-                    "fit between size 11 and 11.5",
                     "4E",
                     "rear foot and ankle",
                     "dog walking"
@@ -8633,10 +8588,7 @@
                 "review_status": "",
                 "review_body": "Love then. Just what I expected. Fast shipping, came sooner that expected.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Love then. Just what I expected. Fast shipping",
-                    "came sooner that expected."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -8678,24 +8630,7 @@
                 "review_body": "good",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "this has been a repeat review of my original",
-                    "ASICS needs to look into this problem. I have ran in ASICS Kayano for years",
-                    "the Gel-Kayano 17 has been my most favorite. I am on my third pair",
-                    "each time I expect them to have corrected the problem that causes blisters on my feet",
-                    "I am sorry to say it still exists",
-                    "this means that 70% to 80% of my runs end early because of blisters.\nI am currently on my third pair of Gel-Kayano 17 the blisters are still a problem. One 3 to 6 mile run",
-                    "I ended with blisters on the outside of my small toes. On a 10-mile run I ended up with blisters on the outside of both of my big toes. I did everything that you said not to do",
-                    "I wore new socks",
-                    "I did not wear double socks",
-                    "I brought body glide with me and applied it every few miles",
-                    "I did not tighten my shoes too tightly",
-                    "I did not skip a day between runs. I read all the other reviews",
-                    "I can not understand why this problem still exists??? This issue only exists with the Gel-Kayano 17",
-                    "I have tried other Gel models and this does not happen. I have tried to contact ASICS but they do not have a phone number",
-                    "they refer you to a website",
-                    " which is not help full at all.\nThis is so frustrating",
-                    "I have even thought about changing brands but I hate to buy a new brand of running shoe",
-                    "it takes so long to break them in.\n\n  DISSATISFIED"
+                    "I wore new socks"
                 ]
             },
             {
@@ -8875,7 +8810,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -8916,7 +8853,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -9125,9 +9064,7 @@
                 "review_status": "",
                 "review_body": "Very comfortable and lightweight.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "comfortable and lightweight"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -9648,9 +9585,7 @@
                 "review_status": "",
                 "review_body": "Good shoes for work/uniform.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "good shoes for work/uniform"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -9662,9 +9597,7 @@
                 "review_status": "",
                 "review_body": "They were just what I expected !!!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "They were just what I expected"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -9882,7 +9815,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "quality",
-                    "lesser expensive shoe,looks",
                     "physically"
                 ]
             },
@@ -10187,7 +10119,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -10245,7 +10179,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -10548,11 +10484,7 @@
                 "review_status": "",
                 "review_body": "sent back",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "After getting injured and in search of a new running shoe",
-                    "my podiatrist recommended Asics and boy was he right.\nI have the Gel-Kayano 17 and after three runs I have to say I've never owned a more comfortable shoe. I have medium arches and very slight overpronation. There is plenty of padding in the heel and the footbed feels amazing. I can tell these shoes were designed with runners in mind. I have put on 20 miles on them the first three runs and look forward to many more to come.\nThe Asics Gel-Kayano is a beast",
-                    "well worth the price. I highly recommend them."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -10815,9 +10747,7 @@
                 "review_status": "",
                 "review_body": "Black and Pink not Black and Red!  Otherwise good shoe for the price!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Black and Pink not Black and Red"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -10920,9 +10850,7 @@
                 "review_status": "",
                 "review_body": "IT NICE BUT DONT RUN DOWN HILLS WITH THIS SHOES IT WILL HURT YOUR TOES,",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "running down hills with this shoes hurst toes"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -11044,7 +10972,6 @@
                 "review_body": "Decent, nice-looking, neutral cushion running shoe, but not as cushioned as the New Balance 920's I was used to wearing.  Somewhat narrower than expected for the D width.  Probably should have ordered a little wider.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "neutral cushion running shoe",
                     "New Balance 920",
                     "narrower width"
                 ]
@@ -11077,7 +11004,6 @@
                 "review_topics": [
                     "shoelaces",
                     "firm soles",
-                    "running 40-60 miles a month",
                     "snug fit"
                 ]
             },
@@ -11215,9 +11141,7 @@
                 "review_status": "",
                 "review_body": "I followed the measuring instructions provided by NB; however, my left foot was too tight. I returned them for another pair half a size larger.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "measuring instructions provided by NB"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -11586,8 +11510,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "toes is nice and wide",
-                    "arch can be made narrow",
-                    "soles are slightly hard and flat"
+                    "arch can be made narrow"
                 ]
             },
             {
@@ -11677,8 +11600,7 @@
                 "review_body": "Good thing I read the review of other customers who purchased New Balance athletic shoes. They suggested to buy the sneakers a little larger for the New Balance comes smaller in size. I normally wear a 9.5 but ordered a 10. Boy, did it fit perfectly on my foot ! This New Balance felt so comfortable as well, I even played racquetball with them. In Addition, what a bargain I got for them !!!!",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "New Balance running shoes",
-                    "sized smaller than average"
+                    "New Balance running shoes"
                 ]
             },
             {
@@ -11788,13 +11710,14 @@
                     "New Balance M670",
                     "comfortable shoes",
                     "cushioned",
-                    "absorb heel support technology",
                     "USA assembled"
                 ]
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -11921,7 +11844,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -11956,10 +11881,7 @@
                 "review_status": "",
                 "review_body": "so so",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I recently purchased the Asics Gel-Kayano 17 after reading many positive reviews. I have been running in them for about a month now and I am very happy with them. They are very comfortable and supportive",
-                    "and I feel like I can run longer distances in them without getting tired. I have also noticed a decrease in pain in my knees and ankles since I started wearing them. I would definitely recommend these shoes to anyone who is looking for a good pair of running shoes."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -11991,7 +11913,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -12032,7 +11956,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -12082,8 +12008,7 @@
                 "review_body": "Nice nike will recommend to my friends.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "nice nike",
-                    "will recommend to my friends"
+                    "nice nike"
                 ]
             },
             {
@@ -12117,7 +12042,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -12191,7 +12118,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -12255,7 +12184,6 @@
                 "review_body": "These running shoes are well made and the materials seem to be high quality. But the heel and mid-sole gel cushioning is only OK, not great. And ASICS completely forgot the toe cushioning altogether ... AND the shoes are heavy. But for the money, $35. they are acceptable. Size was true.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "heel and mid-sole gel cushioning",
                     "toe cushioning",
                     "heavy"
                 ]
@@ -12329,10 +12257,7 @@
                 "review_status": "",
                 "review_body": "K",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I found that the ASICS Gel-Lyte III are stylish and comfortable. I love the way they look",
-                    "and they are very well-made. I have received many compliments on them. I highly recommend these shoes!"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -12373,17 +12298,9 @@
                 "review_body": "??",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I have had nothing but good experiences with my pair of Asics Kayano shoes. The best thing about these shoes is the cushioning",
-                    "which is unrivaled by many running shoes I've owned in the past. The Kayano 17s are comfortable",
-                    "give me adequate arch support",
-                    "and are extremely breathable. I use these shoes for running",
                     "walking",
-                    "and even yardwork and they've stood the test of time and weather. The laces are durable and have only had to be replaced once in the year that I've owned the Kayanos. The socks are also very breathable and help keep my feet dry even in wet conditions. I've been running in a pair of Kayano 11s for about a year now",
-                    "and they're still in great shape. I've run in them on asphalt",
                     "dirt",
                     "and grass",
-                    "and they've performed well on all surfaces. I'm very happy with my Kayano 11s",
-                    "and I would definitely recommend them to anyone looking for a good pair of running shoes.output: asics kayano shoes",
                     "cushioning",
                     "arch support",
                     "breathable",
@@ -12457,9 +12374,7 @@
                 "review_status": "",
                 "review_body": "Excellent shoes and quality.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Excellent shoes and quality."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -12586,9 +12501,7 @@
                 "review_status": "",
                 "review_body": "Relacion precio calidad lo esperado",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "price-quality ratio as expected"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -12600,9 +12513,7 @@
                 "review_status": "",
                 "review_body": "They're ugly, but comfortable.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -12805,7 +12716,6 @@
                 "review_body": "Their OK. However, asics has chosen to make lacing these shoes very difficult. The heel area is mushy and the soles are thin. But what the hey, they look nice. Would not recommend these but may change review if the shoes start to feel less tight.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "lacing asics shoes difficult",
                     "heel area mushy",
                     "soles thin"
                 ]
@@ -12834,9 +12744,7 @@
                 "review_status": "",
                 "review_body": "Loving these shoes!  However, the photos on the website do not reflect the actual color.  Not terribly relevant to me, as I value functionality & price over looks, but they look even cooler than expected.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "shoe functionality & price"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -12907,7 +12815,6 @@
                 "review_body": "I was very pleased with my overall experience. I intend to use them as my everyday shoes. The color is a perfect match to my 2018 Lamborghini Huracan Spyder in Arancio Borealis. Thanks Very Much",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Lamborghini Huracan Spyder",
                     "Arancio Borealis color"
                 ]
             },
@@ -12976,7 +12883,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -13068,7 +12977,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -13161,13 +13072,8 @@
                 "review_body": "Good",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I've been running for about 8 years now. I'm also an avid hiker. To this day",
-                    "ASICS Gel-Kayanos are the only running/hiking shoes that I'll use. I've owned several different models over the years and they've never let me down. I run on average 30-40 miles per week and the last pair I owned lasted me 2 years of consistent use. I have a slightly wide foot",
-                    "so I plan on getting the extra wide size with this model. I've never owned the 17s before",
-                    "but I'm looking forward to trying them out based on the reviews I've read here.output: asics gel-kayanos",
                     "hiking shoes",
-                    "wide feet",
-                    "running 30-40 miles per week"
+                    "wide feet"
                 ]
             },
             {
@@ -13501,9 +13407,7 @@
                 "review_status": "",
                 "review_body": "Great shoe's will buy another pair",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Great shoe's will buy another pair"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -13574,9 +13478,7 @@
                 "review_status": "",
                 "review_body": "Didn\u2019t last long.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Shoe Quality and Durability"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -13844,7 +13746,6 @@
                 "review_topics": [
                     "comfortable",
                     "light",
-                    "allow your feet to breathe",
                     "right price,awesome",
                     "cushioning like pillows"
                 ]
@@ -13889,9 +13790,7 @@
                 "review_status": "",
                 "review_body": "Ok shoe but they run NARROW.  Length is fine but they are very narrow. So if your feet are on the wide side, they are not for you.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Ok shoe but they run NARROW"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -13980,13 +13879,11 @@
                 "review_body": "one of the best running shoes i have purchased. Great support and very comfortable.  Durable. I have dont a few 5ks in these, and im on the treadmill everyday. Survivng well after 6 months.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "one of the best running shoes",
                     "Great support",
                     "very comfortable",
                     "Durable",
                     "5ks",
-                    "treadmill everyday",
-                    "Survivng well after 6 months"
+                    "treadmill everyday"
                 ]
             },
             {
@@ -14184,8 +14081,7 @@
                     "high instep",
                     "wide foot",
                     "supportive",
-                    "breathable",
-                    "super comfortable and lightweight"
+                    "breathable"
                 ]
             },
             {
@@ -14483,9 +14379,7 @@
                 "review_status": "",
                 "review_body": "Very comfortable shoe fur running and athletics. I wold not recommend it for all day wear if you're on your feet for the majority of the day. I tried it under those conditions for several days and my feet were hurting after a few hours. Gave me the feeling of having to reposition my feet every few minutes which was uncomfortable.\n4 stars because the sole is SUPER thin. If running outside you will feel any rocks, pebbles, etc. but great in a gym environment.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Very comfortable shoe fur running and athletics"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -14499,7 +14393,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "Not a great running shoe",
-                    "but fine for casual purposes.  Fits well with narrow feet",
                     "but not wide feet."
                 ]
             },
@@ -14548,7 +14441,6 @@
                 "review_body": "Very comfortable and light. I do not use them for running...they are my every day walking around sneakers. I love that I found them in a 4E and that there was no painful breaking in phase. Thank you for a comfortable and inexpensive product.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "everyday walking around sneakers",
                     "4E",
                     "inexpensive"
                 ]
@@ -14580,7 +14472,6 @@
                 "review_body": "I bought these shoes about two months ago. They fit great, feel great but the mesh on the top has torn in three different spots on both shoes and the sole in one of the shoes started coming up and I had to rip some off for the shoe to be comfortable again. The shoe itself isn't bad, just fell apart really quick and I only used them for work(im a mechanic). These shoes may ONLY be good if you use them for strictly work outs. Will not buy again, not worth 10$",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "mesh on the top has torn in three different spots",
                     "sole started coming up"
                 ]
             },
@@ -14634,7 +14525,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -14866,8 +14759,7 @@
                     "inner pad",
                     "foam",
                     "loose inner soul",
-                    "cross training",
-                    "Adidas Adipure Trainer 2.0"
+                    "cross training"
                 ]
             },
             {
@@ -14909,10 +14801,6 @@
                 "review_body": "Nice shoes, good traction",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I have used Asics GT-2000 for years. I have tried other brands",
-                    "but I always come back to Asics. I am on my feet all day",
-                    "and Asics gives me the support I need. I have high arches and overpronate",
-                    "and the GT-2000 helps to correct that. I have never had any injuries while wearing Asics. I highly recommend them to anyone who is looking for a good running shoe.output: Asics GT-2000",
                     "running shoes",
                     "high arches",
                     "overpronate"
@@ -15110,7 +14998,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -15344,8 +15234,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "running shoes",
-                    "boost input: I've tried the previous Kayano's in the past and I liked them",
-                    "but they always seemed to lack cushion. The 17's are totally different. The FlyteFoam is really great and you can feel the difference. I really enjoy running in these shoes and I would definitely recommend them to anyone looking for a good running shoe.output: cushioning",
                     "FlyteFoam",
                     "Kayano's"
                 ]
@@ -15412,7 +15300,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -15467,7 +15357,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -15503,7 +15395,6 @@
                 "review_body": "Excellent",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I love these shoes... I have been running for a decade and won't wear any other shoe. They are light and the gel makes it feel you are running on clouds. My first run with my new pair of Kayano 17 resulted in a stress fracture. I was devastated. I called Asics and let them know what had happened. They asked for me to mail the shoes to them and after reviewing them they agreed that the shoes were defective. They sent me a new pair right away and also a pair of their Kayano 21s. I have had the 21s for 6 months now and have run 200 miles with them and no problems. I am thrilled with their customer service and will continue to buy their shoes.output: stress fracture",
                     "running shoes",
                     "asics",
                     "lighter",
@@ -15679,9 +15570,7 @@
                 "review_status": "",
                 "review_body": "They just fitted, not as expected, but fitted. They are an excellent product. I bought them for my brother. He wears 7.5, but they fit as a 7. He is wearing them because he love them, although he would like to wear one more size.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "shoes fit smaller than expected"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -15700,7 +15589,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -15736,20 +15627,7 @@
                 "review_body": "flashy shoe",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I would like to share my recent experience with the Asics Gel-Kayano 17. Before investing in the shoe",
-                    "I thoroughly inspected several customer reviews and considered my personal foot architecture.\n\nUpon receiving the shoe",
-                    "I was immediately impressed by its attractive design. The seamless mesh upper ensures good breathability while the gel cushioning provides unparalleled comfort. The Dynamic DuoMax and Trusstic System enhances stability",
-                    "making them ideal for my overpronation.\n\nDuring my maiden run",
-                    "I was pleasantly surprised by how well it absorbed shock. The shoe's construction effectively minimizes the impact on my joints",
-                    "reducing my risk of injuries. I noticed a significant improvement in my running efficiency and overall performance.\n\nI've used the Gel-Kayano 17 for various distances and terrains",
-                    "including long runs and trail running. It consistently delivers outstanding support and cushioning",
-                    "allowing me to push my limits without discomfort or pain.\n\nThe shoe's durability is another notable aspect. After several months of regular use",
-                    "it still retains its shape and plushness",
-                    "which is a testament to its superior craftsmanship. The outsole exhibits minimal wear",
-                    "despite the demanding conditions I've subjected it to.\n\nOverall",
-                    "the Asics Gel-Kayano 17 has exceeded my expectations. It's a well-rounded running shoe that offers a perfect blend of comfort",
-                    "support",
-                    "and durability. I highly recommend it to any runner seeking a reliable and high-performance footwear."
+                    "support"
                 ]
             },
             {
@@ -15768,7 +15646,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -15818,12 +15698,7 @@
                 "review_body": "good",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I have been running in Asics for at least 9 years. They have always been very comfortable and feel great on the foot. This time around",
-                    "I bought the Kayano 17s and took them out for a 12 mile run-in preparation for a half marathon. I noticed some arch pain right from the start. I ran through it and the pain went away. When I took my shoes off that evening",
-                    "I noticed the insides of the shoe were rubbed completely down from my arches. I went back to my local running store to see if they could help me with a solution. They suggested moving the insole to the bottom of the shoe",
-                    "which I did. I wore them for a 5 mile run and the arch pain came right back. I have tried running in them 3 other times but I just can't get rid of the pain. I have tried taping my feet",
                     "wearing compression socks",
-                    "but nothing has worked.\n\nI have never had this problem with any other Asics shoes. Very disappointed!output: Kayano 17s",
                     "arch pain",
                     "rubbing insides"
                 ]
@@ -15852,11 +15727,7 @@
                 "review_status": "",
                 "review_body": "Just right",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I have only had these for a week",
-                    "but I am really happy with them. I am breaking them in slowly for now until I get used to the new arch support. I had the Kayano 16 before these and wore them out after two years",
-                    "and I still have them to wear casually they are that comfortable. I have a flat foot and pronate so I really need a high support shoe. These are extremely comfortable and I have had no problems with them. Definitely would recommend."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -15985,9 +15856,7 @@
                 "review_status": "",
                 "review_body": "Very uncomfortable, which is weird for Nikes, leading me to believe these shoes may not be real Nike brand. Wore them for a day and my feet were so sore I probably won't put them back on.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "very uncomfortable,sore feet"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -16108,7 +15977,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -16160,8 +16031,7 @@
                 "review_topics": [
                     "newtons",
                     "Fate II",
-                    "minimalist running",
-                    "natural born forefoot striker"
+                    "minimalist running"
                 ]
             },
             {
@@ -16490,7 +16360,6 @@
                 "review_body": "Love love love Newton shoes - no longer do I have black and missing toenails since changing over to Newtons - even after a 28 mile run.  My wife wears them too and she no longer has any shin splint problems.  Wouldn't run in anything else.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "no black and missing toenails",
                     "running",
                     "shin splint problems",
                     "newtons"
@@ -16554,10 +16423,7 @@
                 "review_status": "",
                 "review_body": "Pros:\nExtremely lightweight\nComfortable fit\nGood front to rear \"roll\"\n\nCons:\nCushioning is a little binary, with a very noticeable concentration in the metatarsal area where the lugs are. Definitely not a shoe for pronounced heel strikers. I might shop for a shoe with a more gradual cushioning system next time.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Pros:\nExtremely lightweight\nComfortable fit\nGood front to rear \"roll\"\n\nCons:\nCushioning is a little binary",
-                    "with a very noticeable concentration in the metatarsal area where the lugs are. Definitely not a shoe for pronounced heel strikers. I might shop for a shoe with a more gradual cushioning system next time."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -16584,9 +16450,7 @@
                 "review_status": "",
                 "review_body": "Just tried them today! But so far so good not too light but light enough great support on the ankle and midfoot. No blisters. And fit well out of the box!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "support on the ankle and midfoot"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -16600,8 +16464,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "Nike Lunarglides",
-                    "Newtons",
-                    "transitioning running shoes"
+                    "Newtons"
                 ]
             },
             {
@@ -16640,7 +16503,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -16827,7 +16692,6 @@
                 "review_body": "Realy good",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "very minimalist in cost difference",
                     "well built",
                     "ASICS"
                 ]
@@ -16842,9 +16706,7 @@
                 "review_status": "",
                 "review_body": "Great product!! Knee/ankle pain with long runs have been markedly diminished!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Great product!! Diminished knee/ankle pain with long runs!"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -16903,7 +16765,6 @@
                 "review_topics": [
                     "shoe sole came off",
                     "3rd run",
-                    "less than 5 miles on each run",
                     "disappointed"
                 ]
             },
@@ -16976,15 +16837,7 @@
                 "review_status": "",
                 "review_body": "Running",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I was told I should use shoes with arch support by my doctor",
-                    "so I bought these Asics Gel-Kayanos because they were the highest rated shoes with the best arch support.\n\nThe first time I put these on I felt like I was walking on clouds! I was so happy with them. However",
-                    "after only a few weeks of wear",
-                    "the soles started to separate from the uppers. I was very disappointed",
-                    "especially because these shoes are so expensive. I have since purchased a different pair of Asics shoes with less arch support",
-                    "and I have not had any problems with them.\n\nI would not recommend the Asics Gel-Kayanos to anyone. They are not worth the money",
-                    "and they are not durable.output: Asics Gel-Kayanos"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -17116,7 +16969,6 @@
                 "review_body": "Best for those who have a stride that focuses on the inner foot. great support. I even bought a 2nd pair. I usually get 6-9 months of running out of these.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "those who have a stride that focuses on the inner foot",
                     "great support"
                 ]
             },
@@ -17309,9 +17161,7 @@
                 "review_status": "",
                 "review_body": "Great shoes as always from Newton.  I feel like the Gravity 8s are slightly larger than the 7s.  I could have gone down a half-size.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Gravity 8s larger than Gravity 7s"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -17366,7 +17216,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -17415,14 +17267,7 @@
                 "review_status": "",
                 "review_body": "Very disappointed",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I've owned 3 previous Asics Gel Kayano models",
-                    "and they have always fit me perfectly. The 17s are very narrow",
-                    "and I started getting blisters on the outside of my feet even after wearing them for just a few hours at work (not running). Also",
-                    "on my 4th time wearing them",
-                    "the sole on my right shoe completely separated at the toe. The quality of the 17s is awful",
-                    "and I am very disappointed with them."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -17476,9 +17321,7 @@
                 "review_status": "",
                 "review_body": "Love them...",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Review sentiment: positive"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -17715,9 +17558,7 @@
                 "review_status": "",
                 "review_body": "Great just as as advertised",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Great just as as advertised"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -18004,7 +17845,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -18097,7 +17940,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -18140,7 +17985,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -18183,7 +18030,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -18278,7 +18127,6 @@
                 "review_body": "Perfect",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I have pronation feet and the Gel Kayano by Asics is the only running shoe that I have found that gives me the support I need to stay injury free. I have been wearing the same sneaker for years and love that it comes in a wide width. I also love the color and style. I wouldn't run in any other shoe.output: pronation feet",
                     "Gel Kayano",
                     "Asics"
                 ]
@@ -18322,9 +18170,7 @@
                 "review_status": "",
                 "review_body": "excelente recomendado al 100 %",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "excelente recomendado al 100 %"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -18366,9 +18212,7 @@
                 "review_status": "",
                 "review_body": "I wanted to sell 7,5- 42( europe size) . But it was too small. Like women size",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "42 (European size) to women size conversion"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -18511,9 +18355,7 @@
                 "review_status": "",
                 "review_body": "Use for walking",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Not specified in the input"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -18747,9 +18589,7 @@
                 "review_status": "",
                 "review_body": "I like these, unfortunately I have a pair of bozo the clown feet. I wear between a 10 and 11 in women's. I ordered 10 cuz Nike 10's fit me, but these were just too snug. But they are very lightweight, the bottom of the shoe is so flexible and bendy, they feel and look like you can take flight in them. It hurt me to return them because I wanted to just stuff my foot in and go for a run. I plan on reordering a size 10.5 or 11 because they are exactly what I'm looking for, and I can tell they're good running shoes.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -18787,7 +18627,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -18956,7 +18798,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -19021,13 +18865,6 @@
                 "review_body": "good",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I've always been a huge ASICS fan",
-                    "but I've never actually run in a pair. When I saw the Gel-Kayano 17s on sale",
-                    "I decided to give them a try. I'm so glad I did! These shoes are amazing! They're so comfortable and supportive",
-                    "and they make my runs feel so much easier. I've been running in them for a few weeks now",
-                    "and I've already noticed a difference in my running. My feet don't hurt as much",
-                    "and I'm able to run for longer distances. I'm so happy with these shoes",
-                    "and I highly recommend them to anyone looking for a great pair of running shoes.output: Gel-Kayano 17s",
                     "comfortable",
                     "supportive",
                     "running"
@@ -19146,9 +18983,7 @@
                 "review_status": "",
                 "review_body": "Returned item, very nice make and color but my son thought looked like a women's shoe and would not even try shoe on.\nGreat maroon for all those Texas aggies, but maybe not typical look for a man.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "maroon for Texas aggies,womens shoe"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -19205,7 +19040,6 @@
                 "review_body": "Look and feels great. Received the delivery a day sooner than expected which it's a plus.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Received the delivery a day sooner than expected",
                     "Look and feels great."
                 ]
             },
@@ -19227,7 +19061,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -19262,9 +19098,7 @@
                 "review_status": "",
                 "review_body": "??",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "No input data provided."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -19278,15 +19112,8 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "I have flat feet",
-                    "underpronate (meaning my feet don't roll inward enough when I walk or run)",
-                    "and have a history of shin splints. I also run long distances",
-                    "so it's imperative that I have a shoe that provides ample support",
                     "cushioning",
-                    "and stability. For me",
-                    "the ASICS Gel-Kayano 17 has been the perfect shoe. The gel cushioning provides excellent shock absorption",
-                    "the arch support helps to keep my feet in a neutral position",
-                    "and the stability features help to prevent my feet from rolling inward too much. I've been running in the Gel-Kayano 17 for over a year now",
-                    "and I've never had any problems with shin splints or other foot pain. I highly recommend this shoe to anyone with flat feet or who needs extra support and cushioning."
+                    "and stability. For me"
                 ]
             },
             {
@@ -19436,7 +19263,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -19491,7 +19320,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -19533,7 +19364,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -19584,13 +19417,13 @@
                 "review_status": "",
                 "review_body": "Hot like fire!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -19667,13 +19500,13 @@
                 "review_status": "",
                 "review_body": "Awesome looking and fittting. Great quality!!\nRecomended.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "awesome looking and fitting. Great quality!!\nRecomended."
-                ]
+                "review_topics": []
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -19769,9 +19602,7 @@
                 "review_status": "",
                 "review_body": "Shoes fit great and are very comfortable.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Shoes fit great and are very comfortable"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -19925,9 +19756,7 @@
                 "review_status": "",
                 "review_body": "The back-end of the shoe slips off my heel when I walk.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "back-end of the shoe slips off"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -19985,9 +19814,7 @@
                 "review_status": "",
                 "review_body": "I like them my second pair so far so good",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I like them my second pair so far so good"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -20198,9 +20025,7 @@
                 "review_status": "",
                 "review_body": "If you need good support for wide feet. These are great. Got three pairs.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "good support for wide feet"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -20227,7 +20052,6 @@
                 "review_body": "Very comfortable shoe to wear on the treadmill.  Good fit.  Not too heavy",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "comfortable treadmill shoe",
                     "good fit",
                     "lightweight"
                 ]
@@ -20362,9 +20186,7 @@
                 "review_status": "",
                 "review_body": "Love this shoe so much I keep buying it!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Love this shoe so much I keep buying it!"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -20528,8 +20350,7 @@
                 "review_body": "Bought in February and have run three half marathons and a 10-mile race in them. No problems with blisters, hotspots or black toenails. They fit well and provide stability on the road. I'm training for my 2nd marathon with this pair.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "training for marathon",
-                    "3 half marathons and 10-mile race"
+                    "training for marathon"
                 ]
             },
             {
@@ -20542,9 +20363,7 @@
                 "review_status": "",
                 "review_body": "Great shoe for any type of exercise.  The heel well is a little wider than precious versions and allows the shoe to slide up and down on the heel --big blister ahead.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "heel well wider than precious versions"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -20558,7 +20377,6 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "ASICS shoes",
-                    "comfortable with leg brace",
                     "lace up",
                     "small eyelets"
                 ]
@@ -20587,9 +20405,7 @@
                 "review_status": "",
                 "review_body": "Second pair I've had, good fit comfortable.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Asics shoes good fit comfortable"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -20723,9 +20539,7 @@
                 "review_status": "",
                 "review_body": "I am a woman who has to wear men\u2019s shoes do to the size and structure of my feet\nI wish there  were more  3 colors to choose from\n\nBut I Love the fit.  ????",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -21009,9 +20823,7 @@
                 "review_body": "Nice running shoe, a little heavy and the odd thing is the left shoe fits better than the right.  The right feel as if there is a ridge under my toes.  I can run with it but it causes my foot to turn numb around the toes.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "right shoe fits better than the left",
-                    "ridge under toes",
-                    "foot turns numb around toes"
+                    "ridge under toes"
                 ]
             },
             {
@@ -21025,7 +20837,6 @@
                 "review_body": "Very nice shoe overall. I wear a 10 D.  The shoe is a bit narrow across the top of the foot but the width of the heel is fine.  I let the laces out as much as possible but that also makes the laces just long enough to tie.  I'll probably replace the original laces with some that are a few inches longer.  I find the shoe well padded in the sole.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "narrow across the top of the foot",
                     "well padded in the sole"
                 ]
             },
@@ -21070,9 +20881,7 @@
                 "review_status": "",
                 "review_body": "One of the few shoes that come in the size I need. They fit nicely but you always need to also buy insoles if you desire any cushion or support which will set you back an additional $60. I hate that they do not come with a decent or an actual quality insole.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "shoes that come in my size"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -21217,7 +21026,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -21266,9 +21077,7 @@
                 "review_status": "",
                 "review_body": "I wore the Bondi 5 last year but didn't like the colors and design of the Bondi 6 for this year so I tried these Vanquish as the Hoka website says they in the Plush cushion category like the Bondi.  They are Hoka's  so they are certainly more comfortable and cushioned then most others but they are no where near as soft in the heal and mid foot as the Bondi.  They are pretty firm and responsive.  Probably great for trail, gravel, etc... not as good for road running or simply casual wear in my opinion.  I probably wouldn't buy again.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "1. Hoka Bondi 52. Hoka Vanquish3. Plush cushion category4. More comfortable and cushioned5. Firm and responsive"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -21280,9 +21089,7 @@
                 "review_status": "",
                 "review_body": "Love them",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -21367,9 +21174,7 @@
                 "review_status": "",
                 "review_body": "Hoka One One Men's Vanquish 3 Running Shoe ? just wear 3 weeks ,  one of the shoe is broken, the quality is too bad !! Will choose other brand next time .",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Hoka One One Men's Vanquish 3 Running Shoe"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -21545,7 +21350,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -21924,13 +21731,7 @@
                 "review_status": "",
                 "review_body": "perfect",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I've been a fan of ASICS for years",
-                    "and I've always found their shoes to be extremely durable and comfortable. The Kayano 17s are no exception. I've put in a lot of miles on these shoes",
-                    "and they're still going strong. They provide excellent support and cushioning",
-                    "and they're very breathable. I can't say enough good things about these shoes. If you're looking for a pair of high-quality running shoes",
-                    "the Kayano 17s are definitely worth checking out."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -22265,9 +22066,7 @@
                 "review_status": "",
                 "review_body": "very comfy for running, walking, and if you work long hours standing up. love them!!! I bought them in november like for $40, I see right now its more expensive, but WORTH IT!! buy it!!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "comfortable running walking"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -22416,9 +22215,7 @@
                 "review_status": "",
                 "review_body": "Love this model and sad that it seems they are no longer going to be making the shoe. Current pair has over 600 miles on them and holding up well!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "current pair has over 600 miles on them and holding up well"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -22577,9 +22374,7 @@
                 "review_topics": [
                     "running shoes",
                     "asics",
-                    "input: I bought these shoes to replace my 13 year old Asics Gel Kinsei 3 running shoes. I have worn out 3 or 4 pairs of Gel Kinsei's in my life and was very happy with the stability",
                     "light weight",
-                    "and comfort of the shoes. Unfortunately Asics no longer makes the model I favored for long runs so I was forced to find a new shoe that could last long runs of 20 - 25 miles or more.\n\nAfter reading many reviews and comparisons I settled on the Kayano 24 and have been very happy with them. I am still evaluating them and have not put in enough miles to comment on their life but they are very similar to my old Kinsei's and I am not experiencing any issues with them.output: Asics Gel Kinsei 3 running shoes",
                     "stability",
                     "light weight",
                     "comfort",
@@ -22695,9 +22490,7 @@
                 "review_status": "",
                 "review_body": "I love New Balance sneakers, but I had to give these away because they ran a little small and I'm too lazy to send anything back to Amazon.  No biggie.  I ordered another pair.  Thing is, I think my feet have actually gotten a little longer and wider with time.  Being 40 pounds overweight, that additional daily pounding has to be doing a number on my former 8 1/2 2E's.\n\nThe New Balance size that actually fit?  9 4E's.\n\nA big part of the problem is that the pleasure that food gives me is way better than any \"runner's high\" I might get.  So I eat instead of workout.  When my dad passed away in December of 2015, my mom blurted out that I was a \"heart attack waiting to happen.\"  Don't feel bad.  She's always said things like that, being a bi-polar dry alcoholic.  What do parents have to say such hurtful things to their kids?  They're the real bullies sometimes.\n\nAnyway, I hope my friend enjoys these sneakers, which were too small for my fat middle-aged feet.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -22747,7 +22540,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -22783,13 +22578,14 @@
                 "review_body": "Very comfortable sneaker. Good for walking and exercising",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Comfortable sneaker",
-                    "good for walking and exercising"
+                    "Comfortable sneaker"
                 ]
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -22825,13 +22621,14 @@
                 "review_body": "This is 2nd pair we\u2019ve purchased for my daughter.  They fit very well & she loves the bright color. Package arrived sooner than expected.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "bright color",
-                    "arrived sooner than expected"
+                    "bright color"
                 ]
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -23063,8 +22860,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "comfortable",
-                    "work 12+hr shifts",
-                    "feel like walking on a cloud"
+                    "work 12+hr shifts"
                 ]
             },
             {
@@ -23138,12 +22934,7 @@
                 "review_status": "",
                 "review_body": "comfy",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "I recently bought the asics gel kayano 18 running shoes",
-                    "since they were on sale. I had tried other brands in the past and have always had blister problems with them",
-                    "so I had been hesitant to buy another pair of running shoes. So far",
-                    "I've used the asics gel kayano 18 running shoes a couple of times and they feel very comfortable. I'll continue to use them for the next couple of weeks to see how they hold up."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -23192,8 +22983,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "light weight",
-                    "comfortable",
-                    "recovering from a sesamoid fracture"
+                    "comfortable"
                 ]
             },
             {
@@ -23434,7 +23224,6 @@
                 "review_topics": [
                     "Product delivered on time",
                     "Amazing fit",
-                    "Running and general gym use",
                     "Severe joint issues",
                     "big difference"
                 ]
@@ -23497,8 +23286,7 @@
                 "review_body": "I like the shoe, feels comfortable.  However, where the tongue is, the material bunches up and gives an uncomfortable feeling after a prolonged period of time.  Also bought the",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "comfortable",
-                    "uncomfortable feeling after prolonged period of time"
+                    "comfortable"
                 ]
             },
             {
@@ -23769,9 +23557,7 @@
                 "review_status": "",
                 "review_body": "los zapatos son muy lindos no hubieron novedades lo unico por lo que estoy insatisfecho es porque se anuncian como zapatos para hombre pero en realidad son para mujeres, y la talla que seleccione no me quedaron. Que pena para mi :(",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "shoes,not for men,the size was wrong"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -24091,8 +23877,7 @@
                 "review_body": "Great shoes, except the top mesh is completely see through. You could see my toenail polish through the mesh when I put them on barefoot and when I put my white socks on, you could see the \"no nonsense\" grey logo across the toes. An easy fix would be to buy all new white socks, but they should not make the top so see through. It's kinda weird. Otherwise I'd give 5 stars. Very squishy comfortable if you run or on your feet all day for clinicals.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "great shoes",
-                    "except the top mesh is completely see through"
+                    "great shoes"
                 ]
             },
             {
@@ -24429,8 +24214,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "light weight",
-                    "comfortable",
-                    "construction,breathable fabric"
+                    "comfortable"
                 ]
             },
             {
@@ -24455,7 +24239,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -24496,7 +24282,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -24683,9 +24471,7 @@
                 "review_status": "",
                 "review_body": "Llegaron mas rapido de lo que esperaba y quedan brutal.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Llegaron mas rapido de lo que esperaba y quedan brutal."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -24745,9 +24531,7 @@
                 "review_status": "",
                 "review_body": "Best running shoes yet.  Stocky, hard runner of long distances loves them",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "hard runner of long distances"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -24831,7 +24615,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -24880,13 +24666,13 @@
                 "review_status": "",
                 "review_body": "Purchased for water sports but like fit so much I am wearing outside of water.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Purchased for water sports but like fit so much I am wearing outside of water."
-                ]
+                "review_topics": []
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -24937,14 +24723,14 @@
                 "review_body": "Perfectas , en principio pens\u00e9 que eran mas claras ya que en las fotos eso parecen , pero esta excelente el color oscuro con el amarillo . 100p",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "perfect",
-                    "at first thought they were clearer since in the photos that seem",
-                    "but this excellent dark color with yellow. 100p"
+                    "perfect"
                 ]
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -25051,9 +24837,7 @@
                 "review_status": "",
                 "review_body": "UA does not overprice their shoes and you can always find them on sale.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -25194,7 +24978,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -25235,7 +25021,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -25390,9 +25178,7 @@
                 "review_status": "",
                 "review_body": "Great support and foot strike correction.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Great support and foot strike correction"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -25500,7 +25286,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -25794,7 +25582,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -25835,7 +25625,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -25876,7 +25668,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -25912,7 +25706,6 @@
                 "review_body": "Left shoe fits fine, right shoe binds and puts my toes to sleep, thought by wearing for a week they would stretch, no luck.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "left shoe fits better than right",
                     "right shoe binds toes"
                 ]
             },
@@ -26386,9 +26179,7 @@
                 "review_status": "",
                 "review_body": "Fit perfect. Good quality . Imade amistakefirst with size. But the process ofgetting one moresize was really fast",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Fit perfect. Good quality . Imade amistakefirst with size. But the process ofgetting one moresize was really fast"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -26747,8 +26538,7 @@
                 "review_topics": [
                     "great shoes",
                     "supination",
-                    "snug fit",
-                    "would order a wide or half size up next time."
+                    "snug fit"
                 ]
             },
             {
@@ -26879,10 +26669,8 @@
                 "review_body": "These shoes (which are neutral shoes, like most running shoes) feel so good! I use them for general use and trail walking; and recent improvements in my knees, calves, ankles and Achilles are due to finally getting rid of stability / motion control shoes which I never needed and wore for a thousand years (!) and have now replaced them with neutral shoes...so maybe I can take up running again! That would be a joy. Anyway, these ASICS Men's Gel-Sonoma 3 Running Shoes are exactly what I need (to complement my fabulous New Balance 510v3 Running Shoes, used for the same purposes). I tried 'em on before online ordering, of course (ALWAYS do that!). The ones I chose online happen to look cool, too. But what I care about is the feel and fit. Love 'em!",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "Men's Gel-Sonoma 3 Running Shoes",
                     "neutral shoes",
-                    "running shoes",
-                    "stability / motion control shoes"
+                    "running shoes"
                 ]
             },
             {
@@ -26907,7 +26695,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -26958,9 +26748,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "This shoe fits well",
-                    "is very comfortable",
-                    "and provides great support. I have arthritis in my feet",
-                    "and this shoe helps a lot in reducing pain."
+                    "is very comfortable"
                 ]
             },
             {
@@ -26988,9 +26776,6 @@
                 "review_body": "Great product",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I run about 30 miles a week",
-                    "and after wearing out 3 pairs of Kayanos",
-                    "I decided to experiment a pair of Brooks Adrenalines.  They were comfortable and supportive but after two runs I started having problems with plantar fascitis.  I bought another pair of Kayanos and the problem cleared up right away.  I've never had any foot problems with Kayanos and they last a lot longer than other shoes.  Next time I'll stick with Kayanos. output: Kayanos",
                     "plantar fascitis",
                     "Brooks Adrenalines"
                 ]
@@ -27050,8 +26835,7 @@
                 "review_helpfulness": "",
                 "review_topics": [
                     "more comfortable",
-                    "more support",
-                    "looks even better than expected"
+                    "more support"
                 ]
             },
             {
@@ -27183,9 +26967,7 @@
                 "review_status": "",
                 "review_body": "Horrible Quality shoe Nike has become a company riding on their name and don't care about their customers anymore",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "empty"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -27247,7 +27029,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -27296,9 +27080,7 @@
                 "review_status": "",
                 "review_body": "These shoes are absolutely wonderful! The fit is perfect and they are Show-Stoppers!",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "These shoes are absolutely wonderful! The fit is perfect and they are Show-Stoppers!"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -27371,10 +27153,7 @@
                 "review_body": "Dislike",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "I bought these for my husband. He works on a concrete floor for 10 hours a day. These shoes provide all day comfort",
                     "support the arch",
-                    "and cushion the heels. Prior to buying these shoes",
-                    "he would come home with sore feet every night. Not anymore! I highly recommend these shoes to anyone who works on their feet all day.output: comfort",
                     "support",
                     "cushioning",
                     "arch",
@@ -27406,9 +27185,7 @@
                 "review_status": "",
                 "review_body": "I purchased a \u00bd size bigger than normal. The shoes were still way too small. I now have to wait for permission to return them.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "purchased a \u00bd size bigger than normal"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -27509,10 +27286,7 @@
                 "review_status": "",
                 "review_body": "This was just ridiculous. When someone says sizes run small you'd think maybe half a size. I wear US 12 comfortably but this shoe fit my brother who's a US 11. That's an entire size smaller!!! For a global brand it's unheard of to have this much variations in shoe sizes. For the $110+ price I paid for this, I have to return this now. Disappointed.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Asics shoe sizing inconsistency",
-                    "Small sizing on Asics shoe"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -27572,8 +27346,7 @@
                 "review_body": "I ordered 10.5. That's what I wear and previously I used Asic CT-1000 and Saucony Hurricane ISO-4 also 10.5. Those shoes fit well with some little space for toes...\n\nBut this one arrived yesterday and I just couldn't even put them on... it says 10.5 but it feels more like 9.  I've never seen differences in sizes like that. Do not buy these shoes online without actually trying them on. Or be ready to try 3-4 different sizes.",
                 "review_helpfulness": "",
                 "review_topics": [
-                    "shoes fit differently",
-                    "tried asics ct-1000 and saucony hurricane iso-4"
+                    "shoes fit differently"
                 ]
             },
             {
@@ -27667,9 +27440,7 @@
                 "review_status": "",
                 "review_body": "Size runs very tight. If you wear a 10 order a 11.",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Size runs very tight. If you wear a 10 order a 11."
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -27775,8 +27546,7 @@
                 "review_topics": [
                     "BOA lacing system",
                     "BOA system",
-                    "cycling shoes",
-                    "asphalt and cement surfaces"
+                    "cycling shoes"
                 ]
             },
             {
@@ -27796,7 +27566,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -27859,13 +27631,13 @@
                 "review_status": "",
                 "review_body": "Product as described highly recommended",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "no specific details provided in the text"
-                ]
+                "review_topics": []
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -27907,7 +27679,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -28037,7 +27811,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -28106,7 +27882,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -28443,7 +28221,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -28484,7 +28264,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -28533,9 +28315,7 @@
                 "review_status": "",
                 "review_body": "Awesome show. Light weight and  comfortable",
                 "review_helpfulness": "",
-                "review_topics": [
-                    "Awesome show. Light weight and  comfortable"
-                ]
+                "review_topics": []
             },
             {
                 "reviews": "",
@@ -28553,7 +28333,9 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     },
     {
         "product_title": [
@@ -28609,6 +28391,8 @@
             }
         ],
         "category": "mens_shoes",
-        "subcategory": "mens_running_shoes"
+        "subcategory": [
+            "mens_running_shoes"
+        ]
     }
 ]

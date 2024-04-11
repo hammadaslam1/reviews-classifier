@@ -41,7 +41,7 @@ def final(file, destination, array, filename):
         text_out = []
         # count = 0
         global count
-        texts['category'] = ['electronics']
+        # texts['category'] = ['home_tools']
         texts['subcategory'] = [name]
 
         for text in texts["reviews"]:
@@ -66,8 +66,10 @@ def final(file, destination, array, filename):
             #     string = " ".join(lemmas)
             # final = " ".join(lemmas)
             # print(final)
-            stem = geminiModel.gemini(text["review_body"], array)
-            text["review_topics"] = stem.split(', ')
+            # stem = geminiModel.gemini(text["review_body"], array)
+            # text["review_topics"] = stem.split(', ')
+            text['review_topics'] = [
+                item for item in text["review_topics"] if 'input' not in item and 'K42jr-a1' not in item and len(item) <= 25 and 'empty' not in item]
             print(text["review_topics"])
             count = count + 1
             print(count)
