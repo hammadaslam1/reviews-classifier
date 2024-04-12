@@ -5,11 +5,14 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+uniPath = 'F:/react projects/reviews-classifier'
+homePath = 'C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project'
+
 
 @app.route("/", methods=["GET"])
 def all_products():
     with open(
-        "F:/react projects/reviews-classifier/backend/datasets/categories/allFiles/appliances.json",
+        homePath+"/backend/datasets/categories/allFiles/appliances.json",
         "r",
     ) as f:
         data = json.load(f)
@@ -21,7 +24,7 @@ def all_products():
 def product(fullPath):
 
     with open(
-        "F:/react projects/reviews-classifier/backend/datasets/categories/allFiles/"
+        homePath+"/backend/datasets/categories/allFiles/"
         + fullPath,
         "r",
         encoding="utf-8",
@@ -34,7 +37,7 @@ def product(fullPath):
 @app.route("/sentiment/<path:fullPath>/<int:index>", methods=["GET"])
 def sentiment(fullPath, index):
     with open(
-        "F:/react projects/reviews-classifier/backend/datasets/categories/allFiles/"
+        homePath+"/backend/datasets/categories/allFiles/"
         + fullPath,
         "r",
         encoding="utf-8",
@@ -48,7 +51,7 @@ def sentiment(fullPath, index):
 @app.route("/reviews/<path:fullPath>/<int:index>", methods=["GET"])
 def reviews_topics(fullPath, index):
     with open(
-        "F:/react projects/reviews-classifier/backend/datasets/categories/allFiles/"
+        homePath+"/backend/datasets/categories/allFiles/"
         + fullPath,
         "r",
         encoding="utf-8",
