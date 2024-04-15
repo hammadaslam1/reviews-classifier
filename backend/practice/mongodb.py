@@ -14,7 +14,7 @@ uniPath = "F:/react projects/reviews-classifier/backend/datasets/categories/allF
 homePath = "C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/allFiles"
 json_dir = homePath
 # json_dir = uniPath
-
+count = 0
 for filename in os.listdir(json_dir):
     if filename.endswith(".json"):
         # with open(json_dir + "/" + filename, "r") as f:
@@ -25,12 +25,12 @@ for filename in os.listdir(json_dir):
         #         count += len(item["reviews"])
         #     print(count)
 
-        if filename == "wifi_and_networking.json":
+        if True:
             file = json_dir + "/" + filename
             print(filename)
-            finalSentiment.final(file, file, array, filename)
+            count += finalSentiment.final(file, file, array, filename, count)
             # array = inputArrays.electronics
-            # print(array)
+            print(count)
         # collection_name = os.path.splitext(filename)[0]  # Use filename as collection name
         # collection = db[collection_name]
         # with open(os.path.join(json_dir, filename), 'r') as file:
