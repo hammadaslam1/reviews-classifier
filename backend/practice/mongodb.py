@@ -28,7 +28,7 @@ for filename in os.listdir(json_dir):
         if True:
             file = json_dir + "/" + filename
             print(filename)
-            count += finalSentiment.final(file, file, array, filename, count)
+            count = finalSentiment.final(file, file, array, filename, count)
             # array = inputArrays.electronics
             print(count)
         # collection_name = os.path.splitext(filename)[0]  # Use filename as collection name
