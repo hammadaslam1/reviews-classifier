@@ -8,6 +8,7 @@ import re
 
 # sys.path.append("./backend/practice")
 # import geminiModel
+import contextModel
 
 # spacy
 import spacy
@@ -46,20 +47,20 @@ def final(file, destination, array, filename, count):
         # texts['subcategory'] = [name]
 
         for text in texts["reviews"]:
-            new_record = re.sub(" +", " ", text["review_body"])
-            doc = nlp(new_record)
-            sentiment = ""
-            sid = SentimentIntensityAnalyzer()
-            scores = sid.polarity_scores(new_record)
-            text['review_rating'] = text['review_rating'].split(' ')[0] if text['review_rating']!="" else '0.0'
-            if  float(text['review_rating'])>3:
-                sentiment = "Positive"
-            elif   float(text['review_rating'])==3:
-                sentiment = "Neutrally Positive"
-            elif  float(text['review_rating'])<3:
-                sentiment = "Negative"
-            print(f"sentiment: {sentiment} and rating: {text['review_rating']} and score: {scores['compound']}")
-            text["sentiment"] = sentiment
+            # new_record = re.sub(" +", " ", text["review_body"])
+            # doc = nlp(new_record)
+            # sentiment = ""
+            # sid = SentimentIntensityAnalyzer()
+            # scores = sid.polarity_scores(new_record)
+            # text['review_rating'] = text['review_rating'].split(' ')[0] if text['review_rating']!="" else '0.0'
+            # if  float(text['review_rating'])>3:
+            #     sentiment = "Positive"
+            # elif   float(text['review_rating'])==3:
+            #     sentiment = "Neutrally Positive"
+            # elif  float(text['review_rating'])<3:
+            #     sentiment = "Negative"
+            # print(f"sentiment: {sentiment} and rating: {text['review_rating']} and score: {scores['compound']}")
+            # text["sentiment"] = sentiment
             # for token in doc:
             #     filtered_list = [token for token in doc if not token.is_stop]
             #     lemmas = [f"{token.lemma_}" for token in filtered_list]
@@ -68,13 +69,14 @@ def final(file, destination, array, filename, count):
             # print(final)
             # stem = geminiModel.gemini(text["review_body"], array)
             # text["review_topics"] = stem.split(', ')
+            # context = contextModel
             # text['review_topics'] = [
             #     item for item in text["review_topics"] if 'input' not in item and 'K42jr-a1' not in item and len(item) <= 25 and 'empty' not in item]
             # print(text["review_topics"])
-            if text['review_rating']!="0.0":
-                counter = counter + 1
+            # if text['review_rating']!="0.0":
+            #     counter = counter + 1
         # print(count)
-            # print(text['review_topics'])
+            print(text['review_topics'])
         text_out.append(final)
         # print
         return text_out
