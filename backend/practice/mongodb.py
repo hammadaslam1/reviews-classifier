@@ -4,6 +4,7 @@ import json
 import finalSentiment
 import inputArrays
 
+# array = inputArrays.get_context()
 array = inputArrays.electronics()
 # array = inputArrays.clothing()
 # array = inputArrays.shoes()
@@ -25,7 +26,7 @@ for filename in os.listdir(json_dir):
         #         count += len(item["reviews"])
         #     print(count)
 
-        if True:
+        if filename == "appliances.json":
             file = json_dir + "/" + filename
             print(filename)
             count = finalSentiment.final(file, file, array, filename, count)

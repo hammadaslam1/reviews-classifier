@@ -9,27 +9,27 @@ import os
 import google.generativeai as genai
 
 
-def load_env():
-    env_file_path = "./backend/.env"
-    with open(env_file_path) as f:
-        # print(f)
-        for line in f:
-            # print(line)
-            key, value = line.strip().split("=")
-            # print(key, value)
-            os.environ[key] = value.strip("'\"")
+# def load_env():
+#     env_file_path = "./backend/.env"
+#     with open(env_file_path) as f:
+#         # print(f)
+#         for line in f:
+#             # print(line)
+#             key, value = line.strip().split("=")
+#             # print(key, value)
+#             os.environ[key] = value.strip("'\"")
 
 
-# # Load environment variables from the .env file
-load_env()
+# # # Load environment variables from the .env file
+# load_env()
 
-MY_API = os.environ.get("GEMINIAPI")
+# MY_API = os.environ.get("GEMINIAPI")
 
 
 def gemini(input, array):
     # load_dotenv()
     def load_env():
-        env_file_path = "./backend/.env"
+        env_file_path = "C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/.env"
         with open(env_file_path) as f:
             # print(f)
             for line in f:
@@ -37,21 +37,18 @@ def gemini(input, array):
                 key, value = line.strip().split("=")
                 # print(key, value)
                 os.environ[key] = value.strip("'\"")
-
     # Load environment variables from the .env file
     load_env()
-
     MY_API = os.environ.get("GEMINIAPI")
-
     genai.configure(api_key=MY_API)
-
     # Set up the model
     generation_config = {
         "temperature": 0.9,
         "top_p": 1,
         "top_k": 1,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 2048,
     }
+
 
     safety_settings = [
         {"category": "HARM_CATEGORY_HARASSMENT",

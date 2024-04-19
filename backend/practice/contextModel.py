@@ -4,13 +4,15 @@ At the command line, only need to run once to install the package via pip:
 $ pip install google-generativeai
 """
 import os
+# import google.generativeai as genai
 import google.generativeai as genai
+print(genai.__file__)
 
 
 def extract_context(array, title, topics, reviewBody):
     # load_dotenv()
     def load_env():
-        env_file_path = "./backend/.env"
+        env_file_path = "C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/.env"
         with open(env_file_path) as f:
             # print(f)
             for line in f:
@@ -49,7 +51,10 @@ def extract_context(array, title, topics, reviewBody):
         },
     ]
 
-    model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
+    # model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
+    #                               generation_config=generation_config,
+    #                               safety_settings=safety_settings)
+    model = genai.GenerativeModel(model_name="gemini-1.0-pro",
                                   generation_config=generation_config,
                                   safety_settings=safety_settings)
 
@@ -59,5 +64,15 @@ def extract_context(array, title, topics, reviewBody):
         f"product_title: {title}",
         "context:",
     ]
-    response = model.generate_content(prompt_parts)
-    print(response.text)
+
+    try:
+        response = model.generate_content(prompt_parts)
+        if response:
+            # print(response.text)
+            return response.text
+    except ValueError as e:
+        print("The response contains no valid Part or was blocked. ", e)
+        return "context not found"
+
+
+# extract_context([1, 2], 'hammad', 'hammad', 'hammad')

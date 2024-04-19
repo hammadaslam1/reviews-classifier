@@ -1,95 +1,50 @@
-from gensim.models import LdaModel
-import gensim.corpora as corpora
-import json
-from nltk import pos_tag
-import re
-import spacy  # Optional for advanced NLP
-from textblob import TextBlob
-import nltk
-nltk.download('punkt', quiet=True)
-nltk.download('averaged_perceptron_tagger', quiet=True)
+"""
+At the command line, only need to run once to install the package via pip:
 
-text = 'this pc is fine but battery is not good enough'
-def clean_text(text):
-    text = text.lower()  # Convert to lowercase
-    text = re.sub(r'[^\w\s]', '', text)  # Remove non-alphanumeric characters
-    text = nltk.word_tokenize(text)  # Tokenize into words
-    return text
+$ pip install google-generativeai
+"""
 
+import google.generativeai as genai
 
-def get_sentiment(text):
-    blob = TextBlob(text)
-    sentiment = blob.sentiment
-    polarity = sentiment.polarity
-    subjectivity = sentiment.subjectivity
-    return polarity, subjectivity
+genai.configure(api_key="AIzaSyD4-jd-yLe6w9OlcPFtwZUqfPeM685X7qQ")
 
+# Set up the model
+generation_config = {
+  "temperature": 1,
+  "top_p": 0.95,
+  "top_k": 0,
+  "max_output_tokens": 8192,
+}
 
-# Example usage
-# text = "This product is amazing! Highly recommend."
-polarity, subjectivity = get_sentiment(text)
-print(f"Polarity: {polarity}, Subjectivity: {subjectivity}")
+safety_settings = [
+  {
+    "category": "HARM_CATEGORY_HARASSMENT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_HATE_SPEECH",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+]
 
-nlp = spacy.load('en_core_web_sm')  # Load smaller English model for efficiency
+model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
+                              generation_config=generation_config,
+                              safety_settings=safety_settings)
 
+prompt_parts = [
+  "input: 10 random numbers",
+  "output: 32131\n321321\n656126\n68431\n651321\n4984654\n211\n654\n516\n65411d",
+  "input: 10 fruit name",
+  "output: ",
+]
 
-def get_advanced_sentiment(text):
-    doc = nlp(text)
-    sentiment = 0
-    for token in doc:
-        sentiment += token.sentiment
-    return sentiment
-
-
-# Example usage
-# text = "The battery life is disappointing, but overall a good product."
-advanced_sentiment = get_advanced_sentiment(text)
-print(f"Advanced Sentiment: {advanced_sentiment}")
-
-
-def get_keywords(text):
-    tokens = clean_text(text)
-    tagged_tokens = pos_tag(tokens)
-    keywords = [word for word, pos in tagged_tokens if pos in [
-        'NN', 'NNS', 'JJ', 'JJR', 'JJS']]
-    return keywords
-
-
-# Example usage
-# text = "The picture quality is great, but the sound is a bit muffled."
-keywords = get_keywords(text)
-print(f"Keywords: {keywords}")
-
-
-def get_entities(text):
-    doc = nlp(text)
-    entities = []
-    for ent in doc.ents:
-        entities.append((ent.text, ent.label_))
-    return entities
-
-
-# Example usage
-# text = "This camera takes fantastic photos in low light conditions."
-entities = get_entities(text)
-print(f"Entities: {entities}")
-
-reviews = []
-with open('C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project/backend/datasets/categories/allFiles/appliances.json') as f:
-    data = json.load(f)
-    for product in data:
-        # print(product['reviews'])
-        for review in product['reviews']:
-            reviews.append(clean_text(review['review_body']))
-
-
-    # Assuming you have prepared preprocessed review data in a list called 'reviews'
-    dictionary = corpora.Dictionary(reviews)
-    corpus = [dictionary.doc2bow(review) for review in reviews]
-
-    # Train the LDA model (adjust num_topics as needed)
-    lda_model = LdaModel(corpus, id2word=dictionary, num_topics=5)
-
-    # Get topics and associated keywords
-    topics = lda_model.print_topics()
-    print(f"Topics: {topics}")
+response = model.generate_content(prompt_parts)
+print(response.text)

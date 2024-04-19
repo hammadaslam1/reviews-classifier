@@ -7,8 +7,8 @@ import re
 # import sys
 
 # sys.path.append("./backend/practice")
-# import geminiModel
-import contextModel
+import geminiModel
+# import contextModel
 
 # spacy
 import spacy
@@ -67,16 +67,23 @@ def final(file, destination, array, filename, count):
             #     string = " ".join(lemmas)
             # final = " ".join(lemmas)
             # print(final)
-            # stem = geminiModel.gemini(text["review_body"], array)
+            stem = geminiModel.gemini(text["review_body"], array)
+            print(stem)
             # text["review_topics"] = stem.split(', ')
-            # context = contextModel
+            # topics = ", ".join(text['review_topics'])
+            # print(f"topics: {topics}")
+            # print("title:", texts["product_title"][0])
+            # print("review:",  text["review_body"])
+            # context = contextModel.extract_context(
+            #     array, texts["product_title"][0], topics, text["review_body"])
+            # print(f"context: {context}")
             # text['review_topics'] = [
             #     item for item in text["review_topics"] if 'input' not in item and 'K42jr-a1' not in item and len(item) <= 25 and 'empty' not in item]
             # print(text["review_topics"])
             # if text['review_rating']!="0.0":
             #     counter = counter + 1
         # print(count)
-            print(text['review_topics'])
+            # print(text['review_topics'])
         text_out.append(final)
         # print
         return text_out
