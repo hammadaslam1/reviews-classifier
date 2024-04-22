@@ -5,6 +5,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import json
 from pyphen import Pyphen
 from textstat import syllable_count, flesch_reading_ease, automated_readability_index
+from datetime import datetime
 
 
 def calculate_helpfulness(text, rating):
@@ -40,16 +41,33 @@ def calculate_helpfulness(text, rating):
         # helpfulness_score += character_count // 50
 
         # method 2:
+        date_str = review['reviewer_country_date'] if review['reviewer_country_date'] != "" else "January 01, 2010"
+        review_timestamp = datetime.strptime(date_str, "%B %d, %Y")
 
-        helpfulness_score = (rating * 0.2) + (character_count * 0.1) + (
-            word_count * 0.1) + (sentence_count * 0.1) + (100 - fres_score) * 0.2 + (ari_score * 0.2)
+        # Get the current time (corrected line)
+        current_time = datetime.now()
+
+        # Calculate the time difference
+        time_difference = current_time - review_timestamp
+
+        # Print the difference in a human-readable format (optional)
+        print(f"The time difference is {time_difference}")
+
+        # Get the difference in specific units (days, seconds, etc.)
+        days_difference = time_difference.days
+        decay_factor = 1 - (0.1 * days_difference)
+        # helpfulness_score = (rating * 0.2) + (character_count * 0.1) + (word_count * 0.1) + (sentence_count * 0.1) + (100 - fres_score) * 0.2 + (ari_score * 0.2)
+        helpfulness_score = (rating * 0.2 * decay_factor) + (character_count * 0.1 * decay_factor) + (
+            word_count * 0.1 * decay_factor) + (sentence_count * 0.1 * decay_factor) + (100 - fres_score) * 0.2 * decay_factor + (ari_score * 0.2 * decay_factor)
 
     elif sentiment_scores['compound'] <= -0.05:
         unhelpfulness_score += 1
 
     # Normalize Scores
-    helpfulness_score = (helpfulness_score / len(text)) * 100 if len(text) > 0 else 0
-    unhelpfulness_score = (unhelpfulness_score / len(text)) * 100 if len(text) > 0 else 0
+    helpfulness_score = (helpfulness_score / len(text)) * \
+        100 if len(text) > 0 else 0
+    unhelpfulness_score = (unhelpfulness_score / len(text)
+                           ) * 100 if len(text) > 0 else 0
 
     return helpfulness_score, unhelpfulness_score, sentiment_scores['compound']
 
@@ -62,7 +80,8 @@ for file in files:
         data = json.load(f)
     for item in data:
         for review in item['reviews']:
-            review['review_votes'] = review['review_helpfulness'].split(' ')[0] if review['review_helpfulness'] != "" else '0'
+            review['review_votes'] = review['review_helpfulness'].split(
+                ' ')[0] if review['review_helpfulness'] != "" else '0'
             review['review_helpfulness'], review['review_unhelpfulness'], sentiment_scores = calculate_helpfulness(
                 review['review_body'], float(review['review_rating']))
             if sentiment_scores >= 0.5:

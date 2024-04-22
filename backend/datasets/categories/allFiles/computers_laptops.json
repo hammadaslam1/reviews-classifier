@@ -35,7 +35,7 @@
                 "review_topics": [
                     "For the price"
                 ],
-                "sentiment": 0.9624,
+                "sentiment": "Positive",
                 "review_votes": "10",
                 "review_unhelpfulness": 0.0
             },
@@ -55,7 +55,7 @@
                     "lesser mean time",
                     "multifunctioning"
                 ],
-                "sentiment": 0.9823,
+                "sentiment": "Positive",
                 "review_votes": "8",
                 "review_unhelpfulness": 0.0
             },
@@ -73,7 +73,7 @@
                     "Compaq A1500",
                     "Windows XP"
                 ],
-                "sentiment": 0.9049,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -94,7 +94,7 @@
                     "community support",
                     "HP,"
                 ],
-                "sentiment": -0.5419,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -112,7 +112,7 @@
                     "Windows 98",
                     "Windows 98 Second Edition"
                 ],
-                "sentiment": -0.5046,
+                "sentiment": "Negative",
                 "review_votes": "6",
                 "review_unhelpfulness": 0.0
             }
@@ -161,7 +161,7 @@
                     "bright screen",
                     "traveling"
                 ],
-                "sentiment": 0.9582,
+                "sentiment": "Positive",
                 "review_votes": "",
                 "review_unhelpfulness": 0.0
             }
@@ -211,7 +211,7 @@
                     "powerful",
                     "great product"
                 ],
-                "sentiment": 0.9509,
+                "sentiment": "Positive",
                 "review_votes": "2",
                 "review_unhelpfulness": 0.0
             },
@@ -234,7 +234,7 @@
                     "vista user interface",
                     "no CF memory card reader"
                 ],
-                "sentiment": 0.9589,
+                "sentiment": "Positive",
                 "review_votes": "4",
                 "review_unhelpfulness": 0.0
             },
@@ -257,7 +257,7 @@
                     "spill-proof keyboard",
                     "crummy operating sytem"
                 ],
-                "sentiment": -0.7549,
+                "sentiment": "Negative",
                 "review_votes": "",
                 "review_unhelpfulness": 0.0
             }
@@ -306,7 +306,7 @@
                     "blue-screens",
                     "vista"
                 ],
-                "sentiment": 0.8876,
+                "sentiment": "Positive",
                 "review_votes": "",
                 "review_unhelpfulness": 0.0
             }
@@ -356,7 +356,7 @@
                     "asus",
                     "good battery life"
                 ],
-                "sentiment": 0.3797,
+                "sentiment": "Negative",
                 "review_votes": "3",
                 "review_unhelpfulness": 0.0
             }
@@ -408,7 +408,7 @@
                     "thermal paste",
                     "web browsing"
                 ],
-                "sentiment": -0.5719,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.4784688995215311
             },
@@ -428,7 +428,7 @@
                     "RMA'd",
                     "bad website"
                 ],
-                "sentiment": -0.0583,
+                "sentiment": "Negative",
                 "review_votes": "",
                 "review_unhelpfulness": 0.0
             },
@@ -449,7 +449,7 @@
                     "Asus",
                     "HP product"
                 ],
-                "sentiment": 0.8435,
+                "sentiment": "Positive",
                 "review_votes": "",
                 "review_unhelpfulness": 0.0
             }
@@ -500,7 +500,7 @@
                     "operating system",
                     "Sony Vaio CW"
                 ],
-                "sentiment": -0.4422,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -526,7 +526,7 @@
                     "USB ports",
                     "clumsy keyboard"
                 ],
-                "sentiment": 0.9561,
+                "sentiment": "Positive",
                 "review_votes": "",
                 "review_unhelpfulness": 0.0
             },
@@ -549,7 +549,7 @@
                     "DDR2",
                     "battery life"
                 ],
-                "sentiment": 0.969,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -569,7 +569,7 @@
                     "full array of ports",
                     "HDMI ports"
                 ],
-                "sentiment": -0.7584,
+                "sentiment": "Negative",
                 "review_votes": "2",
                 "review_unhelpfulness": 0.0
             }
@@ -618,7 +618,7 @@
                     "14''",
                     "battery life"
                 ],
-                "sentiment": 0.7906,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -635,7 +635,7 @@
                 "review_topics": [
                     "no comment"
                 ],
-                "sentiment": 0.9059,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -654,7 +654,7 @@
                     "dark screen",
                     "random cursor"
                 ],
-                "sentiment": -0.2263,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.3448275862068966
             },
@@ -674,7 +674,7 @@
                     "carbon fiber",
                     "tech support"
                 ],
-                "sentiment": 0.9184,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -723,7 +723,7 @@
                     "Windows 7",
                     "9 hour battery life"
                 ],
-                "sentiment": 0.5859,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -743,7 +743,7 @@
                     "repairs needed",
                     "parts needed"
                 ],
-                "sentiment": 0.0516,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -767,7 +767,7 @@
                     "video output ports",
                     "speakers"
                 ],
-                "sentiment": 0.1295,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -816,7 +816,7 @@
                     "Battery life",
                     "windows 7"
                 ],
-                "sentiment": 0.9199,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -835,7 +835,7 @@
                     "good looking",
                     "good keyboard"
                 ],
-                "sentiment": 0.9428,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -852,7 +852,7 @@
                 "review_topics": [
                     "windows 7"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -872,7 +872,7 @@
                     "blue screen of death",
                     "Windows update"
                 ],
-                "sentiment": -0.9161,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.398406374501992
             },
@@ -894,7 +894,7 @@
                     "internal microphone",
                     "Rosetta Stone programs"
                 ],
-                "sentiment": 0.9705,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -943,7 +943,7 @@
                     "defective notebook",
                     "Asus k61IC_A1"
                 ],
-                "sentiment": -0.6952,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2242152466367713
             },
@@ -964,7 +964,7 @@
                     "battery life",
                     "replacement battery"
                 ],
-                "sentiment": 0.5719,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -981,7 +981,7 @@
                 "review_topics": [
                     "fast"
                 ],
-                "sentiment": 0.9779,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -1029,7 +1029,7 @@
                 "review_topics": [
                     "Asus laptop"
                 ],
-                "sentiment": 0.9023,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -1080,7 +1080,7 @@
                     "nvidia graphic card",
                     "HDMI cable"
                 ],
-                "sentiment": 0.8197,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -1129,7 +1129,7 @@
                     "HP DV9700t",
                     "wifi strong"
                 ],
-                "sentiment": 0.8807,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1148,7 +1148,7 @@
                     "repaired laptop",
                     "attorney general"
                 ],
-                "sentiment": -0.6395,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2808988764044944
             },
@@ -1170,7 +1170,7 @@
                     "Windows 7",
                     "MP3 player"
                 ],
-                "sentiment": 0.8446,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -1221,7 +1221,7 @@
                     "graphics card",
                     "repair ordeal"
                 ],
-                "sentiment": -0.9237,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.06770480704129993
             }
@@ -1270,7 +1270,7 @@
                     "gaming system",
                     "World of Warcraft"
                 ],
-                "sentiment": 0.9728,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1292,7 +1292,7 @@
                     "large enough hard drive",
                     "everyday computing"
                 ],
-                "sentiment": 0.9234,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -1340,7 +1340,7 @@
                 "review_topics": [
                     "long lasting battery"
                 ],
-                "sentiment": 0.8173,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1362,7 +1362,7 @@
                     "industrial strength",
                     "notebook PC"
                 ],
-                "sentiment": 0.8763,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1389,7 +1389,7 @@
                     "path to resolution",
                     "professional support"
                 ],
-                "sentiment": 0.9938,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -1441,7 +1441,7 @@
                     "windows 7",
                     "ubuntu"
                 ],
-                "sentiment": 0.967,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1459,7 +1459,7 @@
                     "small screen",
                     "online banking"
                 ],
-                "sentiment": 0.714,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1477,7 +1477,7 @@
                     "long battery life",
                     "portable"
                 ],
-                "sentiment": 0.836,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1498,7 +1498,7 @@
                     "shoulder bag",
                     "lightweight"
                 ],
-                "sentiment": 0.9839,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1517,7 +1517,7 @@
                     "paralegal program",
                     "matte screen"
                 ],
-                "sentiment": 0.9926,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1536,7 +1536,7 @@
                     "asus netbook",
                     "mixed feelings"
                 ],
-                "sentiment": 0.9949,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1561,7 +1561,7 @@
                     "Corolla",
                     "Avalon"
                 ],
-                "sentiment": 0.9576,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1583,7 +1583,7 @@
                     "Asus tech support",
                     "incredulous"
                 ],
-                "sentiment": 0.6256,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1601,7 +1601,7 @@
                     "Dell fullscale PC",
                     "internet"
                 ],
-                "sentiment": -0.2469,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1621,7 +1621,7 @@
                     "responsive performance",
                     "on-the-go device"
                 ],
-                "sentiment": 0.9814,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1645,7 +1645,7 @@
                     "mechanical design",
                     "DDR2 memory"
                 ],
-                "sentiment": -0.0561,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1662,7 +1662,7 @@
                 "review_topics": [
                     "good"
                 ],
-                "sentiment": 0.6369,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1680,7 +1680,7 @@
                     "on-the-go purposes",
                     "ideal piece of equipment"
                 ],
-                "sentiment": 0.5267,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1697,7 +1697,7 @@
                 "review_topics": [
                     "new product"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1715,7 +1715,7 @@
                     "Asus",
                     "Perfect Netbook"
                 ],
-                "sentiment": 0.8478,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1732,7 +1732,7 @@
                 "review_topics": [
                     "very positive"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1751,7 +1751,7 @@
                     "battery life",
                     "7 year old"
                 ],
-                "sentiment": 0.8553,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1768,7 +1768,7 @@
                 "review_topics": [
                     "deer cameras"
                 ],
-                "sentiment": 0.6249,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1785,7 +1785,7 @@
                 "review_topics": [
                     "wonderful little unit"
                 ],
-                "sentiment": 0.8489,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1802,7 +1802,7 @@
                 "review_topics": [
                     "not provided"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1820,7 +1820,7 @@
                     "EeePC",
                     "netbooks"
                 ],
-                "sentiment": 0.8519,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1837,7 +1837,7 @@
                 "review_topics": [
                     "cheap build"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1856,7 +1856,7 @@
                     "cheap material",
                     "durability"
                 ],
-                "sentiment": 0.2369,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1873,7 +1873,7 @@
                 "review_topics": [
                     "Asus forums"
                 ],
-                "sentiment": 0.25,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1890,7 +1890,7 @@
                 "review_topics": [
                     "one year replacement"
                 ],
-                "sentiment": 0.1531,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1905,7 +1905,7 @@
                 "review_body": "This thing is small and heavy but it still works after all these years.  My wife is getting her masters in environmental sciences and uses this for her school work.  Great battery life as well.",
                 "review_helpfulness": 4.820828062499999,
                 "review_topics": [],
-                "sentiment": 0.8519,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1922,7 +1922,7 @@
                 "review_topics": [
                     "works great"
                 ],
-                "sentiment": 0.6892,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1940,7 +1940,7 @@
                     "netbook",
                     "sales"
                 ],
-                "sentiment": 0.8122,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1960,7 +1960,7 @@
                     "finger print smudges",
                     "low battery"
                 ],
-                "sentiment": 0.8915,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1977,7 +1977,7 @@
                 "review_topics": [
                     "slow processing"
                 ],
-                "sentiment": 0.7269,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -1996,7 +1996,7 @@
                     "windows 8",
                     "small netbook"
                 ],
-                "sentiment": 0.8316,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2014,7 +2014,7 @@
                     "extended battery",
                     "ASUS netbook"
                 ],
-                "sentiment": 0.9382,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2034,7 +2034,7 @@
                     "battery life",
                     "surfing the net"
                 ],
-                "sentiment": 0.895,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2056,7 +2056,7 @@
                     "Windows XP",
                     "Windows 7"
                 ],
-                "sentiment": 0.9437,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2075,7 +2075,7 @@
                     "overnight replacement",
                     "return shipping label"
                 ],
-                "sentiment": 0.6323,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2092,7 +2092,7 @@
                 "review_topics": [
                     "keyboard"
                 ],
-                "sentiment": 0.8585,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2110,7 +2110,7 @@
                     "netbook",
                     "mouse pad"
                 ],
-                "sentiment": 0.6249,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2128,7 +2128,7 @@
                     "Asus Eee",
                     "full size keyboard"
                 ],
-                "sentiment": 0.9437,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2145,7 +2145,7 @@
                 "review_topics": [
                     "atom processor"
                 ],
-                "sentiment": 0.4678,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2164,7 +2164,7 @@
                     "sleek netbook",
                     "Asus products"
                 ],
-                "sentiment": 0.966,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2181,7 +2181,7 @@
                 "review_topics": [
                     "external DVD/RW"
                 ],
-                "sentiment": 0.0897,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2198,7 +2198,7 @@
                 "review_topics": [
                     "ASUS netbook"
                 ],
-                "sentiment": -0.2199,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2215,7 +2215,7 @@
                 "review_topics": [
                     "extra memory"
                 ],
-                "sentiment": 0.1205,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2235,7 +2235,7 @@
                     "software",
                     "system"
                 ],
-                "sentiment": -0.4767,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 1.4492753623188406
             },
@@ -2254,7 +2254,7 @@
                     "slow",
                     "unix command"
                 ],
-                "sentiment": 0.8078,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2272,7 +2272,7 @@
                     "Asus Eee PC",
                     "Windows 7 Starter"
                 ],
-                "sentiment": 0.7821,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2293,7 +2293,7 @@
                     "play online",
                     "road trip"
                 ],
-                "sentiment": 0.8658,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2313,7 +2313,7 @@
                     "vertical scrolling",
                     "battery life"
                 ],
-                "sentiment": 0.4391,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2331,7 +2331,7 @@
                     "unusable system",
                     "DOA"
                 ],
-                "sentiment": 0.0173,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2349,7 +2349,7 @@
                     "Asus netbook",
                     "Acer"
                 ],
-                "sentiment": 0.9442,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2369,7 +2369,7 @@
                     "small size",
                     "easy to type on"
                 ],
-                "sentiment": 0.9683,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2390,7 +2390,7 @@
                     "8.5 hours battery life",
                     "Intel N280 processor"
                 ],
-                "sentiment": 0.9578,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2409,7 +2409,7 @@
                     "memory",
                     "XP"
                 ],
-                "sentiment": 0.8309,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2428,7 +2428,7 @@
                     "useless computer",
                     "amazon"
                 ],
-                "sentiment": -0.3382,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.5747126436781609
             },
@@ -2446,7 +2446,7 @@
                     "technical support",
                     "bad experience"
                 ],
-                "sentiment": -0.9186,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.7874015748031495
             },
@@ -2469,7 +2469,7 @@
                     "netbook",
                     "setup"
                 ],
-                "sentiment": 0.9524,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2486,7 +2486,7 @@
                 "review_topics": [
                     "initailizing"
                 ],
-                "sentiment": 0.3079,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2505,7 +2505,7 @@
                     "Facebooking",
                     "emailing"
                 ],
-                "sentiment": 0.9344,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2524,7 +2524,7 @@
                     "display",
                     "Windows 7"
                 ],
-                "sentiment": 0.325,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2547,7 +2547,7 @@
                     "word processing",
                     "@ key reversed"
                 ],
-                "sentiment": 0.8604,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2569,7 +2569,7 @@
                     "keyboard quality",
                     "battery not tested"
                 ],
-                "sentiment": -0.1596,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2591,7 +2591,7 @@
                     "perfect",
                     "mouse"
                 ],
-                "sentiment": 0.4995,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2612,7 +2612,7 @@
                     "overheating problem",
                     "fan pad"
                 ],
-                "sentiment": -0.3827,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2632,7 +2632,7 @@
                     "customer service",
                     "AMAZON price"
                 ],
-                "sentiment": 0.9231,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2653,7 +2653,7 @@
                     "appearance",
                     "netbook"
                 ],
-                "sentiment": 0.1096,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2671,7 +2671,7 @@
                     "loose charging port",
                     "Christmas trip"
                 ],
-                "sentiment": 0.7935,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2690,7 +2690,7 @@
                     "plenty of hulu watching",
                     "no video games"
                 ],
-                "sentiment": -0.9507,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.22172949002217296
             },
@@ -2708,7 +2708,7 @@
                     "hdd and fan noise",
                     "text entry problem"
                 ],
-                "sentiment": 0.8516,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.36363636363636365
             },
@@ -2727,7 +2727,7 @@
                     "vista",
                     "windows OS"
                 ],
-                "sentiment": -0.4711,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2747,7 +2747,7 @@
                     "customer service",
                     "F- function"
                 ],
-                "sentiment": 0.8779,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2768,7 +2768,7 @@
                     "comfortable carry",
                     "windows 7 starter"
                 ],
-                "sentiment": 0.9656,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2786,7 +2786,7 @@
                     "vnc media",
                     "2gb of ram"
                 ],
-                "sentiment": 0.6155,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2806,7 +2806,7 @@
                     "reference use",
                     "battery life"
                 ],
-                "sentiment": 0.9096,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2825,7 +2825,7 @@
                     "Linux",
                     "screen"
                 ],
-                "sentiment": 0.7935,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2845,7 +2845,7 @@
                     "light weight",
                     "battery life"
                 ],
-                "sentiment": 0.9773,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2865,7 +2865,7 @@
                     "performance",
                     "apps"
                 ],
-                "sentiment": 0.864,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2884,7 +2884,7 @@
                     "pink version",
                     "Windows 7 Starter"
                 ],
-                "sentiment": 0.8349,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2899,7 +2899,7 @@
                 "review_body": "Hello, I brought this computer about a week before and I received it yesterday. I find that when I run some programs, the computer is very noisy(sounds like a rat). I think maybe there are something wrong with the fan. Is that normal? If not, could you exchange a new one for me? I will go to China this May so I don't think it's a good choice to send it back and fix it. By the way, if I can change my computer, I want an extra 2GB memory cards in it and I will pay for it. But how much should I pay? Thank you so much. Waiting for your response. Feng Dong",
                 "review_helpfulness": 9.786517687499998,
                 "review_topics": [],
-                "sentiment": 0.4453,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2922,7 +2922,7 @@
                     "online games",
                     "battery life"
                 ],
-                "sentiment": 0.9777,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2944,7 +2944,7 @@
                     "EeeRotate",
                     "memory"
                 ],
-                "sentiment": 0.923,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2969,7 +2969,7 @@
                     "crappy Windows 7 Starter",
                     "depreciating asset"
                 ],
-                "sentiment": 0.9921,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -2988,7 +2988,7 @@
                     "Adobe Premier",
                     "Photoshop Elements"
                 ],
-                "sentiment": 0.7935,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3005,7 +3005,7 @@
                 "review_topics": [
                     "computer review"
                 ],
-                "sentiment": 0.5859,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3030,7 +3030,7 @@
                     "external drive",
                     "kindle"
                 ],
-                "sentiment": 0.9238,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3049,7 +3049,7 @@
                     "netbooks",
                     "Office 7"
                 ],
-                "sentiment": -0.9673,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.11600928074245939
             },
@@ -3078,7 +3078,7 @@
                     "portable Internet surfer",
                     "storage device"
                 ],
-                "sentiment": 0.9971,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3098,7 +3098,7 @@
                     "Brazilian ASUS",
                     "atom270 processor"
                 ],
-                "sentiment": 0.9903,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3120,7 +3120,7 @@
                     "windows 7 starter",
                     "performance"
                 ],
-                "sentiment": 0.939,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3140,7 +3140,7 @@
                     "small",
                     "web browsing"
                 ],
-                "sentiment": 0.9491,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3161,7 +3161,7 @@
                     "fragile jack",
                     "nuisance touchpad"
                 ],
-                "sentiment": 0.9686,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3182,7 +3182,7 @@
                     "Acer Aspire One",
                     "display"
                 ],
-                "sentiment": 0.9877,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3207,7 +3207,7 @@
                     "windows XP VGA drivers",
                     "vertical lines"
                 ],
-                "sentiment": 0.9625,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3222,7 +3222,7 @@
                 "review_body": "The ASUS 'Eee PC 1005HA-MU17-BK Netbook' is exactly what I was looking for in a highly portable PC. I work from home full time and am always on-call (often have to work off-hours or weekends\\Holidays) so it is necessary for me to always have access to a PC",
                 "review_helpfulness": 5.465942500000001,
                 "review_topics": [],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3240,7 +3240,7 @@
                     "Windows 7 Home Premium",
                     "Windows 7 Ultimate"
                 ],
-                "sentiment": 0.9158,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -3288,7 +3288,7 @@
                 "review_topics": [
                     "N/A"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3305,7 +3305,7 @@
                 "review_topics": [
                     "good gaming laptop"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3322,7 +3322,7 @@
                 "review_topics": [
                     "United States"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3339,7 +3339,7 @@
                 "review_topics": [
                     "2010"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3354,7 +3354,7 @@
                 "review_body": "May 25, 2010",
                 "review_helpfulness": -1.1565049999999997,
                 "review_topics": [],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3371,7 +3371,7 @@
                 "review_topics": [
                     "reviewed in United States"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3386,7 +3386,7 @@
                 "review_body": "November 8, 2011",
                 "review_helpfulness": 8.1026975,
                 "review_topics": [],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3403,7 +3403,7 @@
                 "review_topics": [
                     "none"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3418,7 +3418,7 @@
                 "review_body": "January 21, 2010",
                 "review_helpfulness": 7.863947499999999,
                 "review_topics": [],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3435,7 +3435,7 @@
                 "review_topics": [
                     "2010"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -3485,7 +3485,7 @@
                     "battery life",
                     "Windows 7"
                 ],
-                "sentiment": 0.8997,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3506,7 +3506,7 @@
                     "good work",
                     "continuous transaction"
                 ],
-                "sentiment": -0.4019,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.8695652173913043
             }
@@ -3561,7 +3561,7 @@
                     "keyboard flex",
                     "warranty"
                 ],
-                "sentiment": 0.9754,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3580,7 +3580,7 @@
                     "Hps",
                     "laptop"
                 ],
-                "sentiment": 0.9801,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3597,7 +3597,7 @@
                 "review_topics": [
                     "best laptop ever owned"
                 ],
-                "sentiment": 0.807,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3616,7 +3616,7 @@
                     "battery life",
                     "hard drive"
                 ],
-                "sentiment": 0.2714,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.7092198581560284
             }
@@ -3667,7 +3667,7 @@
                     "Mouse Pad",
                     "MS Office 2010"
                 ],
-                "sentiment": 0.765,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3684,7 +3684,7 @@
                 "review_topics": [
                     "Asus notebook"
                 ],
-                "sentiment": 0.9565,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3703,7 +3703,7 @@
                     "startup",
                     "spinning disk drives"
                 ],
-                "sentiment": 0.9455,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3728,7 +3728,7 @@
                     "instant-on splashtop",
                     "EV"
                 ],
-                "sentiment": 0.9467,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -3782,7 +3782,7 @@
                     "hard to touch type",
                     "large touch pad"
                 ],
-                "sentiment": 0.0129,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -3832,7 +3832,7 @@
                     "Apple MacBook Pro",
                     "keyboard"
                 ],
-                "sentiment": 0.9744,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3853,7 +3853,7 @@
                     "touchpad",
                     "single/two fingers"
                 ],
-                "sentiment": 0.8683,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3877,7 +3877,7 @@
                     "Photoshop",
                     "good warranty"
                 ],
-                "sentiment": 0.9234,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3900,7 +3900,7 @@
                     "VirtualPC",
                     "VMLite"
                 ],
-                "sentiment": 0.8416,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.1545595054095827
             },
@@ -3926,7 +3926,7 @@
                     "fingerprint magnet",
                     "awkward mouse"
                 ],
-                "sentiment": 0.9966,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3949,7 +3949,7 @@
                     "ULV processor",
                     "touch pad"
                 ],
-                "sentiment": 0.9945,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -3975,7 +3975,7 @@
                     "comfortable",
                     "14' laptop"
                 ],
-                "sentiment": 0.975,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -4025,7 +4025,7 @@
                     "mouse pad",
                     "battery life"
                 ],
-                "sentiment": 0.9458,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4046,7 +4046,7 @@
                     "brushed aluminum",
                     "removable battery"
                 ],
-                "sentiment": 0.8287,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4077,7 +4077,7 @@
                     "webcam",
                     "bluetooth"
                 ],
-                "sentiment": 0.9977,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -4130,7 +4130,7 @@
                     "harddrive fail",
                     "awful customer service"
                 ],
-                "sentiment": -0.8325,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.5555555555555556
             },
@@ -4153,7 +4153,7 @@
                     "games",
                     "screen resolution"
                 ],
-                "sentiment": 0.9954,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4170,7 +4170,7 @@
                 "review_topics": [
                     "keyboard problem"
                 ],
-                "sentiment": -0.8396,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.7299270072992701
             },
@@ -4185,7 +4185,7 @@
                 "review_body": "The N61JQ-X1, simply put, is a great laptop... Pros: Blazing speed - and this only w/ 4 gig of RAM... (granted, I'm leaving an early core duo, so... it's more Honda to Porsche, not Porsche to Ferrari). Windows 7, 64 bit (I put the bar on the left, and it changes the game...) Great screen Great graphics card (high 2nd tier, but I'm not a gamer, so who cares... and directv plays great on it (just got whole home from them, and it streams my dvr). very good sound (although I don't use it much) NUMBER KEYPAD!!! I used to hate typing numbers on laptops - no more! HUGE screen - yet fairly light Not very hot- no more burned wrists (although it is quite hot back towards the screen... so watch your laps!!!) and... last... but not least!!!! IT IS CHEAP (for what it is)... I tried to buy it here, but thought about it too long, and missed the half a C-note under a G, but was still in time for the end of cashback from MS - I sure will miss that program. Cons: ASUS bloatware - easily remedied awkward placement of power plug - I like laying the laptop down on it's side - and this doesn't allow me to. as others have noted - it will be covered with fingerprints... again- who cares. Wireless N is single band (only 2.4, no 5ghz) All in all - I could not be more pleased... Granted - it's only a week in, so much left to see, but overall, I don't regret leaving my many year long, abusive relationship with D@ll... oddly enough - rhymes with h@ll!  If only my work would change too!!! -dmb",
                 "review_helpfulness": 25.20755925,
                 "review_topics": [],
-                "sentiment": 0.9668,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4206,7 +4206,7 @@
                     "language barriers",
                     "machine recommendation"
                 ],
-                "sentiment": 0.4282,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4221,7 +4221,7 @@
                 "review_body": "I've had this laptop for over a year now. Although initially it just ran fairly hot, after about a year it started overheating regularly with any cpu-intensive game, and even with skype. It idles around 75 degrees celsius as a minimum on battery-saving mode. As of now unless I'm in a really cold room with a laptop cooling pad I can't even put it on high performance power mode without running the risk of overheating with anything more resource intensive than firefox. Also, the battery and adapter stopped working just after the warranty expired. Overall, I'm extremely disappointed. What's the point of having high-end hardware if you can't even utilize any of the power without a significant risk of overheating? Don't think I'm buying an Asus again when I save up to replace this awful laptop.",
                 "review_helpfulness": 15.896571874999996,
                 "review_topics": [],
-                "sentiment": -0.551,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2028397565922921
             },
@@ -4239,7 +4239,7 @@
                     "over 5 year lifespan",
                     "Used while traveling"
                 ],
-                "sentiment": 0.8805,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4260,7 +4260,7 @@
                     "video card",
                     "computer brands"
                 ],
-                "sentiment": -0.7652,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2222222222222222
             },
@@ -4281,7 +4281,7 @@
                     "video card",
                     "gaming"
                 ],
-                "sentiment": -0.9215,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.4761904761904762
             },
@@ -4298,7 +4298,7 @@
                 "review_topics": [
                     "usb 3"
                 ],
-                "sentiment": 0.5719,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4321,7 +4321,7 @@
                     "usb 3.0",
                     "fingerprint magnet"
                 ],
-                "sentiment": 0.9935,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4340,7 +4340,7 @@
                     "hardware specifications",
                     "JBOD implementation"
                 ],
-                "sentiment": -0.856,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2638522427440633
             },
@@ -4358,7 +4358,7 @@
                     "Asus",
                     "disappointed"
                 ],
-                "sentiment": 0.8304,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4378,7 +4378,7 @@
                     "portable laptop",
                     "Asus hotline"
                 ],
-                "sentiment": 0.97,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4399,7 +4399,7 @@
                     "USB 3.0",
                     "RAM"
                 ],
-                "sentiment": 0.9743,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4424,7 +4424,7 @@
                     "high resolution",
                     "9-cell battery"
                 ],
-                "sentiment": 0.9812,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4448,7 +4448,7 @@
                     "FN key",
                     "volume/mute keys"
                 ],
-                "sentiment": -0.3646,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0975609756097561
             },
@@ -4473,7 +4473,7 @@
                     "hp laptops",
                     "zoomplayer matrix"
                 ],
-                "sentiment": -0.6521,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.07668711656441718
             },
@@ -4499,7 +4499,7 @@
                     "windows 8.1",
                     "windows XP"
                 ],
-                "sentiment": 0.9691,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4523,7 +4523,7 @@
                     "Excel",
                     "video editor"
                 ],
-                "sentiment": 0.9921,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4538,7 +4538,7 @@
                 "review_body": "I was happy with my purchase for less than a year, after which, the camera stopped working. The system would say that it was already in use, which it wasn't. I took it in and they reformatted the laptop and took off the hotkeys and it worked again but my features and hotkeys that were supposed to work on the computer no longer worked. After reinstalling the drivers and everything the camera stopped working again. The computer tech and myself came to the realization that Asus made the computer so that if you want all your hotkeys on the keyboard and features to work, they mess with the camera, but if you want your camera to work, you can't use your hotkeys and other features that the laptop is supposed to come with. It is a stupid issue that the company should be held responsible for but will not and have not found a fix to. I'm very sad I spent the money (around $800 at the time) on something that I cannot use all features on. Because I used the camera less often, I had to opt for the keyboard to work the way it was supposed to so I haven't had use of the camera almost since I bought the stupid machine. I will not purchase Asus brand again since the company couldn't even take the time to come up with a simple programming update to fix the issue. (I've read numerous other complaints all over the web from others with the same problem so it's not like it was just one complaint from one person)",
                 "review_helpfulness": 22.850762499999995,
                 "review_topics": [],
-                "sentiment": -0.984,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.13192612137203166
             },
@@ -4561,7 +4561,7 @@
                     "poor sound quality",
                     "loud whine"
                 ],
-                "sentiment": 0.9698,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4587,7 +4587,7 @@
                     "i7-920",
                     "quality control"
                 ],
-                "sentiment": 0.9698,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4608,7 +4608,7 @@
                     "reliability",
                     "usb 3.0"
                 ],
-                "sentiment": 0.1803,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4625,7 +4625,7 @@
                 "review_topics": [
                     "outdated product"
                 ],
-                "sentiment": 0.2023,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4643,7 +4643,7 @@
                     "low price",
                     "fast"
                 ],
-                "sentiment": 0.872,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4662,7 +4662,7 @@
                     "half life 2",
                     "cod:mw2"
                 ],
-                "sentiment": 0.8513,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4679,7 +4679,7 @@
                 "review_topics": [
                     "ASUS es lo m\u00c3\u00a1ximo."
                 ],
-                "sentiment": 0.0516,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4699,7 +4699,7 @@
                     "games",
                     "movies"
                 ],
-                "sentiment": 0.8316,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4717,7 +4717,7 @@
                     "good audio and video",
                     "short battery life"
                 ],
-                "sentiment": 0.8304,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4736,7 +4736,7 @@
                     "regular keyboard",
                     "backlit keyboard"
                 ],
-                "sentiment": 0.842,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4753,7 +4753,7 @@
                 "review_topics": [
                     "happy with this laptop"
                 ],
-                "sentiment": 0.5696,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4771,7 +4771,7 @@
                     "good balance",
                     "specifications vs price"
                 ],
-                "sentiment": 0.9548,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4790,7 +4790,7 @@
                     "windows 7",
                     "desktop replacement"
                 ],
-                "sentiment": 0.9451,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4810,7 +4810,7 @@
                     "excelent screen",
                     "nice look"
                 ],
-                "sentiment": 0.6908,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4831,7 +4831,7 @@
                     "price",
                     "blue ray drive"
                 ],
-                "sentiment": 0.9719,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4849,7 +4849,7 @@
                     "ugly case",
                     "extra features"
                 ],
-                "sentiment": 0.6215,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 1.4925373134328357
             },
@@ -4866,7 +4866,7 @@
                 "review_topics": [
                     "touchpad,webcam"
                 ],
-                "sentiment": 0.9812,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4886,7 +4886,7 @@
                     "cheap lighting",
                     "$1000"
                 ],
-                "sentiment": 0.8896,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4907,7 +4907,7 @@
                     "multiple games",
                     "RTS and MMORPGs"
                 ],
-                "sentiment": 0.9476,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4927,7 +4927,7 @@
                     "bloatware",
                     "Asus Laptop"
                 ],
-                "sentiment": 0.5106,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4948,7 +4948,7 @@
                     "ports",
                     "battery life"
                 ],
-                "sentiment": 0.9413,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -4966,7 +4966,7 @@
                     "but laptop will not boot",
                     "mother board failure"
                 ],
-                "sentiment": -0.9584,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.5847953216374269
             },
@@ -4984,7 +4984,7 @@
                     "LED backlit keyboard",
                     "black design"
                 ],
-                "sentiment": 0.9017,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5005,7 +5005,7 @@
                     "AC power",
                     "AZ dust"
                 ],
-                "sentiment": -0.088,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5029,7 +5029,7 @@
                     "finger magnet",
                     "bad resolution"
                 ],
-                "sentiment": 0.9779,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5048,7 +5048,7 @@
                     "hard drive crash",
                     "blue screen"
                 ],
-                "sentiment": 0.2263,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5068,7 +5068,7 @@
                     "asus p6t deluxe desktop",
                     "extreme edition"
                 ],
-                "sentiment": 0.9815,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5083,7 +5083,7 @@
                 "review_body": "Pros: Awesome Performance so far - playing starcraft II on ultra graphics with no problems really good sound for a laptop stays surprisingly cool - side vent pumps out tons of heat but laptop bottom stays relatively cool price - great power for a moderately priced laptop keyboard has good feel to it, with number pad on right (cramps it slightly but i think its worth it) usb 3.0 - not that useful yet but 10x faster than usb 2 makes it worth the wait Cons: battery life stinks- playing games ive only been getting about 1 to 1.5 hours - 2 hours if im just doing normal surfing / other tasks - thats the trade off for having this beastly processor and video card for an entertainment laptop would have expected higher resolution, although its still not bad all around im extremely satisfied - great power in a good sized package for a reasonable price ASUS for the win",
                 "review_helpfulness": 19.204799312499997,
                 "review_topics": [],
-                "sentiment": 0.9939,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5107,7 +5107,7 @@
                     "WoW",
                     "RAM"
                 ],
-                "sentiment": 0.9603,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5126,7 +5126,7 @@
                     "problems",
                     "experience"
                 ],
-                "sentiment": -0.012,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5149,7 +5149,7 @@
                     "fingerprint magnet",
                     "speakers"
                 ],
-                "sentiment": 0.9939,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5175,7 +5175,7 @@
                     "power-saver mode",
                     "touchpad"
                 ],
-                "sentiment": 0.8331,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5196,7 +5196,7 @@
                     "Siig 7PORT USB 3.0 Hub",
                     "4 GB RAM"
                 ],
-                "sentiment": 0.6467,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5216,7 +5216,7 @@
                     "games",
                     "graphic design"
                 ],
-                "sentiment": 0.9841,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5238,7 +5238,7 @@
                     "e-sata connection",
                     "3.0 USB"
                 ],
-                "sentiment": 0.9709,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5259,7 +5259,7 @@
                     "hard drive",
                     "gloss finish"
                 ],
-                "sentiment": 0.9854,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5286,7 +5286,7 @@
                     "Windows",
                     "Graphic Card"
                 ],
-                "sentiment": 0.9692,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5306,7 +5306,7 @@
                     "windows disks",
                     "bluescreening"
                 ],
-                "sentiment": 0.0258,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5328,7 +5328,7 @@
                     "battery runs",
                     "design flaw"
                 ],
-                "sentiment": 0.9238,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5346,7 +5346,7 @@
                     "college student",
                     "Altec Lansing speakers"
                 ],
-                "sentiment": 0.1027,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5372,7 +5372,7 @@
                     "configuracion",
                     "sistema operativo"
                 ],
-                "sentiment": -0.7964,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5395,7 +5395,7 @@
                     "touchpad",
                     "wi-fi & bluetooth switch"
                 ],
-                "sentiment": 0.97,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5420,7 +5420,7 @@
                     "asus",
                     "win 7"
                 ],
-                "sentiment": 0.9855,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5438,7 +5438,7 @@
                     "Webcam",
                     "resolution"
                 ],
-                "sentiment": -0.7833,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.22675736961451248
             },
@@ -5462,7 +5462,7 @@
                     "Bluetooth",
                     "Wi-fi n"
                 ],
-                "sentiment": 0.8046,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5481,7 +5481,7 @@
                     "great sound",
                     "price over $1000.00"
                 ],
-                "sentiment": 0.9891,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5505,7 +5505,7 @@
                     "realtemp.exe",
                     "video card"
                 ],
-                "sentiment": 0.4519,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.10395010395010396
             },
@@ -5525,7 +5525,7 @@
                     "USB 3.0",
                     "low screen resolution"
                 ],
-                "sentiment": 0.9762,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5547,7 +5547,7 @@
                     "upside down webcam",
                     "CS4"
                 ],
-                "sentiment": 0.9544,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5569,7 +5569,7 @@
                     "laptop heats up",
                     "short battery life"
                 ],
-                "sentiment": -0.6327,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.15360983102918588
             },
@@ -5593,7 +5593,7 @@
                     "wireless microsoft mouse",
                     "netgear wndr3300"
                 ],
-                "sentiment": 0.9715,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5618,7 +5618,7 @@
                     "60fps",
                     "instant"
                 ],
-                "sentiment": 0.9613,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5640,7 +5640,7 @@
                     "HDMI",
                     "windows experience index"
                 ],
-                "sentiment": 0.9893,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5665,7 +5665,7 @@
                     "weight",
                     "keyboard and touchpad"
                 ],
-                "sentiment": 0.2719,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5682,7 +5682,7 @@
                 "review_topics": [
                     "Crucial M4 256gb"
                 ],
-                "sentiment": 0.9681,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5706,7 +5706,7 @@
                     "HDMI out",
                     "dolphin emulator"
                 ],
-                "sentiment": 0.9925,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5731,7 +5731,7 @@
                     "LG",
                     "Phillip"
                 ],
-                "sentiment": 0.9663,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5752,7 +5752,7 @@
                     "sweaty palm",
                     "large"
                 ],
-                "sentiment": -0.9246,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5773,7 +5773,7 @@
                     "software",
                     "OS"
                 ],
-                "sentiment": -0.9015,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.15220700152207
             },
@@ -5795,7 +5795,7 @@
                     "touch sensor",
                     "cooling pad"
                 ],
-                "sentiment": 0.9982,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5830,7 +5830,7 @@
                     "battery life",
                     "video card"
                 ],
-                "sentiment": 0.998,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5854,7 +5854,7 @@
                     "crashed HDD",
                     "unreliable parts"
                 ],
-                "sentiment": 0.9899,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5874,7 +5874,7 @@
                     "garbage screen",
                     "low resolution"
                 ],
-                "sentiment": 0.6557,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5899,7 +5899,7 @@
                     "screen problem",
                     "ASUS tech service"
                 ],
-                "sentiment": 0.9529,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5920,7 +5920,7 @@
                     "great screen",
                     "fan,laptop cooler"
                 ],
-                "sentiment": 0.9989,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5945,7 +5945,7 @@
                     "Asus software",
                     "laptop mouse"
                 ],
-                "sentiment": -0.5911,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5969,7 +5969,7 @@
                     "thermal paste",
                     "arctic silver"
                 ],
-                "sentiment": 0.9745,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -5996,7 +5996,7 @@
                     "office",
                     "firefox"
                 ],
-                "sentiment": 0.9927,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6022,7 +6022,7 @@
                     "battery life",
                     "competing hardware"
                 ],
-                "sentiment": 0.9854,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6047,7 +6047,7 @@
                     "sound system",
                     "speakers"
                 ],
-                "sentiment": 0.8208,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6068,7 +6068,7 @@
                     "Blu Ray drive",
                     "chiclet keyboard"
                 ],
-                "sentiment": 0.9968,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6095,7 +6095,7 @@
                     "gaming laptop",
                     "bloatware"
                 ],
-                "sentiment": 0.9945,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -6146,7 +6146,7 @@
                     "multimedia keys",
                     "great performances"
                 ],
-                "sentiment": 0.9931,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6167,7 +6167,7 @@
                     "virus issue",
                     "RMA"
                 ],
-                "sentiment": -0.9786,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.22727272727272727
             },
@@ -6189,7 +6189,7 @@
                     "keyboard backlight",
                     "battery life"
                 ],
-                "sentiment": -0.8049,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2652519893899204
             },
@@ -6204,7 +6204,7 @@
                 "review_body": "pro - nice keyboard, fast processor cons - too much junk software..think about format and reinstall windows at begginin..button of mouse pad feel cheap..no spdif",
                 "review_helpfulness": 5.076481562500001,
                 "review_topics": [],
-                "sentiment": 0.4215,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6222,7 +6222,7 @@
                     "Amazon and Asus",
                     "bluetooth"
                 ],
-                "sentiment": 0.8625,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6239,7 +6239,7 @@
                 "review_topics": [
                     "Asus notebook"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6258,7 +6258,7 @@
                     "task manager",
                     "CPU light"
                 ],
-                "sentiment": -0.6881,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -6306,7 +6306,7 @@
                 "review_topics": [
                     "good features"
                 ],
-                "sentiment": -0.5267,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6321,7 +6321,7 @@
                 "review_body": "I bought the",
                 "review_helpfulness": -0.4498049999999999,
                 "review_topics": [],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6338,7 +6338,7 @@
                 "review_topics": [
                     "quick synopsis"
                 ],
-                "sentiment": 0.4201,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6355,7 +6355,7 @@
                 "review_topics": [
                     "windows crashed"
                 ],
-                "sentiment": -0.0516,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6372,7 +6372,7 @@
                 "review_topics": [
                     "infrequent usage"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.8928571428571428
             },
@@ -6392,7 +6392,7 @@
                     "Office 2007",
                     "Asus"
                 ],
-                "sentiment": 0.9205,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6412,7 +6412,7 @@
                     "good battery life",
                     "gaming computer"
                 ],
-                "sentiment": 0.9578,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -6460,7 +6460,7 @@
                 "review_topics": [
                     "shipping box"
                 ],
-                "sentiment": 0.5702,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6478,7 +6478,7 @@
                     "Asus N71JQ-A1",
                     "Asus N71JQ-X1"
                 ],
-                "sentiment": 0.0772,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6496,7 +6496,7 @@
                     "bloatware",
                     "laptop cooler"
                 ],
-                "sentiment": 0.9534,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6515,7 +6515,7 @@
                     "power-off problem",
                     "ASUS support"
                 ],
-                "sentiment": -0.875,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6538,7 +6538,7 @@
                     "smoking",
                     "extended warranty"
                 ],
-                "sentiment": 0.3961,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6561,7 +6561,7 @@
                     "Toshiba",
                     "Sony laptop"
                 ],
-                "sentiment": 0.2576,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6580,7 +6580,7 @@
                     "long warranty",
                     "big screen"
                 ],
-                "sentiment": 0.8155,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6598,7 +6598,7 @@
                     "laptop",
                     "2.8GHz"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6620,7 +6620,7 @@
                     "BIOS problem",
                     "blue screen"
                 ],
-                "sentiment": -0.9168,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.24691358024691357
             },
@@ -6643,7 +6643,7 @@
                     "Blue screen of errors",
                     "Hardware problems"
                 ],
-                "sentiment": 0.7096,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6661,7 +6661,7 @@
                     "Asus Laptop",
                     "blu-ray combo"
                 ],
-                "sentiment": 0.8012,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6682,7 +6682,7 @@
                     "laptop specifications",
                     "laptop documentation"
                 ],
-                "sentiment": 0.9017,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6700,7 +6700,7 @@
                     "Asus N71jq-X1",
                     "Blu-Ray drive"
                 ],
-                "sentiment": 0.8608,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6718,7 +6718,7 @@
                     "battery",
                     "tech support"
                 ],
-                "sentiment": 0.8925,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6742,7 +6742,7 @@
                     "Dragon Age",
                     "Mass Effect 2"
                 ],
-                "sentiment": 0.9675,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6763,7 +6763,7 @@
                     "dimensions",
                     "weight"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6787,7 +6787,7 @@
                     "expensive",
                     "beautiful"
                 ],
-                "sentiment": 0.9924,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6806,7 +6806,7 @@
                     "dual boots with linux",
                     "touch pad has wear"
                 ],
-                "sentiment": -0.7135,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.3236245954692557
             },
@@ -6828,7 +6828,7 @@
                     "HP",
                     "DDR3 1333 RAM"
                 ],
-                "sentiment": 0.9951,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6846,7 +6846,7 @@
                     "i7 2.8 ghz",
                     "i7 1.6 ghz"
                 ],
-                "sentiment": 0.7003,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6868,7 +6868,7 @@
                     "i7 processor",
                     "17' screen"
                 ],
-                "sentiment": 0.3954,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6888,7 +6888,7 @@
                     "no warranty",
                     "engineering school"
                 ],
-                "sentiment": 0.4423,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6908,7 +6908,7 @@
                     "Windows Movie Maker",
                     "fps"
                 ],
-                "sentiment": 0.902,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -6926,7 +6926,7 @@
                     "ASUS laptop",
                     "reflective screen"
                 ],
-                "sentiment": -0.7163,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2932551319648094
             },
@@ -6953,7 +6953,7 @@
                     "assembly",
                     "spongy keyboard"
                 ],
-                "sentiment": 0.9886,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -7008,7 +7008,7 @@
                     "good gaming performance",
                     "fast booting"
                 ],
-                "sentiment": 0.9787,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7035,7 +7035,7 @@
                     "clicking noises",
                     "customer service"
                 ],
-                "sentiment": -0.9463,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.08865248226950355
             },
@@ -7057,7 +7057,7 @@
                     "NVIDEA GEFORCE 310M",
                     "I3 Core"
                 ],
-                "sentiment": 0.9684,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7074,7 +7074,7 @@
                 "review_topics": [
                     "small hard drive"
                 ],
-                "sentiment": 0.484,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7091,7 +7091,7 @@
                 "review_topics": [
                     "dust collection"
                 ],
-                "sentiment": 0.899,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -7140,7 +7140,7 @@
                     "Asus",
                     "software engineer"
                 ],
-                "sentiment": 0.5859,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7157,7 +7157,7 @@
                 "review_topics": [
                     "Ubuntu Netbook Remix"
                 ],
-                "sentiment": 0.6369,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7175,7 +7175,7 @@
                     "terrible",
                     "crash"
                 ],
-                "sentiment": -0.7644,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.3401360544217687
             },
@@ -7194,7 +7194,7 @@
                     "battery life",
                     "RAM"
                 ],
-                "sentiment": 0.9538,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7220,7 +7220,7 @@
                     "hard drive",
                     "negative reviews"
                 ],
-                "sentiment": 0.979,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7237,7 +7237,7 @@
                 "review_topics": [
                     "perfect netbook"
                 ],
-                "sentiment": 0.3612,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7254,7 +7254,7 @@
                 "review_topics": [
                     "netbook"
                 ],
-                "sentiment": 0.7264,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7271,7 +7271,7 @@
                 "review_topics": [
                     "expectations met"
                 ],
-                "sentiment": 0.4019,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7289,7 +7289,7 @@
                     "media software",
                     "parental control"
                 ],
-                "sentiment": 0.8122,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7308,7 +7308,7 @@
                     "browsing",
                     "photos"
                 ],
-                "sentiment": 0.8553,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7325,7 +7325,7 @@
                 "review_topics": [
                     "windows starter"
                 ],
-                "sentiment": 0.8765,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7342,7 +7342,7 @@
                 "review_topics": [
                     "Toshiba"
                 ],
-                "sentiment": 0.6249,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7359,7 +7359,7 @@
                 "review_topics": [
                     "gift notebook"
                 ],
-                "sentiment": 0.6319,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7379,7 +7379,7 @@
                     "Netbook",
                     "wifi"
                 ],
-                "sentiment": 0.8221,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7398,7 +7398,7 @@
                     "4gb memory stick",
                     "720p video"
                 ],
-                "sentiment": 0.9065,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7416,7 +7416,7 @@
                     "Windows",
                     "Linux"
                 ],
-                "sentiment": 0.8316,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7435,7 +7435,7 @@
                     "memory installation",
                     "traveling"
                 ],
-                "sentiment": 0.7717,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7453,7 +7453,7 @@
                     "8+ hours of battery life",
                     "college campus"
                 ],
-                "sentiment": 0.5538,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7471,7 +7471,7 @@
                     "ReadyBoost",
                     "crapware"
                 ],
-                "sentiment": 0.8973,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7492,7 +7492,7 @@
                     "track pad",
                     "click bar"
                 ],
-                "sentiment": 0.9509,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7515,7 +7515,7 @@
                     "keyboard",
                     "web sites"
                 ],
-                "sentiment": 0.8734,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7534,7 +7534,7 @@
                     "sub-par speakers",
                     "usb powered speakers"
                 ],
-                "sentiment": 0.9365,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7555,7 +7555,7 @@
                     "multi-touch",
                     "matte finish"
                 ],
-                "sentiment": 0.9844,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7578,7 +7578,7 @@
                     "sensitive touchpad",
                     "memory space"
                 ],
-                "sentiment": 0.9805,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7596,7 +7596,7 @@
                     "ASUS brand",
                     "old HP laptop"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7614,7 +7614,7 @@
                     "world traveller",
                     "matte finish"
                 ],
-                "sentiment": -0.1272,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7638,7 +7638,7 @@
                     "red button",
                     "touch pad USB mouse"
                 ],
-                "sentiment": 0.9215,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7653,7 +7653,7 @@
                 "review_body": "I've had this netbook for about a month and I'm very pleased.  I had a laptop before with a Celeron chip. I'm using the Atom N450 which performs quicker than the Celeron.  In addition, I've found the 10' screen to be very bright and easy to see with optimum resolution.  It comes with Windows 7 Starter.  To increase performance",
                 "review_helpfulness": 7.085240499999999,
                 "review_topics": [],
-                "sentiment": 0.8968,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7671,7 +7671,7 @@
                     "nice computer",
                     "good for bigger guys"
                 ],
-                "sentiment": 0.5908,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7688,7 +7688,7 @@
                 "review_topics": [
                     "recovery DVD/Support CD"
                 ],
-                "sentiment": -0.2802,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7708,7 +7708,7 @@
                     "ipad",
                     "scrolling"
                 ],
-                "sentiment": 0.5019,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7726,7 +7726,7 @@
                     "Asus Laptop",
                     "long battery life"
                 ],
-                "sentiment": 0.5719,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7743,7 +7743,7 @@
                 "review_topics": [
                     "purposeful design"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7762,7 +7762,7 @@
                     "charger",
                     "very warm"
                 ],
-                "sentiment": 0.9857,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7784,7 +7784,7 @@
                     "1008 model",
                     "1.3MP Webcam"
                 ],
-                "sentiment": 0.9688,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7804,7 +7804,7 @@
                     "streaming video",
                     "windows 7 starter"
                 ],
-                "sentiment": 0.9652,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7824,7 +7824,7 @@
                     "Windows Vista",
                     "touchpad"
                 ],
-                "sentiment": -0.9795,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.17605633802816903
             },
@@ -7846,7 +7846,7 @@
                     "cursor",
                     "power cord"
                 ],
-                "sentiment": -0.4404,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7866,7 +7866,7 @@
                     "recovery partition",
                     "instant on feature"
                 ],
-                "sentiment": 0.9757,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7885,7 +7885,7 @@
                     "pre-installed windows 7",
                     "performance"
                 ],
-                "sentiment": 0.9837,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7906,7 +7906,7 @@
                     "Asus help line",
                     "language barrier"
                 ],
-                "sentiment": 0.8212,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7925,7 +7925,7 @@
                     "1000HA",
                     "1005PE-PU27-BK"
                 ],
-                "sentiment": 0.6369,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7943,7 +7943,7 @@
                     "Windows 7",
                     "Acronis"
                 ],
-                "sentiment": 0.4588,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7964,7 +7964,7 @@
                     "battery",
                     "Microsoft Windows Home"
                 ],
-                "sentiment": 0.994,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -7988,7 +7988,7 @@
                     "weak sound",
                     "USB modem"
                 ],
-                "sentiment": 0.9708,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8003,7 +8003,7 @@
                 "review_body": "This is the exact same netbook as the",
                 "review_helpfulness": 3.7813224999999995,
                 "review_topics": [],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -8053,7 +8053,7 @@
                     "ATI graphics card",
                     "Wi Fi"
                 ],
-                "sentiment": 0.9569,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8072,7 +8072,7 @@
                     "keyboard type",
                     "microsoft 7"
                 ],
-                "sentiment": 0.8625,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8091,7 +8091,7 @@
                     "Windows 7",
                     "Windows XP"
                 ],
-                "sentiment": 0.8565,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8110,7 +8110,7 @@
                     "i5 processor",
                     "2-year global warranty"
                 ],
-                "sentiment": 0.9718,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8134,7 +8134,7 @@
                     "memory",
                     "dedicated video"
                 ],
-                "sentiment": 0.9528,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8156,7 +8156,7 @@
                     "Amazon",
                     "UPS"
                 ],
-                "sentiment": 0.9568,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8189,7 +8189,7 @@
                     "included utilities",
                     "included software"
                 ],
-                "sentiment": 0.9817,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -8241,7 +8241,7 @@
                     "drivers",
                     "Asus"
                 ],
-                "sentiment": -0.7003,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.27472527472527475
             }
@@ -8298,7 +8298,7 @@
                     "keyboard flex",
                     "stiff trackpad button."
                 ],
-                "sentiment": 0.9808,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8315,7 +8315,7 @@
                 "review_topics": [
                     "decoder"
                 ],
-                "sentiment": -0.5267,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8339,7 +8339,7 @@
                     "480p",
                     "2gb RAM"
                 ],
-                "sentiment": 0.1974,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8356,7 +8356,7 @@
                 "review_topics": [
                     "HD video decoder"
                 ],
-                "sentiment": -0.5405,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.7936507936507936
             },
@@ -8373,7 +8373,7 @@
                 "review_topics": [
                     "broadcom crystal HD chip"
                 ],
-                "sentiment": -0.296,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8390,7 +8390,7 @@
                 "review_topics": [
                     "Asus 1005pr"
                 ],
-                "sentiment": -0.2023,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.6329113924050633
             },
@@ -8408,7 +8408,7 @@
                     "broadcom HD card",
                     "Amazon Assus"
                 ],
-                "sentiment": 0.7793,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8427,7 +8427,7 @@
                     "netbook",
                     "windows 7 starter"
                 ],
-                "sentiment": 0.9455,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8442,7 +8442,7 @@
                 "review_body": "Some of these are shipping without the Broadcom Crystal HD accelerator from Amazon and other online retailers. Anyone interested, hold off on purchasing this machine until it gets sorted out. I will update this review once things are settled.",
                 "review_helpfulness": 8.4372698125,
                 "review_topics": [],
-                "sentiment": 0.5267,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8462,7 +8462,7 @@
                     "broadcom chip",
                     "customer services"
                 ],
-                "sentiment": 0.987,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8483,7 +8483,7 @@
                     "fingerprints",
                     "glare"
                 ],
-                "sentiment": 0.8622,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8498,7 +8498,7 @@
                 "review_body": "I originally bought this for my mom when her huge laptop died, but once she tried it out she realized that the keyboard was too small for her arthritic hands.  So my boyfriend bought it off me and has been using it like a fiend ever since.  He installed Linux and carries it with him practically everywhere because it's so light.",
                 "review_helpfulness": 7.172742374999999,
                 "review_topics": [],
-                "sentiment": 0.3818,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8518,7 +8518,7 @@
                     "netbook",
                     "ASUS Eee PC 1201N-PU17-SL"
                 ],
-                "sentiment": 0.906,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8538,7 +8538,7 @@
                     "adobe",
                     "long battery"
                 ],
-                "sentiment": 0.8809,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8559,7 +8559,7 @@
                     "Internet Explorer",
                     "Firefox"
                 ],
-                "sentiment": 0.9877,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8578,7 +8578,7 @@
                     "Broadcom CrystalHD chip",
                     "garbage performance"
                 ],
-                "sentiment": -0.3182,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8598,7 +8598,7 @@
                     "RMA",
                     "ASUS motherboard"
                 ],
-                "sentiment": 0.6611,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8618,7 +8618,7 @@
                     "screen imaging",
                     "Windows 7 starter"
                 ],
-                "sentiment": -0.9176,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8638,7 +8638,7 @@
                     "HD chip",
                     "work around"
                 ],
-                "sentiment": 0.9922,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8664,7 +8664,7 @@
                     "Windows 7 Starter",
                     "track pad"
                 ],
-                "sentiment": 0.9297,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8691,7 +8691,7 @@
                     "windows 7 starter",
                     "linux 3d desktop"
                 ],
-                "sentiment": 0.9778,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8710,7 +8710,7 @@
                     "Sound",
                     "Video"
                 ],
-                "sentiment": 0.457,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8728,7 +8728,7 @@
                     "1005PR",
                     "broadcom crystal HD"
                 ],
-                "sentiment": 0.7779,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8757,7 +8757,7 @@
                     "trackpad",
                     "palm rest"
                 ],
-                "sentiment": 0.8855,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8780,7 +8780,7 @@
                     "Arcsoft",
                     "Hauppauge HD PVR 1212"
                 ],
-                "sentiment": 0.9357,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8801,7 +8801,7 @@
                     "a lack of depth",
                     "sort-of purplishness"
                 ],
-                "sentiment": -0.3995,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.23752969121140144
             },
@@ -8823,7 +8823,7 @@
                     "bloat",
                     "battery life"
                 ],
-                "sentiment": 0.8944,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8844,7 +8844,7 @@
                     "Youtube HD 720p",
                     "Youtube HD 1080p"
                 ],
-                "sentiment": 0.6249,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8870,7 +8870,7 @@
                     "windows 7",
                     "sound limitations"
                 ],
-                "sentiment": 0.9866,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8888,7 +8888,7 @@
                     "broadcom card",
                     "operating normally"
                 ],
-                "sentiment": 0.09,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8919,7 +8919,7 @@
                     "SSD drive",
                     "2GB RAM"
                 ],
-                "sentiment": 0.9993,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -8968,7 +8968,7 @@
                     "Asus laptops",
                     "college"
                 ],
-                "sentiment": 0.9584,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -8987,7 +8987,7 @@
                     "SRS",
                     "battery life"
                 ],
-                "sentiment": -0.7178,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.35211267605633806
             },
@@ -9012,7 +9012,7 @@
                     "Ivy Bridge Core i7 chip",
                     "flash drive"
                 ],
-                "sentiment": 0.9978,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9030,7 +9030,7 @@
                     "no complaints",
                     "great deal"
                 ],
-                "sentiment": 0.1067,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9048,7 +9048,7 @@
                     "Sony SZ",
                     "heavy laptop"
                 ],
-                "sentiment": 0.6696,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9072,7 +9072,7 @@
                     "comfortable keyboard",
                     "good computer"
                 ],
-                "sentiment": 0.9377,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9093,7 +9093,7 @@
                     "Gorgeous graphics",
                     "Fast"
                 ],
-                "sentiment": 0.9697,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -9143,7 +9143,7 @@
                     "ASUS UL30VT-X1K",
                     "free download"
                 ],
-                "sentiment": 0.5106,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9164,7 +9164,7 @@
                     "battery life",
                     "eye strain"
                 ],
-                "sentiment": 0.9539,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9184,7 +9184,7 @@
                     "build quality",
                     "video cards"
                 ],
-                "sentiment": -0.0202,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9207,7 +9207,7 @@
                     "keyboard",
                     "fan noise"
                 ],
-                "sentiment": 0.9498,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9227,7 +9227,7 @@
                     "performance reliable",
                     "multifunction crapware"
                 ],
-                "sentiment": 0.7703,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9245,7 +9245,7 @@
                     "screw loose",
                     "battery life"
                 ],
-                "sentiment": -0.9526,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.19607843137254902
             },
@@ -9282,7 +9282,7 @@
                     "purchase",
                     "adequate lifetime"
                 ],
-                "sentiment": 0.9825,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9301,7 +9301,7 @@
                     "good qualities",
                     "good price"
                 ],
-                "sentiment": 0.9711,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9319,7 +9319,7 @@
                     "cd/dvd drive",
                     "battery replacement"
                 ],
-                "sentiment": -0.4439,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 1.3157894736842104
             },
@@ -9336,7 +9336,7 @@
                 "review_topics": [
                     "Best computer company"
                 ],
-                "sentiment": 0.854,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9357,7 +9357,7 @@
                     "touch pad",
                     "good graphics"
                 ],
-                "sentiment": 0.9805,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9375,7 +9375,7 @@
                     "good computer",
                     "touchpad"
                 ],
-                "sentiment": 0.5256,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9393,7 +9393,7 @@
                     "Asus notebook",
                     "Keyboard problem"
                 ],
-                "sentiment": 0.8858,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.7246376811594203
             },
@@ -9412,7 +9412,7 @@
                     "battery life",
                     "screen brightness"
                 ],
-                "sentiment": 0.6055,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9433,7 +9433,7 @@
                     "windows 7 home premium",
                     "DVD"
                 ],
-                "sentiment": 0.611,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9450,7 +9450,7 @@
                 "review_topics": [
                     "CD/DVD drive"
                 ],
-                "sentiment": 0.7805,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9472,7 +9472,7 @@
                     "headaches",
                     "Toshiba laptop"
                 ],
-                "sentiment": 0.9273,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9492,7 +9492,7 @@
                     "external USB HDD",
                     "external optical drive"
                 ],
-                "sentiment": -0.0163,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9514,7 +9514,7 @@
                     "dead HDD",
                     "flickering Intel vga"
                 ],
-                "sentiment": -0.9093,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.3952569169960474
             },
@@ -9531,7 +9531,7 @@
                 "review_topics": [
                     "terrible mousepad"
                 ],
-                "sentiment": -0.7108,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.7874015748031495
             },
@@ -9554,7 +9554,7 @@
                     "battery life",
                     "video card"
                 ],
-                "sentiment": 0.9843,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9571,7 +9571,7 @@
                 "review_topics": [
                     "Sony Vaio"
                 ],
-                "sentiment": -0.0531,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9589,7 +9589,7 @@
                     "build quality",
                     "abnormal shutdown screen"
                 ],
-                "sentiment": 0.4981,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9615,7 +9615,7 @@
                     "battery",
                     "keyboard"
                 ],
-                "sentiment": 0.8153,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -9677,7 +9677,7 @@
                     "loose battery",
                     "Windows 7 Starter"
                 ],
-                "sentiment": 0.9293,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9696,7 +9696,7 @@
                     "comfortable laptop",
                     "good touch pad"
                 ],
-                "sentiment": 0.9964,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9714,7 +9714,7 @@
                     "windows 7",
                     "kubuntu netbook edition"
                 ],
-                "sentiment": 0.4039,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9731,7 +9731,7 @@
                 "review_topics": [
                     "monitor size"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9748,7 +9748,7 @@
                 "review_topics": [
                     "netbook"
                 ],
-                "sentiment": 0.7637,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9767,7 +9767,7 @@
                     "black screen",
                     "waste of money"
                 ],
-                "sentiment": -0.2263,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.625
             },
@@ -9789,7 +9789,7 @@
                     "surf the internet",
                     "watch movies"
                 ],
-                "sentiment": 0.8357,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9808,7 +9808,7 @@
                     "Amazon",
                     "additional 2GB"
                 ],
-                "sentiment": 0.9032,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9828,7 +9828,7 @@
                     "easy to carry",
                     "good sound"
                 ],
-                "sentiment": 0.9296,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9850,7 +9850,7 @@
                     "Tokyo slammed",
                     "damaged screen"
                 ],
-                "sentiment": 0.2448,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9867,7 +9867,7 @@
                 "review_topics": [
                     "good notebook"
                 ],
-                "sentiment": 0.4019,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9886,7 +9886,7 @@
                     "light to medium use",
                     "tough little netbook"
                 ],
-                "sentiment": 0.9158,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9905,7 +9905,7 @@
                     "keyboard",
                     "overpriced"
                 ],
-                "sentiment": 0.6249,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9924,7 +9924,7 @@
                     "listening to music",
                     "writing documents"
                 ],
-                "sentiment": 0.8574,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9944,7 +9944,7 @@
                     "poor picture quality",
                     "315 dollar price tag"
                 ],
-                "sentiment": 0.6681,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9962,7 +9962,7 @@
                     "EEEPC",
                     "seven hundred dollars"
                 ],
-                "sentiment": -0.1358,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -9985,7 +9985,7 @@
                     "skype",
                     "windows 7"
                 ],
-                "sentiment": 0.9939,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10005,7 +10005,7 @@
                     "netbook",
                     "XP"
                 ],
-                "sentiment": 0.983,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10027,7 +10027,7 @@
                     "2GB ram",
                     "Kingston ValueRAM"
                 ],
-                "sentiment": 0.9972,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10047,7 +10047,7 @@
                     "inconvenient keyboard",
                     "low battery life"
                 ],
-                "sentiment": 0.9449,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -10100,7 +10100,7 @@
                     "touchpad driver",
                     "eSATA port"
                 ],
-                "sentiment": 0.7971,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10119,7 +10119,7 @@
                     "7200 RPM drive",
                     "5400 RPM"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10139,7 +10139,7 @@
                     "Eve Online",
                     "USB 3.0"
                 ],
-                "sentiment": 0.9081,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10157,7 +10157,7 @@
                     "battery life",
                     "low heat"
                 ],
-                "sentiment": 0.7777,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10174,7 +10174,7 @@
                 "review_topics": [
                     "compact laptop"
                 ],
-                "sentiment": 0.2732,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10191,7 +10191,7 @@
                 "review_topics": [
                     "good laptop"
                 ],
-                "sentiment": -0.4404,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 2.0
             },
@@ -10210,7 +10210,7 @@
                     "HP Envy 14-1000",
                     "Windows 7 Premium"
                 ],
-                "sentiment": 0.8167,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10228,7 +10228,7 @@
                     "ASUS motherboard",
                     "laptop"
                 ],
-                "sentiment": 0.7184,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10247,7 +10247,7 @@
                     "Dell Inspiron E1405",
                     "fan duct cleaning"
                 ],
-                "sentiment": -0.9664,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10267,7 +10267,7 @@
                     "Apache",
                     "Photoshop"
                 ],
-                "sentiment": 0.9675,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -10316,7 +10316,7 @@
                     "speakers",
                     "durable"
                 ],
-                "sentiment": 0.6249,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -10366,7 +10366,7 @@
                     "physical hard drives",
                     "logical partitions"
                 ],
-                "sentiment": 0.7264,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10387,7 +10387,7 @@
                     "win7 ultimate",
                     "year 2010"
                 ],
-                "sentiment": -0.6151,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.33003300330033003
             },
@@ -10406,7 +10406,7 @@
                     "overheats",
                     "shuts down"
                 ],
-                "sentiment": 0.836,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10428,7 +10428,7 @@
                     "express card slot",
                     "audio control buttons"
                 ],
-                "sentiment": 0.9885,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10447,7 +10447,7 @@
                     "substandard quality",
                     "frequent returns"
                 ],
-                "sentiment": 0.6369,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10462,7 +10462,7 @@
                 "review_body": "Initially, I am very happy with this machine. It is truly a great desktop replacement. That is said, I did have to return it twice, first time the DVD/Blu Ray drive was not working properly, PowerDVD used to freeze and I have to force shut it down, but Amazon sent a replacement within 6 hours and within two days I got the new machine. 2 days later I realized that I have one did pixel on the screen, for that I had to get an RMA and return it to ASUS to replace the screen. For about 4 months everything was perfectly working fine. I use this computer for gaming in addition to real work. I played COD modern warfare 2, GTA 4 and Assassin Greek and Resident Evil 5. You can get the same specs from Dell/Alienware for about $2700, while I bought my ASUS from Amazon for $1842. And I love the screen, it is an amazing HD and great quality picture. After six months of owning the laptop a new problem has appeared. The video card (GPU) overheats when playing games for more than 30 minutes. After 30 minutes the laptop shuts down due to high temperature. I did some research and I realized that the laptop GPU idle temperature should be around 55C, while mine was in the range 75-80C. While gaming the temperature should be around 75-85C, while mine exceeds 100C all the time and it reaches the maximum allowed temperature 114C then the computer shuts down. I have to wait 5 minutes for the computer to cool down then turn it on again. The fans on the laptop are always on high speed, specially the one next the video card. I have to RMA it again. One expects that such product to be thoroughly tested since it is a gaming laptop. Now, I have listed my laptop for sale, because to me this unacceptable failure.",
                 "review_helpfulness": 29.8961795,
                 "review_topics": [],
-                "sentiment": 0.9672,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -10513,7 +10513,7 @@
                     "asus netbooks",
                     "data connect pass"
                 ],
-                "sentiment": 0.7814,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10531,7 +10531,7 @@
                     "Asus netbook",
                     "3G activation"
                 ],
-                "sentiment": 0.6212,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -10581,7 +10581,7 @@
                     "tech support",
                     "serial number label"
                 ],
-                "sentiment": -0.6335,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.5813953488372093
             },
@@ -10601,7 +10601,7 @@
                     "keyboard",
                     "number pad"
                 ],
-                "sentiment": 0.9822,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10619,7 +10619,7 @@
                     "free 1 year warranty",
                     "keyboard"
                 ],
-                "sentiment": 0.6756,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10641,7 +10641,7 @@
                     "poor keyboard",
                     "poor customer service"
                 ],
-                "sentiment": 0.9576,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.32573289902280134
             },
@@ -10664,7 +10664,7 @@
                     "RAM",
                     "keyboard"
                 ],
-                "sentiment": 0.9963,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10683,7 +10683,7 @@
                     "small keyboard keys",
                     "flimsy keyboard"
                 ],
-                "sentiment": 0.4284,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10701,7 +10701,7 @@
                     "laptop",
                     "price"
                 ],
-                "sentiment": 0.915,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10718,7 +10718,7 @@
                 "review_topics": [
                     "entertainment laptop"
                 ],
-                "sentiment": 0.0,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 2.5
             },
@@ -10737,7 +10737,7 @@
                     "speakers",
                     "muffled"
                 ],
-                "sentiment": 0.5719,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10756,7 +10756,7 @@
                     "good features",
                     "happy customer"
                 ],
-                "sentiment": 0.8442,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10775,7 +10775,7 @@
                     "numeric pad",
                     "built in wireless network"
                 ],
-                "sentiment": 0.9359,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10797,7 +10797,7 @@
                     "customer service",
                     "amazon"
                 ],
-                "sentiment": 0.8555,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10819,7 +10819,7 @@
                     "black spot",
                     "screen fragility"
                 ],
-                "sentiment": -0.2003,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10837,7 +10837,7 @@
                     "Asus laptop",
                     "reliability"
                 ],
-                "sentiment": 0.5411,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10855,7 +10855,7 @@
                     "Asus laptop",
                     "college laptop"
                 ],
-                "sentiment": 0.3818,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10874,7 +10874,7 @@
                     "smartlogon",
                     "little useless"
                 ],
-                "sentiment": 0.927,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10892,7 +10892,7 @@
                     "ASUS laptop",
                     "video and audio output"
                 ],
-                "sentiment": -0.25,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.546448087431694
             },
@@ -10909,7 +10909,7 @@
                 "review_topics": [
                     "Google Chrome"
                 ],
-                "sentiment": 0.7943,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10926,7 +10926,7 @@
                 "review_topics": [
                     "mouse pad"
                 ],
-                "sentiment": 0.9288,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -10946,7 +10946,7 @@
                     "fingerprint collection",
                     "flimsy keyboard"
                 ],
-                "sentiment": 0.7454,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -11001,7 +11001,7 @@
                     "dual core",
                     "HD display"
                 ],
-                "sentiment": 0.9813,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11019,7 +11019,7 @@
                     "small package",
                     "lightening fast"
                 ],
-                "sentiment": 0.4574,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11042,7 +11042,7 @@
                     "Google Chat",
                     "WiFi hot spot"
                 ],
-                "sentiment": -0.802,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.2631578947368421
             },
@@ -11064,7 +11064,7 @@
                     "SSD",
                     "1016P-BU17-BK"
                 ],
-                "sentiment": 0.9598,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11086,7 +11086,7 @@
                     "battery life",
                     "no fingerprints"
                 ],
-                "sentiment": 0.986,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11104,7 +11104,7 @@
                     "netbook",
                     "windows 7"
                 ],
-                "sentiment": 0.25,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -11152,7 +11152,7 @@
                 "review_topics": [
                     "asus"
                 ],
-                "sentiment": 0.6369,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11172,7 +11172,7 @@
                     "2G RAM",
                     "Amazon"
                 ],
-                "sentiment": 0.9735,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -11222,7 +11222,7 @@
                     "Asus",
                     "quiet sound"
                 ],
-                "sentiment": -0.4547,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -11272,7 +11272,7 @@
                     "huge screen",
                     "24/7 tech support"
                 ],
-                "sentiment": 0.9409,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -11321,7 +11321,7 @@
                     "keyboard",
                     "mouse"
                 ],
-                "sentiment": 0.9186,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11353,7 +11353,7 @@
                     "3 year warranty",
                     "Elpida RAM"
                 ],
-                "sentiment": 0.9822,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -11403,7 +11403,7 @@
                     "brushed aluminum",
                     "battery life"
                 ],
-                "sentiment": 0.9429,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
@@ -11454,7 +11454,7 @@
                     "Nvidia GT 335",
                     "n82jv"
                 ],
-                "sentiment": 0.9615,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11472,7 +11472,7 @@
                     "great laptop",
                     "reliable laptop"
                 ],
-                "sentiment": 0.9688,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11492,7 +11492,7 @@
                     "IRQL_NOT_LESS_OR_EQUAL",
                     "MACHINE_CHECK_EXCEPTION"
                 ],
-                "sentiment": -0.8555,
+                "sentiment": "Negative",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.37174721189591076
             },
@@ -11513,7 +11513,7 @@
                     "internet access",
                     "MS Office"
                 ],
-                "sentiment": 0.8479,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             },
@@ -11539,7 +11539,7 @@
                     "battery",
                     "SSD"
                 ],
-                "sentiment": 0.993,
+                "sentiment": "Positive",
                 "review_votes": "0",
                 "review_unhelpfulness": 0.0
             }
