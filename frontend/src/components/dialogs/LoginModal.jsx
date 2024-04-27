@@ -29,7 +29,7 @@ import {
   sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signInWithPopup,
-} from "firebase/auth";
+} from "../../firebase/firebase.js";
 import { Alert } from "@mui/joy";
 import { auth } from "../../firebase/firebase";
 // import GOOGLE_IMAGE from "../../assets/google.png";

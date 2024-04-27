@@ -1,8 +1,9 @@
+import Product from '../models/categoryModel.js'
 import mongoose from "mongoose";
 
 export const getCategories = async (req, res, next) => {
   try {
-    const category = await Category.find({}).sort({ createdAt: -1 });
+    const category = await Product.find({}).sort({ createdAt: -1 });
     res.status(200).json(category);
   } catch (error) {
     res.status(500).json({ message: error.message });

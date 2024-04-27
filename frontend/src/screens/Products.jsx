@@ -37,35 +37,40 @@ const Products = () => {
   const fullPath = location.state.fullPath;
   const path = location.state.path;
   // const history = useHistory();
-  // useEffect(() => {
-  //   fetch(`http://127.0.0.1:3001/api/categories`)
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log("found");
-  //       // setFile(data);
-  //     })
-  //     .catch((e) => {
-  //       if (e.message == "Failed to fetch") {
-  //         setError("Server not found");
-  //       }
-  //     });
-  //   fetch(
-  //     "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
-  //   )
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       // console.log(data.quotes['USDPKR']);
-  //       data &&
-  //         data.quotes &&
-  //         // data.quotes["USDPKR"] &&
-  //         setDollar(data.quotes["USDPKR"]);
-  //     })
-  //     .catch((e) => {
-  //       if (e.message == "Failed to fetch") {
-  //         setError("Server not found");
-  //       }
-  //     });
-  // }, []);
+  useEffect(() => {
+    fetch(`http://localhost:3001/api/categories`)
+      .then((response) => {
+        response.json();
+        console.log(response);
+      })
+      .then((data) => {
+        alert("found");
+        // setFile(data);
+        console.log(data);
+      })
+      .catch((e) => {
+        alert(e.message);
+        if (e.message == "Failed to fetch") {
+          setError("Server not found");
+        }
+      });
+    fetch(
+      "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        // console.log(data.quotes['USDPKR']);
+        data &&
+          data.quotes &&
+          // data.quotes["USDPKR"] &&
+          setDollar(data.quotes["USDPKR"]);
+      })
+      .catch((e) => {
+        if (e.message == "Failed to fetch") {
+          setError("Server not found");
+        }
+      });
+  }, []);
 
   const handleItem = (index, path, fullPath) => {
     console.log(path);
@@ -78,24 +83,6 @@ const Products = () => {
     });
     // setCount(1);
   };
-  // const [data, setData] = useState([]);
-  // let [count, setCount] = useState(0);
-  // const getData = () => {
-  //   fetch("../../../dataset/amazon_computers.json", {
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //   })
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log(data);
-  //       setFile(data);
-  //     });
-  // };
-  // useEffect(() => {
-  //   getData();
-  // }, []);
   return (
     <Card
       elevation={0}
@@ -119,7 +106,7 @@ const Products = () => {
       >
         {/* <div style={{ border: "0px solid white", margin: 5 }}> */}
         {/* <input type="text" /> */}
-        <div>
+        {/* <div>
           <SentimentButton
             variant={sentiment == "all" ? "contained" : "plain"}
             sx={{
@@ -156,7 +143,7 @@ const Products = () => {
             onClick={() => setSentiment("neutral")}
             value={"Neutral"}
           />
-        </div>
+        </div> */}
         <SearchInput
           type="text"
           value={searchedItem}

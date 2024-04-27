@@ -21,7 +21,7 @@ import PrimaryButton from "../buttons/PrimaryButtons";
 import LoginModal from "../dialogs/LoginModal";
 import SignupModal from "../dialogs/SignupModal";
 import { auth } from "../../firebase/firebase";
-import { onAuthStateChanged, signOut } from "firebase/auth";
+import { onAuthStateChanged, signOut } from "../../firebase/firebase.js";
 import { styled, useTheme } from "@mui/material/styles";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";

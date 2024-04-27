@@ -1,5 +1,5 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+import { initializeApp } from "@firebase/app";
 import { getDatabase } from "firebase/database";
 import {
   GoogleAuthProvider,
@@ -9,7 +9,9 @@ import {
   createUserWithEmailAndPassword,
   sendPasswordResetEmail,
   signOut,
-} from "firebase/auth";
+  updateProfile,
+  onAuthStateChanged,
+} from "@firebase/auth";
 import {
   getFirestore,
   query,
@@ -17,16 +19,8 @@ import {
   collection,
   where,
   addDoc,
-} from "firebase/firestore";
-import {
-  APP_ID,
-  AUTH_DOMAIN,
-  FIREBASE,
-  MEASUREMENT_ID,
-  MESSAGING_SENDER_ID,
-  PROJECT_ID,
-  STORAGE_BUCKET,
-} from "../../ENV";
+} from "@firebase/firestore";
+import {FIREBASE, AUTH_DOMAIN, PROJECT_ID, STORAGE_BUCKET, MESSAGING_SENDER_ID, APP_ID, MEASUREMENT_ID} from '../ENV.js'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -65,4 +59,6 @@ export {
   addDoc,
   auth,
   db,
+  updateProfile,
+  onAuthStateChanged,
 };

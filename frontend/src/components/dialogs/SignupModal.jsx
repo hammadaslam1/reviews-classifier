@@ -30,7 +30,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithPopup,
   updateProfile,
-} from "firebase/auth";
+} from "../../firebase/firebase.js";
 import { auth } from "../../firebase/firebase";
 import GoogleIcon from "@mui/icons-material/Google";
 import BACKIMAGE from "../../assets/logos/logo192.png";
