@@ -18,19 +18,28 @@ import {
   where,
   addDoc,
 } from "firebase/firestore";
+import {
+  APP_ID,
+  AUTH_DOMAIN,
+  FIREBASE,
+  MEASUREMENT_ID,
+  MESSAGING_SENDER_ID,
+  PROJECT_ID,
+  STORAGE_BUCKET,
+} from "../../ENV";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAyt2Nl2QanJnDsmojexCPg1NPJTKOgCzU",
-  authDomain: "mha-classifier.firebaseapp.com",
-  projectId: "mha-classifier",
-  storageBucket: "mha-classifier.appspot.com",
-  messagingSenderId: "112690109273",
-  appId: "1:112690109273:web:d18e18dfcbe4e26a84ca48",
-  measurementId: "G-KGDS5VZ61L"
+  apiKey: FIREBASE,
+  authDomain: AUTH_DOMAIN,
+  projectId: PROJECT_ID,
+  storageBucket: STORAGE_BUCKET,
+  messagingSenderId: MESSAGING_SENDER_ID,
+  appId: APP_ID,
+  measurementId: MEASUREMENT_ID,
 };
 
 // Initialize Firebase
