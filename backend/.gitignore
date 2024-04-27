@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-/database/addToDB.ipynb
+/database
 
 # testing
 /coverage
