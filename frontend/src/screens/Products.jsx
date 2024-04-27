@@ -37,35 +37,35 @@ const Products = () => {
   const fullPath = location.state.fullPath;
   const path = location.state.path;
   // const history = useHistory();
-  useEffect(() => {
-    fetch(`http://127.0.0.1:8080/products/${fullPath}`)
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log("found");
-        setFile(data);
-      })
-      .catch((e) => {
-        if (e.message == "Failed to fetch") {
-          setError("Server not found");
-        }
-      });
-    fetch(
-      "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log(data.quotes['USDPKR']);
-        data &&
-          data.quotes &&
-          // data.quotes["USDPKR"] &&
-          setDollar(data.quotes["USDPKR"]);
-      })
-      .catch((e) => {
-        if (e.message == "Failed to fetch") {
-          setError("Server not found");
-        }
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch(`http://127.0.0.1:3001/api/categories`)
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       console.log("found");
+  //       // setFile(data);
+  //     })
+  //     .catch((e) => {
+  //       if (e.message == "Failed to fetch") {
+  //         setError("Server not found");
+  //       }
+  //     });
+  //   fetch(
+  //     "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
+  //   )
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       // console.log(data.quotes['USDPKR']);
+  //       data &&
+  //         data.quotes &&
+  //         // data.quotes["USDPKR"] &&
+  //         setDollar(data.quotes["USDPKR"]);
+  //     })
+  //     .catch((e) => {
+  //       if (e.message == "Failed to fetch") {
+  //         setError("Server not found");
+  //       }
+  //     });
+  // }, []);
 
   const handleItem = (index, path, fullPath) => {
     console.log(path);
