@@ -23,10 +23,12 @@ import SentimentButton from "../components/buttons/SentimentButton";
 import { ITEM_DETAILS } from "../routes/Routes";
 import { useLocation, useNavigate } from "react-router-dom";
 import PLACE_IMAGE from "../assets/placeholder/product_placeholder_img.jpg";
+import axios from "axios";
 // import { useHistory } from 'react-router-dom'
 
 const Products = () => {
   const [file, setFile] = useState([]);
+  const [allCategories, setAllCategories] = useState([]);
   const [dollar, setDollar] = useState(0);
   const [searchedItem, setSearchedItem] = useState("");
   const [sentiment, setSentiment] = useState("all");
@@ -38,47 +40,70 @@ const Products = () => {
   const path = location.state.path;
   // const history = useHistory();
   useEffect(() => {
-    fetch(`http://localhost:3001/api/categories`)
-      .then((response) => {
-        response.json();
-        console.log(response);
+    const uniqueSubcategories = new Set();
+    axios
+      .get(`http://127.0.0.1:3001/api/categories/`)
+      .then((products) => {
+        setFile(products.data);
+        setAllCategories(
+          file
+            .map((data) => data["subcategory"][0]) // Extract the first subcategory from each object
+            .filter((subcategory) => {
+              if (!uniqueSubcategories.has(subcategory)) {
+                uniqueSubcategories.add(subcategory); // Add the subcategory to the set if it's not already present
+                return true; // Include the subcategory in the result
+              } else {
+                return false; // Exclude the subcategory from the result
+              }
+            })
+        );
       })
-      .then((data) => {
-        alert("found");
-        // setFile(data);
-        console.log(data);
-      })
-      .catch((e) => {
-        alert(e.message);
-        if (e.message == "Failed to fetch") {
-          setError("Server not found");
-        }
+      .catch((error) => {
+        console.log(error);
+        setError("server is not running...");
       });
-    fetch(
-      "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log(data.quotes['USDPKR']);
-        data &&
-          data.quotes &&
-          // data.quotes["USDPKR"] &&
-          setDollar(data.quotes["USDPKR"]);
-      })
-      .catch((e) => {
-        if (e.message == "Failed to fetch") {
-          setError("Server not found");
-        }
-      });
+    // fetch(`http://127.0.0.1:3001/api/categories`)
+    //   .then((response) => {
+    //     console.log(response);
+    //     response.json();
+    //   })
+    //   .then((data) => {
+    //     if (data != undefined) {
+    //       setFile(data);
+    //       alert("found");
+    //       console.log(data);
+    //     }
+    //     // setFile(data);
+    //   })
+    //   .catch((e) => {
+    //     alert(e.message);
+    //     if (e.message == "Failed to fetch") {
+    //       setError("Server not found");
+    //     }
+    //   });
+    // fetch(
+    //   "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
+    // )
+    //   .then((response) => response.json())
+    //   .then((data) => {
+    //     // console.log(data.quotes['USDPKR']);
+    //     data &&
+    //       data.quotes &&
+    //       // data.quotes["USDPKR"] &&
+    //       setDollar(data.quotes["USDPKR"]);
+    //   })
+    //   .catch((e) => {
+    //     if (e.message == "Failed to fetch") {
+    //       setError("Server not found");
+    //     }
+    //   });
   }, []);
 
-  const handleItem = (index, path, fullPath) => {
-    console.log(path);
+  const handleItem = (id) => {
+    console.log(id);
     navigate(ITEM_DETAILS, {
       state: {
-        fullPath: fullPath,
-        index: index,
-        path: path,
+        id: id,
       },
     });
     // setCount(1);
@@ -159,7 +184,7 @@ const Products = () => {
       {file.length > 0 ? (
         file.map(
           (data, i) =>
-            // console.log(data.product_title[0])&&
+            data.subcategory[0] == "appliances" &&
             // searchedItem &&
             (data.product_title[0]
               .toLowerCase()
@@ -183,9 +208,9 @@ const Products = () => {
                   // href={`${ITEM_DETAILS}?id=${i}`}
                   // href={ITEM_DETAILS}
                   onClick={() => {
-                    handleItem(i + 1, path, fullPath);
+                    handleItem(data._id);
                   }}
-                  target="_blank"
+                  // target="_blank"
                 >
                   <div
                     style={{
@@ -210,7 +235,7 @@ const Products = () => {
                     />
                   </div>
                   <CardContent>
-                    <Tooltip title={data.product_title[0]} followCursor={true}>
+                    <Tooltip title={data.product_title[0]} followCursor={false}>
                       <Typography
                         gutterBottom
                         variant="h5"
@@ -224,7 +249,7 @@ const Products = () => {
                     <Tooltip
                       title={data.product_description[0]}
                       sx={{ height: 20 }}
-                      followCursor={true}
+                      followCursor={false}
                     >
                       <Typography
                         variant="body1"

@@ -1,13 +1,11 @@
-import Product from '../models/categoryModel.js'
+import Products from "../models/categoryModel.js";
 import mongoose from "mongoose";
 
-export const getCategories = async (req, res, next) => {
-  try {
-    const category = await Product.find({}).sort({ createdAt: -1 });
-    res.status(200).json(category);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
+export const getCategories = (req, res, next) => {
+  console.log("Getting categories...");
+  Products.find()
+    .then((category) => res.status(200).json(category))
+    .catch((error) => res.status(500).json({ message: error.message }));
 };
 
 export const getCategory = async (req, res) => {
@@ -15,9 +13,9 @@ export const getCategory = async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return res.status(404).json({ error: "item not found!" });
   }
-  const workout = await Workout.findById(id);
-  if (!workout) {
+  const category = await Products.findById(id);
+  if (!category) {
     return res.status(404).json({ error: "item not found!" });
   }
-  res.status(200).json(workout);
+  res.status(200).json(category);
 };

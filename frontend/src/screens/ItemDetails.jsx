@@ -14,6 +14,7 @@ import {
   Button,
   Card,
   Chip,
+  LinearProgress,
   Rating,
   Tooltip,
   Typography,
@@ -38,11 +39,13 @@ const ItemDetails = ({ props }) => {
   const [productTitle, setProductTitle] = useState("");
   const [productReviews, setProductReviews] = useState([]);
   const [reviewTopics, setReviewTopics] = useState([]);
+  const [category, setCategory] = useState({});
 
   const location = useLocation();
-  const index = location.state.index - 1;
-  const fullPath = location.state.fullPath;
-  const path = location.state.path;
+  const id = location.state.id;
+  // const index = location.state.index - 1;
+  // const fullPath = location.state.fullPath;
+  // const path = location.state.path;
 
   const stringAvatar = () => {
     return {
@@ -52,11 +55,13 @@ const ItemDetails = ({ props }) => {
     };
   };
   const database = () => {
-    console.log(path);
-    console.log(index);
-    fetch(`http://127.0.0.1:8080/sentiment/${fullPath}/${index}`)
+    // console.log(path);
+    // console.log(index);
+    console.log(id);
+    fetch(`http://127.0.0.1:3001/api/categories/${id}`)
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         // console.log(data["reviews"][0]["review_topics"]);
         setFile(data);
         setProductImage(data["product_images_src"][0]);
@@ -67,6 +72,10 @@ const ItemDetails = ({ props }) => {
         setProductTitle(data["product_title"][0]);
         setProductDesc(data["product_description"][0]);
         setProductReviews(data["reviews"]);
+        setCategory({
+          category: data["category"][0],
+          subcategory: data["subcategory"][0],
+        });
         const len = data["reviews"].length;
         for (let i = 0; i < data["reviews"].length; i++) {
           // setReviewTopics([...data["reviews"][i]["review_topics"]]);
@@ -88,38 +97,43 @@ const ItemDetails = ({ props }) => {
   };
   const fetchData = async () => {
     try {
-      const response = await fetch("mongodb://localhost:27017/OpinioMine/computers_laptops"); // Assuming backend server is running on the same host
+      const response = await fetch(
+        "mongodb://localhost:27017/OpinioMine/computers_laptops"
+      ); // Assuming backend server is running on the same host
       console.log(response);
       const jsonData = await response.json();
       setData(jsonData);
       console.log(jsonData);
     } catch (error) {
       console.error("Error fetching data:", error);
-      setError(error.message)
+      setError(error.message);
     }
   };
   useEffect(() => {
-    fetchData();
-    const index = location.state - 1;
-    const path = location.path;
-    console.log(path);
     database();
-    fetch(`http://127.0.0.1:8080/reviews/${fullPath}/${index}`)
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log(data);
-      })
-      .catch((e) => {
-        if (e.message == "Failed to fetch") {
-          setError("Server not found");
-        }
-      });
+    // const index = location.state - 1;
+    // const path = location.path;
+    // console.log(path);
+    // database();
+    // fetch(`http://127.0.0.1:8080/reviews/${fullPath}/${index}`)
+    //   .then((response) => response.json())
+    //   .then((data) => {
+    //     // console.log(data);
+    //   })
+    //   .catch((e) => {
+    //     if (e.message == "Failed to fetch") {
+    //       setError("Server not found");
+    //     }
+    //   });
   }, []);
   return (
     <Box sx={{ marginTop: 10, padding: 5 }}>
+      {category != {} && (
+        <h2>{category.category + ">" + category.subcategory}</h2>
+      )}
       <Card elevation={10} sx={{ padding: 5, borderRadius: 3 }}>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
-          <div>
+          <div style={{ margin: "2rem" }}>
             <img
               src={productImage !== "" ? productImage : IMG_PLACE}
               alt={file.product_title}
@@ -184,122 +198,151 @@ const ItemDetails = ({ props }) => {
           <Typography variant="h4" color={"#000"}>
             Reviews
           </Typography>
-          <Typography variant="h5">{productRate}</Typography>
+          <Typography variant="h5">
+            {productRate.split(" ")[0]} reviews
+          </Typography>
         </div>
         <div>
+          <Box>
+            <Typography variant="h4" sx={{ textAlign: "center", my: 2 }}>
+              Helpful Reviews
+            </Typography>
+          </Box>
           <Card elevation={0} sx={{ borderRadius: 3 }}>
-            {productReviews.map((data, i) => (
-              <Accordion
-                key={i}
-                defaultExpanded={false}
-                sx={{ backgroundColor: "#112d4e33" }}
-              >
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon htmlColor="#fff" />}
-                  aria-controls="panel3-content"
-                  id="panel3-header"
-                  sx={{
-                    backgroundColor: "#112d4e",
-                    color: "#fff",
-                    display: "flex",
-                    justifyContent: "space-evenly",
-                    alignItems: "center",
-                  }}
-                >
-                  <Tooltip title={data.reviewer_name}>
-                    <Avatar
-                      {...stringAvatar()}
-                      children={data.reviewer_name[0]}
-                      // src={auth.currentUser.photoURL}
-                    />
-                  </Tooltip>
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      width: "100%",
-                      marginLeft: "15px",
-                    }}
+            {productReviews.map(
+              (data, i) =>
+                data.review_helpfulness >= 0.5 && (
+                  <Accordion
+                    key={i}
+                    defaultExpanded={false}
+                    sx={{ backgroundColor: "#112d4e33" }}
                   >
-                    <div>
-                      <Typography variant="h5">
-                        {data.reviewer_name ? data.reviewer_name : "Someone"} :{" "}
-                        <Typography variant="subtitle1">
-                          {data.review_title}
-                        </Typography>
-                      </Typography>
-                    </div>
-                    <Typography
-                      variant="caption"
-                      sx={{ textAlign: "right", marginX: 5 }}
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon htmlColor="#fff" />}
+                      aria-controls="panel3-content"
+                      id="panel3-header"
+                      sx={{
+                        backgroundColor: "#112d4e",
+                        color: "#fff",
+                        display: "flex",
+                        justifyContent: "space-evenly",
+                        alignItems: "center",
+                      }}
                     >
-                      {data.reviewer_country_date}
-                    </Typography>
-                  </div>
-                </AccordionSummary>
-                <AccordionDetails>{data.review_body}</AccordionDetails>
-                <AccordionDetails sx={{ marginX: 5, padding: "0" }}>
-                  <Typography variant="caption" sx={{ fontWeight: "bold" }}>
-                    Topics discussed in the review.
-                  </Typography>
-                </AccordionDetails>
-                <AccordionDetails>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-                    {reviewTopics[i].map((item, j) => (
-                      <Chip
-                        label={item}
-                        size="large"
-                        sx={{ backgroundColor: "#112d4e", color: "#fff" }}
-                        key={j}
-                      />
-                    ))}
-                  </div>
-                </AccordionDetails>
-                <AccordionActions
-                  sx={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    paddingX: 5,
-                  }}
-                >
-                  <div style={{ display: "flex", alignItems: "center" }}>
-                    <Tooltip
-                      title={`${data.reviews.split(" ")[0]} out of 5 rating`}
-                      followCursor
-                    >
+                      <Tooltip title={data.reviewer_name}>
+                        <Avatar
+                          {...stringAvatar()}
+                          children={data.reviewer_name[0]}
+                          // src={auth.currentUser.photoURL}
+                        />
+                      </Tooltip>
                       <div
                         style={{
-                          width: "fit-content",
-                          margin: 1,
-                          marginLeft: "20px",
-                          marginRight: "30px",
-                          textAlign: "justify",
+                          display: "flex",
+                          flexDirection: "column",
+                          width: "100%",
+                          marginLeft: "15px",
                         }}
                       >
-                        <Rating
-                          name="half-rating"
-                          defaultValue={data.reviews.split(" ")[0]}
-                          value={data.reviews.split(" ")[0]}
-                          precision={0.1}
-                          readOnly
-                        />
+                        <div>
+                          <Typography variant="h5">
+                            {data.reviewer_name
+                              ? data.reviewer_name
+                              : "Someone"}{" "}
+                            :{" "}
+                            <Typography variant="subtitle1">
+                              {data.review_title}
+                            </Typography>
+                          </Typography>
+                        </div>
+                        <Typography
+                          variant="caption"
+                          sx={{ textAlign: "right", marginX: 5 }}
+                        >
+                          {data.reviewer_country_date}
+                        </Typography>
                       </div>
-                    </Tooltip>
-                    <Typography>
-                      {data.review_helpfulness.includes(
-                        "people found this helpful"
-                      )
-                        ? data.review_helpfulness
-                        : "no one found this helpful"}
-                    </Typography>
-                  </div>
-                  <div>
-                    <Typography variant="h4">{data.sentiment}</Typography>
-                  </div>
-                </AccordionActions>
-              </Accordion>
-            ))}
+                    </AccordionSummary>
+                    <AccordionDetails>{data.review_body}</AccordionDetails>
+                    <AccordionDetails sx={{ marginX: 5, padding: "0" }}>
+                      <Typography variant="caption" sx={{ fontWeight: "bold" }}>
+                        Topics discussed in the review.
+                      </Typography>
+                    </AccordionDetails>
+                    <AccordionDetails>
+                      <div
+                        style={{ display: "flex", flexWrap: "wrap", gap: 8 }}
+                      >
+                        {reviewTopics[i].map((item, j) => (
+                          <Chip
+                            label={item}
+                            size="large"
+                            sx={{ backgroundColor: "#112d4e", color: "#fff" }}
+                            key={j}
+                          />
+                        ))}
+                      </div>
+                    </AccordionDetails>
+                    <AccordionActions
+                      sx={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        paddingX: 5,
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center" }}>
+                        <Tooltip
+                          title={`${
+                            data.reviews.split(" ")[0]
+                          } out of 5 rating`}
+                          followCursor
+                        >
+                          <div
+                            style={{
+                              width: "fit-content",
+                              margin: 1,
+                              marginLeft: "20px",
+                              marginRight: "30px",
+                              textAlign: "justify",
+                            }}
+                          >
+                            <Rating
+                              name="half-rating"
+                              defaultValue={data.reviews.split(" ")[0]}
+                              value={data.reviews.split(" ")[0]}
+                              precision={0.1}
+                              readOnly
+                            />
+                          </div>
+                        </Tooltip>
+                        <Typography
+                          sx={{ display: "flex", alignItems: "center" }}
+                        >
+                          {/* {data.review_votes} people found this helpful */}
+                          Helpful
+                          <LinearProgress
+                            variant="determinate"
+                            sx={{
+                              "& .MuiLinearProgress-barColorPrimary": {
+                                backgroundColor: "#023d65",
+                              },
+                              width: "clamp(70px, 10vw, 200px)",
+                              mx:1,
+                              borderRadius: '10px',
+                            }}
+                            value={parseInt(data.review_helpfulness * 100)}
+                          />
+                          {parseInt(data.review_helpfulness * 100)}%
+                        </Typography>
+                      </div>
+                      <div>
+                        <Typography variant="h4">{data.sentiment}</Typography>
+                      </div>
+                    </AccordionActions>
+                  </Accordion>
+                )
+            )}
           </Card>
           {/* {error}
           {data.map((item, index) => (
