@@ -6,8 +6,10 @@ app = Flask(__name__)
 CORS(app)
 
 uniPath = 'F:/react projects/reviews-classifier'
-homePath = 'C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project'
+saadPath = 'D:/BS-IT/4th semester/Capstone Project II/opinio/reviews-classifier'
 
+hammadPath = 'C:/Hammad Aslam/BS IT (post ADP)/3rd Semester/Capstone Project/Project'
+homePath = saadPath
 
 @app.route("/", methods=["GET"])
 def all_products():
