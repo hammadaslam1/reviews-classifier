@@ -37,7 +37,11 @@
                     "dryer"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.39678046107292175,
+                "sentiment_scores": 0.0
             }
         ],
         "category": [
@@ -88,7 +92,11 @@
                     "cold drink"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.8176
             }
         ],
         "category": [
@@ -137,7 +145,11 @@
                     "easy to install"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.7783
             },
             {
                 "reviews": "",
@@ -161,7 +173,11 @@
                     "water conservation"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0029402151703834534,
+                "sentiment_scores": 0.5839
             },
             {
                 "reviews": "",
@@ -183,7 +199,11 @@
                     "design flaw"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.9908
             },
             {
                 "reviews": "",
@@ -200,7 +220,11 @@
                     "faucet"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.21168123185634613,
+                "sentiment_scores": 0.9324
             },
             {
                 "reviews": "",
@@ -217,7 +241,11 @@
                     "faucet"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.052179668098688126,
+                "sentiment_scores": 0.7574
             },
             {
                 "reviews": "",
@@ -235,7 +263,11 @@
                     "brass fixture"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.04754757136106491,
+                "sentiment_scores": 0.802
             },
             {
                 "reviews": "",
@@ -259,7 +291,11 @@
                     "longevity"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.9477
             },
             {
                 "reviews": "",
@@ -279,7 +315,11 @@
                     "gasket"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.9927
             },
             {
                 "reviews": "",
@@ -299,7 +339,11 @@
                     "garbage"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 1.1363636363636365
+                "review_unhelpfulness": 1.1363636363636365,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.14181196689605713,
+                "sentiment_scores": -0.7525
             },
             {
                 "reviews": "",
@@ -321,7 +365,11 @@
                     "affordable"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.9892
             }
         ],
         "category": [
@@ -371,7 +419,11 @@
                     "perfect fit"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.17089876532554626,
+                "sentiment_scores": 0.7553
             }
         ],
         "category": [
@@ -419,7 +471,11 @@
                     "so so"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0
+                "review_unhelpfulness": 0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 1.0,
+                "sentiment_scores": 0.0
             },
             {
                 "reviews": "",
@@ -438,7 +494,11 @@
                     "burners"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.06033268943428993,
+                "sentiment_scores": 0.7345
             },
             {
                 "reviews": "",
@@ -455,7 +515,11 @@
                     "electric stove"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.2543935775756836,
+                "sentiment_scores": 0.0
             },
             {
                 "reviews": "",
@@ -473,7 +537,11 @@
                     "heavy element"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.8849557522123894
+                "review_unhelpfulness": 0.8849557522123894,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.19866394996643066,
+                "sentiment_scores": 0.5499
             },
             {
                 "reviews": "",
@@ -495,7 +563,11 @@
                     "6 turns"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.054193608462810516,
+                "sentiment_scores": 0.8176
             },
             {
                 "reviews": "",
@@ -513,7 +585,11 @@
                     "stoves"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.7874015748031495
+                "review_unhelpfulness": 0.7874015748031495,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": -0.5411
             }
         ],
         "category": [
@@ -561,7 +637,11 @@
                     "incorrect measurments"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.16569694876670837,
+                "sentiment_scores": -0.5007
             },
             {
                 "reviews": "",
@@ -578,7 +658,11 @@
                     "none"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.8779
             },
             {
                 "reviews": "",
@@ -595,7 +679,11 @@
                     "none"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.6648
             },
             {
                 "reviews": "",
@@ -614,7 +702,11 @@
                     "dimensions"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": -0.6646
             },
             {
                 "reviews": "",
@@ -633,7 +725,11 @@
                     "lights flashing"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": -0.3481
             },
             {
                 "reviews": "",
@@ -652,7 +748,11 @@
                     "space"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.5649717514124294
+                "review_unhelpfulness": 0.5649717514124294,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.047457654029130936,
+                "sentiment_scores": -0.3449
             },
             {
                 "reviews": "",
@@ -669,7 +769,11 @@
                     "none"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.9843
             },
             {
                 "reviews": "",
@@ -687,7 +791,11 @@
                     "storage for red wines"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.49019607843137253
+                "review_unhelpfulness": 0.49019607843137253,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": -0.7469
             },
             {
                 "reviews": "",
@@ -705,7 +813,11 @@
                     "wine cellar"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.954
             },
             {
                 "reviews": "",
@@ -723,7 +835,11 @@
                     "leaking water"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.030088795349001884,
+                "sentiment_scores": -0.0467
             },
             {
                 "reviews": "",
@@ -743,7 +859,11 @@
                     "beeping"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": -0.5367
             }
         ],
         "category": [
@@ -792,7 +912,11 @@
                     "reliable"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.30139946937561035,
+                "sentiment_scores": 0.0
             },
             {
                 "reviews": "",
@@ -809,7 +933,11 @@
                     "Wall stopper"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0678618848323822,
+                "sentiment_scores": 0.838
             },
             {
                 "reviews": "",
@@ -828,7 +956,11 @@
                     "easy to install"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.28234708309173584,
+                "sentiment_scores": 0.9118
             },
             {
                 "reviews": "",
@@ -845,7 +977,11 @@
                     "none"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 1.8181818181818181
+                "review_unhelpfulness": 1.8181818181818181,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.15117770433425903,
+                "sentiment_scores": -0.5684
             }
         ],
         "category": [
@@ -893,7 +1029,11 @@
                     "simple and effective tool"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.37870556116104126,
+                "sentiment_scores": 0.4404
             }
         ],
         "category": [
@@ -942,7 +1082,11 @@
                     "overpriced"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.2444458156824112,
+                "sentiment_scores": 0.743
             }
         ],
         "category": [
@@ -991,7 +1135,11 @@
                     "as advertised"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 2.631578947368421
+                "review_unhelpfulness": 2.631578947368421,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.3997710943222046,
+                "sentiment_scores": -0.4019
             }
         ],
         "category": [
@@ -1040,7 +1188,11 @@
                     "refrigerator air flow"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.0,
+                "sentiment_scores": 0.5621
             },
             {
                 "reviews": "",
@@ -1059,7 +1211,11 @@
                     "bend"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.2777595520019531,
+                "sentiment_scores": 0.7351
             },
             {
                 "reviews": "",
@@ -1076,7 +1232,11 @@
                     "great product"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.5491257905960083,
+                "sentiment_scores": 0.6249
             }
         ],
         "category": [
@@ -1124,7 +1284,11 @@
                     "functions as heater"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 3.225806451612903
+                "review_unhelpfulness": 3.225806451612903,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.3010430932044983,
+                "sentiment_scores": -0.5994
             }
         ],
         "category": [
@@ -1172,7 +1336,11 @@
                     "good laptop accessories"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.6523774862289429,
+                "sentiment_scores": 0.0
             }
         ],
         "category": [
@@ -1220,7 +1388,11 @@
                     "Windows 7"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.7034314870834351,
+                "sentiment_scores": 0.4926
             }
         ],
         "category": [
@@ -1268,7 +1440,11 @@
                     "fits fridge"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.24995042383670807,
+                "sentiment_scores": 0.0
             }
         ],
         "category": [
@@ -1316,7 +1492,11 @@
                     "perfect condition"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.406125545501709,
+                "sentiment_scores": 0.8268
             }
         ],
         "category": [
@@ -1364,7 +1544,11 @@
                     "factory"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.3690829277038574,
+                "sentiment_scores": 0.4753
             }
         ],
         "category": [
@@ -1412,7 +1596,11 @@
                     "old fans"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.3160097599029541,
+                "sentiment_scores": 0.6887
             }
         ],
         "category": [
@@ -1461,7 +1649,11 @@
                     "tower hose"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.16618645191192627,
+                "sentiment_scores": 0.0
             }
         ],
         "category": [
@@ -1511,7 +1703,11 @@
                     "disappointed"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.01027970016002655,
+                "sentiment_scores": 0.2242
             }
         ],
         "category": [
@@ -1562,7 +1758,11 @@
                     "physics"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.20579132437705994,
+                "sentiment_scores": 0.5642
             },
             {
                 "reviews": "",
@@ -1579,7 +1779,11 @@
                     "palm leaf fan blades"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.1186402291059494,
+                "sentiment_scores": 0.8316
             },
             {
                 "reviews": "",
@@ -1596,7 +1800,11 @@
                     "wood fan blades"
                 ],
                 "review_votes": "0",
-                "review_unhelpfulness": 0.0
+                "review_unhelpfulness": 0.0,
+                "similarity_text_description": 0.0,
+                "similarity_text_features": 0.0,
+                "similarity_text_categories": 0.061346232891082764,
+                "sentiment_scores": 0.9712
             }
         ],
         "category": [

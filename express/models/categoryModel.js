@@ -15,6 +15,6 @@ const productSchema = new Schema({
     subcategory: Array,
 });
 
-const Products = mongoose.model('appliances', productSchema);
+const Products = mongoose.model('computers_laptops', productSchema);
 
 export default Products;

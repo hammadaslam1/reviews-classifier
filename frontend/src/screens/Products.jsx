@@ -3,6 +3,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable eqeqeq */
 import {
+  Backdrop,
   Box,
   Button,
   Card,
@@ -10,6 +11,7 @@ import {
   CardActions,
   CardContent,
   CardMedia,
+  CircularProgress,
   Input,
   Tooltip,
   Typography,
@@ -34,53 +36,38 @@ const Products = () => {
   const [sentiment, setSentiment] = useState("all");
   const [error, setError] = useState("");
   const [count, setCount] = useState(1);
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const location = useLocation();
-  const fullPath = location.state.fullPath;
-  const path = location.state.path;
   // const history = useHistory();
-  useEffect(() => {
+  const fetchData = () => {
+    setLoading(true);
     const uniqueSubcategories = new Set();
     axios
       .get(`http://127.0.0.1:3001/api/categories/`)
       .then((products) => {
         setFile(products.data);
-        setAllCategories(
-          file
-            .map((data) => data["subcategory"][0]) // Extract the first subcategory from each object
-            .filter((subcategory) => {
-              if (!uniqueSubcategories.has(subcategory)) {
-                uniqueSubcategories.add(subcategory); // Add the subcategory to the set if it's not already present
-                return true; // Include the subcategory in the result
-              } else {
-                return false; // Exclude the subcategory from the result
-              }
-            })
-        );
+        setLoading(false);
+        // setAllCategories(
+        //   file
+        //     .map((data) => data["subcategory"][0]) // Extract the first subcategory from each object
+        //     .filter((subcategory) => {
+        //       if (!uniqueSubcategories.has(subcategory)) {
+        //         uniqueSubcategories.add(subcategory); // Add the subcategory to the set if it's not already present
+        //         return true; // Include the subcategory in the result
+        //       } else {
+        //         return false; // Exclude the subcategory from the result
+        //       }
+        //     })
+        // );
       })
       .catch((error) => {
+        setLoading(false);
         console.log(error);
-        setError("server is not running...");
+        alert("server is not running...");
       });
-    // fetch(`http://127.0.0.1:3001/api/categories`)
-    //   .then((response) => {
-    //     console.log(response);
-    //     response.json();
-    //   })
-    //   .then((data) => {
-    //     if (data != undefined) {
-    //       setFile(data);
-    //       alert("found");
-    //       console.log(data);
-    //     }
-    //     // setFile(data);
-    //   })
-    //   .catch((e) => {
-    //     alert(e.message);
-    //     if (e.message == "Failed to fetch") {
-    //       setError("Server not found");
-    //     }
-    //   });
+  };
+  useEffect(() => {
+    fetchData();
     // fetch(
     //   "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
     // )
@@ -121,6 +108,13 @@ const Products = () => {
         border: "1px solid #fff",
       }}
     >
+      <Backdrop
+        sx={{ color: "#112d4e", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={loading}
+        // onClick={handleClose}
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
       <Box
         sx={{
           width: "100%",
@@ -184,7 +178,7 @@ const Products = () => {
       {file.length > 0 ? (
         file.map(
           (data, i) =>
-            data.subcategory[0] == "appliances" &&
+            data.subcategory[0] == "computers_laptops" &&
             // searchedItem &&
             (data.product_title[0]
               .toLowerCase()

@@ -4,6 +4,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import {
   Accordion,
   AccordionActions,
@@ -23,6 +25,7 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import IMG_PLACE from "../assets/placeholder/product_placeholder_img.jpg";
+import { FiThumbsUp } from "react-icons/fi";
 
 const ItemDetails = ({ props }) => {
   const [file, setFile] = useState([]);
@@ -294,7 +297,7 @@ const ItemDetails = ({ props }) => {
                       <div style={{ display: "flex", alignItems: "center" }}>
                         <Tooltip
                           title={`${
-                            data.reviews.split(" ")[0]
+                            data.reviews ? data.reviews.split(" ")[0] : "0"
                           } out of 5 rating`}
                           followCursor
                         >
@@ -320,24 +323,41 @@ const ItemDetails = ({ props }) => {
                           sx={{ display: "flex", alignItems: "center" }}
                         >
                           {/* {data.review_votes} people found this helpful */}
-                          Helpful
+                          <Typography variant="h6" fontWeight={700}>
+                            Helpful
+                          </Typography>
                           <LinearProgress
                             variant="determinate"
                             sx={{
                               "& .MuiLinearProgress-barColorPrimary": {
-                                backgroundColor: "#023d65",
+                                backgroundColor: "#112d4e",
                               },
                               width: "clamp(70px, 10vw, 200px)",
-                              mx:1,
-                              borderRadius: '10px',
+                              height: "10px",
+                              mx: 1,
+                              borderRadius: "10px",
                             }}
                             value={parseInt(data.review_helpfulness * 100)}
                           />
-                          {parseInt(data.review_helpfulness * 100)}%
+                          <Typography variant="h6" fontWeight={700}>
+                            {parseInt(data.review_helpfulness * 100)}%
+                          </Typography>
                         </Typography>
                       </div>
                       <div>
-                        <Typography variant="h4">{data.sentiment}</Typography>
+                        <Typography
+                          variant="h4"
+                          sx={{
+                            display: "flex",
+                            alignitems: "end",
+                            justifycontent: "space-between",
+                          }}
+                        >
+                          <Typography variant="h6" fontWeight={700}>
+                            {data.review_votes}
+                          </Typography>
+                          <ThumbUpIcon sx={{ color: "#112d4e" }} />
+                        </Typography>
                       </div>
                     </AccordionActions>
                   </Accordion>
