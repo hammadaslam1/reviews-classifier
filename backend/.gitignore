@@ -5,22 +5,14 @@
 /.pnp
 .pnp.js
 
-<<<<<<< HEAD
 # /database
-=======
-/database
->>>>>>> 29ddac68333b19a12fbc7328981fad6c3b0cb4e5
 
 # testing
 /coverage
 
 # production
 /build
-<<<<<<< HEAD
-# /trainedData
-=======
-
->>>>>>> 29ddac68333b19a12fbc7328981fad6c3b0cb4e5
+/trainedData
 # misc
 .DS_Store
 .env
