@@ -51,7 +51,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.4407160292921074,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -114,7 +115,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -158,7 +160,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.40819437434983685,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -202,7 +205,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6722945484133441,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -245,7 +249,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -288,7 +293,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -331,7 +337,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -377,7 +384,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.24900834011391376,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -422,7 +430,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -467,7 +476,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.2941728735056644,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -514,7 +524,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.18017330324712907,
                     "AT": 0.4375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -557,7 +568,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.6144641746039343,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -600,7 +612,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.4335955157761505,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -643,7 +656,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.854353132628153,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -695,7 +709,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.08358475485501556,
                     "AT": 0.3125
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -755,7 +770,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.33834708822503773,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -815,7 +831,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -861,7 +878,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.5348696816189401,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -919,7 +937,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.41741253051261196,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -962,7 +981,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1005,7 +1025,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.7378356387306754,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1049,7 +1070,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.40417190620608034,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1093,7 +1115,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.30413163366784196,
                     "AT": 0.984375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1138,7 +1161,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.4958377667897603,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1182,7 +1206,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.3215922230311336,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1228,7 +1253,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.3415120503329169,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1272,7 +1298,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.4836156520452696,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1315,7 +1342,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.3317379026468195,
                     "AT": 0.796875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1358,7 +1386,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1401,7 +1430,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1444,7 +1474,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.35499244449610595,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1502,7 +1533,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.7219468895628375,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1548,7 +1580,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.5126431745634349,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1592,7 +1625,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.46596148630322753,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1635,7 +1669,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.7378356387306754,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1679,7 +1714,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1723,7 +1759,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.3591537835638731,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1771,7 +1808,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.384310969746283,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1817,7 +1855,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5903681855166802,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1863,7 +1902,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.26491169291150146,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1906,7 +1946,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.3574402910065571,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1949,7 +1990,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1990,7 +2032,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2033,7 +2076,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2076,7 +2120,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.33754166776030864,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2124,7 +2169,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.3490476743992959,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2168,7 +2214,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2214,7 +2261,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.24315645704986627,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2257,7 +2305,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2302,7 +2351,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.3229821439748209,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2345,7 +2395,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.32472816036689106,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2388,7 +2439,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.8127397419504825,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2433,7 +2485,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2479,7 +2532,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5006393118679531,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2525,7 +2579,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.2569226702875829,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2568,7 +2623,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.38828315703824257,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2611,7 +2667,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.5233375249648643,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2656,7 +2713,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.4538242473555737,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2699,7 +2757,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6550468930666782,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2742,7 +2801,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.42651545972335236,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2786,7 +2846,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.4836156520452696,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2830,7 +2891,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.44654190398698135,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2878,7 +2940,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.28997152156224576,
                     "AT": 0.65625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2923,7 +2986,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.4326293674022079,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -2968,7 +3032,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.34775533307390244,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3013,7 +3078,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.40547426269524744,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3057,7 +3123,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.2585250388342332,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3105,7 +3172,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.33598790387165806,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3156,7 +3224,8 @@
                     "Aux_count": 0.75,
                     "Authenticity": 0.13144733969715608,
                     "AT": 0.484375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3201,7 +3270,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.4811330349877949,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3249,7 +3319,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.38555227827502037,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3295,7 +3366,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.25372091851062445,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3339,7 +3411,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.3604202780627586,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3391,7 +3464,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.3697972084872004,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -3451,7 +3525,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3497,7 +3572,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -3540,7 +3616,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5233375249648643,
                     "AT": 1.0
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3581,7 +3658,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.36519950258685546,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3628,7 +3706,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2745137172421204,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3673,7 +3752,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.65625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3726,7 +3806,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.07572912127534039,
                     "AT": 0.40625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3769,7 +3850,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.4250781551111301,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3812,7 +3894,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3861,7 +3944,8 @@
                     "Aux_count": 0.75,
                     "Authenticity": 0.1282502133402131,
                     "AT": 0.46875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -3907,7 +3991,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.4259799932991911,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -3972,7 +4057,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.4311528010193899,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4013,7 +4099,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.29907445077298617,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4056,7 +4143,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4099,7 +4187,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.4798326165291178,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4142,7 +4231,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4183,7 +4273,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.3959938735461638,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4227,7 +4318,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.3048672239070937,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -4270,7 +4362,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.4680723104680369,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4313,7 +4406,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4356,7 +4450,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.3757991398349413,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -4402,7 +4497,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4445,7 +4541,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -4505,7 +4602,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4546,7 +4644,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.3939211002913462,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -4589,7 +4688,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.3133790538184354,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4634,7 +4734,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.4557406535052032,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4679,7 +4780,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.44654190398698135,
                     "AT": 0.984375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4727,7 +4829,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.4198001840760849,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4772,7 +4875,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.2697286440166831,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4816,7 +4920,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4866,7 +4971,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.43290687810536155,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -4927,7 +5033,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -4971,7 +5078,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.3822563901125109,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5016,7 +5124,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.29554474352800514,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5062,7 +5171,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.3152423399681818,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5108,7 +5218,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.24733457571064849,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5151,7 +5262,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.96875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5194,7 +5306,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -5237,7 +5350,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.984375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5278,7 +5392,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -5321,7 +5436,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.47567127746135074,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -5365,7 +5481,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5409,7 +5526,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.4798326165291178,
                     "AT": 0.984375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5453,7 +5571,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5496,7 +5615,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5540,7 +5660,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.35049369955797943,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5584,7 +5705,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.3688635747219962,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5627,7 +5749,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.41741253051261196,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5671,7 +5794,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.6254794839009648,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -5715,7 +5839,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5131233290712542,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5758,7 +5883,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5807,7 +5933,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5850,7 +5977,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5893,7 +6021,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -5936,7 +6065,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.4411224856661684,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -5979,7 +6109,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.96875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6022,7 +6153,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 1.0,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6066,7 +6198,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.6302810289791575,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6109,7 +6242,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6152,7 +6286,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.697502660073856,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6195,7 +6330,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6239,7 +6375,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.46596148630322753,
                     "AT": 0.984375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6283,7 +6420,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6329,7 +6467,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.4135797182133528,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6370,7 +6509,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.6390490678175964,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6413,7 +6553,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6456,7 +6597,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.49314890154597235,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6500,7 +6642,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6544,7 +6687,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5348696816189401,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6589,7 +6733,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.33705563816952383,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6633,7 +6778,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.32472816036689106,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6676,7 +6822,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.4538242473555737,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6719,7 +6866,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.42861613569506163,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6764,7 +6912,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6807,7 +6956,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6722945484133441,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6850,7 +7000,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.41239022474116893,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6894,7 +7045,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5084418226200162,
                     "AT": 0.96875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6938,7 +7090,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.3741121104831438,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -6982,7 +7135,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.39841511302932753,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7026,7 +7180,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2534164515033667,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7070,7 +7225,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5048006509357201,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7113,7 +7269,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.43065315481914346,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7157,7 +7314,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.4411224856661684,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7200,7 +7358,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.3708055329536208,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -7262,7 +7421,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.5980146460537022,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7310,7 +7470,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.1995866846202035,
                     "AT": 0.65625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7361,7 +7522,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.02567268034005777,
                     "AT": 0.328125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7407,7 +7569,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.28471205135159566,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7455,7 +7618,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.2185005230733465,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7502,7 +7666,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.3037759636620499,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7551,7 +7716,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.17093321649871693,
                     "AT": 0.25
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7599,7 +7765,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.22443043124491463,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7646,7 +7813,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.24221412483343358,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7690,7 +7858,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.19619417535348577,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7737,7 +7906,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.25739691389331804,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7785,7 +7955,8 @@
                     "Aux_count": 0.8500000000000001,
                     "Authenticity": 0.18241175677766844,
                     "AT": 0.296875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7835,7 +8006,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.18183605375680553,
                     "AT": 0.28125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7884,7 +8056,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.20157440175674218,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7929,7 +8102,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.15660302382349037,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -7979,7 +8153,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.20793635871485577,
                     "AT": 0.53125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8022,7 +8197,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8069,7 +8245,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.2755242919761674,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8117,7 +8294,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.27531802575959036,
                     "AT": 0.578125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8164,7 +8342,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.22090485231250084,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8211,7 +8390,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.23821350521217183,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8257,7 +8437,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.23302979415889064,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8307,7 +8488,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.16091937469847414,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8354,7 +8536,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.23887766083099288,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8398,7 +8581,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.27176566314076483,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8447,7 +8631,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.27176566314076483,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8492,7 +8677,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.23292649850827235,
                     "AT": 0.796875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8537,7 +8723,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.19697402854441087,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8586,7 +8773,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.16915082476514529,
                     "AT": 0.5
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8635,7 +8823,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2528504855600055,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8684,7 +8873,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.23199860037712067,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8725,7 +8915,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2393996926136877,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8769,7 +8960,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.24039556862990547,
                     "AT": 0.796875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8812,7 +9004,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.33585028478437756,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8870,7 +9063,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.18180730388168284,
                     "AT": 0.46875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8919,7 +9113,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.20085863560447087,
                     "AT": 0.546875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -8967,7 +9162,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.23720538952710618,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9013,7 +9209,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.2929506620312153,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -9061,7 +9258,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.203225960848131,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9104,7 +9302,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.3688635747219962,
                     "AT": 0.984375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9153,7 +9352,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.08963637656315417,
                     "AT": 0.28125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9199,7 +9399,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.2448987652760552,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9247,7 +9448,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.17311240743809495,
                     "AT": 0.46875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9293,7 +9495,8 @@
                     "Aux_count": 0.8500000000000001,
                     "Authenticity": 0.15834155403702557,
                     "AT": 0.515625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9349,7 +9552,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.21350691619202605,
                     "AT": 0.59375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9398,7 +9602,8 @@
                     "Aux_count": 0.75,
                     "Authenticity": 0.10368858005456763,
                     "AT": 0.4375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9449,7 +9654,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2671235319097896,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9498,7 +9704,8 @@
                     "Aux_count": 0.75,
                     "Authenticity": 0.19267266231631802,
                     "AT": 0.3125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9545,7 +9752,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.2393996926136877,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9591,7 +9799,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.2028335579724097,
                     "AT": 0.546875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9637,7 +9846,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.4958377667897603,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9697,7 +9907,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.21283983130330003,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9748,7 +9959,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.15678129416299083,
                     "AT": 0.484375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9796,7 +10008,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.2166560376487146,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9843,7 +10056,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.22695124241096581,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9891,7 +10105,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.16333966187505652,
                     "AT": 0.453125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9934,7 +10149,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.4784902490879026,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -9985,7 +10201,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.11348001802177402,
                     "AT": 0.515625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10031,7 +10248,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.18898794715244893,
                     "AT": 0.59375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10078,7 +10296,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.1968908651256604,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10124,7 +10343,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.20393013587168546,
                     "AT": 0.453125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10167,7 +10387,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.21097392719425484,
                     "AT": 0.53125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10212,7 +10433,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.17171259772880035,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10255,7 +10477,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.24129560720523208,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10305,7 +10528,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.2089868409977273,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10355,7 +10579,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.17589683904790346,
                     "AT": 0.390625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10406,7 +10631,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.13305436088186287,
                     "AT": 0.53125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10476,7 +10702,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.195226748144335,
                     "AT": 0.40625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10533,7 +10760,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.18788526831928226,
                     "AT": 0.46875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10583,7 +10811,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.10900623955029351,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10635,7 +10864,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.08792142969911572,
                     "AT": 0.484375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10685,7 +10915,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.18097281075311997,
                     "AT": 0.453125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10726,7 +10957,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10773,7 +11005,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.15505525948517876,
                     "AT": 0.515625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10822,7 +11055,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.19258606940744155,
                     "AT": 0.515625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10868,7 +11102,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.16791311423214342,
                     "AT": 0.484375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10919,7 +11154,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.20174313075045375,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -10972,7 +11208,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.17572777242832424,
                     "AT": 0.40625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11031,7 +11268,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.17293386028129723,
                     "AT": 0.546875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11080,7 +11318,8 @@
                     "Aux_count": 0.9,
                     "Authenticity": 0.11911974722244464,
                     "AT": 0.40625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11132,7 +11371,8 @@
                     "Aux_count": 0.9,
                     "Authenticity": 0.13498768485110066,
                     "AT": 0.203125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11176,7 +11416,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.11970666953242134,
                     "AT": 0.46875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11236,7 +11477,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.10921070729601504,
                     "AT": 0.515625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11290,7 +11532,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.13573698512366247,
                     "AT": 0.3125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11347,7 +11590,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.1645042318426195,
                     "AT": 0.53125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11393,7 +11637,8 @@
                     "Aux_count": 0.9500000000000001,
                     "Authenticity": 0.11457696854322427,
                     "AT": 0.484375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11446,7 +11691,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.13093799358636862,
                     "AT": 0.34375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11489,7 +11735,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6302810289791575,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11536,7 +11783,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.31918557344787774,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11582,7 +11830,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.3111296813493721,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11637,7 +11886,8 @@
                     "Aux_count": 1.0,
                     "Authenticity": 0.0,
                     "AT": 0.0
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11694,7 +11944,8 @@
                     "Aux_count": 0.9,
                     "Authenticity": 0.06066271335083091,
                     "AT": 0.234375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11745,7 +11996,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.13677588362539442,
                     "AT": 0.234375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11793,7 +12045,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.24606327478102713,
                     "AT": 0.59375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11844,7 +12097,8 @@
                     "Aux_count": 0.9500000000000001,
                     "Authenticity": 0.038268304338279886,
                     "AT": 0.28125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11894,7 +12148,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.19510941715558222,
                     "AT": 0.578125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11944,7 +12199,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.09884788440248318,
                     "AT": 0.578125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -11996,7 +12252,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.09914715366302015,
                     "AT": 0.53125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12048,7 +12305,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.1532521522172062,
                     "AT": 0.46875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12104,7 +12362,8 @@
                     "Aux_count": 0.9,
                     "Authenticity": 0.02336180345135697,
                     "AT": 0.125
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -12164,7 +12423,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.531849354876206,
                     "AT": 1.0
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12218,7 +12478,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.24061125300774938,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12262,7 +12523,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.44907489298475256,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12306,7 +12568,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.46596148630322753,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12351,7 +12614,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.38314267936629487,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12412,7 +12676,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2557198218201377,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12460,7 +12725,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.20986574450772982,
                     "AT": 0.65625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12504,7 +12770,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12547,7 +12814,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.4726578939984849,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12604,7 +12872,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.1893071289979345,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12648,7 +12917,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5084418226200162,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12697,7 +12967,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.44654190398698135,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12738,7 +13009,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.3109782812793391,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12785,7 +13057,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.2233999109569062,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12831,7 +13104,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.2628302725044552,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12878,7 +13152,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.05339390529501854,
                     "AT": 0.390625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12925,7 +13200,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.11962957890581569,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -12971,7 +13247,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.0719648671535791,
                     "AT": 0.4375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13014,7 +13291,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13057,7 +13335,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.854353132628153,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13100,7 +13379,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6722945484133441,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13144,7 +13424,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6878995699174706,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13188,7 +13469,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.7815296989422296,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13231,7 +13513,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6601573094656903,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13274,7 +13557,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.7815296989422296,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13317,7 +13601,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.6878995699174706,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13360,7 +13645,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13409,7 +13695,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13452,7 +13739,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.38828315703824257,
                     "AT": 0.953125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13497,7 +13785,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13542,7 +13831,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13585,7 +13875,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.6090531454755684,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13629,7 +13920,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -13673,7 +13965,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13716,7 +14009,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5145104420938432,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13757,7 +14051,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13801,7 +14096,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5116546211649835,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13846,7 +14142,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13890,7 +14187,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13934,7 +14232,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.3950053201477124,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -13978,7 +14277,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.5294485823371097,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14022,7 +14322,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.5006393118679531,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14072,7 +14373,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.27176566314076483,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14115,7 +14417,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.3950053201477124,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14162,7 +14465,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.27176566314076483,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14209,7 +14513,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.4773847700186665,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14265,7 +14570,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.2546307375676064,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14312,7 +14618,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.20908220123389393,
                     "AT": 0.578125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14360,7 +14667,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.23318371151908351,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14405,7 +14713,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.3560875337244657,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14454,7 +14763,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.26253916475521794,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -14516,7 +14826,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.21702590090705048,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14563,7 +14874,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.2887013453933052,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14604,7 +14916,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.44654190398698135,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14650,7 +14963,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.38338288860330183,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14695,7 +15009,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.33585028478437756,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14738,7 +15053,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.5095564670131683,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14785,7 +15101,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.3426893550783599,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14833,7 +15150,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.3631035291197198,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14876,7 +15194,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.3380998799635862,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14922,7 +15241,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.26056205795831505,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -14967,7 +15287,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.35120940897995406,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15012,7 +15333,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.16439096529728633,
                     "AT": 0.453125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15059,7 +15381,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.24110316474669174,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15113,7 +15436,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.22614134324115004,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15158,7 +15482,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.2956778353958442,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15204,7 +15529,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.2248908092739635,
                     "AT": 0.53125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15249,7 +15575,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.36688198468972616,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15295,7 +15622,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2546307375676064,
                     "AT": 0.65625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15339,7 +15667,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.33585028478437756,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15382,7 +15711,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.3213475754375638,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15427,7 +15757,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.2773674657319897,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15477,7 +15808,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.3089520973633641,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15524,7 +15856,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.2694353132628153,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15573,7 +15906,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.2469747069923654,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15620,7 +15954,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.3102838429415839,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15666,7 +16001,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.33950839215092626,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15712,7 +16048,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.3578872890649874,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15757,7 +16094,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.40801595842410565,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15804,7 +16142,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.2777104332375749,
                     "AT": 0.765625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15849,7 +16188,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.29739951179820984,
                     "AT": 0.796875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15900,7 +16240,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.2253275315149585,
                     "AT": 0.515625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15946,7 +16287,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.16560905426915615,
                     "AT": 0.34375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -15991,7 +16333,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.34275321194384994,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16037,7 +16380,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.2353539462978031,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16082,7 +16426,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.32801548778092643,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16128,7 +16473,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.27176566314076483,
                     "AT": 0.78125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16175,7 +16521,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.26056205795831505,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16220,7 +16567,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.277261771343476,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16265,7 +16613,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.23158721696922085,
                     "AT": 0.546875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16311,7 +16660,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.3215922230311336,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16354,7 +16704,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16399,7 +16750,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.2593701850665651,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16449,7 +16801,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.3016419436272975,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16493,7 +16846,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.38828315703824257,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16538,7 +16892,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.1907100152120848,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16583,7 +16938,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.3160929706017617,
                     "AT": 0.75
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16627,7 +16983,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2393996926136877,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16672,7 +17029,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.1918026771326919,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16721,7 +17079,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.22495059862838546,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16767,7 +17126,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.36612842228308823,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16813,7 +17173,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.23720538952710618,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16862,7 +17223,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.2380182182619222,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16909,7 +17271,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.2667433573693218,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -16961,7 +17324,8 @@
                     "Aux_count": 0.30000000000000004,
                     "Authenticity": 0.23031232396570073,
                     "AT": 0.671875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17008,7 +17372,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.26616386054953994,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17052,7 +17417,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.5048006509357201,
                     "AT": 0.796875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17099,7 +17465,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.21542052466844447,
                     "AT": 0.5625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17147,7 +17514,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.18488858435755787,
                     "AT": 0.828125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17198,7 +17566,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.2652563059397884,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17250,7 +17619,8 @@
                     "Aux_count": 0.75,
                     "Authenticity": 0.14840179765064163,
                     "AT": 0.4375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17295,7 +17665,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.22592756274962517,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17340,7 +17711,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.32814509567180244,
                     "AT": 0.984375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17392,7 +17764,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.2965256305939788,
                     "AT": 0.65625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17444,7 +17817,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.25065742149267106,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17487,7 +17861,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.859375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17531,7 +17906,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.1929974593580313,
                     "AT": 0.59375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17579,7 +17955,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.23055825676238856,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17625,7 +18002,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.266563989306056,
                     "AT": 0.640625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17669,7 +18047,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.3445890968266883,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17716,7 +18095,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.23836041833070815,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17761,7 +18141,8 @@
                     "Aux_count": 0.35000000000000003,
                     "Authenticity": 0.266563989306056,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17807,7 +18188,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.19085073682307202,
                     "AT": 0.71875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17858,7 +18240,8 @@
                     "Aux_count": 0.25,
                     "Authenticity": 0.22633453019908772,
                     "AT": 0.625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17902,7 +18285,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17945,7 +18329,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.1583761556566423,
                     "AT": 0.421875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -17991,7 +18376,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.209345577124259,
                     "AT": 0.8125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18038,7 +18424,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.16950296902861686,
                     "AT": 0.546875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18085,7 +18472,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.1620696048037408,
                     "AT": 0.5
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18136,7 +18524,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.18597367277104673,
                     "AT": 0.578125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18183,7 +18572,8 @@
                     "Aux_count": 0.75,
                     "Authenticity": 0.2013430019939378,
                     "AT": 0.421875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18232,7 +18622,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.2592265288637184,
                     "AT": 0.578125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18278,7 +18669,8 @@
                     "Aux_count": 0.55,
                     "Authenticity": 0.22651615094756966,
                     "AT": 0.421875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18322,7 +18714,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.4503005328223838,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18374,7 +18767,8 @@
                     "Aux_count": 0.8,
                     "Authenticity": 0.11678910319705568,
                     "AT": 0.265625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18417,7 +18811,8 @@
                     "Aux_count": 0.2,
                     "Authenticity": 0.3496698015024505,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18467,7 +18862,8 @@
                     "Aux_count": 0.7000000000000001,
                     "Authenticity": 0.11498655112903142,
                     "AT": 0.265625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18518,7 +18914,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.07993808172418577,
                     "AT": 0.421875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18561,7 +18958,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.854353132628153,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18611,7 +19009,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.23442031253259893,
                     "AT": 0.65625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18659,7 +19058,8 @@
                     "Aux_count": 0.8500000000000001,
                     "Authenticity": 0.07988958530618136,
                     "AT": 0.28125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18709,7 +19109,8 @@
                     "Aux_count": 0.8500000000000001,
                     "Authenticity": 0.07490630624415363,
                     "AT": 0.234375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18762,7 +19163,8 @@
                     "Aux_count": 0.8500000000000001,
                     "Authenticity": 0.05596988483116562,
                     "AT": 0.390625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18814,7 +19216,8 @@
                     "Aux_count": 0.65,
                     "Authenticity": 0.06018658215046015,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18859,7 +19262,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.1537732642572431,
                     "AT": 0.53125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18910,7 +19314,8 @@
                     "Aux_count": 0.45,
                     "Authenticity": 0.19927174725432523,
                     "AT": 0.703125
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -18969,7 +19374,8 @@
                     "Aux_count": 0.9,
                     "Authenticity": 0.1854319996760048,
                     "AT": 0.359375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19018,7 +19424,8 @@
                     "Aux_count": 0.75,
                     "Authenticity": 0.11689147870560826,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19066,7 +19473,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.15848476629599498,
                     "AT": 0.59375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19117,7 +19525,8 @@
                     "Aux_count": 0.6000000000000001,
                     "Authenticity": 0.1877561847820819,
                     "AT": 0.609375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19160,7 +19569,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -19224,7 +19634,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.3712318164678799,
                     "AT": 0.875
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -19269,7 +19680,8 @@
                     "Aux_count": 0.15000000000000002,
                     "Authenticity": 0.4382192258514471,
                     "AT": 0.84375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19316,7 +19728,8 @@
                     "Aux_count": 0.4,
                     "Authenticity": 0.3445890968266883,
                     "AT": 0.6875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19364,7 +19777,8 @@
                     "Aux_count": 0.5,
                     "Authenticity": 0.2283814898810657,
                     "AT": 0.734375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19407,7 +19821,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.5630593978844589,
                     "AT": 0.9375
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19450,7 +19865,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 1.0,
                     "AT": 0.921875
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19493,7 +19909,8 @@
                     "Aux_count": 0.05,
                     "Authenticity": 0.6722945484133441,
                     "AT": 0.890625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19539,7 +19956,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.3300244100895036,
                     "AT": 0.96875
-                }
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -19582,7 +20000,8 @@
                     "Aux_count": 0.0,
                     "Authenticity": 0.854353132628153,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -19626,7 +20045,8 @@
                     "Aux_count": 0.1,
                     "Authenticity": 0.7378356387306754,
                     "AT": 0.90625
-                }
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [

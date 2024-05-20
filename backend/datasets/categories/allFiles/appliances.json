@@ -50,7 +50,7 @@
                     "Authenticity": 0.41666666666666674,
                     "AT": 0.8378378378378379
                 },
-                "review_fakeness": 1
+                "review_fakeness": 0
             }
         ],
         "category": [
@@ -114,7 +114,7 @@
                     "Authenticity": 0.5217391304347827,
                     "AT": 0.9189189189189189
                 },
-                "review_fakeness": 0
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -228,7 +228,7 @@
                     "Authenticity": 0.2664473684210528,
                     "AT": 0.7297297297297298
                 },
-                "review_fakeness": 0
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -277,7 +277,7 @@
                     "Authenticity": 0.10787671232876708,
                     "AT": 0.5405405405405406
                 },
-                "review_fakeness": 1
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -604,7 +604,7 @@
                     "Authenticity": 0.26052631578947366,
                     "AT": 0.35135135135135137
                 },
-                "review_fakeness": 0
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -862,7 +862,7 @@
                     "Authenticity": 0.6283783783783785,
                     "AT": 0.8108108108108107
                 },
-                "review_fakeness": 1
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -1197,7 +1197,7 @@
                     "Authenticity": 0.5681818181818181,
                     "AT": 0.9189189189189189
                 },
-                "review_fakeness": 0
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1621,7 +1621,7 @@
                     "Authenticity": 0.6666666666666667,
                     "AT": 1.0
                 },
-                "review_fakeness": 0
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1853,7 +1853,7 @@
                     "Authenticity": 0.75,
                     "AT": 0.8918918918918919
                 },
-                "review_fakeness": 0
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -2127,7 +2127,7 @@
                     "Authenticity": 0.5833333333333333,
                     "AT": 0.9189189189189189
                 },
-                "review_fakeness": 1
+                "review_fakeness": 0
             }
         ],
         "category": [
@@ -2552,7 +2552,7 @@
                     "Authenticity": 0.55,
                     "AT": 0.7297297297297298
                 },
-                "review_fakeness": 0
+                "review_fakeness": 1
             }
         ],
         "category": [
