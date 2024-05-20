@@ -31,7 +31,26 @@
                 "review_length": 31,
                 "reviews_count": 1,
                 "avg_review_length": 31,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.20175438596491227,
+                    "Subjectivity": 0.5,
+                    "Neg_count": 0.2,
+                    "Word_count": 0.01822323462414579,
+                    "Unique_words": 0.03524229074889868,
+                    "Noun_count": 0.020833333333333332,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.045454545454545456,
+                    "Adv_count": 0.0625,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.41666666666666674,
+                    "AT": 0.8378378378378379
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -76,7 +95,26 @@
                 "review_length": 177,
                 "reviews_count": 1,
                 "avg_review_length": 177,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.44062788550323173,
+                    "Subjectivity": 0.8233333333333335,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.10250569476082007,
+                    "Unique_words": 0.15859030837004406,
+                    "Noun_count": 0.22916666666666666,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.1590909090909091,
+                    "Adv_count": 0.0625,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.1764705882352941,
+                    "Con_count": 0.0,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.5217391304347827,
+                    "AT": 0.9189189189189189
+                },
+                "review_fakeness": 0
             }
         ],
         "category": [
@@ -120,7 +158,26 @@
                 "review_length": 115,
                 "reviews_count": 1,
                 "avg_review_length": 115,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.587873191751308,
+                    "Subjectivity": 0.6111111111111112,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.05239179954441915,
+                    "Unique_words": 0.09251101321585903,
+                    "Noun_count": 0.08333333333333333,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.13636363636363635,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.8125000000000001,
+                    "AT": 0.8378378378378379
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -152,7 +209,26 @@
                 "review_length": 663,
                 "reviews_count": 1,
                 "avg_review_length": 663,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.3775484764542936,
+                    "Subjectivity": 0.6129166666666667,
+                    "Neg_count": 0.30000000000000004,
+                    "Word_count": 0.34396355353075175,
+                    "Unique_words": 0.45374449339207057,
+                    "Noun_count": 0.5833333333333333,
+                    "Adj_count": 0.46511627906976744,
+                    "Verb_count": 0.4545454545454546,
+                    "Adv_count": 0.28125,
+                    "Pro_count": 0.2857142857142857,
+                    "Pre_count": 0.5294117647058824,
+                    "Con_count": 1.0,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.2857142857142857,
+                    "Authenticity": 0.2664473684210528,
+                    "AT": 0.7297297297297298
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -182,7 +258,26 @@
                 "review_length": 1187,
                 "reviews_count": 1,
                 "avg_review_length": 1187,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.3658079641146391,
+                    "Subjectivity": 0.5059492389331098,
+                    "Neg_count": 0.6000000000000001,
+                    "Word_count": 0.6628701594533031,
+                    "Unique_words": 0.73568281938326,
+                    "Noun_count": 0.9583333333333333,
+                    "Adj_count": 0.5581395348837209,
+                    "Verb_count": 0.75,
+                    "Adv_count": 0.4375,
+                    "Pro_count": 0.7142857142857142,
+                    "Pre_count": 0.8823529411764706,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.6428571428571428,
+                    "Authenticity": 0.10787671232876708,
+                    "AT": 0.5405405405405406
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -207,7 +302,26 @@
                 "review_length": 65,
                 "reviews_count": 1,
                 "avg_review_length": 65,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.7023084025854109,
+                    "Subjectivity": 0.8125,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.027334851936218683,
+                    "Unique_words": 0.052863436123348026,
+                    "Noun_count": 0.041666666666666664,
+                    "Adj_count": 0.09302325581395349,
+                    "Verb_count": 0.06818181818181818,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.75,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -232,7 +346,26 @@
                 "review_length": 126,
                 "reviews_count": 1,
                 "avg_review_length": 126,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.543859649122807,
+                    "Subjectivity": 0.4166666666666667,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.06833712984054671,
+                    "Unique_words": 0.11013215859030838,
+                    "Noun_count": 0.08333333333333333,
+                    "Adj_count": 0.046511627906976744,
+                    "Verb_count": 0.18181818181818182,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.2857142857142857,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.14285714285714285,
+                    "Authenticity": 0.6048387096774193,
+                    "AT": 0.8108108108108107
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -258,7 +391,26 @@
                 "review_length": 263,
                 "reviews_count": 1,
                 "avg_review_length": 263,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.5414589104339798,
+                    "Subjectivity": 0.6166666666666666,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.11389521640091119,
+                    "Unique_words": 0.18502202643171808,
+                    "Noun_count": 0.29166666666666663,
+                    "Adj_count": 0.16279069767441862,
+                    "Verb_count": 0.13636363636363635,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.2857142857142857,
+                    "Pre_count": 0.29411764705882354,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.14285714285714285,
+                    "Authenticity": 0.5735294117647058,
+                    "AT": 0.9189189189189189
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -290,7 +442,26 @@
                 "review_length": 769,
                 "reviews_count": 1,
                 "avg_review_length": 769,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.41448319502035025,
+                    "Subjectivity": 0.44803312629399583,
+                    "Neg_count": 0.6000000000000001,
+                    "Word_count": 0.3940774487471527,
+                    "Unique_words": 0.49779735682819387,
+                    "Noun_count": 0.5416666666666666,
+                    "Adj_count": 0.3023255813953488,
+                    "Verb_count": 0.7045454545454546,
+                    "Adv_count": 0.5,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.4117647058823529,
+                    "Con_count": 1.0,
+                    "Art_count": 1.0,
+                    "Aux_count": 0.6428571428571428,
+                    "Authenticity": 0.20689655172413807,
+                    "AT": 0.35135135135135137
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -318,7 +489,26 @@
                 "review_length": 1794,
                 "reviews_count": 1,
                 "avg_review_length": 1794,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.39486380424746076,
+                    "Subjectivity": 0.5106837606837605,
+                    "Neg_count": 1.0,
+                    "Word_count": 1.0,
+                    "Unique_words": 1.0,
+                    "Noun_count": 1.0,
+                    "Adj_count": 1.0,
+                    "Verb_count": 1.0,
+                    "Adv_count": 1.0,
+                    "Pro_count": 0.7142857142857142,
+                    "Pre_count": 1.0,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 1.0,
+                    "Aux_count": 1.0,
+                    "Authenticity": 0.010227272727272753,
+                    "AT": 0.0
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -346,7 +536,26 @@
                 "review_length": 130,
                 "reviews_count": 1,
                 "avg_review_length": 130,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.0,
+                    "Subjectivity": 0.46794871794871795,
+                    "Neg_count": 0.2,
+                    "Word_count": 0.06833712984054671,
+                    "Unique_words": 0.11013215859030838,
+                    "Noun_count": 0.125,
+                    "Adj_count": 0.046511627906976744,
+                    "Verb_count": 0.18181818181818182,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.2857142857142857,
+                    "Authenticity": 0.41129032258064524,
+                    "AT": 0.7567567567567568
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -376,7 +585,26 @@
                 "review_length": 854,
                 "reviews_count": 1,
                 "avg_review_length": 854,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.496513855889985,
+                    "Subjectivity": 0.6015226802183322,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.43052391799544426,
+                    "Unique_words": 0.5418502202643172,
+                    "Noun_count": 0.5416666666666666,
+                    "Adj_count": 0.46511627906976744,
+                    "Verb_count": 0.6363636363636364,
+                    "Adv_count": 0.5,
+                    "Pro_count": 0.7142857142857142,
+                    "Pre_count": 0.5294117647058824,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 1.0,
+                    "Aux_count": 0.6428571428571428,
+                    "Authenticity": 0.26052631578947366,
+                    "AT": 0.35135135135135137
+                },
+                "review_fakeness": 0
             }
         ],
         "category": [
@@ -421,7 +649,26 @@
                 "review_length": 63,
                 "reviews_count": 1,
                 "avg_review_length": 63,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.5078485687903971,
+                    "Subjectivity": 0.35000000000000003,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.029612756264236904,
+                    "Unique_words": 0.05726872246696036,
+                    "Noun_count": 0.08333333333333333,
+                    "Adj_count": 0.09302325581395349,
+                    "Verb_count": 0.022727272727272728,
+                    "Adv_count": 0.0625,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.75,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -461,7 +708,26 @@
                 "review_length": 4,
                 "reviews_count": 1,
                 "avg_review_length": 4,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.27977839335180055,
+                    "Subjectivity": 0.0,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.0022779043280182236,
+                    "Unique_words": 0.0,
+                    "Noun_count": 0.0,
+                    "Adj_count": 0.0,
+                    "Verb_count": 0.0,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.0,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.0,
+                    "AT": 0.9189189189189189
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -488,7 +754,26 @@
                 "review_length": 129,
                 "reviews_count": 1,
                 "avg_review_length": 129,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.7899353647276085,
+                    "Subjectivity": 0.625,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.061503416856492035,
+                    "Unique_words": 0.10572687224669604,
+                    "Noun_count": 0.125,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.13636363636363635,
+                    "Adv_count": 0.0,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.75,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -513,7 +798,26 @@
                 "review_length": 43,
                 "reviews_count": 1,
                 "avg_review_length": 43,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.5198522622345336,
+                    "Subjectivity": 0.41666666666666663,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.02050113895216401,
+                    "Unique_words": 0.039647577092511016,
+                    "Noun_count": 0.041666666666666664,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.022727272727272728,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.14285714285714285,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.0,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.9000000000000002,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -539,7 +843,26 @@
                 "review_length": 154,
                 "reviews_count": 1,
                 "avg_review_length": 154,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.4238227146814404,
+                    "Subjectivity": 0.7999999999999999,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.08200455580865605,
+                    "Unique_words": 0.14096916299559473,
+                    "Noun_count": 0.125,
+                    "Adj_count": 0.046511627906976744,
+                    "Verb_count": 0.11363636363636365,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.14285714285714285,
+                    "Pre_count": 0.23529411764705882,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.21428571428571427,
+                    "Authenticity": 0.6283783783783785,
+                    "AT": 0.8108108108108107
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -569,7 +892,26 @@
                 "review_length": 739,
                 "reviews_count": 1,
                 "avg_review_length": 739,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.36728583819996563,
+                    "Subjectivity": 0.5099627224627226,
+                    "Neg_count": 0.30000000000000004,
+                    "Word_count": 0.36674259681093396,
+                    "Unique_words": 0.4405286343612335,
+                    "Noun_count": 0.5833333333333333,
+                    "Adj_count": 0.3488372093023256,
+                    "Verb_count": 0.4090909090909091,
+                    "Adv_count": 0.25,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.7647058823529411,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.3571428571428571,
+                    "Authenticity": 0.18518518518518515,
+                    "AT": 0.8648648648648649
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -595,7 +937,26 @@
                 "review_length": 165,
                 "reviews_count": 1,
                 "avg_review_length": 165,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.669898430286242,
+                    "Subjectivity": 0.8333333333333334,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.08428246013667427,
+                    "Unique_words": 0.13215859030837004,
+                    "Noun_count": 0.14583333333333331,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.13636363636363635,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.23529411764705882,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.2857142857142857,
+                    "Authenticity": 0.5921052631578947,
+                    "AT": 0.8108108108108107
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -637,7 +998,26 @@
                 "review_length": 154,
                 "reviews_count": 1,
                 "avg_review_length": 154,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.3698060941828255,
+                    "Subjectivity": 0.33666666666666667,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.07517084282460137,
+                    "Unique_words": 0.1277533039647577,
+                    "Noun_count": 0.10416666666666666,
+                    "Adj_count": 0.09302325581395349,
+                    "Verb_count": 0.1590909090909091,
+                    "Adv_count": 0.15625,
+                    "Pro_count": 0.5714285714285714,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.0,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.21428571428571427,
+                    "Authenticity": 0.75,
+                    "AT": 0.6486486486486487
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -662,7 +1042,26 @@
                 "review_length": 319,
                 "reviews_count": 1,
                 "avg_review_length": 319,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.410532911225432,
+                    "Subjectivity": 0.5408730158730158,
+                    "Neg_count": 0.2,
+                    "Word_count": 0.2004555808656037,
+                    "Unique_words": 0.24229074889867844,
+                    "Noun_count": 0.29166666666666663,
+                    "Adj_count": 0.18604651162790697,
+                    "Verb_count": 0.18181818181818182,
+                    "Adv_count": 0.1875,
+                    "Pro_count": 0.2857142857142857,
+                    "Pre_count": 0.47058823529411764,
+                    "Con_count": 1.0,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.21428571428571427,
+                    "Authenticity": 0.19382022471910115,
+                    "AT": 0.8378378378378379
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -687,7 +1086,26 @@
                 "review_length": 254,
                 "reviews_count": 1,
                 "avg_review_length": 254,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.4298245614035088,
+                    "Subjectivity": 0.49166666666666664,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.1548974943052392,
+                    "Unique_words": 0.20704845814977976,
+                    "Noun_count": 0.1875,
+                    "Adj_count": 0.11627906976744186,
+                    "Verb_count": 0.20454545454545456,
+                    "Adv_count": 0.15625,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.47058823529411764,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.6428571428571428,
+                    "Authenticity": 0.33695652173913054,
+                    "AT": 0.6756756756756757
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -714,7 +1132,26 @@
                 "review_length": 857,
                 "reviews_count": 1,
                 "avg_review_length": 857,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.3800058039836433,
+                    "Subjectivity": 0.4316476190476191,
+                    "Neg_count": 0.4,
+                    "Word_count": 0.4510250569476083,
+                    "Unique_words": 0.5903083700440529,
+                    "Noun_count": 0.5416666666666666,
+                    "Adj_count": 0.4418604651162791,
+                    "Verb_count": 0.6136363636363636,
+                    "Adv_count": 0.46875,
+                    "Pro_count": 1.0,
+                    "Pre_count": 0.9411764705882353,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.7857142857142857,
+                    "Authenticity": 0.29020100502512575,
+                    "AT": 0.43243243243243246
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -741,7 +1178,26 @@
                 "review_length": 273,
                 "reviews_count": 1,
                 "avg_review_length": 273,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.3749505342303126,
+                    "Subjectivity": 0.5954761904761905,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.14806378132118453,
+                    "Unique_words": 0.24229074889867844,
+                    "Noun_count": 0.3958333333333333,
+                    "Adj_count": 0.09302325581395349,
+                    "Verb_count": 0.29545454545454547,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.4117647058823529,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.14285714285714285,
+                    "Authenticity": 0.5681818181818181,
+                    "AT": 0.9189189189189189
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -768,7 +1224,26 @@
                 "review_length": 310,
                 "reviews_count": 1,
                 "avg_review_length": 310,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.32992715707397147,
+                    "Subjectivity": 0.46888888888888886,
+                    "Neg_count": 0.4,
+                    "Word_count": 0.1890660592255126,
+                    "Unique_words": 0.28193832599118945,
+                    "Noun_count": 0.14583333333333331,
+                    "Adj_count": 0.09302325581395349,
+                    "Verb_count": 0.29545454545454547,
+                    "Adv_count": 0.375,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.47058823529411764,
+                    "Con_count": 1.0,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.3571428571428571,
+                    "Authenticity": 0.3928571428571428,
+                    "AT": 0.5135135135135136
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -793,7 +1268,26 @@
                 "review_length": 639,
                 "reviews_count": 1,
                 "avg_review_length": 639,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.4437574198654531,
+                    "Subjectivity": 0.40889724310776937,
+                    "Neg_count": 0.6000000000000001,
+                    "Word_count": 0.3576309794988611,
+                    "Unique_words": 0.46696035242290757,
+                    "Noun_count": 0.3958333333333333,
+                    "Adj_count": 0.3023255813953488,
+                    "Verb_count": 0.38636363636363635,
+                    "Adv_count": 0.375,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.7058823529411764,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.42857142857142855,
+                    "Authenticity": 0.23734177215189872,
+                    "AT": 0.7027027027027026
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -819,7 +1313,26 @@
                 "review_length": 280,
                 "reviews_count": 1,
                 "avg_review_length": 280,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.3698060941828255,
+                    "Subjectivity": 0.125,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.14806378132118453,
+                    "Unique_words": 0.21145374449339208,
+                    "Noun_count": 0.3125,
+                    "Adj_count": 0.11627906976744186,
+                    "Verb_count": 0.18181818181818182,
+                    "Adv_count": 0.0625,
+                    "Pro_count": 0.5714285714285714,
+                    "Pre_count": 0.29411764705882354,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.21428571428571427,
+                    "Authenticity": 0.4545454545454546,
+                    "AT": 0.8108108108108107
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -845,7 +1358,26 @@
                 "review_length": 313,
                 "reviews_count": 1,
                 "avg_review_length": 313,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.4204580430342203,
+                    "Subjectivity": 0.5111111111111111,
+                    "Neg_count": 0.30000000000000004,
+                    "Word_count": 0.1890660592255126,
+                    "Unique_words": 0.2378854625550661,
+                    "Noun_count": 0.22916666666666666,
+                    "Adj_count": 0.18604651162790697,
+                    "Verb_count": 0.29545454545454547,
+                    "Adv_count": 0.1875,
+                    "Pro_count": 0.7142857142857142,
+                    "Pre_count": 0.29411764705882354,
+                    "Con_count": 0.0,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.2857142857142857,
+                    "Authenticity": 0.26785714285714296,
+                    "AT": 0.6756756756756757
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -871,7 +1403,26 @@
                 "review_length": 230,
                 "reviews_count": 1,
                 "avg_review_length": 230,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.4022160664819945,
+                    "Subjectivity": 0.46777777777777774,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.1275626423690205,
+                    "Unique_words": 0.20264317180616742,
+                    "Noun_count": 0.1875,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.36363636363636365,
+                    "Adv_count": 0.0625,
+                    "Pro_count": 0.5714285714285714,
+                    "Pre_count": 0.3529411764705882,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.5714285714285714,
+                    "Authenticity": 0.5657894736842104,
+                    "AT": 0.6756756756756757
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -899,7 +1450,26 @@
                 "review_length": 646,
                 "reviews_count": 1,
                 "avg_review_length": 646,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.35420129270544787,
+                    "Subjectivity": 0.445,
+                    "Neg_count": 0.2,
+                    "Word_count": 0.3143507972665148,
+                    "Unique_words": 0.4096916299559472,
+                    "Noun_count": 0.5833333333333333,
+                    "Adj_count": 0.20930232558139533,
+                    "Verb_count": 0.38636363636363635,
+                    "Adv_count": 0.28125,
+                    "Pro_count": 0.8571428571428571,
+                    "Pre_count": 0.47058823529411764,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.14285714285714285,
+                    "Authenticity": 0.3075539568345324,
+                    "AT": 0.6486486486486487
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -942,7 +1512,26 @@
                 "review_length": 51,
                 "reviews_count": 1,
                 "avg_review_length": 51,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.30378578024007385,
+                    "Subjectivity": 0.6190476190476191,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.022779043280182234,
+                    "Unique_words": 0.04405286343612335,
+                    "Noun_count": 0.0625,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.022727272727272728,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.75,
+                    "AT": 0.7837837837837838
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -967,7 +1556,26 @@
                 "review_length": 299,
                 "reviews_count": 1,
                 "avg_review_length": 299,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.6196329639889196,
+                    "Subjectivity": 0.55,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.16628701594533032,
+                    "Unique_words": 0.23348017621145375,
+                    "Noun_count": 0.25,
+                    "Adj_count": 0.16279069767441862,
+                    "Verb_count": 0.36363636363636365,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.3529411764705882,
+                    "Con_count": 0.0,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.6428571428571428,
+                    "Authenticity": 0.3851351351351353,
+                    "AT": 0.6756756756756757
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -994,7 +1602,26 @@
                 "review_length": 137,
                 "reviews_count": 1,
                 "avg_review_length": 137,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.5478608802708526,
+                    "Subjectivity": 0.6409722222222222,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.07972665148063783,
+                    "Unique_words": 0.14096916299559473,
+                    "Noun_count": 0.125,
+                    "Adj_count": 0.11627906976744186,
+                    "Verb_count": 0.11363636363636365,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.2857142857142857,
+                    "Pre_count": 0.29411764705882354,
+                    "Con_count": 0.0,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.14285714285714285,
+                    "Authenticity": 0.6666666666666667,
+                    "AT": 1.0
+                },
+                "review_fakeness": 0
             },
             {
                 "reviews": "",
@@ -1019,7 +1646,26 @@
                 "review_length": 62,
                 "reviews_count": 1,
                 "avg_review_length": 62,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.15974145891043398,
+                    "Subjectivity": 0.43333333333333335,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.02050113895216401,
+                    "Unique_words": 0.039647577092511016,
+                    "Noun_count": 0.0,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.045454545454545456,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.6000000000000001,
+                    "AT": 0.8378378378378379
+                },
+                "review_fakeness": 0
             }
         ],
         "category": [
@@ -1062,7 +1708,26 @@
                 "review_length": 38,
                 "reviews_count": 1,
                 "avg_review_length": 38,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.37980917205293935,
+                    "Subjectivity": 0.5611111111111111,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.01822323462414579,
+                    "Unique_words": 0.03524229074889868,
+                    "Noun_count": 0.041666666666666664,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.045454545454545456,
+                    "Adv_count": 0.0,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.5833333333333333,
+                    "AT": 0.945945945945946
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1106,7 +1771,26 @@
                 "review_length": 68,
                 "reviews_count": 1,
                 "avg_review_length": 68,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.4778393351800554,
+                    "Subjectivity": 0.575,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.031890660592255135,
+                    "Unique_words": 0.06167400881057269,
+                    "Noun_count": 0.0625,
+                    "Adj_count": 0.046511627906976744,
+                    "Verb_count": 0.06818181818181818,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.0,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.6500000000000001,
+                    "AT": 1.0
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1150,7 +1834,26 @@
                 "review_length": 62,
                 "reviews_count": 1,
                 "avg_review_length": 62,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.27977839335180055,
+                    "Subjectivity": 0.0,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.031890660592255135,
+                    "Unique_words": 0.05726872246696036,
+                    "Noun_count": 0.041666666666666664,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.06818181818181818,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.14285714285714285,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.75,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 0
             }
         ],
         "category": [
@@ -1194,7 +1897,26 @@
                 "review_length": 385,
                 "reviews_count": 1,
                 "avg_review_length": 385,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.27451703421232504,
+                    "Subjectivity": 0.36493506493506495,
+                    "Neg_count": 0.2,
+                    "Word_count": 0.19589977220956725,
+                    "Unique_words": 0.2995594713656388,
+                    "Noun_count": 0.41666666666666663,
+                    "Adj_count": 0.16279069767441862,
+                    "Verb_count": 0.3181818181818182,
+                    "Adv_count": 0.15625,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.5294117647058824,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.21428571428571427,
+                    "Authenticity": 0.4568965517241379,
+                    "AT": 0.8648648648648649
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1221,7 +1943,26 @@
                 "review_length": 189,
                 "reviews_count": 1,
                 "avg_review_length": 189,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.27977839335180055,
+                    "Subjectivity": 0.5,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.10933940774487474,
+                    "Unique_words": 0.15859030837004406,
+                    "Noun_count": 0.1875,
+                    "Adj_count": 0.046511627906976744,
+                    "Verb_count": 0.20454545454545456,
+                    "Adv_count": 0.125,
+                    "Pro_count": 0.2857142857142857,
+                    "Pre_count": 0.3529411764705882,
+                    "Con_count": 0.0,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.3571428571428571,
+                    "Authenticity": 0.44387755102040827,
+                    "AT": 0.8378378378378379
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1246,7 +1987,26 @@
                 "review_length": 12,
                 "reviews_count": 1,
                 "avg_review_length": 12,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.8559556786703602,
+                    "Subjectivity": 0.75,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.0022779043280182236,
+                    "Unique_words": 0.004405286343612335,
+                    "Noun_count": 0.020833333333333332,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.0,
+                    "Adv_count": 0.0,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.0,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.75,
+                    "AT": 0.945945945945946
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1286,7 +2046,26 @@
                 "review_length": 54,
                 "reviews_count": 1,
                 "avg_review_length": 54,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.27977839335180055,
+                    "Subjectivity": 0.0,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.025056947608200462,
+                    "Unique_words": 0.04845814977973569,
+                    "Noun_count": 0.0625,
+                    "Adj_count": 0.0,
+                    "Verb_count": 0.06818181818181818,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.14285714285714285,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.0,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.14285714285714285,
+                    "Authenticity": 0.8749999999999999,
+                    "AT": 0.8648648648648649
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1329,7 +2108,26 @@
                 "review_length": 34,
                 "reviews_count": 1,
                 "avg_review_length": 34,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.23476454293628807,
+                    "Subjectivity": 0.1875,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.01822323462414579,
+                    "Unique_words": 0.03524229074889868,
+                    "Noun_count": 0.020833333333333332,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.022727272727272728,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.0,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.14285714285714285,
+                    "Authenticity": 0.5833333333333333,
+                    "AT": 0.9189189189189189
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1370,7 +2168,26 @@
                 "review_length": 5,
                 "reviews_count": 1,
                 "avg_review_length": 5,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.909972299168975,
+                    "Subjectivity": 0.6000000000000001,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.0,
+                    "Unique_words": 0.0,
+                    "Noun_count": 0.0,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.0,
+                    "Adv_count": 0.0,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.0,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.75,
+                    "AT": 0.945945945945946
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1412,7 +2229,26 @@
                 "review_length": 24,
                 "reviews_count": 1,
                 "avg_review_length": 24,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.27977839335180055,
+                    "Subjectivity": 0.0,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.011389521640091119,
+                    "Unique_words": 0.02202643171806168,
+                    "Noun_count": 0.08333333333333333,
+                    "Adj_count": 0.0,
+                    "Verb_count": 0.0,
+                    "Adv_count": 0.0,
+                    "Pro_count": 0.14285714285714285,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 1.0,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1452,7 +2288,26 @@
                 "review_length": 44,
                 "reviews_count": 1,
                 "avg_review_length": 44,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 1.0,
+                    "Subjectivity": 1.0,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.013667425968109341,
+                    "Unique_words": 0.026431718061674013,
+                    "Noun_count": 0.0625,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.045454545454545456,
+                    "Adv_count": 0.0,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.0,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.75,
+                    "AT": 0.945945945945946
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1493,7 +2348,26 @@
                 "review_length": 58,
                 "reviews_count": 1,
                 "avg_review_length": 58,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.40854528666163015,
+                    "Subjectivity": 0.28484848484848485,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.03644646924829158,
+                    "Unique_words": 0.06607929515418502,
+                    "Noun_count": 0.10416666666666666,
+                    "Adj_count": 0.023255813953488372,
+                    "Verb_count": 0.045454545454545456,
+                    "Adv_count": 0.0625,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.661764705882353,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1533,7 +2407,26 @@
                 "review_length": 29,
                 "reviews_count": 1,
                 "avg_review_length": 29,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.5198522622345336,
+                    "Subjectivity": 0.3666666666666667,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.015945330296127564,
+                    "Unique_words": 0.030837004405286347,
+                    "Noun_count": 0.020833333333333332,
+                    "Adj_count": 0.09302325581395349,
+                    "Verb_count": 0.022727272727272728,
+                    "Adv_count": 0.03125,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.0,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.0,
+                    "Aux_count": 0.0,
+                    "Authenticity": 0.75,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1577,7 +2470,26 @@
                 "review_length": 155,
                 "reviews_count": 1,
                 "avg_review_length": 155,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.22576177285318558,
+                    "Subjectivity": 0.775,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.07061503416856493,
+                    "Unique_words": 0.11013215859030838,
+                    "Noun_count": 0.1875,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.13636363636363635,
+                    "Adv_count": 0.0,
+                    "Pro_count": 0.2857142857142857,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.515625,
+                    "AT": 0.9189189189189189
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
@@ -1621,7 +2533,26 @@
                 "review_length": 185,
                 "reviews_count": 1,
                 "avg_review_length": 185,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.44595452446906736,
+                    "Subjectivity": 0.64375,
+                    "Neg_count": 0.1,
+                    "Word_count": 0.10022779043280185,
+                    "Unique_words": 0.15859030837004406,
+                    "Noun_count": 0.1875,
+                    "Adj_count": 0.06976744186046512,
+                    "Verb_count": 0.1590909090909091,
+                    "Adv_count": 0.15625,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.1764705882352941,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.21428571428571427,
+                    "Authenticity": 0.55,
+                    "AT": 0.7297297297297298
+                },
+                "review_fakeness": 0
             }
         ],
         "category": [
@@ -1668,7 +2599,26 @@
                 "review_length": 195,
                 "reviews_count": 1,
                 "avg_review_length": 195,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.35651629072681706,
+                    "Subjectivity": 0.4714285714285714,
+                    "Neg_count": 0.2,
+                    "Word_count": 0.09111617312072894,
+                    "Unique_words": 0.14977973568281938,
+                    "Noun_count": 0.125,
+                    "Adj_count": 0.11627906976744186,
+                    "Verb_count": 0.13636363636363635,
+                    "Adv_count": 0.1875,
+                    "Pro_count": 0.42857142857142855,
+                    "Pre_count": 0.058823529411764705,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.5670731707317074,
+                    "AT": 0.7297297297297298
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1693,7 +2643,26 @@
                 "review_length": 118,
                 "reviews_count": 1,
                 "avg_review_length": 118,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.4698368728839643,
+                    "Subjectivity": 0.4347222222222223,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.06378132118451027,
+                    "Unique_words": 0.1145374449339207,
+                    "Noun_count": 0.1875,
+                    "Adj_count": 0.09302325581395349,
+                    "Verb_count": 0.06818181818181818,
+                    "Adv_count": 0.09375,
+                    "Pro_count": 0.0,
+                    "Pre_count": 0.11764705882352941,
+                    "Con_count": 0.3333333333333333,
+                    "Art_count": 0.3333333333333333,
+                    "Aux_count": 0.07142857142857142,
+                    "Authenticity": 0.646551724137931,
+                    "AT": 0.8918918918918919
+                },
+                "review_fakeness": 1
             },
             {
                 "reviews": "",
@@ -1718,7 +2687,26 @@
                 "review_length": 360,
                 "reviews_count": 1,
                 "avg_review_length": 360,
-                "avg_rating": 0.0
+                "avg_rating": 0.0,
+                "review_stats": {
+                    "Sentiment": 0.5363573407202216,
+                    "Subjectivity": 0.5520833333333334,
+                    "Neg_count": 0.0,
+                    "Word_count": 0.17995444191343965,
+                    "Unique_words": 0.25550660792951546,
+                    "Noun_count": 0.25,
+                    "Adj_count": 0.27906976744186046,
+                    "Verb_count": 0.3181818181818182,
+                    "Adv_count": 0.15625,
+                    "Pro_count": 0.14285714285714285,
+                    "Pre_count": 0.4117647058823529,
+                    "Con_count": 0.6666666666666666,
+                    "Art_count": 0.6666666666666666,
+                    "Aux_count": 0.2857142857142857,
+                    "Authenticity": 0.37499999999999994,
+                    "AT": 0.8378378378378379
+                },
+                "review_fakeness": 1
             }
         ],
         "category": [
