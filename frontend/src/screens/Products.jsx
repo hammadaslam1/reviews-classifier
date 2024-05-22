@@ -27,9 +27,14 @@ import { useLocation, useNavigate } from "react-router-dom";
 import PLACE_IMAGE from "../assets/placeholder/product_placeholder_img.jpg";
 import axios from "axios";
 import { BASE_URL } from "../ENV";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleRecord } from "../redux/record/RecordReducer";
+import { toggleCategory } from "../redux/category/CategoryReducer";
 // import { useHistory } from 'react-router-dom'
 
 const Products = () => {
+  const dispatch = useDispatch();
+  const { category } = useSelector((state) => state.category);
   const [file, setFile] = useState([]);
   const [allCategories, setAllCategories] = useState([]);
   const [dollar, setDollar] = useState(0);
@@ -44,7 +49,7 @@ const Products = () => {
     setLoading(true);
     const uniqueSubcategories = new Set();
     axios
-      .get(`${BASE_URL}api/categories/`)
+      .get(`${BASE_URL}api/categories/${category}`)
       .then((products) => {
         setFile(products.data);
         setLoading(false);
@@ -69,31 +74,17 @@ const Products = () => {
   };
   useEffect(() => {
     fetchData();
-    // fetch(
-    //   "http://apilayer.net/api/live?access_key=e5a71c0c6b6e74ad5e1a3c81b24c4d8f&currencies=USD,PKR"
-    // )
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     // console.log(data.quotes['USDPKR']);
-    //     data &&
-    //       data.quotes &&
-    //       // data.quotes["USDPKR"] &&
-    //       setDollar(data.quotes["USDPKR"]);
-    //   })
-    //   .catch((e) => {
-    //     if (e.message == "Failed to fetch") {
-    //       setError("Server not found");
-    //     }
-    //   });
-  }, []);
+  }, [category]);
 
-  const handleItem = (id) => {
+  const handleItem = (id, cat) => {
     console.log(id);
-    navigate(ITEM_DETAILS, {
-      state: {
-        id: id,
-      },
-    });
+    // navigate(ITEM_DETAILS, {
+    //   state: {
+    //     id: id,
+    //   },
+    // });
+    dispatch(toggleRecord(id));
+    dispatch(toggleCategory(cat));
     // setCount(1);
   };
   return (
@@ -126,8 +117,8 @@ const Products = () => {
       >
         {/* <div style={{ border: "0px solid white", margin: 5 }}> */}
         {/* <input type="text" /> */}
-        {/* <div>
-          <SentimentButton
+        <div>
+          {/*  <SentimentButton
             variant={sentiment == "all" ? "contained" : "plain"}
             sx={{
               backgroundColor: sentiment == "all" ? "#112d4e" : "#f5fadf",
@@ -162,8 +153,8 @@ const Products = () => {
             }}
             onClick={() => setSentiment("neutral")}
             value={"Neutral"}
-          />
-        </div> */}
+          />*/}
+        </div>
         <SearchInput
           type="text"
           value={searchedItem}
@@ -198,12 +189,14 @@ const Products = () => {
                   borderRadius: 3,
                 }}
               >
+                <Typography>{data.product_title[0]}</Typography>
                 <CardActionArea
                   // href={data.all_products_href[0]}
                   // href={`${ITEM_DETAILS}?id=${i}`}
                   // href={ITEM_DETAILS}
                   onClick={() => {
-                    handleItem(data._id);
+                    handleItem(data._id, category);
+                    navigate(ITEM_DETAILS);
                   }}
                   // target="_blank"
                 >

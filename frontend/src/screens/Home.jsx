@@ -22,6 +22,7 @@ import SentimentButton from "../components/buttons/SentimentButton";
 import { ITEM_DETAILS } from "../routes/Routes";
 import { useNavigate } from "react-router-dom";
 import PLACE_IMAGE from "../assets/placeholder/product_placeholder_img.jpg";
+import { BASE_URL } from "../ENV";
 // import { useHistory } from 'react-router-dom'
 
 const Home = () => {
@@ -33,7 +34,7 @@ const Home = () => {
   const navigate = useNavigate();
   // const history = useHistory();
   useEffect(() => {
-    fetch("http://127.0.0.1:8080/")
+    fetch(`${BASE_URL}api/categories/all_products`)
       .then((response) => response.json())
       .then((data) => {
         // console.log("found");
@@ -161,12 +162,13 @@ const Home = () => {
           (data, i) =>
             // console.log(data.product_title[0])&&
             // searchedItem &&
-            (data.product_title[0]
-              .toLowerCase()
-              .includes(searchedItem.toLowerCase()) ||
-              data.product_description[0]
-                .toLowerCase()
-                .includes(searchedItem.toLowerCase())) && (
+            // (data.product_title
+            //   .toLowerCase()
+            //   .includes(searchedItem.toLowerCase()) ||
+            //   data.product_description
+            //     .toLowerCase()
+            //     .includes(searchedItem.toLowerCase())) &&
+                 (
               <Card
                 elevation={10}
                 key={i}
@@ -200,8 +202,8 @@ const Home = () => {
                       // height="300"
                       width="280"
                       image={
-                        data.product_images_src[0] != ""
-                          ? data.product_images_src[0]
+                        data.product_images_src != ""
+                          ? data.product_images_src
                           : PLACE_IMAGE
                       }
                       // image={PLACEHOLDER}
@@ -209,7 +211,7 @@ const Home = () => {
                     />
                   </div>
                   <CardContent>
-                    <Tooltip title={data.product_title[0]} followCursor={true}>
+                    <Tooltip title={data.product_title} followCursor={true}>
                       <Typography
                         gutterBottom
                         variant="h5"
@@ -217,11 +219,11 @@ const Home = () => {
                         noWrap
                         ellipsis
                       >
-                        {data.product_title[0]}
+                        {data.product_title}
                       </Typography>
                     </Tooltip>
                     <Tooltip
-                      title={data.product_description[0]}
+                      title={data.product_description}
                       sx={{ height: 20 }}
                       followCursor={true}
                     >
@@ -231,11 +233,11 @@ const Home = () => {
                         noWrap
                         ellipsis
                       >
-                        {data.product_description[0]}
+                        {data.product_description}
                       </Typography>
                     </Tooltip>
                     <Tooltip
-                      title={data.product_price[0]}
+                      title={data.product_price}
                       sx={{ height: 25, marginTop: 2 }}
                       followCursor={false}
                     >
@@ -248,11 +250,11 @@ const Home = () => {
                         {dollar
                           ? "PKR " +
                             (
-                              data.product_price[0].replace(/[^\d\.]/g, "") *
+                              data.product_price.replace(/[^\d\.]/g, "") *
                               dollar
                             ).toFixed(2)
-                          : data.product_price[0]
-                          ? data.product_price[0]
+                          : data.product_price
+                          ? data.product_price
                           : "out of stock"}
                         {/* {dollar} */}
                       </Typography>
@@ -263,7 +265,7 @@ const Home = () => {
                   <Button
                     size="small"
                     color="primary"
-                    href={data.all_products_href[0]}
+                    href={data.all_products_href}
                     target="_blank"
                   >
                     Visit Main Site

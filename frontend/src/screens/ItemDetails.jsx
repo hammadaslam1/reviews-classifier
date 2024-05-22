@@ -26,6 +26,8 @@ import { useLocation } from "react-router-dom";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import IMG_PLACE from "../assets/placeholder/product_placeholder_img.jpg";
 import { FiThumbsUp } from "react-icons/fi";
+import { BASE_URL } from "../ENV";
+import { useSelector } from "react-redux";
 
 const ItemDetails = ({ props }) => {
   const [file, setFile] = useState([]);
@@ -42,10 +44,13 @@ const ItemDetails = ({ props }) => {
   const [productTitle, setProductTitle] = useState("");
   const [productReviews, setProductReviews] = useState([]);
   const [reviewTopics, setReviewTopics] = useState([]);
-  const [category, setCategory] = useState({});
+  // const [category, setCategory] = useState({});
 
-  const location = useLocation();
-  const id = location.state.id;
+  const { record } = useSelector((state) => state.record);
+  const { category } = useSelector((state) => state.category);
+
+  // const location = useLocation();
+  // const id = location.state.id;
   // const index = location.state.index - 1;
   // const fullPath = location.state.fullPath;
   // const path = location.state.path;
@@ -60,25 +65,25 @@ const ItemDetails = ({ props }) => {
   const database = () => {
     // console.log(path);
     // console.log(index);
-    console.log(id);
-    fetch(`http://127.0.0.1:3001/api/categories/${id}`)
+    // console.log(id);
+    fetch(`${BASE_URL}api/categories/${category}/${record}`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
         // console.log(data["reviews"][0]["review_topics"]);
         setFile(data);
-        setProductImage(data["product_images_src"][0]);
-        setProductLink(data["all_products_href"][0]);
-        setProductPrice(data["product_price"][0]);
-        setProductRate(data["product_ratings"][0]);
-        setProductRating(data["product_rating_points"][0]);
-        setProductTitle(data["product_title"][0]);
-        setProductDesc(data["product_description"][0]);
+        setProductImage(data["product_images_src"]);
+        setProductLink(data["all_products_href"]);
+        setProductPrice(data["product_price"]);
+        setProductRate(data["product_ratings"]);
+        setProductRating(data["product_rating_points"]);
+        setProductTitle(data["product_title"]);
+        setProductDesc(data["product_description"]);
         setProductReviews(data["reviews"]);
-        setCategory({
-          category: data["category"][0],
-          subcategory: data["subcategory"][0],
-        });
+        // setCategory({
+        //   category: data["category"][0],
+        //   subcategory: data["subcategory"][0],
+        // });
         const len = data["reviews"].length;
         for (let i = 0; i < data["reviews"].length; i++) {
           // setReviewTopics([...data["reviews"][i]["review_topics"]]);
@@ -131,9 +136,9 @@ const ItemDetails = ({ props }) => {
   }, []);
   return (
     <Box sx={{ marginTop: 10, padding: 5 }}>
-      {category != {} && (
+      {/* {category != {} && (
         <h2>{category.category + ">" + category.subcategory}</h2>
-      )}
+      )} */}
       <Card elevation={10} sx={{ padding: 5, borderRadius: 3 }}>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <div style={{ margin: "2rem" }}>
@@ -161,10 +166,10 @@ const ItemDetails = ({ props }) => {
               color={"#000"}
               sx={{ margin: 1, marginX: 3, textAlign: "justify" }}
             >
-              {productPrice.length > 0 && productPrice.split(".")[0]}
+              {productPrice.length > 0 && productPrice}
               <Typography variant="overline">
                 {productPrice.length > 0
-                  ? productPrice.split(".")[1]
+                  ? productPrice.split
                   : "Out of Stock"}
               </Typography>
             </Typography>
@@ -202,7 +207,7 @@ const ItemDetails = ({ props }) => {
             Reviews
           </Typography>
           <Typography variant="h5">
-            {productRate.split(" ")[0]} reviews
+            {productRate} reviews
           </Typography>
         </div>
         <div>

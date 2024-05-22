@@ -31,6 +31,8 @@ import { useNavigate } from "react-router-dom";
 import LOGO from "../../assets/logos/logo192.png";
 import NAME_SLOGAN from "../../assets/logos/name_slogan.png";
 import { category, subCat } from "../data/DataPaths";
+import { useDispatch } from "react-redux";
+import { toggleCategory } from "../../redux/category/CategoryReducer.jsx";
 // import { Alert } from "@mui/joy";
 // import LoginModal from "../dialogs/LoginModal";
 
@@ -136,6 +138,8 @@ const Navbar = () => {
   const [user, setUser] = useState();
   const isOpen = Boolean(anchorEl);
 
+  const dispatch = useDispatch();
+
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -145,15 +149,17 @@ const Navbar = () => {
 
   const navigate = useNavigate();
 
-  const handlePath = (fullPath, path) => {
-    navigate(PRODUCTS, {
-      state: {
-        fullPath: fullPath,
-        path: path,
-      },
-    });
+  const handlePath = (fullPath) => {
+    // navigate(PRODUCTS, {
+    //   state: {
+    //     fullPath: fullPath,
+    //     path: path,
+    //   },
+    // });
+    dispatch(toggleCategory(fullPath));
+    // navigate(PRODUCTS);
     setOpen(false);
-    window.location.reload();
+    // window.location.reload();
   };
 
   useEffect(() => {
@@ -338,7 +344,7 @@ const Navbar = () => {
                         key={index}
                         disablePadding
                         sx={{ display: "block" }}
-                        onClick={() => handlePath(data.fullPath, data.path)}
+                        onClick={() => handlePath(data.fullPath)}
                       >
                         <ListItemButton
                           sx={{
@@ -367,9 +373,9 @@ const Navbar = () => {
             </List>
           </div>
         ))}
-        <List>
+        {/* <List>
           <Typography id="Ahsan">Hammad</Typography>
-        </List>
+        </List> */}
         <DrawerFooter>
           {/* <div> */}
           <IconButton size="large" onClick={() => setOpen(!open)}>

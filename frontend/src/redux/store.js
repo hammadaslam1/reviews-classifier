@@ -4,9 +4,11 @@ import storage from "redux-persist/lib/storage";
 
 import { persistReducer, persistStore } from "redux-persist";
 import CategoryReducer from "./category/CategoryReducer";
+import RecordReducer from "./record/RecordReducer";
 
 const rootReducers = combineReducers({
   category: CategoryReducer,
+  record: RecordReducer,
 });
 
 const persistConfig = {
