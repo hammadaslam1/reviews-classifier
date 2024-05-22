@@ -17,7 +17,14 @@ import {
   Card,
   Chip,
   LinearProgress,
+  Paper,
   Rating,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
   Tooltip,
   Typography,
 } from "@mui/material";
@@ -28,6 +35,7 @@ import IMG_PLACE from "../assets/placeholder/product_placeholder_img.jpg";
 import { FiThumbsUp } from "react-icons/fi";
 import { BASE_URL } from "../ENV";
 import { useSelector } from "react-redux";
+import { DetailsCSS } from "../styles/DetailsCSS";
 
 const ItemDetails = ({ props }) => {
   const [file, setFile] = useState([]);
@@ -44,7 +52,8 @@ const ItemDetails = ({ props }) => {
   const [productTitle, setProductTitle] = useState("");
   const [productReviews, setProductReviews] = useState([]);
   const [reviewTopics, setReviewTopics] = useState([]);
-  // const [category, setCategory] = useState({});
+  const [cat, setCat] = useState([]);
+  const [length, setLength] = useState(0);
 
   const { record } = useSelector((state) => state.record);
   const { category } = useSelector((state) => state.category);
@@ -63,14 +72,9 @@ const ItemDetails = ({ props }) => {
     };
   };
   const database = () => {
-    // console.log(path);
-    // console.log(index);
-    // console.log(id);
     fetch(`${BASE_URL}api/categories/${category}/${record}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-        // console.log(data["reviews"][0]["review_topics"]);
         setFile(data);
         setProductImage(data["product_images_src"]);
         setProductLink(data["all_products_href"]);
@@ -80,17 +84,12 @@ const ItemDetails = ({ props }) => {
         setProductTitle(data["product_title"]);
         setProductDesc(data["product_description"]);
         setProductReviews(data["reviews"]);
-        // setCategory({
-        //   category: data["category"][0],
-        //   subcategory: data["subcategory"][0],
-        // });
+        setCat(data["category"]);
+        setLength(data["category"].length);
         const len = data["reviews"].length;
         for (let i = 0; i < data["reviews"].length; i++) {
-          // setReviewTopics([...data["reviews"][i]["review_topics"]]);
           reviewTopics.push(data["reviews"][i]["review_topics"]);
-          console.log(data["reviews"][i]["review_topics"]);
         }
-        console.log(file.product_images_src[0]);
       })
       .then(() => {
         for (const key in productReviews) {
@@ -103,85 +102,49 @@ const ItemDetails = ({ props }) => {
         }
       });
   };
-  const fetchData = async () => {
-    try {
-      const response = await fetch(
-        "mongodb://localhost:27017/OpinioMine/computers_laptops"
-      ); // Assuming backend server is running on the same host
-      console.log(response);
-      const jsonData = await response.json();
-      setData(jsonData);
-      console.log(jsonData);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-      setError(error.message);
-    }
-  };
   useEffect(() => {
     database();
-    // const index = location.state - 1;
-    // const path = location.path;
-    // console.log(path);
-    // database();
-    // fetch(`http://127.0.0.1:8080/reviews/${fullPath}/${index}`)
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     // console.log(data);
-    //   })
-    //   .catch((e) => {
-    //     if (e.message == "Failed to fetch") {
-    //       setError("Server not found");
-    //     }
-    //   });
   }, []);
   return (
-    <Box sx={{ marginTop: 10, padding: 5 }}>
-      {/* {category != {} && (
-        <h2>{category.category + ">" + category.subcategory}</h2>
-      )} */}
-      <Card elevation={10} sx={{ padding: 5, borderRadius: 3 }}>
+    <Box sx={DetailsCSS.mainBox}>
+      {length > 0 &&
+        new Array(length - 1)
+          .fill(1)
+          .map((data, i) => <><span style={DetailsCSS.category}>{cat[i]}</span><span>{" > "}</span></>)}
+      {length > 1 && <span style={DetailsCSS.category}>{cat[length - 1]}</span>}
+      <Card elevation={10} sx={DetailsCSS.firstChild}>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <div style={{ margin: "2rem" }}>
             <img
               src={productImage !== "" ? productImage : IMG_PLACE}
               alt={file.product_title}
               loading="lazy"
-              // height={"300px"}
               style={{ maxWidth: "300px" }}
             />
           </div>
           <div style={{ flex: 2 }}>
-            <Typography variant="h4" color={"#000"}>
+            <Typography variant="h5" color={"#000"}>
               {productTitle}
             </Typography>
             <Typography
               variant="body1"
               color={"#000"}
-              sx={{ margin: 1, marginX: 3, textAlign: "justify" }}
+              sx={DetailsCSS.description}
             >
               {productDesc}
             </Typography>
-            <Typography
-              variant="h5"
-              color={"#000"}
-              sx={{ margin: 1, marginX: 3, textAlign: "justify" }}
-            >
+            <Typography variant="h5" color={"#000"} sx={DetailsCSS.description}>
               {productPrice.length > 0 && productPrice}
               <Typography variant="overline">
-                {productPrice.length > 0
-                  ? productPrice.split
-                  : "Out of Stock"}
+                {productPrice.length > 0 ? productPrice.split : "Out of Stock"}
               </Typography>
             </Typography>
-            <Tooltip title={`${productRating} out of 5 rating`} followCursor>
-              <div
-                style={{
-                  width: "fit-content",
-                  margin: 1,
-                  marginLeft: "20px",
-                  textAlign: "justify",
-                }}
-              >
+            <Tooltip
+              title={`${productRating} out of 5 rating`}
+              placement="top"
+              followCursor
+            >
+              <div style={DetailsCSS.topRating}>
                 <Rating
                   name="half-rating"
                   defaultValue={productRating}
@@ -193,33 +156,23 @@ const ItemDetails = ({ props }) => {
             </Tooltip>
           </div>
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-            alignItems: "center",
-            padding: "10px 20px 0 20px",
-            marginTop: "50px",
-          }}
-        >
-          <Typography variant="h4" color={"#000"}>
+        <div style={DetailsCSS.reviews}>
+          <Typography variant="h5" color={"#000"}>
             Reviews
           </Typography>
-          <Typography variant="h5">
-            {productRate} reviews
-          </Typography>
+          <Typography variant="h6">{productRate} ratings</Typography>
         </div>
         <div>
           <Box>
-            <Typography variant="h4" sx={{ textAlign: "center", my: 2 }}>
-              Helpful Reviews
+            <Typography variant="h5" sx={DetailsCSS.hgHeading}>
+              Human Generated Reviews
             </Typography>
           </Box>
           <Card elevation={0} sx={{ borderRadius: 3 }}>
             {productReviews.map(
               (data, i) =>
-                data.review_helpfulness >= 0.5 && (
+                data.review_helpfulness >= 0.5 &&
+                data.review_fakeness == 1 && (
                   <Accordion
                     key={i}
                     defaultExpanded={false}
@@ -229,13 +182,7 @@ const ItemDetails = ({ props }) => {
                       expandIcon={<ExpandMoreIcon htmlColor="#fff" />}
                       aria-controls="panel3-content"
                       id="panel3-header"
-                      sx={{
-                        backgroundColor: "#112d4e",
-                        color: "#fff",
-                        display: "flex",
-                        justifyContent: "space-evenly",
-                        alignItems: "center",
-                      }}
+                      sx={DetailsCSS.reviewSummary}
                     >
                       <Tooltip title={data.reviewer_name}>
                         <Avatar
@@ -305,6 +252,7 @@ const ItemDetails = ({ props }) => {
                             data.reviews ? data.reviews.split(" ")[0] : "0"
                           } out of 5 rating`}
                           followCursor
+                          placement="top"
                         >
                           <div
                             style={{
@@ -365,6 +313,249 @@ const ItemDetails = ({ props }) => {
                         </Typography>
                       </div>
                     </AccordionActions>
+                    <Accordion
+                      sx={{
+                        backgroundColor: "#112d4e33",
+                        m: 3,
+                        borderRadius: "5px",
+                        overflow: "hidden",
+                      }}
+                    >
+                      <AccordionSummary
+                        expandIcon={<ExpandMoreIcon htmlColor="#fff" />}
+                        aria-controls="panel3-content"
+                        id="panel3-header"
+                        sx={DetailsCSS.reviewSummary}
+                      >
+                        <Typography variant="h6">Review Stats</Typography>
+                      </AccordionSummary>
+                      <AccordionDetails>
+                        <TableContainer component={Paper}>
+                          <Table
+                            sx={{ minWidth: 700 }}
+                            aria-label="customized table"
+                          >
+                            <TableHead>
+                              <TableRow>
+                                <TableCell
+                                component={'h3'}
+                                  sx={{
+                                    backgroundColor: "#112d4e",
+                                    color: "#fff",
+                                    fontWeight: "600",
+                                  }}
+                                >
+                                  Attribute
+                                </TableCell>
+                                <TableCell
+                                  sx={{
+                                    backgroundColor: "#112d4e",
+                                    color: "#fff",
+                                    fontWeight: "600",
+                                  }}
+                                >
+                                  Value {"(usually between 0 and 1)"}
+                                </TableCell>
+                              </TableRow>
+                            </TableHead>
+                            <TableBody>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Similarity with Description
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.similarity_text_description.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Similarity with Categories
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.similarity_text_categories.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              {/* <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Review Length
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_length}
+                                </TableCell>
+                              </TableRow> */}
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  User's Reviews
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.reviews_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Sentiment
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Sentiment.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Subjectivity
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Subjectivity.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  No. of Words
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Word_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Unique Words
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Unique_words.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Noun Count
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Noun_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Adjective Count
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Adj_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Verb Count
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Verb_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Adverb Count
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Adv_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Articles Count
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Art_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  AUX Count
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Aux_count.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  Authenticity
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.Authenticity.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                              <TableRow>
+                                <TableCell
+                                  component="th"
+                                  scope="row"
+                                  sx={DetailsCSS.attribute}
+                                >
+                                  AT
+                                </TableCell>
+                                <TableCell component="td">
+                                  {data.review_stats.AT.toFixed(4)}
+                                </TableCell>
+                              </TableRow>
+                            </TableBody>
+                          </Table>
+                        </TableContainer>
+                      </AccordionDetails>
+                    </Accordion>
                   </Accordion>
                 )
             )}
