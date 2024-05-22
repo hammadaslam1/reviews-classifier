@@ -1,21 +1,30 @@
-import Products from "../models/categoryModel.js";
 import mongoose from "mongoose";
+import getProductModel from "../models/categoryModel.js";
 
-export const getCategories = (req, res, next) => {
-  console.log("Getting categories...");
-  Products.find()
-    .then((category) => res.status(200).json(category))
-    .catch((error) => res.status(500).json({ message: error.message }));
+export const getCategories = async (req, res, next) => {
+  try {
+    const { category } = req.params;
+    const ProductModel = getProductModel(category);
+    const categories = await ProductModel.find();
+    res.status(200).json(categories);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 };
 
 export const getCategory = async (req, res) => {
-  const { id } = req.params;
+  const { id, category } = req.params;
   if (!mongoose.Types.ObjectId.isValid(id)) {
-    return res.status(404).json({ error: "item not found!" });
+    return res.status(404).json({ error: "Item not found!" });
   }
-  const category = await Products.findById(id);
-  if (!category) {
-    return res.status(404).json({ error: "item not found!" });
+  try {
+    const ProductModel = getProductModel(category);
+    const categoryItem = await ProductModel.findById(id);
+    if (!categoryItem) {
+      return res.status(404).json({ error: "Item not found!" });
+    }
+    res.status(200).json(categoryItem);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
   }
-  res.status(200).json(category);
 };

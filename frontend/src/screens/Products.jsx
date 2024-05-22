@@ -26,6 +26,7 @@ import { ITEM_DETAILS } from "../routes/Routes";
 import { useLocation, useNavigate } from "react-router-dom";
 import PLACE_IMAGE from "../assets/placeholder/product_placeholder_img.jpg";
 import axios from "axios";
+import { BASE_URL } from "../ENV";
 // import { useHistory } from 'react-router-dom'
 
 const Products = () => {
@@ -43,7 +44,7 @@ const Products = () => {
     setLoading(true);
     const uniqueSubcategories = new Set();
     axios
-      .get(`http://127.0.0.1:3001/api/categories/`)
+      .get(`${BASE_URL}api/categories/`)
       .then((products) => {
         setFile(products.data);
         setLoading(false);
@@ -178,7 +179,7 @@ const Products = () => {
       {file.length > 0 ? (
         file.map(
           (data, i) =>
-            data.subcategory[0] == "computers_laptops" &&
+            // data.subcategory[0] == "computers_laptops" &&
             // searchedItem &&
             (data.product_title[0]
               .toLowerCase()
@@ -220,8 +221,8 @@ const Products = () => {
                       // height="280"
                       // width="280"
                       image={
-                        data.product_images_src[0] != ""
-                          ? data.product_images_src[0]
+                        data.product_images_src != ""
+                          ? data.product_images_src
                           : PLACE_IMAGE
                       }
                       // image={PLACEHOLDER}
@@ -229,7 +230,7 @@ const Products = () => {
                     />
                   </div>
                   <CardContent>
-                    <Tooltip title={data.product_title[0]} followCursor={false}>
+                    <Tooltip title={data.product_title} followCursor={false}>
                       <Typography
                         gutterBottom
                         variant="h5"
@@ -237,11 +238,11 @@ const Products = () => {
                         noWrap
                         ellipsis
                       >
-                        {data.product_title[0]}
+                        {data.product_title}
                       </Typography>
                     </Tooltip>
                     <Tooltip
-                      title={data.product_description[0]}
+                      title={data.product_description}
                       sx={{ height: 20 }}
                       followCursor={false}
                     >
@@ -251,11 +252,11 @@ const Products = () => {
                         noWrap
                         ellipsis
                       >
-                        {data.product_description[0]}
+                        {data.product_description}
                       </Typography>
                     </Tooltip>
                     <Tooltip
-                      title={data.product_price[0]}
+                      title={data.product_price}
                       sx={{ height: 25, marginTop: 2 }}
                       followCursor={false}
                     >
@@ -268,11 +269,11 @@ const Products = () => {
                         {dollar
                           ? "PKR " +
                             (
-                              data.product_price[0].replace(/[^\d\.]/g, "") *
+                              data.product_price.replace(/[^\d\.]/g, "") *
                               dollar
                             ).toFixed(2)
-                          : data.product_price[0]
-                          ? data.product_price[0]
+                          : data.product_price
+                          ? data.product_price
                           : "out of stock"}
                         {/* {dollar} */}
                       </Typography>
@@ -283,7 +284,7 @@ const Products = () => {
                   <Button
                     size="small"
                     color="primary"
-                    href={data.all_products_href[0]}
+                    href={data.all_products_href}
                     target="_blank"
                   >
                     Visit Main Site
