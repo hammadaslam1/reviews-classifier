@@ -25,6 +25,7 @@ import SocialButton from "../buttons/SocialButton";
 import GOOGLE_IMAGE from "../../assets/google.png";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import SignupInput from "../inputs/SignupInput";
+import PersonIcon from '@mui/icons-material/Person';
 import {
   GoogleAuthProvider,
   createUserWithEmailAndPassword,
@@ -34,6 +35,7 @@ import {
 import { auth } from "../../firebase/firebase";
 import GoogleIcon from "@mui/icons-material/Google";
 import BACKIMAGE from "../../assets/logos/logo192.png";
+import CallIcon from '@mui/icons-material/Call';
 // import './dialog.css'
 
 const Transition = forwardRef(function Transition(props, ref) {
@@ -189,6 +191,7 @@ const SignupModal = ({
             label="Full Name"
             placeholder="Enter Your Full Name"
             required
+            startDecorator={<PersonIcon sx={{ color: "#112d4e" }} />}
           />
           <SignupInput
             type="email"
@@ -202,7 +205,8 @@ const SignupModal = ({
             label="Email Address"
             helperText="We'll use your email address for registration"
             required
-          />
+            startDecorator={<Mail sx={{ color: "#112d4e" }} />}
+            />
           <SignupInput
             type="tel"
             variant="outlined"
@@ -214,6 +218,7 @@ const SignupModal = ({
             placeholder="Enter Contact No."
             label="Contact No."
             required
+            startDecorator={<CallIcon sx={{ color: "#112d4e" }} />}
           />
           <SignupInput
             type="password"
@@ -223,6 +228,7 @@ const SignupModal = ({
               setIsFilled(false);
               setPassword(e.target.value);
             }}
+            startDecorator={<LockIcon sx={{ color: "#112d4e" }} />}
             placeholder="Password"
             label="Password"
             required

@@ -151,7 +151,7 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
             Sign in
           </Typography>
           <LoginInput
-            variant="plain"
+            variant="outlined"
             type="email"
             value={email}
             onChange={(e) => {
@@ -159,10 +159,12 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               setIsFilled(false);
             }}
             startDecorator={<Mail sx={{ color: "#112d4e" }} />}
-            placeholder="example@email.com"
+            placeholder="Enter Email Address"
+            helperText="We'll use your email address for authentication"
+            label='Email Address'
           />
           <LoginInput
-            variant="plain"
+            variant="outlined"
             type="password"
             value={password}
             onChange={(e) => {
@@ -170,7 +172,9 @@ const LoginModal = ({ openLogin, setOpenLogin, openSignup, setOpenSignup }) => {
               setIsFilled(false);
             }}
             startDecorator={<LockIcon sx={{ color: "#112d4e" }} />}
-            placeholder="Password"
+            placeholder="Enter Password"
+            label='Enter Password'
+            required
           />
           <div
             style={{

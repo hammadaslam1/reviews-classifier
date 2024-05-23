@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
 import "../../styles/globals.css";
@@ -164,6 +165,7 @@ const Navbar = () => {
         setUser("logout");
         setOpenLogin(false);
       } else {
+        navigate(PRODUCTS);
         setUser("login");
         setOpenLogin(true);
       }
@@ -314,7 +316,7 @@ const Navbar = () => {
                           </ListItemIcon>
                           <ListItemText
                             primary={data.name}
-                            sx={{ opacity: open ? 1 : 0, fontSize: '10pt' }}
+                            sx={{ opacity: open ? 1 : 0, fontSize: "10pt" }}
                           />
                         </ListItemButton>
                       </ListItem>
