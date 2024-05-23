@@ -183,53 +183,51 @@ const Products = () => {
                 key={i}
                 sx={{
                   backgroundColor: "#fff",
-                  width: 350,
+                  width: 280,
 
-                  margin: 2,
+                  margin: 1,
                   borderRadius: 3,
                 }}
               >
-                <Typography>{data.product_title[0]}</Typography>
                 <CardActionArea
-                  // href={data.all_products_href[0]}
-                  // href={`${ITEM_DETAILS}?id=${i}`}
-                  // href={ITEM_DETAILS}
                   onClick={() => {
                     handleItem(data._id, category);
                     navigate(ITEM_DETAILS);
                   }}
-                  // target="_blank"
                 >
                   <div
                     style={{
-                      height: 300,
+                      height: 250,
                       overflow: "hidden",
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
                     }}
                   >
-                    <CardMedia
-                      component="img"
-                      // height="280"
-                      // width="280"
-                      image={
-                        data.product_images_src != ""
-                          ? data.product_images_src
-                          : PLACE_IMAGE
-                      }
-                      // image={PLACEHOLDER}
-                      // alt="green iguana"
-                    />
+                    {data.product_images_src != "" ? (
+                      <CardMedia
+                        component="img"
+                        image={data.product_images_src}
+                        sx={{padding: 5}}
+                      />
+                    ) : (
+                      <CardMedia component="img" image={PLACE_IMAGE} />
+                    )}
                   </div>
                   <CardContent>
-                    <Tooltip title={data.product_title} followCursor={false}>
+                    <Tooltip
+                      title={data.product_title}
+                      followCursor={false}
+                      placement="top"
+                    >
                       <Typography
                         gutterBottom
-                        variant="h5"
+                        variant="body1"
                         component="div"
                         noWrap
                         ellipsis
+                        fontWeight={600}
+                        color='#555'
                       >
                         {data.product_title}
                       </Typography>
@@ -238,9 +236,10 @@ const Products = () => {
                       title={data.product_description}
                       sx={{ height: 20 }}
                       followCursor={false}
+                      placement="top"
                     >
                       <Typography
-                        variant="body1"
+                        variant="body2"
                         color="text.secondary"
                         noWrap
                         ellipsis
@@ -251,11 +250,12 @@ const Products = () => {
                     <Tooltip
                       title={data.product_price}
                       sx={{ height: 25, marginTop: 2 }}
-                      followCursor={false}
+                      followCursor={true}
+                      placement="top"
                     >
                       <Typography
-                        variant="h5"
-                        color="text.secondary"
+                        variant="h6"
+                        color="#112d4e99"
                         noWrap
                         ellipsis
                       >
