@@ -1,6 +1,6 @@
 export const DetailsCSS = {
   mainBox: { marginTop: 10, padding: 5 },
-  firstChild: { padding: 5, borderRadius: 3 },
+  firstChild: { padding: 5, borderRadius: 3, my: 2 },
   description: { margin: 1, marginX: 3, textAlign: "justify" },
   topRating: {
     width: "fit-content",
@@ -40,5 +40,6 @@ export const DetailsCSS = {
     fontStyle: 'italic',
     marginBottom: '5px',
     fontFamily: 'verdana',
+    textDecoration: 'underline',
   },
 };

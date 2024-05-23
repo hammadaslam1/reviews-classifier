@@ -123,18 +123,18 @@ const ItemDetails = ({ props }) => {
             />
           </div>
           <div style={{ flex: 2 }}>
-            <Typography variant="h5" color={"#000"}>
+            <Typography variant="h5" color={"#112d4e"} fontWeight={600}>
               {productTitle}
             </Typography>
             <Typography
-              variant="body1"
+              variant="body2"
               color={"#000"}
               sx={DetailsCSS.description}
             >
               {productDesc}
             </Typography>
             <Typography variant="h5" color={"#000"} sx={DetailsCSS.description}>
-              {productPrice.length > 0 && productPrice}
+              {productPrice.length > 0 && `${productPrice}`}
               <Typography variant="overline">
                 {productPrice.length > 0 ? productPrice.split : "Out of Stock"}
               </Typography>
@@ -171,7 +171,7 @@ const ItemDetails = ({ props }) => {
           <Card elevation={0} sx={{ borderRadius: 3 }}>
             {productReviews.map(
               (data, i) =>
-                data.review_helpfulness >= 0.5 &&
+                // data.review_helpfulness >= 0.5 &&
                 data.review_fakeness == 1 && (
                   <Accordion
                     key={i}
