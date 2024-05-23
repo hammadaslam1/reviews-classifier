@@ -208,7 +208,7 @@ const Products = () => {
                       <CardMedia
                         component="img"
                         image={data.product_images_src}
-                        sx={{padding: 5}}
+                        sx={{ padding: 5 }}
                       />
                     ) : (
                       <CardMedia component="img" image={PLACE_IMAGE} />
@@ -227,7 +227,7 @@ const Products = () => {
                         noWrap
                         ellipsis
                         fontWeight={600}
-                        color='#555'
+                        color="#555"
                       >
                         {data.product_title}
                       </Typography>
@@ -265,7 +265,7 @@ const Products = () => {
                               data.product_price.replace(/[^\d\.]/g, "") *
                               dollar
                             ).toFixed(2)
-                          : data.product_price
+                          : data.product_price != ""
                           ? data.product_price
                           : "out of stock"}
                         {/* {dollar} */}

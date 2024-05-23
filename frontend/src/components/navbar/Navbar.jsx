@@ -36,7 +36,7 @@ import { toggleCategory } from "../../redux/category/CategoryReducer.jsx";
 // import { Alert } from "@mui/joy";
 // import LoginModal from "../dialogs/LoginModal";
 
-const drawerWidth = 350;
+const drawerWidth = 300;
 
 const stringAvatar = (name) => {
   return {
@@ -150,15 +150,10 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handlePath = (fullPath) => {
-    // navigate(PRODUCTS, {
-    //   state: {
-    //     fullPath: fullPath,
-    //     path: path,
-    //   },
-    // });
     dispatch(toggleCategory(fullPath));
     // navigate(PRODUCTS);
     setOpen(false);
+    navigate(PRODUCTS);
     // window.location.reload();
   };
 
@@ -210,24 +205,9 @@ const Navbar = () => {
               <img src={LOGO} height={50} alt="" srcset="" />
             </IconButton>
             <div>
-              <img src={NAME_SLOGAN} height={45} alt="" srcset="" />
+              <img src={NAME_SLOGAN} height={35} alt="" srcset="" />
             </div>
           </div>
-          {/* <div>
-            <IconButton
-              size="large"
-              // onClick={() => setOpen(!open)}
-            >
-              {auth.currentUser ? (
-                <Avatar
-                  {...stringAvatar("Muhammad Hammad Aslam")}
-                  src={auth.currentUser.photoURL}
-                />
-              ) : (
-                <Avatar />
-              )}
-            </IconButton>
-          </div> */}
           <div style={{ alignSelf: "right" }}>
             <PrimaryButton
               sx={{
@@ -274,7 +254,7 @@ const Navbar = () => {
         // onClose={() => handleDrawerClose()}
       >
         <DrawerHeader>
-          <Typography variant="h4" sx={{ marginX: 3, fontWeight: 700 }}>
+          <Typography variant="h5" sx={{ marginX: 3, fontWeight: 600 }}>
             Menu
           </Typography>
           <IconButton onClick={handleDrawerClose}>
@@ -285,37 +265,6 @@ const Navbar = () => {
             )}
           </IconButton>
         </DrawerHeader>
-        {/* <Divider /> */}
-        {/* <List>
-          {category.map((text, index) => (
-            <ListItem
-              key={index}
-              disablePadding
-              sx={{ display: "block" }}
-              // onClick={() => alert(text)}
-            >
-              <ListItemButton
-                sx={{
-                  minHeight: 48,
-                  justifyContent: open ? "initial" : "center",
-                  px: 2.5,
-                }}
-              >
-                <ListItemIcon
-                  sx={{
-                    minWidth: 0,
-                    mr: open ? 3 : "auto",
-                    justifyContent: "center",
-                  }}
-                >
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} sx={{ opacity: open ? 1 : 0 }} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
-        <Divider /> */}
         {category.sort().map((cat, i) => (
           <div
             key={i}
@@ -325,11 +274,12 @@ const Navbar = () => {
             <Typography
               component={"div"}
               sx={{
-                p: 3,
+                px: 3,
+                py: 2,
                 color: "#fff",
                 backgroundColor: "#1a4578",
                 fontWeight: 600,
-                fontSize: 18,
+                fontSize: 16,
               }}
             >
               {open ? cat : cat[0]}
@@ -364,7 +314,7 @@ const Navbar = () => {
                           </ListItemIcon>
                           <ListItemText
                             primary={data.name}
-                            sx={{ opacity: open ? 1 : 0 }}
+                            sx={{ opacity: open ? 1 : 0, fontSize: '10pt' }}
                           />
                         </ListItemButton>
                       </ListItem>
@@ -404,7 +354,7 @@ const Navbar = () => {
 const style = {
   appbar: {
     backgroundColor: "#6a6a6a",
-    height: "70px",
+    height: "50px",
     position: "fixed",
   },
   toolbar: {

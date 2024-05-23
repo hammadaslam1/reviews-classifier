@@ -277,7 +277,7 @@ const ItemDetails = ({ props }) => {
                         >
                           {/* {data.review_votes} people found this helpful */}
                           <Typography variant="h6" fontWeight={700}>
-                            Helpful
+                            Helpfulness
                           </Typography>
                           <LinearProgress
                             variant="determinate"
