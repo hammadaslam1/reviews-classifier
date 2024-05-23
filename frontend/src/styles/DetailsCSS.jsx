@@ -35,7 +35,10 @@ export const DetailsCSS = {
     fontWeight: "600",
   },
   category: {
-    fontSize: "18px",
+    fontSize: "14px",
     fontWeight: "600",
+    fontStyle: 'italic',
+    marginBottom: '5px',
+    fontFamily: 'verdana',
   },
 };
