@@ -27,7 +27,7 @@ import { styled, useTheme } from "@mui/material/styles";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import { PRODUCTS } from "../../routes/Routes";
+import { PRODUCTS, TEST } from "../../routes/Routes";
 import { useNavigate } from "react-router-dom";
 import LOGO from "../../assets/logos/logo192.png";
 import NAME_SLOGAN from "../../assets/logos/name_slogan.png";
@@ -210,7 +210,19 @@ const Navbar = () => {
               <img src={NAME_SLOGAN} height={35} alt="" srcset="" />
             </div>
           </div>
-          <div style={{ alignSelf: "right" }}>
+          <div style={{ alignSelf: "right", display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
+            {/* <PrimaryButton
+              sx={{
+                minWidth: "100px",
+                alignSelf: "right",
+                fontSize: 20,
+                fontWeight: "normal",
+              }}
+              children='Test'
+              onClick={() => {
+                navigate(TEST)
+              }}
+            /> */}
             <PrimaryButton
               sx={{
                 minWidth: "100px",

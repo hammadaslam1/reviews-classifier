@@ -19,7 +19,7 @@ import { useEffect, useState } from "react";
 import SearchInput from "../components/inputs/SearchInput";
 import { FiSearch } from "react-icons/fi";
 import SentimentButton from "../components/buttons/SentimentButton";
-import { ITEM_DETAILS } from "../routes/Routes";
+import { ITEM_DETAILS, PRODUCTS } from "../routes/Routes";
 import { useNavigate } from "react-router-dom";
 import PLACE_IMAGE from "../assets/placeholder/product_placeholder_img.jpg";
 import { BASE_URL } from "../ENV";
@@ -34,6 +34,7 @@ const Home = () => {
   const navigate = useNavigate();
   // const history = useHistory();
   useEffect(() => {
+    navigate(PRODUCTS)
     fetch(`${BASE_URL}api/categories/all_products`)
       .then((response) => response.json())
       .then((data) => {
@@ -66,24 +67,6 @@ const Home = () => {
   const handleItem = (index) => {
     navigate(ITEM_DETAILS, { state: index });
   };
-  // const [data, setData] = useState([]);
-  // let [count, setCount] = useState(0);
-  // const getData = () => {
-  //   fetch("../../../dataset/amazon_computers.json", {
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //   })
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log(data);
-  //       setFile(data);
-  //     });
-  // };
-  // useEffect(() => {
-  //   getData();
-  // }, []);
   return (
     <Card
       elevation={0}

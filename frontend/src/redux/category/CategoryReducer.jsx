@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  category: 0,
+  category: 'appliances',
 };
 
 const CategoryReducer = createSlice({

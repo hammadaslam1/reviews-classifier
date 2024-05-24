@@ -58,6 +58,8 @@ const ItemDetails = ({ props }) => {
   const { record } = useSelector((state) => state.record);
   const { category } = useSelector((state) => state.category);
 
+  const [arrayToSend, setArrayToSend] = useState([]);
+
   // const location = useLocation();
   // const id = location.state.id;
   // const index = location.state.index - 1;
@@ -103,14 +105,18 @@ const ItemDetails = ({ props }) => {
       });
   };
   useEffect(() => {
+    window.scrollTo(0, 0);
     database();
   }, []);
   return (
     <Box sx={DetailsCSS.mainBox}>
       {length > 0 &&
-        new Array(length - 1)
-          .fill(1)
-          .map((data, i) => <><span style={DetailsCSS.category}>{cat[i]}</span><span>{" > "}</span></>)}
+        new Array(length - 1).fill(1).map((data, i) => (
+          <>
+            <span style={DetailsCSS.category}>{cat[i]}</span>
+            <span>{" > "}</span>
+          </>
+        ))}
       {length > 1 && <span style={DetailsCSS.category}>{cat[length - 1]}</span>}
       <Card elevation={10} sx={DetailsCSS.firstChild}>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
@@ -297,6 +303,42 @@ const ItemDetails = ({ props }) => {
                           </Typography>
                         </Typography>
                       </div>
+                      {/* <div> */}
+                      <div
+                        style={{
+                          width: "fit-content",
+                          margin: 1,
+                          marginLeft: "20px",
+                          marginRight: "30px",
+                          textAlign: "justify",
+                        }}
+                      >
+                        <Typography
+                          sx={{ display: "flex", alignItems: "center" }}
+                        >
+                          {/* {data.review_votes} people found this helpful */}
+                          <Typography variant="h6" fontWeight={700}>
+                            Sentiment
+                          </Typography>
+                          <LinearProgress
+                            variant="determinate"
+                            sx={{
+                              "& .MuiLinearProgress-barColorPrimary": {
+                                backgroundColor: "#112d4e",
+                              },
+                              width: "clamp(70px, 10vw, 200px)",
+                              height: "10px",
+                              mx: 1,
+                              borderRadius: "10px",
+                            }}
+                            value={parseInt(data.sentiment_scores * 100)}
+                          />
+                          <Typography variant="h6" fontWeight={700}>
+                            {parseInt(data.sentiment_scores * 100)}%
+                          </Typography>
+                        </Typography>
+                      </div>
+                      {/* </div> */}
                       <div>
                         <Typography
                           variant="h4"
@@ -338,7 +380,7 @@ const ItemDetails = ({ props }) => {
                             <TableHead>
                               <TableRow>
                                 <TableCell
-                                component={'h3'}
+                                  component={"h3"}
                                   sx={{
                                     backgroundColor: "#112d4e",
                                     color: "#fff",
@@ -521,7 +563,7 @@ const ItemDetails = ({ props }) => {
                                   scope="row"
                                   sx={DetailsCSS.attribute}
                                 >
-                                  AUX Count
+                                  Auxilliary Count
                                 </TableCell>
                                 <TableCell component="td">
                                   {data.review_stats.Aux_count.toFixed(4)}
