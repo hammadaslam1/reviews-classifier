@@ -1,29 +1,7 @@
-"""
-At the command line, only need to run once to install the package via pip:
 
-$ pip install google-generativeai
-"""
-
-# from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 
-
-# def load_env():
-#     env_file_path = "./backend/.env"
-#     with open(env_file_path) as f:
-#         # print(f)
-#         for line in f:
-#             # print(line)
-#             key, value = line.strip().split("=")
-#             # print(key, value)
-#             os.environ[key] = value.strip("'\"")
-
-
-# # # Load environment variables from the .env file
-# load_env()
-
-# MY_API = os.environ.get("GEMINIAPI")
 
 
 def gemini(input, array):

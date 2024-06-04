@@ -67,14 +67,10 @@ def lemmatization(texts, allowed_postags=["NOUN", "ADJ", "VERB", "ADV"]):
         sentiment = ""
         sid = SentimentIntensityAnalyzer()
         scores = sid.polarity_scores(new_record)
-        if scores["compound"] > 0.5:
-            sentiment = "Strictly Positive"
-        elif scores["compound"] > 0:
-            sentiment = "Neutrally Positive"
-        elif scores["compound"] > -0.5:
-            sentiment = "Neutrally Negative"
-        elif scores["compound"] >= -1:
-            sentiment = "Strictly Negative"
+        if scores["compound"] >= 0:
+            sentiment = "Positive"
+        elif scores["compound"] < 0:
+            sentiment = "Negative"
 
         text["sentiment"] = sentiment
         for token in doc:
