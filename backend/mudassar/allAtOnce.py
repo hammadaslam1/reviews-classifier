@@ -2,8 +2,8 @@ import csv
 import json
 import re
 
-csv_file_path = 'F:/react projects/reviews-classifier/backend/mudassar/pocoC55.csv'
-json_file_path = 'F:/react projects/reviews-classifier/backend/mudassar/pocoC55.json'
+csv_file_path = 'D:/Laptop Data/BS IT (post ADP)/3rd Semester/Capstone Project/reviews-classifier/backend/savedFiles/fashion.csv'
+json_file_path = 'D:/Laptop Data/BS IT (post ADP)/3rd Semester/Capstone Project/reviews-classifier/backend/savedFiles/fashion.json'
 
 # Function to convert CSV to JSON
 
